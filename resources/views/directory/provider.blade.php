@@ -43,7 +43,8 @@
 
 <x-layouts.app
     :title="\Illuminate\Support\Str::limit($provider->name.($provider->city ? ' – '.$provider->city : ''), 50, '…')"
-    :description="\Illuminate\Support\Str::limit(__('directory.provider.meta_description', ['name' => $provider->name, 'categories' => $categoryNames, 'city' => $provider->city ?? __('directory.belgium')]), 155, '…')">
+    :description="\Illuminate\Support\Str::limit(__('directory.provider.meta_description', ['name' => $provider->name, 'categories' => $categoryNames, 'city' => $provider->city ?? __('directory.belgium')]), 155, '…')"
+    :noindex="$reviews->currentPage() > 1">
     <x-slot:head>
         <script type="application/ld+json" nonce="{{ Vite::cspNonce() }}">@json($jsonLd, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG)</script>
     </x-slot:head>
@@ -155,38 +156,8 @@
                 </x-card>
             @endif
 
-            {{-- Reviews (read-only here; the review form belongs to the reviews work package) --}}
-            <x-card as="section" id="reviews" aria-labelledby="reviews-title">
-                <div class="flex flex-wrap items-center justify-between gap-3">
-                    <h2 id="reviews-title" class="font-display text-2xl font-semibold text-brown">{{ __('directory.provider.reviews') }}</h2>
-                    @if ($provider->reviews_count > 0)
-                        <x-stars :rating="$provider->rating_avg" :count="$provider->reviews_count" size="size-5" />
-                    @endif
-                </div>
-                @forelse ($reviews as $review)
-                    <article class="mt-4 rounded-2xl bg-cream-light p-4 ring-1 ring-line">
-                        <div class="flex flex-wrap items-center justify-between gap-2">
-                            <p class="font-bold text-brown">{{ $review->user?->name ?? __('directory.provider.former_member') }}</p>
-                            <x-stars :rating="$review->rating" />
-                        </div>
-                        <p class="mt-2 leading-relaxed whitespace-pre-line text-brown-dark">{{ $review->body }}</p>
-                        <p class="mt-2 text-sm text-muted"><time datetime="{{ $review->created_at->toDateString() }}">{{ $review->created_at->locale($locale)->isoFormat('LL') }}</time></p>
-                        @if ($review->provider_reply)
-                            <div class="mt-3 rounded-2xl bg-white p-3 ring-1 ring-line">
-                                <p class="text-sm font-bold text-brown">{{ __('directory.provider.reply') }}</p>
-                                <p class="mt-1 text-sm leading-relaxed whitespace-pre-line text-brown-dark">{{ $review->provider_reply }}</p>
-                            </div>
-                        @endif
-                    </article>
-                @empty
-                    <x-empty-state icon="star" :title="__('directory.provider.no_reviews_title')" class="mt-4">
-                        {{ __('directory.provider.no_reviews_text') }}
-                    </x-empty-state>
-                @endforelse
-                <p class="mt-4 text-sm">
-                    <a href="{{ localized_route('reviews.policy') }}" class="link inline-flex min-h-11 items-center gap-1">{{ __('directory.provider.reviews_policy') }}<x-icon name="arrow-right" class="size-4" /></a>
-                </p>
-            </x-card>
+            {{-- Reviews: form, list, reports and replies (reviews work package) --}}
+            @include('reviews._section')
 
             {{-- Report an error / request removal --}}
             <x-card as="section" id="report" aria-labelledby="report-title">

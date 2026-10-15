@@ -6,8 +6,11 @@ use App\Enums\ProviderStatus;
 use App\Enums\ReviewStatus;
 use App\Http\Requests\ProviderReportRequest;
 use App\Models\Provider;
+use App\Models\Review;
+use App\Models\ReviewReport;
 use App\Services\ProviderSearch;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 /**
@@ -15,22 +18,31 @@ use Illuminate\View\View;
  */
 class ProviderController extends Controller
 {
-    public function show(Provider $provider): View
+    public function show(Request $request, Provider $provider): View
     {
         abort_unless($provider->status === ProviderStatus::Active, 404);
 
         $provider->load(['categories' => fn ($query) => $query->orderBy('sort')]);
         $category = $provider->categories->first();
+        $user = $request->user();
+
+        $reviews = $provider->reviews()
+            ->where('status', ReviewStatus::Published)
+            ->with('user:id,name')
+            ->latest()
+            ->latest('id')
+            ->paginate(10)
+            ->fragment('reviews');
 
         return view('directory.provider', [
             'provider' => $provider,
             'category' => $category,
-            'reviews' => $provider->reviews()
-                ->where('status', ReviewStatus::Published)
-                ->with('user:id,name')
-                ->latest()
-                ->limit(10)
-                ->get(),
+            'reviews' => $reviews,
+            // Review form state for the visitor: null = may publish, otherwise the reasons.* key ("guest", "cooldown"…).
+            'reviewBlock' => $user ? Review::blockReason($user, $provider) : 'guest',
+            'reportedReviewIds' => $user
+                ? ReviewReport::query()->where('user_id', $user->id)->whereIn('review_id', $reviews->pluck('id'))->pluck('review_id')->all()
+                : [],
             'similar' => ProviderSearch::nearby((float) $provider->lat, (float) $provider->lng, 25, $category, exceptId: $provider->id)->take(4),
         ]);
     }
