@@ -56,4 +56,5 @@ return [
     'create_submit' => 'Profil anlegen',
     'delete' => 'Profil von :name löschen',
     'delete_confirm' => 'Das Profil von :name endgültig löschen?',
+    'limit_reached' => 'Sie haben die Höchstzahl von :max Hundeprofilen erreicht.',
 ];

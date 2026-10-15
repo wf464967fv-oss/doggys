@@ -2,7 +2,9 @@
 
 namespace Tests\Feature;
 
+use Database\Seeders\CategorySeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Storage;
 use Tests\TestCase;
 
 class SecurityHeadersTest extends TestCase
@@ -33,6 +35,32 @@ class SecurityHeadersTest extends TestCase
     public function test_error_pages_also_get_security_headers(): void
     {
         $this->get('/fr/nope')->assertNotFound()->assertHeader('X-Frame-Options', 'SAMEORIGIN');
+    }
+
+    public function test_privately_served_files_keep_their_sandbox_policy(): void
+    {
+        $path = 'tests/csp-'.uniqid().'.html';
+        Storage::disk('local')->put($path, '<script>alert(1)</script>');
+
+        try {
+            $response = $this->get(Storage::disk('local')->temporaryUrl($path, now()->addMinutes(5)));
+        } finally {
+            Storage::disk('local')->delete($path);
+        }
+
+        $response->assertOk();
+        $this->assertStringContainsString('sandbox', $response->headers->get('Content-Security-Policy'));
+        $this->assertStringContainsString("default-src 'none'", $response->headers->get('Content-Security-Policy'));
+    }
+
+    public function test_absolute_urls_ignore_the_request_host_header(): void
+    {
+        $this->seed(CategorySeeder::class);
+
+        $this->get('http://evil.example/fr')
+            ->assertOk()
+            ->assertSee('<link rel="canonical" href="'.rtrim(config('app.url'), '/').'/fr">', false)
+            ->assertDontSee('evil.example');
     }
 
     public function test_hsts_is_sent_in_production(): void

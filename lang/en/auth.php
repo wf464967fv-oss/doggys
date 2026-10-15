@@ -57,4 +57,6 @@ return [
     'confirm_title' => 'Confirm your password',
     'confirm_subtitle' => 'For your security, please enter your password again to continue.',
     'confirm_submit' => 'Confirm',
+    'verify_wrong_address' => 'Wrong address?',
+    'verify_manage' => 'Correct it or manage your account',
 ];

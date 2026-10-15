@@ -2,14 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\VerificationLevel;
 use App\Models\Claim;
+use App\Models\ContactMessage;
 use App\Models\Dog;
+use App\Models\Provider;
 use App\Models\Review;
+use App\Models\ReviewReport;
+use App\Models\User;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
 use Illuminate\View\View;
 
 class AccountController extends Controller
@@ -32,13 +37,16 @@ class AccountController extends Controller
      */
     public function export(Request $request): JsonResponse
     {
-        $user = $request->user()->load(['dogs', 'reviews.provider:id,name', 'claims.provider:id,name']);
+        $user = $request->user()->load([
+            'dogs', 'reviews.provider:id,name', 'claims.provider:id,name', 'claimedProviders', 'reviewReports', 'contactMessages',
+        ]);
 
         $data = [
             'exported_at' => now()->toIso8601String(),
             'account' => [
                 'name' => $user->name,
                 'email' => $user->email,
+                'pending_email' => $user->pending_email,
                 'role' => $user->role->value,
                 'email_verified_at' => $user->email_verified_at?->toIso8601String(),
                 'created_at' => $user->created_at->toIso8601String(),
@@ -71,7 +79,23 @@ class AccountController extends Controller
                 'status' => $claim->status->value,
                 'created_at' => $claim->created_at->toIso8601String(),
             ]),
-            'contact_messages' => $user->contactMessages()->get(['subject', 'message', 'created_at']),
+            'claimed_providers' => $user->claimedProviders->map(fn (Provider $provider) => [
+                'name' => $provider->name,
+                'slug' => $provider->slug,
+                'verification_level' => $provider->verification_level->value,
+                'plan' => $provider->plan,
+            ]),
+            'review_reports' => $user->reviewReports->map(fn (ReviewReport $report) => [
+                'review_id' => $report->review_id,
+                'reason' => $report->reason,
+                'status' => $report->status->value,
+                'created_at' => $report->created_at->toIso8601String(),
+            ]),
+            'contact_messages' => $user->contactMessages->map(fn (ContactMessage $message) => [
+                'subject' => $message->subject,
+                'message' => $message->message,
+                'created_at' => $message->created_at->toIso8601String(),
+            ]),
         ];
 
         $filename = 'doggys-'.now()->format('Y-m-d').'.json';
@@ -82,8 +106,37 @@ class AccountController extends Controller
     }
 
     /**
-     * GDPR erasure: deletes the account and, through foreign keys, its dogs, reviews and claims
-     * (plus the private claim proof files).
+     * Confirms a pending e-mail change from the signed link sent to the new address.
+     */
+    public function confirmEmail(Request $request, string $id, string $hash): RedirectResponse
+    {
+        $user = $request->user();
+
+        abort_unless(
+            (string) $user->getKey() === $id && $user->pending_email && hash_equals(sha1($user->pending_email), $hash),
+            403,
+        );
+
+        if (User::where('email', $user->pending_email)->exists()) {
+            $user->forceFill(['pending_email' => null])->save();
+
+            return redirect()->to(localized_route('account.profile'))->with('error', __('account.email_taken'));
+        }
+
+        $user->forceFill([
+            'email' => $user->pending_email,
+            'pending_email' => null,
+            'email_verified_at' => now(),
+        ])->save();
+
+        return redirect()->to(localized_route('account.profile'))->with('status', __('account.email_changed'));
+    }
+
+    /**
+     * GDPR erasure: deletes the account with its dogs, reviews, claims (and their
+     * private proof files), contact messages, sessions and password reset tokens; review reports are
+     * kept for moderation but anonymised (user_id set to null by the foreign key). Listings the user
+     * had claimed lose their verification badge, which was tied to this account.
      */
     public function destroy(Request $request): RedirectResponse
     {
@@ -92,11 +145,21 @@ class AccountController extends Controller
         ]);
 
         $user = $request->user();
-        $proofFiles = $user->claims()->whereNotNull('proof_path')->pluck('proof_path')->all();
 
+        // Log out first: logging out afterwards would re-save the user while cycling its remember token.
         Auth::logout();
-        $user->delete();
-        Storage::disk('local')->delete($proofFiles);
+
+        DB::transaction(function () use ($user) {
+            $user->claimedProviders()->each(fn (Provider $provider) => $provider->forceFill([
+                'verification_level' => VerificationLevel::None,
+                'plan' => 'free',
+            ])->save());
+            $user->claims()->each(fn (Claim $claim) => $claim->delete());
+            $user->contactMessages()->delete();
+            DB::table('sessions')->where('user_id', $user->id)->delete();
+            DB::table('password_reset_tokens')->whereIn('email', array_filter([$user->email, $user->pending_email]))->delete();
+            $user->delete();
+        });
 
         $request->session()->invalidate();
         $request->session()->regenerateToken();

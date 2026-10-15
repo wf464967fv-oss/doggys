@@ -76,6 +76,16 @@ class User extends Authenticatable implements MustVerifyEmail
     }
 
     /**
+     * Review reports written by the user.
+     *
+     * @return HasMany<ReviewReport, $this>
+     */
+    public function reviewReports(): HasMany
+    {
+        return $this->hasMany(ReviewReport::class);
+    }
+
+    /**
      * @return HasMany<ContactMessage, $this>
      */
     public function contactMessages(): HasMany

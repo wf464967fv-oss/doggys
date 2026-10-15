@@ -18,6 +18,11 @@ class Dog extends Model
     use HasFactory;
 
     /**
+     * Business cap on profiles per account (abuse protection).
+     */
+    public const MAX_PER_USER = 20;
+
+    /**
      * @return array<string, string>
      */
     protected function casts(): array

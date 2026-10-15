@@ -57,4 +57,6 @@ return [
     'confirm_title' => 'Bevestig uw wachtwoord',
     'confirm_subtitle' => 'Voor uw veiligheid vragen we u om uw wachtwoord opnieuw in te voeren.',
     'confirm_submit' => 'Bevestigen',
+    'verify_wrong_address' => 'Verkeerd adres?',
+    'verify_manage' => 'Verbeter het of beheer uw account',
 ];

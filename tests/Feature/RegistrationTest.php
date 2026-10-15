@@ -6,7 +6,9 @@ use App\Enums\UserRole;
 use App\Models\User;
 use Illuminate\Auth\Notifications\VerifyEmail;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Notification;
+use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\URL;
 use Tests\TestCase;
 
@@ -149,6 +151,39 @@ class RegistrationTest extends TestCase
         }
 
         $this->post('/fr/connexion', ['email' => $user->email, 'password' => 'wrong-password'])->assertTooManyRequests();
+    }
+
+    public function test_login_is_rate_limited_per_ip_across_accounts(): void
+    {
+        for ($i = 0; $i < 20; $i++) {
+            $this->post('/fr/connexion', ['email' => "victim{$i}@example.be", 'password' => 'Summer2026!']);
+        }
+
+        $this->post('/fr/connexion', ['email' => 'victim99@example.be', 'password' => 'Summer2026!'])->assertTooManyRequests();
+    }
+
+    public function test_full_password_reset_with_a_valid_token(): void
+    {
+        $user = User::factory()->create(['email' => 'camille@example.be']);
+        $token = Password::broker()->createToken($user);
+
+        $this->get('/fr/reinitialiser-mot-de-passe/'.$token.'?email=camille@example.be')->assertOk();
+
+        $this->post('/fr/reinitialiser-mot-de-passe', [
+            'token' => $token,
+            'email' => 'camille@example.be',
+            'password' => 'Br4ndNewSecret',
+            'password_confirmation' => 'Br4ndNewSecret',
+        ])->assertRedirect('/fr/connexion')->assertSessionHas('status', __('passwords.reset', [], 'fr'));
+
+        $this->assertTrue(Hash::check('Br4ndNewSecret', $user->fresh()->password));
+
+        $this->post('/fr/reinitialiser-mot-de-passe', [
+            'token' => 'invalid-token',
+            'email' => 'camille@example.be',
+            'password' => 'An0therSecretPass',
+            'password_confirmation' => 'An0therSecretPass',
+        ])->assertSessionHasErrors('email');
     }
 
     public function test_password_reset_does_not_reveal_unknown_addresses(): void

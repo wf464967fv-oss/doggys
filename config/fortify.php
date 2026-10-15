@@ -129,7 +129,9 @@ return [
     |
     */
 
-    'views' => true,
+    // Doggys registers its own localized routes and views (routes/web.php, FortifyServiceProvider):
+    // false also stops Fortify from calling the unprefixed route('login') after a password reset.
+    'views' => false,
 
     /*
     |--------------------------------------------------------------------------

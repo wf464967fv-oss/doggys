@@ -18,4 +18,16 @@ return [
         'expire' => 'This link is valid for :count minutes.',
         'outro' => 'If you did not make this request, simply ignore this email.',
     ],
+    'new_email' => [
+        'subject' => 'Confirm your new email address',
+        'intro' => 'You asked to use this address for your Doggys account. Click the button below to confirm it.',
+        'action' => 'Confirm my new address',
+        'outro' => 'This link is valid for 60 minutes. If you did not make this request, ignore this email.',
+    ],
+    'email_change' => [
+        'subject' => 'Email address change request',
+        'intro' => 'A request was made to replace your Doggys account address with :email. Your current address stays active until the new one is confirmed.',
+        'outro' => 'Wasn’t you? Change your password right away.',
+        'action' => 'Change my password',
+    ],
 ];

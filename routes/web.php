@@ -78,20 +78,29 @@ Route::localized(function () {
     // Account area (all roles; e-mail must be verified).
     Route::middleware(['auth', 'verified'])->prefix(__('routes.account'))->group(function () {
         Route::get('/', [AccountController::class, 'dashboard'])->name('account');
-        Route::get(__('routes.profile'), [AccountController::class, 'profile'])->name('account.profile');
-        Route::put(__('routes.profile'), [ProfileInformationController::class, 'update'])->name('account.profile.update');
-        Route::put(__('routes.password'), [PasswordController::class, 'update'])->name('account.password.update');
-        Route::get(__('routes.my_data'), [AccountController::class, 'export'])
-            ->middleware(['password.confirm', 'throttle:6,1'])->name('account.export');
-        Route::delete('/', [AccountController::class, 'destroy'])->name('account.destroy');
 
         Route::get(__('routes.dogs').'/'.__('routes.create'), [DogController::class, 'create'])->name('dogs.create');
-        Route::post(__('routes.dogs'), [DogController::class, 'store'])->name('dogs.store');
+        Route::post(__('routes.dogs'), [DogController::class, 'store'])->middleware('throttle:dogs')->name('dogs.store');
         Route::get(__('routes.dogs').'/{dog}/'.__('routes.edit'), [DogController::class, 'edit'])
             ->can('update', 'dog')->name('dogs.edit');
         Route::put(__('routes.dogs').'/{dog}', [DogController::class, 'update'])
-            ->can('update', 'dog')->name('dogs.update');
+            ->middleware('throttle:dogs')->can('update', 'dog')->name('dogs.update');
         Route::delete(__('routes.dogs').'/{dog}', [DogController::class, 'destroy'])
-            ->can('delete', 'dog')->name('dogs.destroy');
+    // Account settings and GDPR rights: signed in is enough (an unverified or mistyped e-mail never locks them).
+    Route::middleware('auth')->prefix(__('routes.account'))->group(function () {
+        Route::get(__('routes.profile'), [AccountController::class, 'profile'])->name('account.profile');
+        Route::put(__('routes.profile'), [ProfileInformationController::class, 'update'])
+            ->middleware('throttle:account-sensitive')->name('account.profile.update');
+        Route::get(__('routes.verify_email').'/{id}/{hash}', [AccountController::class, 'confirmEmail'])
+            ->middleware(['signed', 'throttle:6,1'])->name('account.email.verify');
+        Route::put(__('routes.password'), [PasswordController::class, 'update'])
+            ->middleware('throttle:account-sensitive')->name('account.password.update');
+        Route::get(__('routes.my_data'), [AccountController::class, 'export'])
+            ->middleware(['password.confirm', 'throttle:account-sensitive'])->name('account.export');
+        Route::delete('/', [AccountController::class, 'destroy'])
+            ->middleware('throttle:account-sensitive')->name('account.destroy');
+    });
+
+            ->middleware('throttle:dogs')->can('delete', 'dog')->name('dogs.destroy');
     });
 });

@@ -7,7 +7,7 @@
     <input type="text" id="{{ \App\Http\Middleware\ProtectAgainstBots::HONEYPOT_FIELD }}" name="{{ \App\Http\Middleware\ProtectAgainstBots::HONEYPOT_FIELD }}" value="" tabindex="-1" autocomplete="off">
 </div>
 
-@if (config('services.turnstile.site_key'))
+@if (config('services.turnstile.enabled'))
     <div class="cf-turnstile" data-sitekey="{{ config('services.turnstile.site_key') }}" data-language="{{ app()->getLocale() }}" data-theme="light"></div>
     @once
         <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer nonce="{{ \Illuminate\Support\Facades\Vite::cspNonce() }}"></script>

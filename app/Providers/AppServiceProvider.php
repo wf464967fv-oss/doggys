@@ -32,6 +32,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        // Absolute URLs (canonical, hreflang, e-mails) always use APP_URL, never the request Host header.
+        if (! $this->app->isLocal()) {
+            URL::forceRootUrl(Config::get('app.url'));
+            URL::forceScheme((string) parse_url((string) Config::get('app.url'), PHP_URL_SCHEME) ?: 'https');
+        }
+
         $this->registerLocalizedRoutesMacro();
         $this->configureAuthentication();
 
@@ -72,6 +78,10 @@ class AppServiceProvider extends ServiceProvider
 
         RateLimiter::for('register', fn (Request $request) => Limit::perHour(10)->by($request->ip()));
         RateLimiter::for('password-reset', fn (Request $request) => Limit::perMinute(5)->by($request->ip()));
+        // Actions checking the current password (profile, password, export, deletion): no guessing with a stolen session.
+        RateLimiter::for('account-sensitive', fn (Request $request) => Limit::perMinute(6)
+            ->by($request->user()?->id.'|'.$request->route()?->getName()));
+        RateLimiter::for('dogs', fn (Request $request) => Limit::perMinute(30)->by($request->user()?->id ?: $request->ip()));
 
         // Links in auth e-mails point to the pages of the language the user was browsing in.
         VerifyEmail::createUrlUsing(fn (User $user): string => URL::temporarySignedRoute(

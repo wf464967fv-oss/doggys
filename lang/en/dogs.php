@@ -56,4 +56,5 @@ return [
     'create_submit' => 'Create the profile',
     'delete' => 'Delete :name’s profile',
     'delete_confirm' => 'Permanently delete :name’s profile?',
+    'limit_reached' => 'You have reached the limit of :max dog profiles.',
 ];

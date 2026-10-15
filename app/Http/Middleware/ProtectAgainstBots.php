@@ -13,7 +13,8 @@ use Symfony\Component\HttpFoundation\Response;
  * Anti-bot guard for public forms (alias "antibot"); pair it with <x-antibot /> in the form.
  *
  * - Honeypot: the hidden "website_url" field must stay empty.
- * - Cloudflare Turnstile: verified only when TURNSTILE_SITE_KEY and TURNSTILE_SECRET_KEY are set.
+ * - Cloudflare Turnstile: verified only when both TURNSTILE_SITE_KEY and TURNSTILE_SECRET_KEY are set
+ *   (config services.turnstile.enabled, also used by the widget and the CSP).
  */
 class ProtectAgainstBots
 {
@@ -25,7 +26,7 @@ class ProtectAgainstBots
             throw ValidationException::withMessages(['form' => __('ui.antibot_failed')]);
         }
 
-        if (config('services.turnstile.secret_key') && ! $this->passesTurnstile($request)) {
+        if (config('services.turnstile.enabled') && ! $this->passesTurnstile($request)) {
             throw ValidationException::withMessages(['form' => __('ui.antibot_failed')]);
         }
 

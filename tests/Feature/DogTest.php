@@ -51,6 +51,17 @@ class DogTest extends TestCase
         $this->assertDatabaseCount('dogs', 0);
     }
 
+    public function test_number_of_dogs_per_account_is_capped(): void
+    {
+        $user = User::factory()->create();
+        Dog::factory()->count(Dog::MAX_PER_USER)->for($user)->create();
+
+        $this->actingAs($user)->post('/fr/mon-compte/chiens', ['name' => 'One too many'])
+            ->assertSessionHasErrors('name');
+
+        $this->assertSame(Dog::MAX_PER_USER, $user->dogs()->count());
+    }
+
     public function test_dashboard_only_lists_own_dogs(): void
     {
         $user = User::factory()->create();

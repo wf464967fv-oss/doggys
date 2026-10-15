@@ -23,8 +23,13 @@ class SecurityHeaders
         $response = $next($request);
 
         $headers = $response->headers;
-        $headers->set('Content-Security-Policy', $this->contentSecurityPolicy(Vite::cspNonce()));
-        $headers->set('X-Frame-Options', 'SAMEORIGIN');
+        // Keep a stricter policy set by the response itself (e.g. "sandbox" on privately served files).
+        if (! $headers->has('Content-Security-Policy')) {
+            $headers->set('Content-Security-Policy', $this->contentSecurityPolicy(Vite::cspNonce()));
+        }
+        if (! $headers->has('X-Frame-Options')) {
+            $headers->set('X-Frame-Options', 'SAMEORIGIN');
+        }
         $headers->set('X-Content-Type-Options', 'nosniff');
         $headers->set('Referrer-Policy', 'strict-origin-when-cross-origin');
         $headers->set('Permissions-Policy', 'geolocation=(self), camera=(), microphone=(), payment=(), usb=()');
@@ -39,7 +44,7 @@ class SecurityHeaders
 
     private function contentSecurityPolicy(string $nonce): string
     {
-        $turnstile = config('services.turnstile.site_key') ? ' https://challenges.cloudflare.com' : '';
+        $turnstile = config('services.turnstile.enabled') ? ' https://challenges.cloudflare.com' : '';
         $viteDev = Vite::isRunningHot() ? ' '.$this->viteDevServer() : '';
 
         return implode('; ', [

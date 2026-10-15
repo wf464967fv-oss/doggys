@@ -38,6 +38,8 @@ return [
     'turnstile' => [
         'site_key' => env('TURNSTILE_SITE_KEY'),
         'secret_key' => env('TURNSTILE_SECRET_KEY'),
+        // Widget, CSP and server check are only active when both keys are set.
+        'enabled' => filled(env('TURNSTILE_SITE_KEY')) && filled(env('TURNSTILE_SECRET_KEY')),
     ],
 
 ];

@@ -56,4 +56,5 @@ return [
     'create_submit' => 'Profiel aanmaken',
     'delete' => 'Profiel van :name verwijderen',
     'delete_confirm' => 'Het profiel van :name definitief verwijderen?',
+    'limit_reached' => 'U hebt het maximum van :max hondenprofielen bereikt.',
 ];

@@ -57,4 +57,6 @@ return [
     'confirm_title' => 'Passwort bestätigen',
     'confirm_subtitle' => 'Zu Ihrer Sicherheit geben Sie bitte Ihr Passwort erneut ein, um fortzufahren.',
     'confirm_submit' => 'Bestätigen',
+    'verify_wrong_address' => 'Falsche Adresse?',
+    'verify_manage' => 'Korrigieren Sie sie oder verwalten Sie Ihr Konto',
 ];

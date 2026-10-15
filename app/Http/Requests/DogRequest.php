@@ -3,9 +3,11 @@
 namespace App\Http\Requests;
 
 use App\Enums\DogSex;
+use App\Models\Dog;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
+use Illuminate\Validation\Validator;
 
 class DogRequest extends FormRequest
 {
@@ -29,6 +31,22 @@ class DogRequest extends FormRequest
                 fn ($row) => is_array($row) && (filled($row['name'] ?? null) || filled($row['date'] ?? null)),
             )),
         ]);
+    }
+
+    /**
+     * A new profile is refused once the account reached Dog::MAX_PER_USER dogs.
+     *
+     * @return array<int, \Closure>
+     */
+    public function after(): array
+    {
+        return [
+            function (Validator $validator): void {
+                if ($this->route('dog') === null && $this->user()->dogs()->count() >= Dog::MAX_PER_USER) {
+                    $validator->errors()->add('name', __('dogs.limit_reached', ['max' => Dog::MAX_PER_USER]));
+                }
+            },
+        ];
     }
 
     /**
