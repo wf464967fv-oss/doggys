@@ -3,7 +3,7 @@
 Guide pas à pas, sans prérequis technique. Comptez 1 à 2 heures la première fois.
 Les mises à jour suivantes prennent 5 minutes (étape 15).
 
-**Vous aurez besoin de :** votre accès cPanel o2switch, le dossier du projet sur votre ordinateur, et Node.js installé sur votre ordinateur (pour compiler le CSS/JS).
+**Vous aurez besoin de :** votre accès cPanel o2switch et un dépôt Git privé (GitHub) contenant le projet.
 
 ---
 
@@ -52,16 +52,9 @@ composer install --no-dev -o
 
 (`-o` optimise le chargement. Si `composer` n'est pas trouvé : `php8.4 /usr/local/bin/composer install --no-dev -o`.)
 
-## 6. Compiler le CSS/JS sur votre ordinateur, puis l'envoyer
+## 6. CSS/JS compilés
 
-Le dossier `public/build` n'est pas dans Git. Sur **votre ordinateur**, dans le dossier du projet :
-
-```bash
-npm ci
-npm run build
-```
-
-Envoyez ensuite le **contenu du dossier `public/build`** vers `~/doggys/public/build` (cPanel, **Gestionnaire de fichiers**, ou un client SFTP comme FileZilla, ou en SSH : `scp -r public/build VOTRE_COMPTE@serveur:doggys/public/`). À refaire à chaque changement de design.
+Rien à faire : le dossier `public/build` est versionné dans Git et arrive avec le code. Après un changement de design, lancez `npm run build` sur votre ordinateur **avant** de pousser le code.
 
 ## 7. Le fichier `.env` de production
 
@@ -190,7 +183,7 @@ Tâches planifiées : suppression des justificatifs refusés de plus de 90 jours
 
 ## 15. Mettre à jour le site
 
-1. Sur votre ordinateur : si le design a changé, `npm run build` puis renvoyez `public/build` (étape 6).
+1. Sur votre ordinateur : si le design a changé, `npm run build` (étape 6).
 2. Poussez votre code sur Git.
 3. En SSH, depuis le serveur :
 
@@ -219,7 +212,7 @@ Le script met le site en maintenance quelques secondes, récupère le code, inst
 ## En cas de problème
 
 - Page blanche ou erreur 500 : regardez `storage/logs/laravel-AAAA-MM-JJ.log` (jamais `APP_DEBUG=true` en ligne).
-- Site sans mise en forme : le dossier `public/build` est absent ou incomplet (étape 6).
+- Site sans mise en forme : le dossier `public/build` est absent ou incomplet (relancez `npm run build` en local, poussez, redéployez).
 - Après une modification du `.env` sans effet : `php artisan config:cache`.
 - Erreur de droits : `chmod -R 775 storage bootstrap/cache`.
 - Retour en arrière d'urgence : `php artisan down`, restaurez la base, `git checkout` de la version précédente, `php artisan up`.
