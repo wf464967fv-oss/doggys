@@ -13,6 +13,7 @@ return [
     'map_you_are_here' => 'Vertrekpunt van uw zoekopdracht',
     'map_open_profile' => 'Bekijk de fiche',
     'map_loading' => 'Kaart wordt geladen…',
+    'map_show' => 'Kaart tonen',
     'map_skip' => 'Kaart overslaan',
     'add_business' => 'Voeg uw zaak toe',
     'missing_business' => 'Staat uw zaak er niet tussen? Voeg ze gratis toe en sluit u aan bij de pro’s van Doggys.',

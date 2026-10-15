@@ -13,6 +13,7 @@ return [
     'map_you_are_here' => 'Point de départ de la recherche',
     'map_open_profile' => 'Voir la fiche',
     'map_loading' => 'Chargement de la carte…',
+    'map_show' => 'Afficher la carte',
     'map_skip' => 'Passer la carte',
     'add_business' => 'Ajoutez votre entreprise',
     'missing_business' => 'Votre entreprise n’apparaît pas ? Ajoutez-la gratuitement et rejoignez les pros de Doggys.',

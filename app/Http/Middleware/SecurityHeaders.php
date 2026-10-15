@@ -36,7 +36,7 @@ class SecurityHeaders
         $headers->set('Cross-Origin-Opener-Policy', 'same-origin');
 
         // JSON API answers are data for the apps, never search results.
-        if ($request->is('api/*')) {
+        if ($request->is('api/*', 'admin/*')) {
             $headers->set('X-Robots-Tag', 'noindex, nofollow');
         }
 

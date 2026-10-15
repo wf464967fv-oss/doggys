@@ -21,7 +21,7 @@
         @if ($subtitle)
             <p class="relative mt-2 max-w-2xl text-muted">{{ $subtitle }}</p>
         @endif
-        <nav aria-label="{{ __('ui.account_nav') }}" class="relative mt-6 -mb-px flex gap-1 overflow-x-auto">
+        <nav aria-label="{{ __('ui.account_nav') }}" class="relative mt-6 -mb-px flex gap-1 snap-x overflow-x-auto [mask-image:linear-gradient(to_right,#000_90%,transparent)] lg:[mask-image:none]">
             @foreach ($tabs as $tab)
                 <a href="{{ localized_route($tab['route']) }}"
                     @class([

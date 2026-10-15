@@ -90,4 +90,17 @@ class LegalPagesTest extends TestCase
         $this->app['env'] = 'production';
         $this->get('/fr/hors-ligne')->assertOk()->assertSee('data-sw', false);
     }
+
+    public function test_view_routes_have_clean_canonical_and_reciprocal_hreflang(): void
+    {
+        foreach (['reviews.policy', 'legal.privacy'] as $name) {
+            $html = $this->get(localized_route($name, locale: 'fr'))->assertOk()->getContent();
+
+            $this->assertStringContainsString('<link rel="canonical" href="'.localized_route($name, locale: 'fr').'">', $html);
+            foreach (['fr', 'nl', 'en', 'de'] as $locale) {
+                $this->assertStringContainsString('hreflang="'.$locale.'" href="'.localized_route($name, locale: $locale).'"', $html);
+            }
+            $this->assertStringNotContainsString('?view=', $html);
+        }
+    }
 }

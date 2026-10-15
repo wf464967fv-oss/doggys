@@ -47,7 +47,7 @@ class SitemapController extends Controller
             app()->setLocale($locale);
 
             $urls = collect($this->urls($locale))->slice(($page - 1) * self::CHUNK, self::CHUNK);
-            $entries = $urls->map(fn (string $url) => '<url><loc>'.e($url).'</loc></url>')->implode('');
+            $entries = $urls->map(fn (?string $lastmod, string $url) => '<url><loc>'.e($url).'</loc>'.($lastmod ? '<lastmod>'.$lastmod.'</lastmod>' : '').'</url>')->implode('');
 
             app()->setLocale($previous);
 
@@ -65,13 +65,16 @@ class SitemapController extends Controller
      */
     private function urls(string $locale): \Generator
     {
-        yield route($locale.'.home');
-        yield route($locale.'.categories.index');
-        yield route($locale.'.guides');
+        yield route($locale.'.home') => null;
+        yield route($locale.'.categories.index') => null;
+        yield route($locale.'.guides') => null;
+        foreach (['reviews.policy', 'legal.notice', 'legal.privacy', 'legal.terms', 'legal.cookies'] as $name) {
+            yield route($locale.'.'.$name) => null;
+        }
 
         $categories = Category::query()->withCount(['providers' => fn ($query) => $query->active()])->orderBy('sort')->get()->keyBy('id');
         foreach ($categories->where('providers_count', '>', 0) as $category) {
-            yield route($locale.'.categories.show', ['category' => $category->routeSlug($locale)]);
+            yield route($locale.'.categories.show', ['category' => $category->routeSlug($locale)]) => null;
         }
 
         $communes = Commune::query()->get(['id', 'slugs'])->keyBy('id');
@@ -79,21 +82,21 @@ class SitemapController extends Controller
             yield route($locale.'.categories.city', [
                 'category' => $categories[$page->category_id]->routeSlug($locale),
                 'city' => $communes[$page->commune_id]->slug($locale),
-            ]);
+            ]) => null;
         }
 
-        foreach (Post::query()->published()->where('locale', $locale)->orderBy('id')->pluck('slug') as $slug) {
-            yield route($locale.'.guides.show', ['slug' => $slug]);
+        foreach (Post::query()->published()->where('locale', $locale)->orderBy('id')->get(['slug', 'updated_at']) as $post) {
+            yield route($locale.'.guides.show', ['slug' => $post->slug]) => $post->updated_at?->toAtomString();
         }
 
         foreach ($this->indexableProviders()->orderBy('id')->lazyById(2000, 'id') as $provider) {
-            yield route($locale.'.providers.show', ['provider' => $provider->slug]);
+            yield route($locale.'.providers.show', ['provider' => $provider->slug]) => $provider->updated_at?->toAtomString();
         }
     }
 
     private function count(): int
     {
-        return 3 + Category::query()->whereHas('providers', fn ($query) => $query->active())->count()
+        return 8 + Category::query()->whereHas('providers', fn ($query) => $query->active())->count()
             + DB::table('city_pages')->where('is_indexable', true)->count()
             + Post::query()->published()->groupBy('locale')->selectRaw('COUNT(*) AS total')->toBase()->get()->max('total')
             + $this->indexableProviders()->count();
@@ -106,6 +109,6 @@ class SitemapController extends Controller
      */
     private function indexableProviders(): Builder
     {
-        return Provider::query()->select(['id', 'slug'])->active()->substantial();
+        return Provider::query()->select(['id', 'slug', 'updated_at'])->active()->substantial();
     }
 }

@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Arr;
+
 /*
  * Localisation helpers. Every public page is registered once per locale by Route::localized()
  * under the name "{locale}.{name}" (e.g. "nl.login" => /nl/inloggen).
@@ -48,7 +50,7 @@ if (! function_exists('localized_alternates')) {
         $unprefixed = substr($name, strlen($prefix) + 1);
 
         return array_combine($locales, array_map(
-            fn (string $locale) => route($locale.'.'.$unprefixed, $route->parameters()),
+            fn (string $locale) => route($locale.'.'.$unprefixed, Arr::only($route->parameters(), $route->parameterNames())),
             $locales,
         ));
     }

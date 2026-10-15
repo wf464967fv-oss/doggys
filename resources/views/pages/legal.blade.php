@@ -62,7 +62,7 @@
                 @if (! empty($section['links']))
                     <p>
                         @foreach ($section['links'] as $key => $label)
-                            <a href="{{ localized_route($linkRoutes[$key]) }}">{{ $label }}</a>@unless ($loop->last) · @endunless
+                            <a href="{{ localized_route($linkRoutes[$key]) }}" class="inline-flex min-h-11 items-center">{{ $label }}</a>@unless ($loop->last) · @endunless
                         @endforeach
                     </p>
                 @endif

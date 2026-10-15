@@ -16,7 +16,7 @@
     <div class="mt-5 rounded-3xl bg-cream-light p-4 ring-1 ring-line sm:p-5">
         @if ($reviewBlock === null)
             <h3 class="font-display text-xl font-semibold text-brown">{{ __('reviews.form.title') }}</h3>
-            <form method="POST" action="{{ localized_route('reviews.store', $provider) }}" class="mt-4 space-y-5" novalidate>
+            <form method="POST" action="{{ localized_route('reviews.store', $provider) }}" class="mt-4 scroll-mb-24 space-y-5" novalidate>
                 @csrf
                 @if ($errors->review->any())
                     <x-alert variant="error" :title="__('ui.form_has_errors')" />

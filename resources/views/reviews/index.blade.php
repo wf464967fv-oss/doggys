@@ -18,7 +18,7 @@
                                 <div class="min-w-0">
                                     <h2 id="my-review-{{ $review->id }}" class="font-display text-xl font-semibold break-words text-brown">
                                         @if ($review->provider?->status === \App\Enums\ProviderStatus::Active)
-                                            <a href="{{ localized_route('providers.show', $review->provider) }}#review-{{ $review->id }}" class="hover:underline">{{ $review->provider->name }}</a>
+                                            <a href="{{ localized_route('providers.show', $review->provider) }}#review-{{ $review->id }}" class="inline-flex min-h-11 items-center hover:underline">{{ $review->provider->name }}</a>
                                         @else
                                             {{ $review->provider?->name ?? __('reviews.mine.provider_gone') }}
                                         @endif

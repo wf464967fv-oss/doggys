@@ -190,7 +190,7 @@
                 @endunless
 
                 {{-- On phones the map follows the address; on large screens it sits in the side column. --}}
-                <x-map :markers="$mapMarker" :circle="$provider->is_mobile ? $provider->service_radius_km : null" :label="$mapLabel" class="mt-4 h-56 lg:hidden" />
+                <x-map :markers="$mapMarker" :circle="$provider->is_mobile ? $provider->service_radius_km : null" :label="$mapLabel" click class="mt-4 h-56 lg:hidden" />
             </x-card>
 
             {{-- Opening hours --}}
@@ -215,7 +215,7 @@
         </div>
 
         <aside class="space-y-6">
-            <x-map :markers="$mapMarker" :circle="$provider->is_mobile ? $provider->service_radius_km : null" :label="$mapLabel" class="hidden h-72 lg:block" />
+            <x-map :markers="$mapMarker" :circle="$provider->is_mobile ? $provider->service_radius_km : null" :label="$mapLabel" click class="hidden h-72 lg:block" />
 
             @unless ($isPlace)
                 <x-card>

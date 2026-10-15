@@ -1,4 +1,4 @@
-<x-layouts.app :title="__('contact.meta_title')" :description="__('contact.meta_description')">
+<x-layouts.app :title="__('contact.meta_title')" noindex :description="__('contact.meta_description')">
     <section class="relative overflow-hidden bg-gradient-to-b from-cream to-cream-light">
         <x-paw class="absolute top-8 right-[6%] size-12 rotate-12 text-orange/25" />
         <div class="relative mx-auto max-w-6xl px-4 pt-6 pb-10 sm:px-6 sm:pt-8">
@@ -40,7 +40,7 @@
                 <ul class="mt-3 space-y-3 text-sm leading-relaxed text-muted">
                     <li class="flex gap-3"><x-icon name="building" class="mt-0.5 size-5 shrink-0 text-orange-dark" /><span>{{ __('contact.shortcut_listing') }}</span></li>
                     <li class="flex gap-3"><x-icon name="star" class="mt-0.5 size-5 shrink-0 text-orange-dark" />
-                        <span>{{ __('contact.shortcut_reviews') }} <a href="{{ localized_route('reviews.policy') }}" class="link">{{ __('reviews.form.rules_link') }}</a></span></li>
+                        <span>{{ __('contact.shortcut_reviews') }} <a href="{{ localized_route('reviews.policy') }}" class="link inline-flex min-h-11 items-center">{{ __('reviews.form.rules_link') }}</a></span></li>
                     <li class="flex gap-3"><x-icon name="lock" class="mt-0.5 size-5 shrink-0 text-orange-dark" /><span>{{ __('contact.shortcut_privacy') }}</span></li>
                 </ul>
             </x-card>

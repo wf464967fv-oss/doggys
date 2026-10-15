@@ -35,7 +35,7 @@
     </div>
 
     <div class="mx-auto grid max-w-7xl gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[13rem_minmax(0,1fr)] lg:py-8">
-        <nav aria-label="{{ __('admin.nav.label') }}" class="-mx-4 overflow-x-auto px-4 lg:mx-0 lg:overflow-visible lg:px-0">
+        <nav aria-label="{{ __('admin.nav.label') }}" class="-mx-4 snap-x overflow-x-auto px-4 [mask-image:linear-gradient(to_right,#000_90%,transparent)] lg:mx-0 lg:[mask-image:none] lg:overflow-visible lg:px-0">
             <ul class="flex gap-1 lg:sticky lg:top-24 lg:flex-col" role="list">
                 @foreach ($sections as $section)
                     @php($active = request()->routeIs($section['pattern']))

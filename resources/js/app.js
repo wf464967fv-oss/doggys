@@ -132,13 +132,21 @@ Alpine.data('placeSuggest', () => ({
  */
 const maps = document.querySelectorAll('[data-map]');
 if (maps.length > 0) {
+    const mountMap = (element) => import('./map.js').then(({ mount }) => mount(element));
     const observer = new IntersectionObserver((entries) => {
         entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
             observer.unobserve(entry.target);
-            import('./map.js').then(({ mount }) => mount(entry.target));
+            mountMap(entry.target);
         });
     }, { rootMargin: '200px' });
-    maps.forEach((element) => observer.observe(element));
+    /* Maps flagged data-map-click (provider page) load nothing until the visitor asks for them. */
+    maps.forEach((element) => {
+        if (element.hasAttribute('data-map-click')) {
+            element.querySelector('[data-map-load]')?.addEventListener('click', () => mountMap(element));
+        } else {
+            observer.observe(element);
+        }
+    });
 }
 
 /* Search form folded into a summary on phones: always unfolded from 768px (CSS covers recent browsers). */

@@ -13,6 +13,7 @@ return [
     'map_you_are_here' => 'Where your search starts',
     'map_open_profile' => 'View profile',
     'map_loading' => 'Loading the map…',
+    'map_show' => 'Show the map',
     'map_skip' => 'Skip the map',
     'add_business' => 'Add your business',
     'missing_business' => 'Can’t see your business? Add it for free and join the Doggys professionals.',
