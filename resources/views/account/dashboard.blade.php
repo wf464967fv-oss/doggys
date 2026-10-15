@@ -88,7 +88,7 @@
                     <x-badge variant="brown" icon="building">{{ __('account.role_pro') }}</x-badge>
                     <h2 class="mt-3 font-display text-xl font-semibold text-brown">{{ __('account.pro_title') }}</h2>
                     <p class="mt-2 text-sm leading-relaxed text-brown-dark">{{ __('account.pro_text') }}</p>
-                    <x-button class="mt-4" size="sm" icon="search" :href="localized_route('search')" full>{{ __('account.pro_cta') }}</x-button>
+                    <x-button class="mt-4" size="sm" icon="building" :href="localized_route('pro.index')" full>{{ __('pro.space.title') }}</x-button>
                 </x-card>
             @endif
             <x-card>

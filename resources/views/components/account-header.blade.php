@@ -6,8 +6,12 @@
 @php
     $tabs = [
         ['route' => 'account', 'label' => __('ui.account_dashboard'), 'icon' => 'home', 'active' => localized_route_is('account', 'dogs.*')],
+        ['route' => 'account.reviews', 'label' => __('reviews.mine.tab'), 'icon' => 'star', 'active' => localized_route_is('account.reviews', 'reviews.edit')],
         ['route' => 'account.profile', 'label' => __('ui.account_profile'), 'icon' => 'user', 'active' => localized_route_is('account.profile')],
     ];
+    if (auth()->user()?->isPro()) {
+        array_splice($tabs, 2, 0, [['route' => 'pro.index', 'label' => __('pro.space.tab'), 'icon' => 'building', 'active' => localized_route_is('pro.*')]]);
+    }
 @endphp
 
 <div class="border-b border-line bg-cream">
@@ -29,6 +33,11 @@
                     <x-icon :name="$tab['icon']" class="size-5 text-orange-dark" />{{ $tab['label'] }}
                 </a>
             @endforeach
+            @can('admin')
+                <a href="{{ route('admin.dashboard') }}" class="inline-flex min-h-12 shrink-0 items-center gap-2 rounded-t-2xl border border-b-0 border-transparent px-4 font-bold text-brown-dark transition hover:bg-white/50">
+                    <x-icon name="key" class="size-5 text-orange-dark" />{{ __('admin.nav.title') }}
+                </a>
+            @endcan
         </nav>
     </div>
 </div>
