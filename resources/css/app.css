@@ -128,6 +128,116 @@
     .link {
         @apply font-semibold text-orange-dark underline decoration-orange/60 decoration-2 underline-offset-4 transition hover:text-brown hover:decoration-brown;
     }
+
+    /* Long-form typography for rendered Markdown (guides). Blockquotes become "Good to know" callouts. */
+    .prose-doggys {
+        @apply max-w-[68ch] text-[1.0625rem] leading-[1.75] text-brown-dark sm:text-lg;
+
+        & > :first-child {
+            @apply mt-0;
+        }
+
+        & p,
+        & ul,
+        & ol,
+        & table {
+            @apply mt-5;
+        }
+
+        & h2 {
+            @apply mt-12 scroll-mt-24 text-2xl leading-tight font-semibold sm:text-3xl;
+        }
+
+        & h2::before {
+            content: '';
+            @apply mb-3 block h-1.5 w-10 rounded-full bg-orange;
+        }
+
+        & h3 {
+            @apply mt-8 scroll-mt-24 text-xl leading-snug font-semibold sm:text-[1.375rem];
+        }
+
+        & h2 + p,
+        & h3 + p,
+        & h3 + ul,
+        & h3 + ol {
+            @apply mt-3;
+        }
+
+        & a {
+            @apply font-semibold break-words text-orange-dark underline decoration-orange/60 decoration-2 underline-offset-4 transition hover:text-brown hover:decoration-brown;
+        }
+
+        & strong {
+            @apply font-extrabold text-brown;
+        }
+
+        & ul {
+            @apply space-y-2 pl-1;
+        }
+
+        & ul > li {
+            @apply relative pl-7;
+        }
+
+        & ul > li::before {
+            content: '';
+            @apply absolute top-[0.7em] left-1.5 size-2.5 rounded-full bg-orange;
+        }
+
+        & ol {
+            @apply space-y-2 pl-6 marker:font-bold marker:text-orange-dark;
+            list-style: decimal;
+        }
+
+        & ol > li {
+            @apply pl-1.5;
+        }
+
+        & li > ul,
+        & li > ol {
+            @apply mt-2;
+        }
+
+        & blockquote {
+            @apply relative mt-8 rounded-3xl bg-orange-soft py-5 pr-5 pl-14 ring-1 ring-orange/30 sm:pr-6;
+        }
+
+        & blockquote::before {
+            content: '';
+            @apply absolute top-5 left-5 size-6 bg-orange-dark;
+            mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 16v-4M12 8h.01'/%3E%3C/svg%3E") center / contain no-repeat;
+        }
+
+        & blockquote > :first-child {
+            @apply mt-0;
+        }
+
+        & blockquote p {
+            @apply mt-2;
+        }
+
+        & table {
+            @apply block w-full overflow-x-auto rounded-2xl text-base ring-1 ring-line;
+        }
+
+        & th,
+        & td {
+            @apply px-4 py-2.5 text-left align-top;
+        }
+
+        & th {
+            @apply bg-cream font-display font-semibold text-brown;
+        }
+
+        & tr + tr td {
+            @apply border-t border-line;
+        }
+
+        & hr {
+            @apply my-10 border-line;
+        }
+    }
 }
 
 /* Leaflet maps (resources/js/map.js): Doggys pins and popups over Leaflet's own stylesheet. */

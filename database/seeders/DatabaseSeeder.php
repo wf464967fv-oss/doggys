@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CategorySeeder::class,
             PostalCodeSeeder::class,
+            GuideSeeder::class,
         ]);
 
         if (app()->isLocal()) {

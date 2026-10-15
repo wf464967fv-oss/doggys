@@ -3,6 +3,7 @@
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DogController;
+use App\Http\Controllers\GuideController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProviderController;
 use App\Http\Controllers\SearchController;
@@ -49,7 +50,9 @@ Route::localized(function () {
 
     // Pages owned by other work packages: placeholders until their controllers land.
     Route::view(__('routes.provider').'/{provider}/'.__('routes.claim'), 'pages.coming-soon')->name('claim.create');
-    Route::view(__('routes.guides'), 'pages.coming-soon')->name('guides');
+    Route::get(__('routes.guides'), [GuideController::class, 'index'])->name('guides');
+    Route::get(__('routes.guides').'/{slug}', [GuideController::class, 'show'])
+        ->where('slug', '[a-z0-9-]+')->name('guides.show');
     Route::view(__('routes.contact'), 'pages.coming-soon')->name('contact');
     Route::view(__('routes.reviews_policy'), 'pages.coming-soon')->name('reviews.policy');
     Route::view(__('routes.legal_notice'), 'pages.coming-soon')->name('legal.notice');

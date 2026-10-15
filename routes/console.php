@@ -2,6 +2,7 @@
 
 use App\Enums\UserRole;
 use App\Models\User;
+use Database\Seeders\GuideSeeder;
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
@@ -24,3 +25,7 @@ Artisan::command('doggys:make-admin {email}', function (string $email) {
 
     return 0;
 })->purpose('Promote an existing user to administrator');
+
+Artisan::command('doggys:import-guides', function () {
+    return $this->call('db:seed', ['--class' => GuideSeeder::class, '--force' => true]);
+})->purpose('Import (or update) the Markdown guides of database/data/guides');
