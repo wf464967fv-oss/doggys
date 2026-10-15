@@ -12,6 +12,7 @@ return [
     'privacy' => 'privacy',
     'terms' => 'gebruiksvoorwaarden',
     'cookies' => 'cookies',
+    'offline' => 'offline',
     'login' => 'inloggen',
     'logout' => 'uitloggen',
     'register' => 'registreren',

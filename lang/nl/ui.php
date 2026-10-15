@@ -61,4 +61,9 @@ return [
         'password-updated' => 'Uw wachtwoord is gewijzigd.',
     ],
     'og_image_alt' => 'Logo van Doggys: een lachende hond en de naam Doggys',
+
+    'offline_eyebrow' => 'Offline',
+    'offline_title' => 'Je bent offline',
+    'offline_text' => 'Momenteel geen verbinding. Pagina’s die je al bezocht hebt blijven beschikbaar; probeer de rest opnieuw zodra het netwerk terug is.',
+    'offline_retry' => 'Opnieuw proberen',
 ];

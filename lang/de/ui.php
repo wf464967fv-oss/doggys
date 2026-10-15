@@ -61,4 +61,9 @@ return [
         'password-updated' => 'Ihr Passwort wurde geändert.',
     ],
     'og_image_alt' => 'Doggys-Logo: ein lächelnder Hund und der Name Doggys',
+
+    'offline_eyebrow' => 'Offline',
+    'offline_title' => 'Sie sind offline',
+    'offline_text' => 'Im Moment keine Verbindung. Bereits besuchte Seiten bleiben verfügbar; versuchen Sie es für alles andere erneut, sobald das Netz wieder da ist.',
+    'offline_retry' => 'Erneut versuchen',
 ];

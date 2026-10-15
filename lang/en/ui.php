@@ -61,4 +61,9 @@ return [
         'password-updated' => 'Your password has been changed.',
     ],
     'og_image_alt' => 'Doggys logo: a smiling dog and the Doggys name',
+
+    'offline_eyebrow' => 'Offline',
+    'offline_title' => 'You are offline',
+    'offline_text' => 'No connection right now. Pages you have already visited stay available; try again for the rest as soon as the network is back.',
+    'offline_retry' => 'Try again',
 ];

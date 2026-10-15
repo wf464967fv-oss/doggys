@@ -61,4 +61,9 @@ return [
         'password-updated' => 'Votre mot de passe a bien été modifié.',
     ],
     'og_image_alt' => 'Logo Doggys : un chien souriant et le nom Doggys',
+
+    'offline_eyebrow' => 'Hors ligne',
+    'offline_title' => 'Vous êtes hors ligne',
+    'offline_text' => 'Pas de connexion pour le moment. Les pages que vous avez déjà visitées restent accessibles ; pour le reste, réessayez dès que le réseau revient.',
+    'offline_retry' => 'Réessayer',
 ];

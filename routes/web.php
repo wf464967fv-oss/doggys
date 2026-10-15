@@ -84,10 +84,11 @@ Route::localized(function () {
     Route::get(__('routes.guides'), [GuideController::class, 'index'])->name('guides');
     Route::get(__('routes.guides').'/{slug}', [GuideController::class, 'show'])
         ->where('slug', '[a-z0-9-]+')->name('guides.show');
-    Route::view(__('routes.legal_notice'), 'pages.coming-soon')->name('legal.notice');
-    Route::view(__('routes.privacy'), 'pages.coming-soon')->name('legal.privacy');
-    Route::view(__('routes.terms'), 'pages.coming-soon')->name('legal.terms');
-    Route::view(__('routes.cookies'), 'pages.coming-soon')->name('legal.cookies');
+    Route::view(__('routes.legal_notice'), 'pages.legal', ['page' => 'notice'])->name('legal.notice');
+    Route::view(__('routes.privacy'), 'pages.legal', ['page' => 'privacy'])->name('legal.privacy');
+    Route::view(__('routes.terms'), 'pages.legal', ['page' => 'terms'])->name('legal.terms');
+    Route::view(__('routes.cookies'), 'pages.legal', ['page' => 'cookies'])->name('legal.cookies');
+    Route::view(__('routes.offline'), 'pages.offline')->name('offline');
 
     // Authentication (Laravel Fortify controllers, localized routes).
     Route::middleware('guest')->group(function () {

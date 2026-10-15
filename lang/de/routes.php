@@ -12,6 +12,7 @@ return [
     'privacy' => 'datenschutz',
     'terms' => 'nutzungsbedingungen',
     'cookies' => 'cookies',
+    'offline' => 'offline',
     'login' => 'anmelden',
     'logout' => 'abmelden',
     'register' => 'registrieren',

@@ -182,3 +182,8 @@ if (guideGrid) {
     apply(themes.includes(initial) ? initial : '');
 }
 Alpine.start();
+
+/* Service worker (offline page + asset cache): production only, flagged by data-sw on <html>. */
+if ('serviceWorker' in navigator && document.documentElement.hasAttribute('data-sw')) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
+}

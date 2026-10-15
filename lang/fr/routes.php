@@ -12,6 +12,7 @@ return [
     'privacy' => 'confidentialite',
     'terms' => 'conditions-utilisation',
     'cookies' => 'cookies',
+    'offline' => 'hors-ligne',
     'login' => 'connexion',
     'logout' => 'deconnexion',
     'register' => 'inscription',
