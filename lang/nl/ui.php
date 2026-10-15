@@ -3,6 +3,7 @@
 return [
     'meta_description' => 'Doggys, de Belgische gids voor hondenprofessionals: trimmers, dierenartsen, hondentrainers, petsitters… bij u in de buurt, met geverifieerde reviews.',
     'slogan' => 'De beste vriend van de mens',
+    'breadcrumb' => 'Kruimelpad',
     'skip_to_content' => 'Naar de inhoud',
     'home_link' => 'Doggys, terug naar de startpagina',
     'menu' => 'Menu',

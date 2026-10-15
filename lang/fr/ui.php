@@ -3,6 +3,7 @@
 return [
     'meta_description' => 'Doggys, l’annuaire belge des professionnels canins : toiletteurs, vétérinaires, éducateurs, pet-sitters… près de chez vous, avec des avis vérifiés.',
     'slogan' => 'Le meilleur ami de l’humain',
+    'breadcrumb' => 'Fil d’Ariane',
     'skip_to_content' => 'Aller au contenu',
     'home_link' => 'Doggys, retour à l’accueil',
     'menu' => 'Menu',

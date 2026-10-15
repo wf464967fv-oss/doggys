@@ -3,6 +3,7 @@
 return [
     'meta_description' => 'Doggys, das belgische Verzeichnis für Hundeprofis: Hundefriseure, Tierärzte, Hundetrainer, Tiersitter… in Ihrer Nähe, mit verifizierten Bewertungen.',
     'slogan' => 'Der beste Freund des Menschen',
+    'breadcrumb' => 'Brotkrumennavigation',
     'skip_to_content' => 'Zum Inhalt springen',
     'home_link' => 'Doggys, zurück zur Startseite',
     'menu' => 'Menü',

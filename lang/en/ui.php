@@ -3,6 +3,7 @@
 return [
     'meta_description' => 'Doggys, the Belgian directory of dog professionals: groomers, vets, trainers, pet sitters… near you, with verified reviews.',
     'slogan' => 'Humanity’s best friend',
+    'breadcrumb' => 'Breadcrumb',
     'skip_to_content' => 'Skip to content',
     'home_link' => 'Doggys, back to the home page',
     'menu' => 'Menu',
