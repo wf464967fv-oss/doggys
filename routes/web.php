@@ -1,8 +1,11 @@
 <?php
 
 use App\Http\Controllers\AccountController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DogController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProviderController;
+use App\Http\Controllers\SearchController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
@@ -33,8 +36,19 @@ Route::get('/', function (Request $request) {
 Route::localized(function () {
     Route::get('/', HomeController::class)->name('home');
 
+    // Directory: search, provider profiles, category and city pages (/fr/toiletteur-salon/liege).
+    $categorySlugs = implode('|', array_map('preg_quote', __('routes.category_slugs')));
+    Route::get(__('routes.search'), SearchController::class)->name('search');
+    Route::get(__('routes.categories'), [CategoryController::class, 'index'])->name('categories.index');
+    Route::get('{category}', [CategoryController::class, 'show'])->where('category', $categorySlugs)->name('categories.show');
+    Route::get('{category}/{city}', [CategoryController::class, 'city'])
+        ->where(['category' => $categorySlugs, 'city' => '[a-z0-9-]+'])->name('categories.city');
+    Route::get(__('routes.provider').'/{provider:slug}', [ProviderController::class, 'show'])->name('providers.show');
+    Route::post(__('routes.provider').'/{provider:slug}/'.__('routes.report'), [ProviderController::class, 'report'])
+        ->middleware(['throttle:5,60', 'antibot'])->name('providers.report');
+
     // Pages owned by other work packages: placeholders until their controllers land.
-    Route::view(__('routes.search'), 'pages.coming-soon')->name('search');
+    Route::view(__('routes.provider').'/{provider}/'.__('routes.claim'), 'pages.coming-soon')->name('claim.create');
     Route::view(__('routes.guides'), 'pages.coming-soon')->name('guides');
     Route::view(__('routes.contact'), 'pages.coming-soon')->name('contact');
     Route::view(__('routes.reviews_policy'), 'pages.coming-soon')->name('reviews.policy');

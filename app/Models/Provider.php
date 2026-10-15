@@ -71,6 +71,90 @@ class Provider extends Model
     }
 
     /**
+     * Belgian phone number in the familiar national format (0478 12 34 56, 02 123 45 67, 065 12 34 56).
+     */
+    public function phoneForDisplay(): ?string
+    {
+        if (! $this->phone || ! preg_match('/^\+32(\d{8,9})$/', $this->phone, $matches)) {
+            return $this->phone;
+        }
+
+        $national = '0'.$matches[1];
+        $groups = match (true) {
+            strlen($national) === 10 => [4, 2, 2, 2],
+            in_array($national[1], ['2', '3', '4', '9'], true) => [2, 3, 2, 2],
+            default => [3, 2, 2, 2],
+        };
+
+        $parts = [];
+        foreach ($groups as $length) {
+            $parts[] = substr($national, 0, $length);
+            $national = substr($national, $length);
+        }
+
+        return implode(' ', $parts);
+    }
+
+    /**
+     * Opening hours (OpenStreetMap syntax) as readable lines in the current locale:
+     * "Mo-Fr 09:00-18:00; Su off" => ["lun–ven 09:00–18:00", "dim fermé"].
+     *
+     * @return list<string>
+     */
+    public function openingHoursLines(): array
+    {
+        if (blank($this->opening_hours)) {
+            return [];
+        }
+
+        $words = (array) __('directory.opening_tokens');
+
+        return collect(explode(';', $this->opening_hours))
+            ->map(fn (string $rule) => trim(str_replace('"', '', $rule)))
+            ->filter()
+            ->map(fn (string $rule) => preg_replace_callback(
+                '/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH|off|closed)\b|(?<=[a-zA-Z0-9])-(?=[a-zA-Z0-9])/',
+                fn (array $match) => $match[0] === '-' ? '–' : ($words[$match[1]] ?? $match[0]),
+                $rule,
+            ))
+            ->values()
+            ->all();
+    }
+
+    /**
+     * Opening hours rules valid for schema.org "openingHours" (simple OSM rules only).
+     *
+     * @return list<string>
+     */
+    public function schemaOpeningHours(): array
+    {
+        $day = '(Mo|Tu|We|Th|Fr|Sa|Su)';
+        $time = '\d\d:\d\d-\d\d:\d\d';
+
+        return collect(explode(';', (string) $this->opening_hours))
+            ->map(fn (string $rule) => trim($rule))
+            ->filter(fn (string $rule) => preg_match("/^{$day}([-,]{$day})* {$time}(,{$time})*$/", $rule) === 1)
+            ->values()
+            ->all();
+    }
+
+    /**
+     * Most precise schema.org type for the listing's categories.
+     */
+    public function schemaType(): string
+    {
+        $slugs = $this->categories->pluck('slug');
+
+        return match (true) {
+            $slugs->intersect(['veterinaire', 'urgences-24h', 'dentisterie'])->isNotEmpty() => 'VeterinaryCare',
+            $slugs->contains('refuge') => 'AnimalShelter',
+            $slugs->contains('animalerie') => 'PetStore',
+            $slugs->contains('parc-a-chiens') && $slugs->count() === 1 => 'Park',
+            default => 'LocalBusiness',
+        };
+    }
+
+    /**
      * @return BelongsToMany<Category, $this>
      */
     public function categories(): BelongsToMany

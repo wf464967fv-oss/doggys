@@ -16,9 +16,7 @@ class HomeController extends Controller
         return view('home', [
             'categories' => $categories,
             'categoryGroups' => $categoryGroups,
-            'categoryOptions' => $categoryGroups->mapWithKeys(fn ($group, string $key) => [
-                __('categories.groups.'.$key) => $group->mapWithKeys(fn (Category $category) => [$category->slug => $category->label()])->all(),
-            ])->all(),
+            'categoryOptions' => Category::groupedOptions($categories),
         ]);
     }
 }

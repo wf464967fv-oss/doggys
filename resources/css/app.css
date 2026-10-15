@@ -129,3 +129,41 @@
         @apply font-semibold text-orange-dark underline decoration-orange/60 decoration-2 underline-offset-4 transition hover:text-brown hover:decoration-brown;
     }
 }
+
+/* Leaflet maps (resources/js/map.js): Doggys pins and popups over Leaflet's own stylesheet. */
+@layer components {
+    .doggys-pin {
+        background: none;
+        border: 0;
+        filter: drop-shadow(0 2px 2px rgb(74 40 18 / 0.3));
+    }
+
+    .leaflet-container {
+        @apply font-sans;
+    }
+
+    /* Keep the OpenStreetMap attribution clear of the rounded map corners. */
+    .leaflet-container .leaflet-control-attribution {
+        @apply mr-4 mb-2 rounded-full px-2 text-[11px] text-brown-dark;
+    }
+
+    .leaflet-container .leaflet-popup-content-wrapper {
+        @apply rounded-2xl text-brown-dark shadow-lift;
+    }
+
+    .leaflet-container .leaflet-popup-content {
+        @apply m-4 min-w-44;
+    }
+
+    .leaflet-popup-content .doggys-popup-title {
+        @apply m-0 font-display text-base leading-snug font-semibold text-brown;
+    }
+
+    .leaflet-popup-content .doggys-popup-meta {
+        @apply mt-1 mb-0 text-sm text-muted;
+    }
+
+    .leaflet-container a.doggys-popup-link {
+        @apply mt-2 inline-flex min-h-11 items-center font-bold text-orange-dark underline decoration-orange/60 decoration-2 underline-offset-4;
+    }
+}

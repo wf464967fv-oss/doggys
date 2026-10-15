@@ -54,7 +54,9 @@
                         <x-select name="category" :label="__('home.search_category')" :placeholder="__('home.search_all_categories')"
                             :options="$categoryOptions" />
                         <x-input name="location" :label="__('home.search_location')" :placeholder="__('home.search_location_placeholder')"
-                            icon="map-pin" autocomplete="postal-code" />
+                            icon="map-pin" autocomplete="off" list="place-suggestions"
+                            x-data="placeSuggest" x-on:input="suggest" :data-endpoint="route('api.v1.places')" />
+                        <datalist id="place-suggestions"></datalist>
                     </div>
                     <input type="hidden" name="lat" value="">
                     <input type="hidden" name="lng" value="">

@@ -90,4 +90,44 @@ Alpine.data('dropdown', () => ({
     },
 }));
 
+/*
+ * Postal code / locality suggestions for a search input (native <datalist>, filled from /api/v1/places).
+ * Typing a place also clears coordinates left by a previous "around me" search.
+ */
+Alpine.data('placeSuggest', () => ({
+    timer: null,
+
+    suggest() {
+        const input = this.$el;
+        const form = input.closest('form');
+        form?.querySelectorAll('[name=lat], [name=lng], [name=near_me]').forEach((field) => { field.value = ''; });
+
+        clearTimeout(this.timer);
+        const query = input.value.trim();
+        if (query.length < 2) {
+            return;
+        }
+
+        this.timer = setTimeout(async () => {
+            try {
+                const url = `${input.dataset.endpoint}?q=${encodeURIComponent(query)}&lang=${document.documentElement.lang}`;
+                const response = await fetch(url, { headers: { Accept: 'application/json' } });
+                if (!response.ok) {
+                    return;
+                }
+                const { data } = await response.json();
+                const list = document.getElementById(input.getAttribute('list'));
+                list.replaceChildren(...data.map((place) => Object.assign(document.createElement('option'), { value: place })));
+            } catch {
+                /* Suggestions are a convenience: the search still works without them. */
+            }
+        }, 250);
+    },
+}));
+
+/* Leaflet maps: downloaded only on pages that have one ([data-map], see resources/js/map.js). */
+if (document.querySelector('[data-map]')) {
+    import('./map.js').then(({ mountMaps }) => mountMaps());
+}
+
 Alpine.start();
