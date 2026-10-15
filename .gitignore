@@ -25,3 +25,7 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Doggys data import: raw source caches (OSM/Overpass, registries, KBO)
+/database/data/raw/
+/database/data/bce_providers.json
