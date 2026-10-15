@@ -3,7 +3,114 @@
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 
+/* Self-hosted fonts (OFL, see public/fonts). Latin is preloaded in the layout. */
+@font-face {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300 700;
+    src: url('/fonts/fredoka-latin-wght-normal.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300 700;
+    src: url('/fonts/fredoka-latin-ext-wght-normal.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200 1000;
+    src: url('/fonts/nunito-latin-wght-normal.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200 1000;
+    src: url('/fonts/nunito-latin-ext-wght-normal.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/*
+ * Doggys design tokens.
+ * Text colours: brown-dark / brown / muted / orange-dark / rose-dark all reach WCAG AA (>= 4.5:1) on white,
+ * cream-light and cream. orange, brown-mid and rose are decorative or large-text only.
+ */
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: 'Nunito', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    --font-display: 'Fredoka', 'Nunito', ui-rounded, ui-sans-serif, system-ui, sans-serif;
+
+    --color-orange: #f5a043;
+    --color-orange-dark: #9a520c;
+    --color-orange-soft: #fff1dd;
+    --color-cream: #fde7c4;
+    --color-cream-light: #fff8ee;
+    --color-brown: #6b3e1f;
+    --color-brown-dark: #4a2812;
+    --color-brown-mid: #d4995c;
+    --color-muted: #7a5a45;
+    --color-rose: #ff5c77;
+    --color-rose-dark: #b3203f;
+    --color-rose-soft: #ffe4e9;
+    --color-verified: #1f7a4d;
+    --color-verified-soft: #e3f5ea;
+    --color-regulated: #1d5fa8;
+    --color-regulated-soft: #e3eefb;
+    --color-line: #f1dcc0;
+
+    --shadow-soft: 0 1px 2px rgb(74 40 18 / 0.06), 0 8px 24px -8px rgb(74 40 18 / 0.14);
+    --shadow-lift: 0 2px 4px rgb(74 40 18 / 0.08), 0 16px 40px -12px rgb(74 40 18 / 0.22);
+}
+
+@layer base {
+    html {
+        -webkit-tap-highlight-color: transparent;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-cream-light font-sans text-brown-dark antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-display text-brown;
+        text-wrap: balance;
+    }
+
+    :focus-visible {
+        @apply outline-3 outline-offset-2 outline-brown;
+    }
+
+    [x-cloak] {
+        display: none !important;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        html {
+            scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+            transition-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+        }
+    }
+}
+
+@layer components {
+    /* Shared link style for text links inside content. */
+    .link {
+        @apply font-semibold text-orange-dark underline decoration-orange/60 decoration-2 underline-offset-4 transition hover:text-brown hover:decoration-brown;
+    }
 }
