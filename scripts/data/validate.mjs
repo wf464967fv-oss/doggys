@@ -8,7 +8,7 @@ export const CATEGORIES = ['toiletteur-salon', 'toiletteur-domicile', 'veterinai
   'hydrotherapie', 'dentisterie', 'educateur', 'comportementaliste', 'pet-sitter', 'promeneur', 'garderie', 'pension',
   'eleveur-agree', 'refuge', 'animalerie', 'lieu-dog-friendly', 'parc-a-chiens'];
 const KEYS = ['source', 'source_ref', 'name', 'categories', 'street', 'house_number', 'postal_code', 'city', 'region', 'lat', 'lng',
-  'phone', 'email', 'website', 'opening_hours', 'is_mobile', 'bce_number', 'regulatory_number', 'license', 'fetched_at'];
+  'phone', 'email', 'website', 'opening_hours', 'is_mobile', 'bce_number', 'regulatory_number', 'license', 'fetched_at', 'commune'];
 const strOrNull = v => v === null || (typeof v === 'string' && v.length > 0);
 
 export function validate(rows) {
@@ -30,6 +30,7 @@ export function validate(rows) {
     assert.ok(r.website === null || /^https?:\/\//.test(r.website), `${id}: website`);
     assert.ok(r.bce_number === null || /^[01]\d{3}\.\d{3}\.\d{3}$/.test(r.bce_number), `${id}: bce_number`);
     assert.equal(typeof r.is_mobile, 'boolean', `${id}: is_mobile`);
+    assert.ok(r.commune === null || /^[\w-]+$/.test(r.commune), `${id}: commune`);
     for (const k of ['street', 'house_number', 'city', 'opening_hours', 'regulatory_number']) assert.ok(strOrNull(r[k]), `${id}: ${k}`);
     assert.ok(r.license && !Number.isNaN(Date.parse(r.fetched_at)), `${id}: license/fetched_at`);
   }

@@ -12,6 +12,7 @@ import { join } from 'node:path';
 import { overpass, ROOT, RAW } from './overpass.mjs';
 import { POI_QUERY, POSTAL_QUERY } from './osm_fetch.mjs';
 import { validate } from './validate.mjs';
+import { COMMUNES_QUERY, communeIndex, placeCase } from './communes.mjs';
 
 const UA = 'Doggys data import (contact@doggys.be)';
 const OUT = join(ROOT, 'database/data/providers.json');
@@ -114,12 +115,15 @@ export function osmCategories(t) {
     cats.add('pension');
     if (/garderie|day ?care|dagopvang|cr[eè]che/i.test(name)) cats.add('garderie');
   }
-  if (t.amenity === 'animal_shelter' && has(t.animal_shelter, /dog|pet|mammal/)) cats.add('refuge');
+  // Cat-only shelters ("Catcocoon", "Chats Libres") are not for dogs, even without an animal_shelter=* tag.
+  const catsOnly = /^cat|\bcats?\b|\bchats?\b|katten/i.test(name) && !/dog|chien|hond/i.test(name);
+  if (t.amenity === 'animal_shelter' && has(t.animal_shelter, /dog|pet|mammal/) && !catsOnly) cats.add('refuge');
   if (t.amenity === 'animal_training' && has(t.animal_training, /dog/)) {
     cats.add('educateur');
     if (/comportement|gedrag|behaviou?r/i.test(name)) cats.add('comportementaliste');
   }
-  if (t.leisure === 'dog_park' && !cats.size) cats.add('parc-a-chiens');
+  // Training grounds of dog clubs are mapped as dog parks: they are trainers, not public parks.
+  if (t.leisure === 'dog_park' && !cats.size) cats.add(/formation|opleiding|[eé]cole|school|training|club|dressage|kringgroep/i.test(name) ? 'educateur' : 'parc-a-chiens');
   if (t.dog === 'yes' && (FOOD.test(t.amenity || '') || STAY.test(t.tourism || ''))) cats.add('lieu-dog-friendly');
   return [...cats];
 }
@@ -146,7 +150,7 @@ function osmRecords(json, postal, fetchedAt) {
     out.push({
       source: 'osm', source_ref: `${e.type}/${e.id}`, name: t.name.trim(), categories,
       street: t['addr:street'] || null, house_number: t['addr:housenumber'] || null,
-      postal_code: pc, city: t['addr:city'] || (pc && (pc === poly?.code ? poly.city : postal.cityOf[pc])) || null,
+      postal_code: pc, city: placeCase(t['addr:city'] || (pc && (pc === poly?.code ? poly.city : postal.cityOf[pc])) || null),
       region: regionFromPostal(pc), lat: +lat.toFixed(7), lng: +lng.toFixed(7),
       phone: e164(t.phone || t['contact:phone'] || t['contact:mobile'] || t.mobile),
       email: email(t.email || t['contact:email']),
@@ -247,7 +251,11 @@ if (import.meta.main) {
   const bceFile = join(ROOT, 'database/data/bce_providers.json');
   const bce = existsSync(bceFile) ? JSON.parse(readFileSync(bceFile, 'utf8')) : [];
 
+  const communes = communeIndex(await overpass('osm_communes', COMMUNES_QUERY));
+  const refOf = (rel) => rel.tags['ref:INS'] || rel.tags['ref:nis'] || `osm-${rel.id}`;
   const all = dedupe([...osmRecords(pois, postal, osmAt), ...bce, ...registry])
+    // Municipality (INS code) containing the point: city pages group professionals per commune.
+    .map((r) => ({ ...r, commune: r.lat == null ? null : (c => c ? refOf(c.rel) : null)(communes.at(r.lat, r.lng)) }))
     .sort((a, b) => (a.source + a.source_ref).localeCompare(b.source + b.source_ref));
   writeFileSync(OUT, JSON.stringify(all, null, 1) + '\n');
 

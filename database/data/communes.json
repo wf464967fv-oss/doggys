@@ -1,0 +1,10688 @@
+[
+ {
+  "ref": "11001",
+  "names": {
+   "fr": "Aartselaar",
+   "nl": "Aartselaar",
+   "en": "Aartselaar",
+   "de": "Aartselaar"
+  },
+  "lat": 51.1333,
+  "lng": 4.38702,
+  "population": null,
+  "localities": [
+   "2630|Aartselaar"
+  ]
+ },
+ {
+  "ref": "11002",
+  "names": {
+   "fr": "Anvers",
+   "nl": "Antwerpen",
+   "en": "Antwerp",
+   "de": "Antwerpen"
+  },
+  "lat": 51.22111,
+  "lng": 4.39971,
+  "population": 525935,
+  "localities": [
+   "2000|Antwerpen",
+   "2018|Antwerpen",
+   "2020|Antwerpen",
+   "2030|Antwerpen",
+   "2040|Berendrecht",
+   "2040|Zandvliet",
+   "2040|Antwerpen",
+   "2050|Antwerpen",
+   "2060|Antwerpen",
+   "2100|Deurne",
+   "2140|Borgerhout",
+   "2150|Borsbeek",
+   "2170|Merksem",
+   "2180|Ekeren",
+   "2600|Berchem",
+   "2610|Wilrijk",
+   "2660|Hoboken"
+  ]
+ },
+ {
+  "ref": "11004",
+  "names": {
+   "fr": "Boechout",
+   "nl": "Boechout",
+   "en": "Boechout",
+   "de": "Boechout"
+  },
+  "lat": 51.16356,
+  "lng": 4.49639,
+  "population": null,
+  "localities": [
+   "2530|Boechout",
+   "2531|Vremde"
+  ]
+ },
+ {
+  "ref": "11005",
+  "names": {
+   "fr": "Boom",
+   "nl": "Boom",
+   "en": "Boom",
+   "de": "Boom"
+  },
+  "lat": 51.08738,
+  "lng": 4.36672,
+  "population": null,
+  "localities": [
+   "2850|Boom"
+  ]
+ },
+ {
+  "ref": "11008",
+  "names": {
+   "fr": "Brasschaat",
+   "nl": "Brasschaat",
+   "en": "Brasschaat",
+   "de": "Brasschaat"
+  },
+  "lat": 51.29007,
+  "lng": 4.49173,
+  "population": null,
+  "localities": [
+   "2930|Brasschaat"
+  ]
+ },
+ {
+  "ref": "11009",
+  "names": {
+   "fr": "Brecht",
+   "nl": "Brecht",
+   "en": "Brecht",
+   "de": "Brecht"
+  },
+  "lat": 51.34848,
+  "lng": 4.63987,
+  "population": null,
+  "localities": [
+   "2960|Sint-Job-in-'T-Goor",
+   "2960|Sint-Lenaarts",
+   "2960|Brecht"
+  ]
+ },
+ {
+  "ref": "11013",
+  "names": {
+   "fr": "Edegem",
+   "nl": "Edegem",
+   "en": "Edegem",
+   "de": "Edegem"
+  },
+  "lat": 51.15481,
+  "lng": 4.44583,
+  "population": null,
+  "localities": [
+   "2650|Edegem"
+  ]
+ },
+ {
+  "ref": "11016",
+  "names": {
+   "fr": "Essen",
+   "nl": "Essen",
+   "en": "Essen",
+   "de": "Essen"
+  },
+  "lat": 51.46792,
+  "lng": 4.46983,
+  "population": null,
+  "localities": [
+   "2910|Essen"
+  ]
+ },
+ {
+  "ref": "11018",
+  "names": {
+   "fr": "Hemiksem",
+   "nl": "Hemiksem",
+   "en": "Hemiksem",
+   "de": "Hemiksem"
+  },
+  "lat": 51.14302,
+  "lng": 4.34098,
+  "population": null,
+  "localities": [
+   "2620|Hemiksem"
+  ]
+ },
+ {
+  "ref": "11021",
+  "names": {
+   "fr": "Hove",
+   "nl": "Hove",
+   "en": "Hove",
+   "de": "Hove"
+  },
+  "lat": 51.14861,
+  "lng": 4.47739,
+  "population": null,
+  "localities": [
+   "2540|Hove"
+  ]
+ },
+ {
+  "ref": "11022",
+  "names": {
+   "fr": "Calmpthout",
+   "nl": "Kalmthout",
+   "en": "Kalmthout",
+   "de": "Kalmthout"
+  },
+  "lat": 51.38284,
+  "lng": 4.4765,
+  "population": null,
+  "localities": [
+   "2920|Kalmthout"
+  ]
+ },
+ {
+  "ref": "11023",
+  "names": {
+   "fr": "Kapellen",
+   "nl": "Kapellen",
+   "en": "Kapellen",
+   "de": "Kapellen"
+  },
+  "lat": 51.31495,
+  "lng": 4.42954,
+  "population": null,
+  "localities": [
+   "2950|Kapellen"
+  ]
+ },
+ {
+  "ref": "11024",
+  "names": {
+   "fr": "Kontich",
+   "nl": "Kontich",
+   "en": "Kontich",
+   "de": "Kontich"
+  },
+  "lat": 51.13533,
+  "lng": 4.44548,
+  "population": null,
+  "localities": [
+   "2550|Kontich",
+   "2550|Waarloos"
+  ]
+ },
+ {
+  "ref": "11025",
+  "names": {
+   "fr": "Lint",
+   "nl": "Lint",
+   "en": "Lint",
+   "de": "Lint"
+  },
+  "lat": 51.12683,
+  "lng": 4.49222,
+  "population": null,
+  "localities": [
+   "2547|Lint"
+  ]
+ },
+ {
+  "ref": "11029",
+  "names": {
+   "fr": "Mortsel",
+   "nl": "Mortsel",
+   "en": "Mortsel",
+   "de": "Mortsel"
+  },
+  "lat": 51.17041,
+  "lng": 4.4567,
+  "population": null,
+  "localities": [
+   "2640|Mortsel"
+  ]
+ },
+ {
+  "ref": "11030",
+  "names": {
+   "fr": "Niel",
+   "nl": "Niel",
+   "en": "Niel",
+   "de": "Niel"
+  },
+  "lat": 51.10986,
+  "lng": 4.33034,
+  "population": null,
+  "localities": [
+   "2845|Niel"
+  ]
+ },
+ {
+  "ref": "11035",
+  "names": {
+   "fr": "Ranst",
+   "nl": "Ranst",
+   "en": "Ranst",
+   "de": "Ranst"
+  },
+  "lat": 51.1897,
+  "lng": 4.5633,
+  "population": null,
+  "localities": [
+   "2520|Oelegem",
+   "2520|Ranst",
+   "2520|Emblem",
+   "2520|Broechem"
+  ]
+ },
+ {
+  "ref": "11037",
+  "names": {
+   "fr": "Rumst",
+   "nl": "Rumst",
+   "en": "Rumst",
+   "de": "Rumst"
+  },
+  "lat": 51.07929,
+  "lng": 4.42405,
+  "population": null,
+  "localities": [
+   "2840|Rumst",
+   "2840|Terhagen",
+   "2840|Reet"
+  ]
+ },
+ {
+  "ref": "11038",
+  "names": {
+   "fr": "Schelle",
+   "nl": "Schelle",
+   "en": "Schelle",
+   "de": "Schelle"
+  },
+  "lat": 51.12456,
+  "lng": 4.33619,
+  "population": null,
+  "localities": [
+   "2627|Schelle"
+  ]
+ },
+ {
+  "ref": "11039",
+  "names": {
+   "fr": "Schilde",
+   "nl": "Schilde",
+   "en": "Schilde",
+   "de": "Schilde"
+  },
+  "lat": 51.23887,
+  "lng": 4.58149,
+  "population": null,
+  "localities": [
+   "2970|Schilde",
+   "2970|'s Gravenwezel"
+  ]
+ },
+ {
+  "ref": "11040",
+  "names": {
+   "fr": "Schoten",
+   "nl": "Schoten",
+   "en": "Schoten",
+   "de": "Schoten"
+  },
+  "lat": 51.25163,
+  "lng": 4.49804,
+  "population": null,
+  "localities": [
+   "2040|Lillo",
+   "2900|Schoten"
+  ]
+ },
+ {
+  "ref": "11044",
+  "names": {
+   "fr": "Stabroek",
+   "nl": "Stabroek",
+   "en": "Stabroek",
+   "de": "Stabroek"
+  },
+  "lat": 51.33265,
+  "lng": 4.36807,
+  "population": null,
+  "localities": [
+   "2940|Hoevenen",
+   "2940|Stabroek"
+  ]
+ },
+ {
+  "ref": "11050",
+  "names": {
+   "fr": "Wijnegem",
+   "nl": "Wijnegem",
+   "en": "Wijnegem",
+   "de": "Wijnegem"
+  },
+  "lat": 51.22708,
+  "lng": 4.52253,
+  "population": null,
+  "localities": [
+   "2110|Wijnegem"
+  ]
+ },
+ {
+  "ref": "11052",
+  "names": {
+   "fr": "Wommelgem",
+   "nl": "Wommelgem",
+   "en": "Wommelgem",
+   "de": "Wommelgem"
+  },
+  "lat": 51.2031,
+  "lng": 4.5238,
+  "population": null,
+  "localities": [
+   "2160|Wommelgem"
+  ]
+ },
+ {
+  "ref": "11053",
+  "names": {
+   "fr": "Wuustwezel",
+   "nl": "Wuustwezel",
+   "en": "Wuustwezel",
+   "de": "Wuustwezel"
+  },
+  "lat": 51.39202,
+  "lng": 4.59909,
+  "population": null,
+  "localities": [
+   "2990|Wuustwezel",
+   "2990|Loenhout"
+  ]
+ },
+ {
+  "ref": "11054",
+  "names": {
+   "fr": "Zandhoven",
+   "nl": "Zandhoven",
+   "en": "Zandhoven",
+   "de": "Zandhoven"
+  },
+  "lat": 51.21479,
+  "lng": 4.65951,
+  "population": null,
+  "localities": [
+   "2240|Massenhoven",
+   "2240|Zandhoven",
+   "2240|Viersel",
+   "2242|Pulderbos",
+   "2243|Pulle"
+  ]
+ },
+ {
+  "ref": "11055",
+  "names": {
+   "fr": "Zoersel",
+   "nl": "Zoersel",
+   "en": "Zoersel",
+   "de": "Zoersel"
+  },
+  "lat": 51.27167,
+  "lng": 4.71326,
+  "population": null,
+  "localities": [
+   "2980|Zoersel",
+   "2980|Halle"
+  ]
+ },
+ {
+  "ref": "11057",
+  "names": {
+   "fr": "Malle",
+   "nl": "Malle",
+   "en": "Malle",
+   "de": "Malle"
+  },
+  "lat": 51.30202,
+  "lng": 4.73398,
+  "population": null,
+  "localities": [
+   "2390|Westmalle",
+   "2390|Malle",
+   "2390|Oostmalle"
+  ]
+ },
+ {
+  "ref": "12002",
+  "names": {
+   "fr": "Berlaar",
+   "nl": "Berlaar",
+   "en": "Berlaar",
+   "de": "Berlaar"
+  },
+  "lat": 51.1179,
+  "lng": 4.65751,
+  "population": null,
+  "localities": [
+   "2590|Gestel",
+   "2590|Berlaar"
+  ]
+ },
+ {
+  "ref": "12005",
+  "names": {
+   "fr": "Bonheyden",
+   "nl": "Bonheiden",
+   "en": "Bonheiden",
+   "de": "Bonheiden"
+  },
+  "lat": 51.02532,
+  "lng": 4.54839,
+  "population": null,
+  "localities": [
+   "2820|Bonheiden",
+   "2820|Rijmenam"
+  ]
+ },
+ {
+  "ref": "12007",
+  "names": {
+   "fr": "Bornem",
+   "nl": "Bornem",
+   "en": "Bornem",
+   "de": "Bornem"
+  },
+  "lat": 51.0953,
+  "lng": 4.23413,
+  "population": 21428,
+  "localities": [
+   "2880|Mariekerke",
+   "2880|Weert",
+   "2880|Bornem",
+   "2880|Hingene"
+  ]
+ },
+ {
+  "ref": "12009",
+  "names": {
+   "fr": "Duffel",
+   "nl": "Duffel",
+   "en": "Duffel",
+   "de": "Duffel"
+  },
+  "lat": 51.09572,
+  "lng": 4.5062,
+  "population": null,
+  "localities": [
+   "2570|Duffel"
+  ]
+ },
+ {
+  "ref": "12014",
+  "names": {
+   "fr": "Heist-sur-la-Montagne",
+   "nl": "Heist-op-den-Berg",
+   "en": "Heist-op-den-Berg",
+   "de": "Heist-op-den-Berg"
+  },
+  "lat": 51.07599,
+  "lng": 4.72868,
+  "population": 41365,
+  "localities": [
+   "2220|Heist-op-den-Berg",
+   "2220|Hallaar",
+   "2221|Booischot",
+   "2222|Wiekevorst",
+   "2222|Itegem",
+   "2223|Schriek"
+  ]
+ },
+ {
+  "ref": "12021",
+  "names": {
+   "fr": "Lierre",
+   "nl": "Lier",
+   "en": "Lier",
+   "de": "Lier"
+  },
+  "lat": 51.13107,
+  "lng": 4.56965,
+  "population": null,
+  "localities": [
+   "2500|Koningshooikt",
+   "2500|Lier"
+  ]
+ },
+ {
+  "ref": "12025",
+  "names": {
+   "fr": "Malines",
+   "nl": "Mechelen",
+   "en": "Mechelen",
+   "de": "Mecheln"
+  },
+  "lat": 51.02814,
+  "lng": 4.48035,
+  "population": 89655,
+  "localities": [
+   "2800|Mechelen",
+   "2800|Walem",
+   "2801|Heffen",
+   "2811|Leest",
+   "2811|Hombeek",
+   "2812|Muizen"
+  ]
+ },
+ {
+  "ref": "12026",
+  "names": {
+   "fr": "Nijlen",
+   "nl": "Nijlen",
+   "en": "Nijlen",
+   "de": "Nijlen"
+  },
+  "lat": 51.161,
+  "lng": 4.67029,
+  "population": null,
+  "localities": [
+   "2560|Bevel",
+   "2560|Kessel",
+   "2560|Nijlen"
+  ]
+ },
+ {
+  "ref": "12029",
+  "names": {
+   "fr": "Putte",
+   "nl": "Putte",
+   "en": "Putte",
+   "de": "Putte"
+  },
+  "lat": 51.05708,
+  "lng": 4.63105,
+  "population": 19091,
+  "localities": [
+   "2580|Putte",
+   "2580|Beerzel"
+  ]
+ },
+ {
+  "ref": "12035",
+  "names": {
+   "fr": "Wavre-Sainte-Catherine",
+   "nl": "Sint-Katelijne-Waver",
+   "en": "Sint-Katelijne-Waver",
+   "de": "Sint-Katelijne-Waver"
+  },
+  "lat": 51.06995,
+  "lng": 4.53224,
+  "population": null,
+  "localities": [
+   "2860|Sint-Katelijne-Waver",
+   "2861|Onze-Lieve-Vrouw-Waver"
+  ]
+ },
+ {
+  "ref": "12040",
+  "names": {
+   "fr": "Willebroek",
+   "nl": "Willebroek",
+   "en": "Willebroek",
+   "de": "Willebroek"
+  },
+  "lat": 51.06068,
+  "lng": 4.35889,
+  "population": 28620,
+  "localities": [
+   "2830|Willebroek",
+   "2830|Heindonk",
+   "2830|Tisselt",
+   "2830|Blaasveld"
+  ]
+ },
+ {
+  "ref": "12041",
+  "names": {
+   "fr": "Puers-Saint-Amand",
+   "nl": "Puurs-Sint-Amands",
+   "en": "Puurs-Sint-Amands",
+   "de": "Puurs-Sint-Amands"
+  },
+  "lat": 51.07621,
+  "lng": 4.28171,
+  "population": 26208,
+  "localities": [
+   "2870|Liezele",
+   "2870|Puurs-Sint-Amands",
+   "2870|Ruisbroek",
+   "2870|Breendonk",
+   "2870|Puurs",
+   "2890|Lippelo",
+   "2890|Oppuurs",
+   "2890|Sint-Amands"
+  ]
+ },
+ {
+  "ref": "13001",
+  "names": {
+   "fr": "Arendonk",
+   "nl": "Arendonk",
+   "en": "Arendonk",
+   "de": "Arendonk"
+  },
+  "lat": 51.32023,
+  "lng": 5.08646,
+  "population": null,
+  "localities": [
+   "2370|Arendonk"
+  ]
+ },
+ {
+  "ref": "13002",
+  "names": {
+   "fr": "Baerle-Duc",
+   "nl": "Baarle-Hertog",
+   "en": "Baarle-Hertog",
+   "de": "Baarle-Hertog"
+  },
+  "lat": 51.43836,
+  "lng": 4.9317,
+  "population": null,
+  "localities": [
+   "2387|Baarle-Hertog"
+  ]
+ },
+ {
+  "ref": "13003",
+  "names": {
+   "fr": "Balen",
+   "nl": "Balen",
+   "en": "Balen",
+   "de": "Balen"
+  },
+  "lat": 51.17076,
+  "lng": 5.16969,
+  "population": null,
+  "localities": [
+   "2490|Balen",
+   "2491|Olmen"
+  ]
+ },
+ {
+  "ref": "13004",
+  "names": {
+   "fr": "Beerse",
+   "nl": "Beerse",
+   "en": "Beerse",
+   "de": "Beerse"
+  },
+  "lat": 51.31914,
+  "lng": 4.85645,
+  "population": null,
+  "localities": [
+   "2340|Beerse",
+   "2340|Vlimmeren"
+  ]
+ },
+ {
+  "ref": "13006",
+  "names": {
+   "fr": "Dessel",
+   "nl": "Dessel",
+   "en": "Dessel",
+   "de": "Dessel"
+  },
+  "lat": 51.23908,
+  "lng": 5.11282,
+  "population": null,
+  "localities": [
+   "2480|Dessel"
+  ]
+ },
+ {
+  "ref": "13008",
+  "names": {
+   "fr": "Geel",
+   "nl": "Geel",
+   "en": "Geel",
+   "de": "Geel"
+  },
+  "lat": 51.16108,
+  "lng": 4.99032,
+  "population": 42331,
+  "localities": [
+   "2440|Geel"
+  ]
+ },
+ {
+  "ref": "13010",
+  "names": {
+   "fr": "Grobbendonk",
+   "nl": "Grobbendonk",
+   "en": "Grobbendonk",
+   "de": "Grobbendonk"
+  },
+  "lat": 51.19199,
+  "lng": 4.7385,
+  "population": null,
+  "localities": [
+   "2280|Grobbendonk",
+   "2288|Bouwel"
+  ]
+ },
+ {
+  "ref": "13011",
+  "names": {
+   "fr": "Herentals",
+   "nl": "Herentals",
+   "en": "Herentals",
+   "de": "Herentals"
+  },
+  "lat": 51.17654,
+  "lng": 4.83626,
+  "population": null,
+  "localities": [
+   "2200|Morkhoven",
+   "2200|Noorderwijk",
+   "2200|Herentals"
+  ]
+ },
+ {
+  "ref": "13012",
+  "names": {
+   "fr": "Herenthout",
+   "nl": "Herenthout",
+   "en": "Herenthout",
+   "de": "Herenthout"
+  },
+  "lat": 51.13924,
+  "lng": 4.7544,
+  "population": null,
+  "localities": [
+   "2270|Herenthout"
+  ]
+ },
+ {
+  "ref": "13013",
+  "names": {
+   "fr": "Herselt",
+   "nl": "Herselt",
+   "en": "Herselt",
+   "de": "Herselt"
+  },
+  "lat": 51.0535,
+  "lng": 4.88326,
+  "population": null,
+  "localities": [
+   "2230|Herselt",
+   "2230|Ramsel"
+  ]
+ },
+ {
+  "ref": "13014",
+  "names": {
+   "fr": "Hoogstraten",
+   "nl": "Hoogstraten",
+   "en": "Hoogstraten",
+   "de": "Hoogstraten"
+  },
+  "lat": 51.40129,
+  "lng": 4.76169,
+  "population": null,
+  "localities": [
+   "2320|Hoogstraten",
+   "2322|Minderhout",
+   "2323|Wortel",
+   "2328|Meerle"
+  ]
+ },
+ {
+  "ref": "13016",
+  "names": {
+   "fr": "Hulshout",
+   "nl": "Hulshout",
+   "en": "Hulshout",
+   "de": "Hulshout"
+  },
+  "lat": 51.07539,
+  "lng": 4.78855,
+  "population": null,
+  "localities": [
+   "2235|Hulshout",
+   "2235|Westmeerbeek",
+   "2235|Houtvenne"
+  ]
+ },
+ {
+  "ref": "13017",
+  "names": {
+   "fr": "Kasterlee",
+   "nl": "Kasterlee",
+   "en": "Kasterlee",
+   "de": "Kasterlee"
+  },
+  "lat": 51.24079,
+  "lng": 4.96781,
+  "population": null,
+  "localities": [
+   "2460|Kasterlee",
+   "2460|Tielen",
+   "2460|Lichtaart"
+  ]
+ },
+ {
+  "ref": "13019",
+  "names": {
+   "fr": "Lille",
+   "nl": "Lille",
+   "en": "Lille",
+   "de": "Lille"
+  },
+  "lat": 51.23822,
+  "lng": 4.82424,
+  "population": null,
+  "localities": [
+   "2275|Lille",
+   "2275|Gierle",
+   "2275|Wechelderzande",
+   "2275|Poederlee"
+  ]
+ },
+ {
+  "ref": "13021",
+  "names": {
+   "fr": "Meerhout",
+   "nl": "Meerhout",
+   "en": "Meerhout",
+   "de": "Meerhout"
+  },
+  "lat": 51.13174,
+  "lng": 5.07724,
+  "population": null,
+  "localities": [
+   "2450|Meerhout"
+  ]
+ },
+ {
+  "ref": "13023",
+  "names": {
+   "fr": "Merksplas",
+   "nl": "Merksplas",
+   "en": "Merksplas",
+   "de": "Merksplas"
+  },
+  "lat": 51.35799,
+  "lng": 4.86274,
+  "population": null,
+  "localities": [
+   "2330|Merksplas"
+  ]
+ },
+ {
+  "ref": "13025",
+  "names": {
+   "fr": "Mol",
+   "nl": "Mol",
+   "en": "Mol",
+   "de": "Mol"
+  },
+  "lat": 51.18404,
+  "lng": 5.11553,
+  "population": null,
+  "localities": [
+   "2400|Mol"
+  ]
+ },
+ {
+  "ref": "13029",
+  "names": {
+   "fr": "Olen",
+   "nl": "Olen",
+   "en": "Olen",
+   "de": "Olen"
+  },
+  "lat": 51.14386,
+  "lng": 4.85973,
+  "population": null,
+  "localities": [
+   "2250|Olen"
+  ]
+ },
+ {
+  "ref": "13031",
+  "names": {
+   "fr": "Vieux-Turnhout",
+   "nl": "Oud-Turnhout",
+   "en": "Oud-Turnhout",
+   "de": "Oud-Turnhout"
+  },
+  "lat": 51.31783,
+  "lng": 4.98171,
+  "population": null,
+  "localities": [
+   "2360|Oud-Turnhout"
+  ]
+ },
+ {
+  "ref": "13035",
+  "names": {
+   "fr": "Ravels",
+   "nl": "Ravels",
+   "en": "Ravels",
+   "de": "Ravels"
+  },
+  "lat": 51.3717,
+  "lng": 4.99556,
+  "population": null,
+  "localities": [
+   "2380|Ravels",
+   "2381|Weelde",
+   "2382|Poppel"
+  ]
+ },
+ {
+  "ref": "13036",
+  "names": {
+   "fr": "Retie",
+   "nl": "Retie",
+   "en": "Retie",
+   "de": "Retie"
+  },
+  "lat": 51.26759,
+  "lng": 5.08439,
+  "population": null,
+  "localities": [
+   "2470|Retie"
+  ]
+ },
+ {
+  "ref": "13037",
+  "names": {
+   "fr": "Rijkevorsel",
+   "nl": "Rijkevorsel",
+   "en": "Rijkevorsel",
+   "de": "Rijkevorsel"
+  },
+  "lat": 51.35037,
+  "lng": 4.75851,
+  "population": null,
+  "localities": [
+   "2310|Rijkevorsel"
+  ]
+ },
+ {
+  "ref": "13040",
+  "names": {
+   "fr": "Turnhout",
+   "nl": "Turnhout",
+   "en": "Turnhout",
+   "de": "Turnhout"
+  },
+  "lat": 51.32338,
+  "lng": 4.94846,
+  "population": null,
+  "localities": [
+   "2300|Turnhout"
+  ]
+ },
+ {
+  "ref": "13044",
+  "names": {
+   "fr": "Vorselaar",
+   "nl": "Vorselaar",
+   "en": "Vorselaar",
+   "de": "Vorselaar"
+  },
+  "lat": 51.20234,
+  "lng": 4.76948,
+  "population": null,
+  "localities": [
+   "2290|Vorselaar"
+  ]
+ },
+ {
+  "ref": "13046",
+  "names": {
+   "fr": "Vosselaar",
+   "nl": "Vosselaar",
+   "en": "Vosselaar",
+   "de": "Vosselaar"
+  },
+  "lat": 51.31292,
+  "lng": 4.8878,
+  "population": null,
+  "localities": [
+   "2350|Vosselaar"
+  ]
+ },
+ {
+  "ref": "13049",
+  "names": {
+   "fr": "Westerlo",
+   "nl": "Westerlo",
+   "en": "Westerlo",
+   "de": "Westerlo"
+  },
+  "lat": 51.08669,
+  "lng": 4.91687,
+  "population": null,
+  "localities": [
+   "2260|Oevel",
+   "2260|Zoerle-Parwijs",
+   "2260|Westerlo",
+   "2260|Tongerlo"
+  ]
+ },
+ {
+  "ref": "13053",
+  "names": {
+   "fr": "Laakdal",
+   "nl": "Laakdal",
+   "en": "Laakdal",
+   "de": "Laakdal"
+  },
+  "lat": 51.08046,
+  "lng": 5.02014,
+  "population": null,
+  "localities": [
+   "2430|Vorst",
+   "2430|Laakdal",
+   "2430|Eindhout",
+   "2431|Varendonk",
+   "2431|Veerle"
+  ]
+ },
+ {
+  "ref": "21001",
+  "names": {
+   "fr": "Anderlecht",
+   "nl": "Anderlecht",
+   "en": "Anderlecht",
+   "de": "Anderlecht"
+  },
+  "lat": 50.8391,
+  "lng": 4.32965,
+  "population": 112258,
+  "localities": [
+   "1070|Anderlecht"
+  ]
+ },
+ {
+  "ref": "21002",
+  "names": {
+   "fr": "Auderghem",
+   "nl": "Oudergem",
+   "en": "Auderghem",
+   "de": "Auderghem"
+  },
+  "lat": 50.81717,
+  "lng": 4.42709,
+  "population": 30456,
+  "localities": [
+   "1160|Auderghem"
+  ]
+ },
+ {
+  "ref": "21003",
+  "names": {
+   "fr": "Berchem-Sainte-Agathe",
+   "nl": "Sint-Agatha-Berchem",
+   "en": "Berchem-Sainte-Agathe",
+   "de": "Berchem-Sainte-Agathe"
+  },
+  "lat": 50.86492,
+  "lng": 4.29467,
+  "population": 22975,
+  "localities": [
+   "1082|Berchem-Sainte-Agathe"
+  ]
+ },
+ {
+  "ref": "21004",
+  "names": {
+   "fr": "Bruxelles",
+   "nl": "Brussel",
+   "en": "Brussels",
+   "de": "Brüssel"
+  },
+  "lat": 50.84674,
+  "lng": 4.35249,
+  "population": 188137,
+  "localities": [
+   "1000|Bruxelles",
+   "1020|Laeken",
+   "1120|Neder-over-Heembeek",
+   "1130|Haren"
+  ]
+ },
+ {
+  "ref": "21005",
+  "names": {
+   "fr": "Etterbeek",
+   "nl": "Etterbeek",
+   "en": "Etterbeek",
+   "de": "Etterbeek"
+  },
+  "lat": 50.83614,
+  "lng": 4.38617,
+  "population": 45655,
+  "localities": [
+   "1040|Etterbeek"
+  ]
+ },
+ {
+  "ref": "21006",
+  "names": {
+   "fr": "Evere",
+   "nl": "Evere",
+   "en": "Evere",
+   "de": "Evere"
+  },
+  "lat": 50.87201,
+  "lng": 4.40342,
+  "population": 37190,
+  "localities": [
+   "1140|Evere"
+  ]
+ },
+ {
+  "ref": "21007",
+  "names": {
+   "fr": "Forest",
+   "nl": "Vorst",
+   "en": "Forest",
+   "de": "Forest"
+  },
+  "lat": 50.81179,
+  "lng": 4.31812,
+  "population": 53412,
+  "localities": [
+   "1190|Forest"
+  ]
+ },
+ {
+  "ref": "21008",
+  "names": {
+   "fr": "Ganshoren",
+   "nl": "Ganshoren",
+   "en": "Ganshoren",
+   "de": "Ganshoren"
+  },
+  "lat": 50.87033,
+  "lng": 4.3078,
+  "population": 23466,
+  "localities": [
+   "1083|Ganshoren"
+  ]
+ },
+ {
+  "ref": "21009",
+  "names": {
+   "fr": "Ixelles",
+   "nl": "Elsene",
+   "en": "Ixelles",
+   "de": "Ixelles"
+  },
+  "lat": 50.83311,
+  "lng": 4.36683,
+  "population": 84073,
+  "localities": [
+   "1050|Ixelles"
+  ]
+ },
+ {
+  "ref": "21010",
+  "names": {
+   "fr": "Jette",
+   "nl": "Jette",
+   "en": "Jette",
+   "de": "Jette"
+  },
+  "lat": 50.87596,
+  "lng": 4.32457,
+  "population": 49024,
+  "localities": [
+   "1090|Jette"
+  ]
+ },
+ {
+  "ref": "21011",
+  "names": {
+   "fr": "Koekelberg",
+   "nl": "Koekelberg",
+   "en": "Koekelberg",
+   "de": "Koekelberg"
+  },
+  "lat": 50.8606,
+  "lng": 4.33155,
+  "population": 20742,
+  "localities": [
+   "1081|Koekelberg"
+  ]
+ },
+ {
+  "ref": "21012",
+  "names": {
+   "fr": "Molenbeek-Saint-Jean",
+   "nl": "Sint-Jans-Molenbeek",
+   "en": "Molenbeek-Saint-Jean",
+   "de": "Molenbeek-Saint-Jean"
+  },
+  "lat": 50.8546,
+  "lng": 4.33864,
+  "population": 94798,
+  "localities": [
+   "1080|Molenbeek-Saint-Jean"
+  ]
+ },
+ {
+  "ref": "21013",
+  "names": {
+   "fr": "Saint-Gilles",
+   "nl": "Sint-Gillis",
+   "en": "Saint-Gilles",
+   "de": "Saint-Gilles"
+  },
+  "lat": 50.825,
+  "lng": 4.34548,
+  "population": 49769,
+  "localities": [
+   "1060|Saint-Gilles"
+  ]
+ },
+ {
+  "ref": "21014",
+  "names": {
+   "fr": "Saint-Josse-ten-Noode",
+   "nl": "Sint-Joost-ten-Node",
+   "en": "Saint-Josse-ten-Noode",
+   "de": "Saint-Josse-ten-Noode"
+  },
+  "lat": 50.84984,
+  "lng": 4.37459,
+  "population": 27548,
+  "localities": [
+   "1150|Woluwe-Saint-Pierre",
+   "1210|Saint-Josse-Ten-Noode"
+  ]
+ },
+ {
+  "ref": "21015",
+  "names": {
+   "fr": "Schaerbeek",
+   "nl": "Schaarbeek",
+   "en": "Schaerbeek",
+   "de": "Schaerbeek"
+  },
+  "lat": 50.8676,
+  "lng": 4.37371,
+  "population": 129293,
+  "localities": [
+   "1030|Schaerbeek"
+  ]
+ },
+ {
+  "ref": "21016",
+  "names": {
+   "fr": "Uccle",
+   "nl": "Ukkel",
+   "en": "Uccle",
+   "de": "Uccle"
+  },
+  "lat": 50.80354,
+  "lng": 4.33384,
+  "population": 79766,
+  "localities": [
+   "1180|Uccle"
+  ]
+ },
+ {
+  "ref": "21017",
+  "names": {
+   "fr": "Watermael-Boitsfort",
+   "nl": "Watermaal-Bosvoorde",
+   "en": "Watermael-Boitsfort",
+   "de": "Watermael-Boitsfort"
+  },
+  "lat": 50.79811,
+  "lng": 4.41764,
+  "population": 24320,
+  "localities": [
+   "1170|Watermael-Boitsfort"
+  ]
+ },
+ {
+  "ref": "21018",
+  "names": {
+   "fr": "Woluwe-Saint-Lambert",
+   "nl": "Sint-Lambrechts-Woluwe",
+   "en": "Woluwe-Saint-Lambert",
+   "de": "Woluwe-Saint-Lambert"
+  },
+  "lat": 50.84304,
+  "lng": 4.42567,
+  "population": 51937,
+  "localities": [
+   "1200|Woluwe-Saint-Lambert"
+  ]
+ },
+ {
+  "ref": "21019",
+  "names": {
+   "fr": "Woluwe-Saint-Pierre",
+   "nl": "Sint-Pieters-Woluwe",
+   "en": "Woluwe-Saint-Pierre",
+   "de": "Woluwe-Saint-Pierre"
+  },
+  "lat": 50.83703,
+  "lng": 4.42746,
+  "population": 40044,
+  "localities": []
+ },
+ {
+  "ref": "23002",
+  "names": {
+   "fr": "Asse",
+   "nl": "Asse",
+   "en": "Asse",
+   "de": "Asse"
+  },
+  "lat": 50.90943,
+  "lng": 4.20156,
+  "population": null,
+  "localities": [
+   "1730|Mollem",
+   "1730|Asse",
+   "1730|Bekkerzeel",
+   "1730|Kobbegem",
+   "1731|Relegem",
+   "1731|Zellik"
+  ]
+ },
+ {
+  "ref": "23003",
+  "names": {
+   "fr": "Beersel",
+   "nl": "Beersel",
+   "en": "Beersel",
+   "de": "Beersel"
+  },
+  "lat": 50.76608,
+  "lng": 4.30795,
+  "population": null,
+  "localities": [
+   "1650|Beersel",
+   "1651|Lot",
+   "1652|Alsemberg",
+   "1653|Dworp",
+   "1654|Huizingen"
+  ]
+ },
+ {
+  "ref": "23009",
+  "names": {
+   "fr": "Biévène",
+   "nl": "Bever",
+   "en": "Bever",
+   "de": "Bever"
+  },
+  "lat": 50.71645,
+  "lng": 3.94315,
+  "population": null,
+  "localities": [
+   "1547|Biévène"
+  ]
+ },
+ {
+  "ref": "23016",
+  "names": {
+   "fr": "Dilbeek",
+   "nl": "Dilbeek",
+   "en": "Dilbeek",
+   "de": "Dilbeek"
+  },
+  "lat": 50.84807,
+  "lng": 4.26626,
+  "population": null,
+  "localities": [
+   "1700|Sint-Martens-Bodegem",
+   "1700|Sint-Ulriks-Kapelle",
+   "1700|Dilbeek",
+   "1701|Itterbeek",
+   "1702|Groot-Bijgaarden",
+   "1703|Schepdaal"
+  ]
+ },
+ {
+  "ref": "23025",
+  "names": {
+   "fr": "Grimbergen",
+   "nl": "Grimbergen",
+   "en": "Grimbergen",
+   "de": "Grimbergen"
+  },
+  "lat": 50.93246,
+  "lng": 4.37179,
+  "population": null,
+  "localities": [
+   "1850|Grimbergen",
+   "1851|Humbeek",
+   "1852|Beigem",
+   "1853|Strombeek-Bever"
+  ]
+ },
+ {
+  "ref": "23027",
+  "names": {
+   "fr": "Hal",
+   "nl": "Halle",
+   "en": "Halle",
+   "de": "Halle"
+  },
+  "lat": 50.73605,
+  "lng": 4.23743,
+  "population": null,
+  "localities": [
+   "1500|Halle",
+   "1501|Buizingen",
+   "1502|Lembeek"
+  ]
+ },
+ {
+  "ref": "23033",
+  "names": {
+   "fr": "Hoeilaert",
+   "nl": "Hoeilaart",
+   "en": "Hoeilaart",
+   "de": "Hoeilaart"
+  },
+  "lat": 50.76748,
+  "lng": 4.47441,
+  "population": null,
+  "localities": [
+   "1560|Hoeilaart"
+  ]
+ },
+ {
+  "ref": "23038",
+  "names": {
+   "fr": "Campenhout",
+   "nl": "Kampenhout",
+   "en": "Kampenhout",
+   "de": "Kampenhout"
+  },
+  "lat": 50.94133,
+  "lng": 4.54957,
+  "population": null,
+  "localities": [
+   "1910|Buken",
+   "1910|Kampenhout",
+   "1910|Nederokkerzeel"
+  ]
+ },
+ {
+  "ref": "23039",
+  "names": {
+   "fr": "Capelle-au-Bois",
+   "nl": "Kapelle-op-den-Bos",
+   "en": "Kapelle-op-den-Bos",
+   "de": "Kapelle-op-den-Bos"
+  },
+  "lat": 51.01319,
+  "lng": 4.35997,
+  "population": 9200,
+  "localities": [
+   "1880|Ramsdonk",
+   "1880|Kapelle-op-den-Bos",
+   "1880|Nieuwenrode"
+  ]
+ },
+ {
+  "ref": "23044",
+  "names": {
+   "fr": "Liedekerke",
+   "nl": "Liedekerke",
+   "en": "Liedekerke",
+   "de": "Liedekerke"
+  },
+  "lat": 50.87113,
+  "lng": 4.08608,
+  "population": null,
+  "localities": [
+   "1770|Liedekerke"
+  ]
+ },
+ {
+  "ref": "23045",
+  "names": {
+   "fr": "Londerzeel",
+   "nl": "Londerzeel",
+   "en": "Londerzeel",
+   "de": "Londerzeel"
+  },
+  "lat": 51.00212,
+  "lng": 4.3028,
+  "population": null,
+  "localities": [
+   "1840|Steenhuffel",
+   "1840|Malderen",
+   "1840|Londerzeel",
+   "1910|Berg"
+  ]
+ },
+ {
+  "ref": "23047",
+  "names": {
+   "fr": "Machelen",
+   "nl": "Machelen",
+   "en": "Machelen",
+   "de": "Machelen"
+  },
+  "lat": 50.91267,
+  "lng": 4.4329,
+  "population": null,
+  "localities": [
+   "1830|Machelen",
+   "1831|Diegem"
+  ]
+ },
+ {
+  "ref": "23050",
+  "names": {
+   "fr": "Meise",
+   "nl": "Meise",
+   "en": "Meise",
+   "de": "Meise"
+  },
+  "lat": 50.93416,
+  "lng": 4.32873,
+  "population": null,
+  "localities": [
+   "1860|Meise",
+   "1861|Wolvertem"
+  ]
+ },
+ {
+  "ref": "23052",
+  "names": {
+   "fr": "Merchtem",
+   "nl": "Merchtem",
+   "en": "Merchtem",
+   "de": "Merchtem"
+  },
+  "lat": 50.95936,
+  "lng": 4.23357,
+  "population": null,
+  "localities": [
+   "1785|Hamme",
+   "1785|Merchtem",
+   "1785|Brussegem"
+  ]
+ },
+ {
+  "ref": "23060",
+  "names": {
+   "fr": "Opwijk",
+   "nl": "Opwijk",
+   "en": "Opwijk",
+   "de": "Opwijk"
+  },
+  "lat": 50.96905,
+  "lng": 4.18967,
+  "population": null,
+  "localities": [
+   "1745|Opwijk",
+   "1745|Mazenzele"
+  ]
+ },
+ {
+  "ref": "23062",
+  "names": {
+   "fr": "Overijse",
+   "nl": "Overijse",
+   "en": "Overijse",
+   "de": "Overijse"
+  },
+  "lat": 50.77016,
+  "lng": 4.53518,
+  "population": null,
+  "localities": [
+   "3090|Overijse"
+  ]
+ },
+ {
+  "ref": "23064",
+  "names": {
+   "fr": "Pepingen",
+   "nl": "Pepingen",
+   "en": "Pepingen",
+   "de": "Pepingen"
+  },
+  "lat": 50.75985,
+  "lng": 4.1577,
+  "population": null,
+  "localities": [
+   "1670|Bogaarden",
+   "1670|Pepingen",
+   "1670|Heikruis",
+   "1671|Elingen",
+   "1673|Beert",
+   "1674|Bellingen"
+  ]
+ },
+ {
+  "ref": "23077",
+  "names": {
+   "fr": "Leeuw-Saint-Pierre",
+   "nl": "Sint-Pieters-Leeuw",
+   "en": "Sint-Pieters-Leeuw",
+   "de": "Sint-Pieters-Leeuw"
+  },
+  "lat": 50.78003,
+  "lng": 4.24436,
+  "population": null,
+  "localities": [
+   "1600|Sint-Pieters-Leeuw",
+   "1600|Sint-Laureins-Berchem",
+   "1600|Oudenaken",
+   "1601|Ruisbroek",
+   "1602|Vlezenbeek"
+  ]
+ },
+ {
+  "ref": "23081",
+  "names": {
+   "fr": "Steenokkerzeel",
+   "nl": "Steenokkerzeel",
+   "en": "Steenokkerzeel",
+   "de": "Steenokkerzeel"
+  },
+  "lat": 50.90935,
+  "lng": 4.51105,
+  "population": null,
+  "localities": [
+   "1820|Perk",
+   "1820|Melsbroek",
+   "1820|Steenokkerzeel"
+  ]
+ },
+ {
+  "ref": "23086",
+  "names": {
+   "fr": "Ternat",
+   "nl": "Ternat",
+   "en": "Ternat",
+   "de": "Ternat"
+  },
+  "lat": 50.87134,
+  "lng": 4.1757,
+  "population": null,
+  "localities": [
+   "1740|Ternat",
+   "1741|Wambeek",
+   "1742|Sint-Katherina-Lombeek"
+  ]
+ },
+ {
+  "ref": "23088",
+  "names": {
+   "fr": "Vilvorde",
+   "nl": "Vilvoorde",
+   "en": "Vilvoorde",
+   "de": "Vilvoorde"
+  },
+  "lat": 50.92871,
+  "lng": 4.42313,
+  "population": null,
+  "localities": [
+   "1800|Peutie",
+   "1800|Vilvoorde"
+  ]
+ },
+ {
+  "ref": "23094",
+  "names": {
+   "fr": "Zaventem",
+   "nl": "Zaventem",
+   "en": "Zaventem",
+   "de": "Zaventem"
+  },
+  "lat": 50.88062,
+  "lng": 4.473,
+  "population": null,
+  "localities": [
+   "1930|Zaventem",
+   "1930|Nossegem",
+   "1932|Sint-Stevens-Woluwe",
+   "1933|Sterrebeek"
+  ]
+ },
+ {
+  "ref": "23096",
+  "names": {
+   "fr": "Zemst",
+   "nl": "Zemst",
+   "en": "Zemst",
+   "de": "Zemst"
+  },
+  "lat": 50.98422,
+  "lng": 4.46508,
+  "population": null,
+  "localities": [
+   "1980|Eppegem",
+   "1980|Zemst",
+   "1981|Hofstade",
+   "1982|Weerde",
+   "1982|Elewijt"
+  ]
+ },
+ {
+  "ref": "23097",
+  "names": {
+   "fr": "Roosdaal",
+   "nl": "Roosdaal",
+   "en": "Roosdaal",
+   "de": "Roosdaal"
+  },
+  "lat": 50.84437,
+  "lng": 4.07428,
+  "population": null,
+  "localities": [
+   "1760|Onze-Lieve-Vrouw-Lombeek",
+   "1760|Roosdaal",
+   "1760|Pamel",
+   "1760|Strijtem",
+   "1761|Borchtlombeek"
+  ]
+ },
+ {
+  "ref": "23098",
+  "names": {
+   "fr": "Drogenbos",
+   "nl": "Drogenbos",
+   "en": "Drogenbos",
+   "de": "Drogenbos"
+  },
+  "lat": 50.78653,
+  "lng": 4.31735,
+  "population": null,
+  "localities": [
+   "1620|Drogenbos"
+  ]
+ },
+ {
+  "ref": "23099",
+  "names": {
+   "fr": "Kraainem",
+   "nl": "Kraainem",
+   "en": "Kraainem",
+   "de": "Kraainem"
+  },
+  "lat": 50.86096,
+  "lng": 4.46626,
+  "population": null,
+  "localities": [
+   "1950|Kraainem"
+  ]
+ },
+ {
+  "ref": "23100",
+  "names": {
+   "fr": "Linkebeek",
+   "nl": "Linkebeek",
+   "en": "Linkebeek",
+   "de": "Linkebeek"
+  },
+  "lat": 50.7732,
+  "lng": 4.336,
+  "population": null,
+  "localities": [
+   "1630|Linkebeek"
+  ]
+ },
+ {
+  "ref": "23101",
+  "names": {
+   "fr": "Rhode-Saint-Genèse",
+   "nl": "Sint-Genesius-Rode",
+   "en": "Sint-Genesius-Rode",
+   "de": "Sint-Genesius-Rode"
+  },
+  "lat": 50.74503,
+  "lng": 4.34637,
+  "population": null,
+  "localities": [
+   "1640|Rhode-Saint-Genèse"
+  ]
+ },
+ {
+  "ref": "23102",
+  "names": {
+   "fr": "Wemmel",
+   "nl": "Wemmel",
+   "en": "Wemmel",
+   "de": "Wemmel"
+  },
+  "lat": 50.90877,
+  "lng": 4.30346,
+  "population": null,
+  "localities": [
+   "1780|Wemmel"
+  ]
+ },
+ {
+  "ref": "23103",
+  "names": {
+   "fr": "Wezembeek-Oppem",
+   "nl": "Wezembeek-Oppem",
+   "en": "Wezembeek-Oppem",
+   "de": "Wezembeek-Oppem"
+  },
+  "lat": 50.84406,
+  "lng": 4.48718,
+  "population": null,
+  "localities": [
+   "1970|Wezembeek-Oppem"
+  ]
+ },
+ {
+  "ref": "23104",
+  "names": {
+   "fr": "Lennik",
+   "nl": "Lennik",
+   "en": "Lennik",
+   "de": "Lennik"
+  },
+  "lat": 50.80856,
+  "lng": 4.16486,
+  "population": null,
+  "localities": [
+   "1750|Sint-Kwintens-Lennik",
+   "1750|Sint-Martens-Lennik",
+   "1750|Lennik",
+   "1750|Gaasbeek"
+  ]
+ },
+ {
+  "ref": "23105",
+  "names": {
+   "fr": "Affligem",
+   "nl": "Affligem",
+   "en": "Affligem",
+   "de": "Affligem"
+  },
+  "lat": 50.90785,
+  "lng": 4.11237,
+  "population": null,
+  "localities": [
+   "1790|Affligem",
+   "1790|Essene",
+   "1790|Hekelgem",
+   "1790|Teralfene"
+  ]
+ },
+ {
+  "ref": "23106",
+  "names": {
+   "fr": "Pajottegem",
+   "nl": "Pajottegem",
+   "en": "Pajottegem",
+   "de": "Pajottegem"
+  },
+  "lat": 50.75272,
+  "lng": 3.97101,
+  "population": 25103,
+  "localities": [
+   "1540|Herne",
+   "1540|Herfelingen",
+   "1541|Sint-Pieters-Kapelle",
+   "1570|Tollembeek",
+   "1570|Vollezele",
+   "1570|Galmaarden",
+   "1755|Kester",
+   "1755|Gooik",
+   "1755|Oetingen",
+   "1755|Leerbeek"
+  ]
+ },
+ {
+  "ref": "24001",
+  "names": {
+   "fr": "Aerschot",
+   "nl": "Aarschot",
+   "en": "Aarschot",
+   "de": "Aarschot"
+  },
+  "lat": 50.98427,
+  "lng": 4.83643,
+  "population": null,
+  "localities": [
+   "3200|Aarschot",
+   "3200|Gelrode",
+   "3201|Langdorp",
+   "3202|Rillaar"
+  ]
+ },
+ {
+  "ref": "24007",
+  "names": {
+   "fr": "Begijnendijk",
+   "nl": "Begijnendijk",
+   "en": "Begijnendijk",
+   "de": "Begijnendijk"
+  },
+  "lat": 51.01941,
+  "lng": 4.78214,
+  "population": null,
+  "localities": [
+   "3130|Begijnendijk",
+   "3130|Betekom"
+  ]
+ },
+ {
+  "ref": "24008",
+  "names": {
+   "fr": "Bekkevoort",
+   "nl": "Bekkevoort",
+   "en": "Bekkevoort",
+   "de": "Bekkevoort"
+  },
+  "lat": 50.94397,
+  "lng": 4.97446,
+  "population": null,
+  "localities": [
+   "3460|Assent",
+   "3460|Bekkevoort",
+   "3461|Molenbeek-Wersbeek"
+  ]
+ },
+ {
+  "ref": "24009",
+  "names": {
+   "fr": "Bertem",
+   "nl": "Bertem",
+   "en": "Bertem",
+   "de": "Bertem"
+  },
+  "lat": 50.86598,
+  "lng": 4.63063,
+  "population": null,
+  "localities": [
+   "3060|Korbeek-Dijle",
+   "3060|Bertem",
+   "3061|Leefdaal"
+  ]
+ },
+ {
+  "ref": "24011",
+  "names": {
+   "fr": "Bierbeek",
+   "nl": "Bierbeek",
+   "en": "Bierbeek",
+   "de": "Bierbeek"
+  },
+  "lat": 50.82781,
+  "lng": 4.75436,
+  "population": null,
+  "localities": [
+   "3360|Lovenjoel",
+   "3360|Bierbeek",
+   "3360|Opvelp",
+   "3360|Korbeek-Lo"
+  ]
+ },
+ {
+  "ref": "24014",
+  "names": {
+   "fr": "Boortmeerbeek",
+   "nl": "Boortmeerbeek",
+   "en": "Boortmeerbeek",
+   "de": "Boortmeerbeek"
+  },
+  "lat": 50.98159,
+  "lng": 4.57293,
+  "population": null,
+  "localities": [
+   "3190|Boortmeerbeek",
+   "3191|Hever"
+  ]
+ },
+ {
+  "ref": "24016",
+  "names": {
+   "fr": "Boutersem",
+   "nl": "Boutersem",
+   "en": "Boutersem",
+   "de": "Boutersem"
+  },
+  "lat": 50.83999,
+  "lng": 4.83213,
+  "population": null,
+  "localities": [
+   "3300|Bost",
+   "3370|Roosbeek",
+   "3370|Boutersem",
+   "3370|Willebringen",
+   "3370|Kerkom",
+   "3370|Neervelp",
+   "3370|Vertrijk"
+  ]
+ },
+ {
+  "ref": "24020",
+  "names": {
+   "fr": "Diest",
+   "nl": "Diest",
+   "en": "Diest",
+   "de": "Diest"
+  },
+  "lat": 50.98443,
+  "lng": 5.05043,
+  "population": null,
+  "localities": [
+   "3290|Schaffen",
+   "3290|Deurne",
+   "3290|Webbekom",
+   "3290|Diest",
+   "3293|Kaggevinne",
+   "3294|Molenstede"
+  ]
+ },
+ {
+  "ref": "24028",
+  "names": {
+   "fr": "Geetbets",
+   "nl": "Geetbets",
+   "en": "Geetbets",
+   "de": "Geetbets"
+  },
+  "lat": 50.89179,
+  "lng": 5.11447,
+  "population": null,
+  "localities": [
+   "3450|Geetbets",
+   "3450|Grazen",
+   "3454|Rummen"
+  ]
+ },
+ {
+  "ref": "24033",
+  "names": {
+   "fr": "Haecht",
+   "nl": "Haacht",
+   "en": "Haacht",
+   "de": "Haacht"
+  },
+  "lat": 50.97695,
+  "lng": 4.63831,
+  "population": null,
+  "localities": [
+   "3150|Tildonk",
+   "3150|Wespelaar",
+   "3150|Haacht"
+  ]
+ },
+ {
+  "ref": "24038",
+  "names": {
+   "fr": "Herent",
+   "nl": "Herent",
+   "en": "Herent",
+   "de": "Herent"
+  },
+  "lat": 50.90698,
+  "lng": 4.67381,
+  "population": 23081,
+  "localities": [
+   "3020|Herent",
+   "3020|Winksele",
+   "3020|Veltem-Beisem"
+  ]
+ },
+ {
+  "ref": "24041",
+  "names": {
+   "fr": "Hoegaarden",
+   "nl": "Hoegaarden",
+   "en": "Hoegaarden",
+   "de": "Hoegaarden"
+  },
+  "lat": 50.77419,
+  "lng": 4.88703,
+  "population": null,
+  "localities": [
+   "3320|Hoegaarden",
+   "3320|Meldert",
+   "3321|Outgaarden"
+  ]
+ },
+ {
+  "ref": "24043",
+  "names": {
+   "fr": "Holsbeek",
+   "nl": "Holsbeek",
+   "en": "Holsbeek",
+   "de": "Holsbeek"
+  },
+  "lat": 50.92609,
+  "lng": 4.80591,
+  "population": null,
+  "localities": [
+   "3220|Kortrijk-Dutsel",
+   "3220|Sint-Pieters-Rode",
+   "3220|Holsbeek",
+   "3221|Nieuwrode",
+   "3404|Attenhoven"
+  ]
+ },
+ {
+  "ref": "24045",
+  "names": {
+   "fr": "Huldenberg",
+   "nl": "Huldenberg",
+   "en": "Huldenberg",
+   "de": "Huldenberg"
+  },
+  "lat": 50.78927,
+  "lng": 4.5834,
+  "population": null,
+  "localities": [
+   "3040|Neerijse",
+   "3040|Ottenburg",
+   "3040|Huldenberg",
+   "3040|Sint-Agatha-Rode",
+   "3040|Loonbeek"
+  ]
+ },
+ {
+  "ref": "24048",
+  "names": {
+   "fr": "Keerbergen",
+   "nl": "Keerbergen",
+   "en": "Keerbergen",
+   "de": "Keerbergen"
+  },
+  "lat": 51.00375,
+  "lng": 4.62907,
+  "population": null,
+  "localities": [
+   "3140|Keerbergen"
+  ]
+ },
+ {
+  "ref": "24054",
+  "names": {
+   "fr": "Kortenaken",
+   "nl": "Kortenaken",
+   "en": "Kortenaken",
+   "de": "Kortenaken"
+  },
+  "lat": 50.90661,
+  "lng": 5.06229,
+  "population": null,
+  "localities": [
+   "3470|Kortenaken",
+   "3470|Ransberg",
+   "3471|Hoeleden",
+   "3472|Kersbeek-Miskom",
+   "3473|Waanrode"
+  ]
+ },
+ {
+  "ref": "24055",
+  "names": {
+   "fr": "Kortenberg",
+   "nl": "Kortenberg",
+   "en": "Kortenberg",
+   "de": "Kortenberg"
+  },
+  "lat": 50.88587,
+  "lng": 4.53907,
+  "population": null,
+  "localities": [
+   "3070|Kortenberg",
+   "3071|Erps-Kwerps",
+   "3078|Meerbeek",
+   "3078|Everberg"
+  ]
+ },
+ {
+  "ref": "24059",
+  "names": {
+   "fr": "Landen",
+   "nl": "Landen",
+   "en": "Landen",
+   "de": "Landen"
+  },
+  "lat": 50.75301,
+  "lng": 5.08132,
+  "population": null,
+  "localities": [
+   "3400|Rumsdorp",
+   "3400|Landen",
+   "3400|Neerwinden",
+   "3400|Laar",
+   "3400|Overwinden",
+   "3400|Eliksem",
+   "3400|Wange",
+   "3400|Ezemaal",
+   "3401|Walsbets",
+   "3401|Waasmont",
+   "3401|Walshoutem",
+   "3401|Wezeren",
+   "3404|Neerlanden"
+  ]
+ },
+ {
+  "ref": "24062",
+  "names": {
+   "fr": "Louvain",
+   "nl": "Leuven",
+   "en": "Leuven",
+   "de": "Löwen"
+  },
+  "lat": 50.8792,
+  "lng": 4.70117,
+  "population": null,
+  "localities": [
+   "3000|Leuven",
+   "3001|Heverlee",
+   "3010|Kessel Lo",
+   "3012|Wilsele",
+   "3018|Wijgmaal"
+  ]
+ },
+ {
+  "ref": "24066",
+  "names": {
+   "fr": "Lubbeek",
+   "nl": "Lubbeek",
+   "en": "Lubbeek",
+   "de": "Lubbeek"
+  },
+  "lat": 50.88157,
+  "lng": 4.8416,
+  "population": null,
+  "localities": [
+   "3210|Lubbeek",
+   "3210|Linden",
+   "3211|Binkom",
+   "3212|Pellenberg"
+  ]
+ },
+ {
+  "ref": "24086",
+  "names": {
+   "fr": "Vieux-Héverlé",
+   "nl": "Oud-Heverlee",
+   "en": "Oud-Heverlee",
+   "de": "Oud-Heverlee"
+  },
+  "lat": 50.83763,
+  "lng": 4.66293,
+  "population": null,
+  "localities": [
+   "3050|Oud-Heverlee",
+   "3051|Sint-Joris-Weert",
+   "3052|Blanden",
+   "3053|Haasrode",
+   "3054|Vaalbeek"
+  ]
+ },
+ {
+  "ref": "24094",
+  "names": {
+   "fr": "Rotselaar",
+   "nl": "Rotselaar",
+   "en": "Rotselaar",
+   "de": "Rotselaar"
+  },
+  "lat": 50.95147,
+  "lng": 4.70941,
+  "population": null,
+  "localities": [
+   "3110|Rotselaar",
+   "3111|Wezemaal",
+   "3118|Werchter"
+  ]
+ },
+ {
+  "ref": "24104",
+  "names": {
+   "fr": "Tervuren",
+   "nl": "Tervuren",
+   "en": "Tervuren",
+   "de": "Tervuren"
+  },
+  "lat": 50.82419,
+  "lng": 4.51388,
+  "population": null,
+  "localities": [
+   "3080|Vossem",
+   "3080|Tervuren",
+   "3080|Duisburg"
+  ]
+ },
+ {
+  "ref": "24107",
+  "names": {
+   "fr": "Tirlemont",
+   "nl": "Tienen",
+   "en": "Tienen",
+   "de": "Tienen"
+  },
+  "lat": 50.80748,
+  "lng": 4.93718,
+  "population": null,
+  "localities": [
+   "3300|Kumtich",
+   "3300|Vissenaken",
+   "3300|Oplinter",
+   "3300|Oorbeek",
+   "3300|Hakendover",
+   "3300|Sint-Margriete-Houtem",
+   "3300|Tienen",
+   "3300|Goetsenhoven",
+   "3470|Sint-Margriete-Houtem"
+  ]
+ },
+ {
+  "ref": "24109",
+  "names": {
+   "fr": "Tremelo",
+   "nl": "Tremelo",
+   "en": "Tremelo",
+   "de": "Tremelo"
+  },
+  "lat": 50.9919,
+  "lng": 4.70406,
+  "population": null,
+  "localities": [
+   "3120|Tremelo",
+   "3128|Baal"
+  ]
+ },
+ {
+  "ref": "24130",
+  "names": {
+   "fr": "Léau",
+   "nl": "Zoutleeuw",
+   "en": "Zoutleeuw",
+   "de": "Zoutleeuw"
+  },
+  "lat": 50.8332,
+  "lng": 5.1031,
+  "population": null,
+  "localities": [
+   "3440|Zoutleeuw",
+   "3440|Dormaal",
+   "3440|Helen-Bos",
+   "3440|Halle-Booienhoven",
+   "3440|Budingen"
+  ]
+ },
+ {
+  "ref": "24133",
+  "names": {
+   "fr": "Linter",
+   "nl": "Linter",
+   "en": "Linter",
+   "de": "Linter"
+  },
+  "lat": 50.80361,
+  "lng": 5.06162,
+  "population": 7317,
+  "localities": [
+   "3350|Wommersom",
+   "3350|Drieslinter",
+   "3350|Neerhespen",
+   "3350|Orsmaal-Gussenhoven",
+   "3350|Neerlinter",
+   "3350|Melkwezer",
+   "3350|Overhespen",
+   "3350|Linter"
+  ]
+ },
+ {
+  "ref": "24134",
+  "names": {
+   "fr": "Montaigu-Zichem",
+   "nl": "Scherpenheuvel-Zichem",
+   "en": "Scherpenheuvel-Zichem",
+   "de": "Scherpenheuvel-Zichem"
+  },
+  "lat": 50.98027,
+  "lng": 4.97746,
+  "population": null,
+  "localities": [
+   "3270|Scherpenheuvel-Zichem",
+   "3270|Scherpenheuvel",
+   "3271|Averbode",
+   "3271|Zichem",
+   "3272|Messelbroek",
+   "3272|Testelt"
+  ]
+ },
+ {
+  "ref": "24135",
+  "names": {
+   "fr": "Tielt-Winge",
+   "nl": "Tielt-Winge",
+   "en": "Tielt-Winge",
+   "de": "Tielt-Winge"
+  },
+  "lat": 50.94063,
+  "lng": 4.90207,
+  "population": 11568,
+  "localities": [
+   "3390|Houwaart",
+   "3390|Tielt-Winge",
+   "3390|Sint-Joris-Winge",
+   "3390|Tielt",
+   "3391|Meensel-Kiezegem"
+  ]
+ },
+ {
+  "ref": "24137",
+  "names": {
+   "fr": "Glabbeek",
+   "nl": "Glabbeek",
+   "en": "Glabbeek",
+   "de": "Glabbeek"
+  },
+  "lat": 50.87241,
+  "lng": 4.95122,
+  "population": null,
+  "localities": [
+   "3380|Glabbeek",
+   "3380|Bunsbeek",
+   "3381|Kapellen",
+   "3384|Attenrode"
+  ]
+ },
+ {
+  "ref": "25005",
+  "names": {
+   "fr": "Beauvechain",
+   "nl": "Bevekom",
+   "en": "Beauvechain",
+   "de": "Beauvechain"
+  },
+  "lat": 50.7809,
+  "lng": 4.77173,
+  "population": null,
+  "localities": [
+   "1320|Tourinnes-la-Grosse",
+   "1320|Hamme-Mille",
+   "1320|L'Ecluse",
+   "1320|Beauvechain",
+   "1320|Nodebais"
+  ]
+ },
+ {
+  "ref": "25014",
+  "names": {
+   "fr": "Braine-l'Alleud",
+   "nl": "Eigenbrakel",
+   "en": "Braine-l'Alleud",
+   "de": "Braine-l'Alleud"
+  },
+  "lat": 50.68287,
+  "lng": 4.36927,
+  "population": null,
+  "localities": [
+   "1420|Braine-l'Alleud",
+   "1421|Ophain-Bois-Seigneur-Isaac",
+   "1428|Lillois-Witterzée"
+  ]
+ },
+ {
+  "ref": "25015",
+  "names": {
+   "fr": "Braine-le-Château",
+   "nl": "Kasteelbrakel",
+   "en": "Braine-le-Château",
+   "de": "Braine-le-Château"
+  },
+  "lat": 50.68279,
+  "lng": 4.26699,
+  "population": null,
+  "localities": [
+   "1440|Braine-le-Château",
+   "1440|Wauthier-Braine"
+  ]
+ },
+ {
+  "ref": "25018",
+  "names": {
+   "fr": "Chaumont-Gistoux",
+   "nl": "Chaumont-Gistoux",
+   "en": "Chaumont-Gistoux",
+   "de": "Chaumont-Gistoux"
+  },
+  "lat": 50.68398,
+  "lng": 4.69742,
+  "population": 11601,
+  "localities": [
+   "1325|Dion-Valmont",
+   "1325|Bonlez",
+   "1325|Longueville",
+   "1325|Chaumont-Gistoux",
+   "1325|Corroy-le-Grand"
+  ]
+ },
+ {
+  "ref": "25023",
+  "names": {
+   "fr": "Court-Saint-Etienne",
+   "nl": "Court-Saint-Etienne",
+   "en": "Court-Saint-Etienne",
+   "de": "Court-Saint-Etienne"
+  },
+  "lat": 50.64432,
+  "lng": 4.56858,
+  "population": null,
+  "localities": [
+   "1490|Court-Saint-Etienne"
+  ]
+ },
+ {
+  "ref": "25031",
+  "names": {
+   "fr": "Genappe",
+   "nl": "Genepiën",
+   "en": "Genappe",
+   "de": "Genappe"
+  },
+  "lat": 50.61087,
+  "lng": 4.45107,
+  "population": null,
+  "localities": [
+   "1470|Genappe",
+   "1470|Baisy-Thy",
+   "1470|Bousval",
+   "1471|Loupoigne",
+   "1472|Vieux-Genappe",
+   "1473|Glabais",
+   "1474|Ways",
+   "1476|Houtain-le-Val"
+  ]
+ },
+ {
+  "ref": "25037",
+  "names": {
+   "fr": "Grez-Doiceau",
+   "nl": "Graven",
+   "en": "Grez-Doiceau",
+   "de": "Grez-Doiceau"
+  },
+  "lat": 50.73862,
+  "lng": 4.69623,
+  "population": 12288,
+  "localities": [
+   "1357|Hélécine",
+   "1390|Archennes",
+   "1390|Bossut-Gottechain",
+   "1390|Biez",
+   "1390|Grez-Doiceau",
+   "1390|Nethen"
+  ]
+ },
+ {
+  "ref": "25043",
+  "names": {
+   "fr": "Incourt",
+   "nl": "Incourt",
+   "en": "Incourt",
+   "de": "Incourt"
+  },
+  "lat": 50.6918,
+  "lng": 4.79894,
+  "population": 4918,
+  "localities": [
+   "1315|Incourt",
+   "1315|Roux-Miroir",
+   "1315|Piétrebais",
+   "1315|Glimes",
+   "1315|Opprebais"
+  ]
+ },
+ {
+  "ref": "25044",
+  "names": {
+   "fr": "Ittre",
+   "nl": "Itter",
+   "en": "Ittre",
+   "de": "Ittre"
+  },
+  "lat": 50.6502,
+  "lng": 4.26371,
+  "population": null,
+  "localities": [
+   "1460|Ittre",
+   "1460|Virginal-Samme",
+   "1461|Haut-Ittre"
+  ]
+ },
+ {
+  "ref": "25048",
+  "names": {
+   "fr": "Jodoigne",
+   "nl": "Geldenaken",
+   "en": "Jodoigne",
+   "de": "Jodoigne"
+  },
+  "lat": 50.72418,
+  "lng": 4.868,
+  "population": null,
+  "localities": [
+   "1370|Piétrain",
+   "1370|Jodoigne",
+   "1370|Saint-Jean-Geest",
+   "1370|Jauchelette",
+   "1370|Saint-Remy-Geest",
+   "1370|Mélin",
+   "1370|Zétrud-Lumay",
+   "1370|Lathuy",
+   "1370|Jodoigne-Souveraine",
+   "1370|Dongelberg"
+  ]
+ },
+ {
+  "ref": "25050",
+  "names": {
+   "fr": "La Hulpe",
+   "nl": "Terhulpen",
+   "en": "La Hulpe",
+   "de": "La Hulpe"
+  },
+  "lat": 50.73137,
+  "lng": 4.4894,
+  "population": null,
+  "localities": [
+   "1310|La Hulpe"
+  ]
+ },
+ {
+  "ref": "25068",
+  "names": {
+   "fr": "Mont-Saint-Guibert",
+   "nl": "Mont-Saint-Guibert",
+   "en": "Mont-Saint-Guibert",
+   "de": "Mont-Saint-Guibert"
+  },
+  "lat": 50.63656,
+  "lng": 4.6127,
+  "population": 6913,
+  "localities": [
+   "1435|Corbais",
+   "1435|Mont-Saint-Guibert",
+   "1435|Hévillers"
+  ]
+ },
+ {
+  "ref": "25072",
+  "names": {
+   "fr": "Nivelles",
+   "nl": "Nijvel",
+   "en": "Nivelles",
+   "de": "Nivelles"
+  },
+  "lat": 50.59769,
+  "lng": 4.32359,
+  "population": null,
+  "localities": [
+   "1400|Nivelles",
+   "1400|Monstreux",
+   "1401|Baulers",
+   "1402|Thines",
+   "1404|Bornival"
+  ]
+ },
+ {
+  "ref": "25084",
+  "names": {
+   "fr": "Perwez",
+   "nl": "Perwijs",
+   "en": "Perwez",
+   "de": "Perwez"
+  },
+  "lat": 50.62345,
+  "lng": 4.81347,
+  "population": 8259,
+  "localities": [
+   "1360|Thorembais-Saint-Trond",
+   "1360|Perwez",
+   "1360|Orbais",
+   "1360|Thorembais-les-Béguines",
+   "1360|Malèves-Sainte-Marie-Wastinnes"
+  ]
+ },
+ {
+  "ref": "25091",
+  "names": {
+   "fr": "Rixensart",
+   "nl": "Rixensart",
+   "en": "Rixensart",
+   "de": "Rixensart"
+  },
+  "lat": 50.71226,
+  "lng": 4.52162,
+  "population": null,
+  "localities": [
+   "1330|Rixensart",
+   "1331|Rosières",
+   "1332|Genval"
+  ]
+ },
+ {
+  "ref": "25105",
+  "names": {
+   "fr": "Tubize",
+   "nl": "Tubeke",
+   "en": "Tubize",
+   "de": "Tubize"
+  },
+  "lat": 50.69302,
+  "lng": 4.2047,
+  "population": null,
+  "localities": [
+   "1480|Saintes",
+   "1480|Oisquercq",
+   "1480|Tubize",
+   "1480|Clabecq"
+  ]
+ },
+ {
+  "ref": "25107",
+  "names": {
+   "fr": "Villers-la-Ville",
+   "nl": "Villers-la-Ville",
+   "en": "Villers-la-Ville",
+   "de": "Villers-la-Ville"
+  },
+  "lat": 50.57273,
+  "lng": 4.53427,
+  "population": null,
+  "localities": [
+   "1495|Tilly",
+   "1495|Marbais",
+   "1495|Mellery",
+   "1495|Sart-Dames-Avelines",
+   "1495|Villers-la-Ville"
+  ]
+ },
+ {
+  "ref": "25110",
+  "names": {
+   "fr": "Waterloo",
+   "nl": "Waterloo",
+   "en": "Waterloo",
+   "de": "Waterloo"
+  },
+  "lat": 50.71754,
+  "lng": 4.39776,
+  "population": null,
+  "localities": [
+   "1410|Waterloo"
+  ]
+ },
+ {
+  "ref": "25112",
+  "names": {
+   "fr": "Wavre",
+   "nl": "Waver",
+   "en": "Wavre",
+   "de": "Wavre"
+  },
+  "lat": 50.71697,
+  "lng": 4.61042,
+  "population": 33277,
+  "localities": [
+   "1300|Limal",
+   "1300|Wavre",
+   "1301|Bierges"
+  ]
+ },
+ {
+  "ref": "25117",
+  "names": {
+   "fr": "Chastre",
+   "nl": "Chastre",
+   "en": "Chastre",
+   "de": "Chastre"
+  },
+  "lat": 50.60827,
+  "lng": 4.63856,
+  "population": 7127,
+  "localities": [
+   "1450|Chastre-Villeroux-Blanmont",
+   "1450|Cortil-Noirmont",
+   "1450|Gentinnes",
+   "1450|Saint-Géry",
+   "1450|Chastre"
+  ]
+ },
+ {
+  "ref": "25118",
+  "names": {
+   "fr": "Hélécine",
+   "nl": "Hélécine",
+   "en": "Hélécine",
+   "de": "Hélécine"
+  },
+  "lat": 50.7514,
+  "lng": 4.98224,
+  "population": null,
+  "localities": [
+   "1357|Neerheylissem",
+   "1357|Linsmeau",
+   "1357|Opheylissem"
+  ]
+ },
+ {
+  "ref": "25119",
+  "names": {
+   "fr": "Lasne",
+   "nl": "Lasne",
+   "en": "Lasne",
+   "de": "Lasne"
+  },
+  "lat": 50.686,
+  "lng": 4.48442,
+  "population": 14175,
+  "localities": [
+   "1380|Couture-Saint-Germain",
+   "1380|Lasne-Chapelle-Saint-Lambert",
+   "1380|Ohain",
+   "1380|Plancenoit",
+   "1380|Maransart",
+   "1380|Lasne"
+  ]
+ },
+ {
+  "ref": "25120",
+  "names": {
+   "fr": "Orp-Jauche",
+   "nl": "Orp-Jauche",
+   "en": "Orp-Jauche",
+   "de": "Orp-Jauche"
+  },
+  "lat": 50.70007,
+  "lng": 4.98922,
+  "population": 8390,
+  "localities": [
+   "1350|Folx-les-Caves",
+   "1350|Jauche",
+   "1350|Enines",
+   "1350|Marilles",
+   "1350|Orp-Jauche",
+   "1350|Noduwez",
+   "1350|Orp-le-Grand",
+   "1350|Jandrain-Jandrenouille"
+  ]
+ },
+ {
+  "ref": "25121",
+  "names": {
+   "fr": "Ottignies-Louvain-la-Neuve",
+   "nl": "Ottignies-Louvain-la-Neuve",
+   "en": "Ottignies-Louvain-la-Neuve",
+   "de": "Ottignies-Louvain-la-Neuve"
+  },
+  "lat": 50.66542,
+  "lng": 4.56741,
+  "population": null,
+  "localities": [
+   "1340|Ottignies",
+   "1340|Ottignies-Louvain-la-Neuve",
+   "1341|Céroux-Mousty",
+   "1342|Limelette",
+   "1348|Louvain-la-Neuve"
+  ]
+ },
+ {
+  "ref": "25122",
+  "names": {
+   "fr": "Ramillies",
+   "nl": "Ramillies",
+   "en": "Ramillies",
+   "de": "Ramillies"
+  },
+  "lat": 50.64384,
+  "lng": 4.87207,
+  "population": null,
+  "localities": [
+   "1367|Mont-Saint-André",
+   "1367|Autre-Eglise",
+   "1367|Gérompont",
+   "1367|Bomal",
+   "1367|Geest-Gérompont-Petit-Rosière",
+   "1367|Huppaye",
+   "1367|Ramillies",
+   "1367|Grand-Rosière-Hottomont"
+  ]
+ },
+ {
+  "ref": "25123",
+  "names": {
+   "fr": "Rebecq",
+   "nl": "Rebecq",
+   "en": "Rebecq",
+   "de": "Rebecq"
+  },
+  "lat": 50.66312,
+  "lng": 4.13278,
+  "population": null,
+  "localities": [
+   "1430|Quenast",
+   "1430|Bierghes",
+   "1430|Rebecq",
+   "1430|Rebecq-Rognon"
+  ]
+ },
+ {
+  "ref": "25124",
+  "names": {
+   "fr": "Walhain",
+   "nl": "Walhain",
+   "en": "Walhain",
+   "de": "Walhain"
+  },
+  "lat": 50.61801,
+  "lng": 4.69534,
+  "population": 6565,
+  "localities": [
+   "1457|Tourinnes-Saint-Lambert",
+   "1457|Walhain",
+   "1457|Walhain-Saint-Paul",
+   "1457|Nil-Saint-Vincent-Saint-Martin"
+  ]
+ },
+ {
+  "ref": "31003",
+  "names": {
+   "fr": "Beernem",
+   "nl": "Beernem",
+   "en": "Beernem",
+   "de": "Beernem"
+  },
+  "lat": 51.14057,
+  "lng": 3.33473,
+  "population": null,
+  "localities": [
+   "8730|Sint-Joris",
+   "8730|Beernem",
+   "8730|Oedelem"
+  ]
+ },
+ {
+  "ref": "31004",
+  "names": {
+   "fr": "Blankenberghe",
+   "nl": "Blankenberge",
+   "en": "Blankenberge",
+   "de": "Blankenberge"
+  },
+  "lat": 51.31126,
+  "lng": 3.13234,
+  "population": 19879,
+  "localities": [
+   "8370|Uitkerke",
+   "8370|Blankenberge"
+  ]
+ },
+ {
+  "ref": "31005",
+  "names": {
+   "fr": "Bruges",
+   "nl": "Brugge",
+   "en": "Bruges",
+   "de": "Brügge"
+  },
+  "lat": 51.20855,
+  "lng": 3.22677,
+  "population": 117639,
+  "localities": [
+   "8000|Koolkerke",
+   "8000|Brugge",
+   "8200|Sint-Andries",
+   "8200|Sint-Michiels",
+   "8310|Assebroek",
+   "8310|Sint-Kruis",
+   "8380|Dudzele",
+   "8380|Lissewege",
+   "8380|Zeebrugge"
+  ]
+ },
+ {
+  "ref": "31006",
+  "names": {
+   "fr": "Damme",
+   "nl": "Damme",
+   "en": "Damme",
+   "de": "Damme"
+  },
+  "lat": 51.2515,
+  "lng": 3.28148,
+  "population": null,
+  "localities": [
+   "8340|Hoeke",
+   "8340|Damme",
+   "8340|Oostkerke",
+   "8340|Sijsele",
+   "8340|Lapscheure",
+   "8340|Moerkerke"
+  ]
+ },
+ {
+  "ref": "31012",
+  "names": {
+   "fr": "Jabbeke",
+   "nl": "Jabbeke",
+   "en": "Jabbeke",
+   "de": "Jabbeke"
+  },
+  "lat": 51.1823,
+  "lng": 3.09346,
+  "population": null,
+  "localities": [
+   "8490|Jabbeke",
+   "8490|Stalhille",
+   "8490|Zerkegem",
+   "8490|Varsenare",
+   "8490|Snellegem"
+  ]
+ },
+ {
+  "ref": "31022",
+  "names": {
+   "fr": "Oostkamp",
+   "nl": "Oostkamp",
+   "en": "Oostkamp",
+   "de": "Oostkamp"
+  },
+  "lat": 51.1532,
+  "lng": 3.23445,
+  "population": null,
+  "localities": [
+   "8020|Ruddervoorde",
+   "8020|Waardamme",
+   "8020|Oostkamp",
+   "8020|Hertsberge"
+  ]
+ },
+ {
+  "ref": "31033",
+  "names": {
+   "fr": "Thourout",
+   "nl": "Torhout",
+   "en": "Torhout",
+   "de": "Torhout"
+  },
+  "lat": 51.06478,
+  "lng": 3.10164,
+  "population": null,
+  "localities": [
+   "8820|Torhout"
+  ]
+ },
+ {
+  "ref": "31040",
+  "names": {
+   "fr": "Zedelghem",
+   "nl": "Zedelgem",
+   "en": "Zedelgem",
+   "de": "Zedelgem"
+  },
+  "lat": 51.13897,
+  "lng": 3.13956,
+  "population": null,
+  "localities": [
+   "8210|Loppem",
+   "8210|Zedelgem",
+   "8210|Veldegem",
+   "8211|Aartrijke"
+  ]
+ },
+ {
+  "ref": "31042",
+  "names": {
+   "fr": "Zuyenkerque",
+   "nl": "Zuienkerke",
+   "en": "Zuienkerke",
+   "de": "Zuienkerke"
+  },
+  "lat": 51.26525,
+  "lng": 3.15626,
+  "population": null,
+  "localities": [
+   "8377|Nieuwmunster",
+   "8377|Zuienkerke",
+   "8377|Houtave",
+   "8377|Meetkerke"
+  ]
+ },
+ {
+  "ref": "31043",
+  "names": {
+   "fr": "Knokke-Heist",
+   "nl": "Knokke-Heist",
+   "en": "Knokke-Heist",
+   "de": "Knokke-Heist"
+  },
+  "lat": 51.34649,
+  "lng": 3.28763,
+  "population": 33556,
+  "localities": [
+   "8300|Knokke",
+   "8300|Westkapelle",
+   "8301|Ramskapelle",
+   "8301|Heist-aan-Zee"
+  ]
+ },
+ {
+  "ref": "32003",
+  "names": {
+   "fr": "Dixmude",
+   "nl": "Diksmuide",
+   "en": "Diksmuide",
+   "de": "Diksmuide"
+  },
+  "lat": 51.03334,
+  "lng": 2.86472,
+  "population": null,
+  "localities": [
+   "8600|Vladslo",
+   "8600|Sint-Jacobs-Kapelle",
+   "8600|Esen",
+   "8600|Keiem",
+   "8600|Beerst",
+   "8600|Diksmuide",
+   "8600|Leke",
+   "8600|Nieuwkapelle",
+   "8600|Driekapellen",
+   "8600|Oostkerke",
+   "8600|Pervijze",
+   "8600|Woumen",
+   "8600|Stuivekenskerke",
+   "8600|Lampernisse",
+   "8600|Oudekapelle",
+   "8600|Kaaskerke"
+  ]
+ },
+ {
+  "ref": "32006",
+  "names": {
+   "fr": "Houthulst",
+   "nl": "Houthulst",
+   "en": "Houthulst",
+   "de": "Houthulst"
+  },
+  "lat": 50.97742,
+  "lng": 2.95244,
+  "population": null,
+  "localities": [
+   "8650|Klerken",
+   "8650|Houthulst",
+   "8650|Merkem"
+  ]
+ },
+ {
+  "ref": "32010",
+  "names": {
+   "fr": "Koekelare",
+   "nl": "Koekelare",
+   "en": "Koekelare",
+   "de": "Koekelare"
+  },
+  "lat": 51.09033,
+  "lng": 2.97848,
+  "population": null,
+  "localities": [
+   "8680|Koekelare",
+   "8680|Bovekerke",
+   "8680|Zande"
+  ]
+ },
+ {
+  "ref": "32011",
+  "names": {
+   "fr": "Kortemark",
+   "nl": "Kortemark",
+   "en": "Kortemark",
+   "de": "Kortemark"
+  },
+  "lat": 51.02853,
+  "lng": 3.04411,
+  "population": null,
+  "localities": [
+   "8610|Werken",
+   "8610|Kortemark",
+   "8610|Zarren",
+   "8610|Handzame"
+  ]
+ },
+ {
+  "ref": "32030",
+  "names": {
+   "fr": "Lo-Reninge",
+   "nl": "Lo-Reninge",
+   "en": "Lo-Reninge",
+   "de": "Lo-Reninge"
+  },
+  "lat": 50.97995,
+  "lng": 2.74922,
+  "population": null,
+  "localities": [
+   "8647|Noordschote",
+   "8647|Lo",
+   "8647|Pollinkhove",
+   "8647|Reninge",
+   "8647|Lo-Reninge"
+  ]
+ },
+ {
+  "ref": "33011",
+  "names": {
+   "fr": "Ypres",
+   "nl": "Ieper",
+   "en": "Ypres",
+   "de": "Ypern"
+  },
+  "lat": 50.85219,
+  "lng": 2.8846,
+  "population": 19995,
+  "localities": [
+   "8900|Ieper",
+   "8900|Sint-Jan",
+   "8900|Brielen",
+   "8900|Dikkebus",
+   "8902|Voormezele",
+   "8902|Zillebeke",
+   "8902|Hollebeke",
+   "8904|Boezinge",
+   "8904|Zuidschote",
+   "8906|Elverdinge",
+   "8908|Vlamertinge"
+  ]
+ },
+ {
+  "ref": "33016",
+  "names": {
+   "fr": "Messines",
+   "nl": "Mesen",
+   "en": "Mesen",
+   "de": "Mesen"
+  },
+  "lat": 50.76542,
+  "lng": 2.89845,
+  "population": null,
+  "localities": [
+   "8957|Messines"
+  ]
+ },
+ {
+  "ref": "33021",
+  "names": {
+   "fr": "Poperinge",
+   "nl": "Poperinge",
+   "en": "Poperinge",
+   "de": "Poperinge"
+  },
+  "lat": 50.85566,
+  "lng": 2.7265,
+  "population": null,
+  "localities": [
+   "8970|Reningelst",
+   "8970|Poperinge",
+   "8972|Roesbrugge-Haringe",
+   "8972|Proven",
+   "8972|Krombeke",
+   "8978|Watou"
+  ]
+ },
+ {
+  "ref": "33029",
+  "names": {
+   "fr": "Wervicq",
+   "nl": "Wervik",
+   "en": "Wervik",
+   "de": "Wervik"
+  },
+  "lat": 50.77822,
+  "lng": 3.04397,
+  "population": null,
+  "localities": [
+   "8940|Wervik",
+   "8940|Geluwe"
+  ]
+ },
+ {
+  "ref": "33037",
+  "names": {
+   "fr": "Zonnebeke",
+   "nl": "Zonnebeke",
+   "en": "Zonnebeke",
+   "de": "Zonnebeke"
+  },
+  "lat": 50.87319,
+  "lng": 2.98747,
+  "population": null,
+  "localities": [
+   "8980|Zonnebeke",
+   "8980|Passendale",
+   "8980|Beselare",
+   "8980|Geluveld",
+   "8980|Zandvoorde"
+  ]
+ },
+ {
+  "ref": "33039",
+  "names": {
+   "fr": "Heuvelland",
+   "nl": "Heuvelland",
+   "en": "Heuvelland",
+   "de": "Heuvelland"
+  },
+  "lat": 50.78286,
+  "lng": 2.82587,
+  "population": null,
+  "localities": [
+   "8950|Heuvelland",
+   "8950|Nieuwkerke",
+   "8951|Dranouter",
+   "8952|Wulvergem",
+   "8953|Wijtschate",
+   "8954|Westouter",
+   "8956|Kemmel",
+   "8958|Loker"
+  ]
+ },
+ {
+  "ref": "33040",
+  "names": {
+   "fr": "Langemark-Poelkapelle",
+   "nl": "Langemark-Poelkapelle",
+   "en": "Langemark-Poelkapelle",
+   "de": "Langemark-Poelkapelle"
+  },
+  "lat": 50.91354,
+  "lng": 2.91837,
+  "population": null,
+  "localities": [
+   "8920|Poelkapelle",
+   "8920|Bikschote",
+   "8920|Langemark-Poelkapelle",
+   "8920|Langemark"
+  ]
+ },
+ {
+  "ref": "33041",
+  "names": {
+   "fr": "Vleteren",
+   "nl": "Vleteren",
+   "en": "Vleteren",
+   "de": "Vleteren"
+  },
+  "lat": 50.9337,
+  "lng": 2.741,
+  "population": null,
+  "localities": [
+   "8640|Vleteren",
+   "8640|Oostvleteren",
+   "8640|Woesten",
+   "8640|Westvleteren"
+  ]
+ },
+ {
+  "ref": "34002",
+  "names": {
+   "fr": "Anzegem",
+   "nl": "Anzegem",
+   "en": "Anzegem",
+   "de": "Anzegem"
+  },
+  "lat": 50.83254,
+  "lng": 3.4784,
+  "population": 15222,
+  "localities": [
+   "8570|Anzegem",
+   "8570|Vichte",
+   "8570|Ingooigem",
+   "8572|Kaster",
+   "8573|Tiegem"
+  ]
+ },
+ {
+  "ref": "34003",
+  "names": {
+   "fr": "Avelgem",
+   "nl": "Avelgem",
+   "en": "Avelgem",
+   "de": "Avelgem"
+  },
+  "lat": 50.77584,
+  "lng": 3.44445,
+  "population": null,
+  "localities": [
+   "8580|Avelgem",
+   "8581|Waarmaarde",
+   "8581|Kerkhove",
+   "8582|Outrijve",
+   "8583|Bossuit"
+  ]
+ },
+ {
+  "ref": "34009",
+  "names": {
+   "fr": "Deerlijk",
+   "nl": "Deerlijk",
+   "en": "Deerlijk",
+   "de": "Deerlijk"
+  },
+  "lat": 50.8536,
+  "lng": 3.35465,
+  "population": null,
+  "localities": [
+   "8540|Deerlijk"
+  ]
+ },
+ {
+  "ref": "34013",
+  "names": {
+   "fr": "Harelbeke",
+   "nl": "Harelbeke",
+   "en": "Harelbeke",
+   "de": "Harelbeke"
+  },
+  "lat": 50.85751,
+  "lng": 3.31137,
+  "population": null,
+  "localities": [
+   "8530|Harelbeke",
+   "8531|Hulste",
+   "8531|Bavikhove"
+  ]
+ },
+ {
+  "ref": "34022",
+  "names": {
+   "fr": "Courtrai",
+   "nl": "Kortrijk",
+   "en": "Kortrijk",
+   "de": "Kortrijk"
+  },
+  "lat": 50.82764,
+  "lng": 3.26599,
+  "population": 76700,
+  "localities": [
+   "8500|Kortrijk",
+   "8501|Bissegem",
+   "8501|Heule",
+   "8510|Marke",
+   "8510|Kooigem",
+   "8510|Rollegem",
+   "8510|Bellegem",
+   "8511|Aalbeke"
+  ]
+ },
+ {
+  "ref": "34023",
+  "names": {
+   "fr": "Kuurne",
+   "nl": "Kuurne",
+   "en": "Kuurne",
+   "de": "Kuurne"
+  },
+  "lat": 50.85229,
+  "lng": 3.28647,
+  "population": null,
+  "localities": [
+   "8520|Kuurne"
+  ]
+ },
+ {
+  "ref": "34025",
+  "names": {
+   "fr": "Lendelede",
+   "nl": "Lendelede",
+   "en": "Lendelede",
+   "de": "Lendelede"
+  },
+  "lat": 50.88636,
+  "lng": 3.23804,
+  "population": null,
+  "localities": [
+   "8860|Lendelede"
+  ]
+ },
+ {
+  "ref": "34027",
+  "names": {
+   "fr": "Menin",
+   "nl": "Menen",
+   "en": "Menin",
+   "de": "Menen"
+  },
+  "lat": 50.796,
+  "lng": 3.12089,
+  "population": null,
+  "localities": [
+   "8930|Menen",
+   "8930|Lauwe",
+   "8930|Rekkem"
+  ]
+ },
+ {
+  "ref": "34040",
+  "names": {
+   "fr": "Waregem",
+   "nl": "Waregem",
+   "en": "Waregem",
+   "de": "Waregem"
+  },
+  "lat": 50.88682,
+  "lng": 3.43236,
+  "population": 39488,
+  "localities": [
+   "8710|Sint-Baafs-Vijve",
+   "8790|Waregem",
+   "8791|Beveren",
+   "8792|Desselgem",
+   "8793|Sint-Eloois-Vijve"
+  ]
+ },
+ {
+  "ref": "34041",
+  "names": {
+   "fr": "Wevelgem",
+   "nl": "Wevelgem",
+   "en": "Wevelgem",
+   "de": "Wevelgem"
+  },
+  "lat": 50.80896,
+  "lng": 3.1841,
+  "population": null,
+  "localities": [
+   "8560|Wevelgem",
+   "8560|Moorsele",
+   "8560|Gullegem"
+  ]
+ },
+ {
+  "ref": "34042",
+  "names": {
+   "fr": "Zwevegem",
+   "nl": "Zwevegem",
+   "en": "Zwevegem",
+   "de": "Zwevegem"
+  },
+  "lat": 50.81284,
+  "lng": 3.33317,
+  "population": null,
+  "localities": [
+   "8550|Zwevegem",
+   "8551|Heestert",
+   "8552|Moen",
+   "8553|Otegem",
+   "8554|Sint-Denijs"
+  ]
+ },
+ {
+  "ref": "34043",
+  "names": {
+   "fr": "Espierres-Helchin",
+   "nl": "Spiere-Helkijn",
+   "en": "Spiere-Helkijn",
+   "de": "Spiere-Helkijn"
+  },
+  "lat": 50.71808,
+  "lng": 3.35686,
+  "population": 2053,
+  "localities": [
+   "8587|Helchin",
+   "8587|Espierres"
+  ]
+ },
+ {
+  "ref": "35002",
+  "names": {
+   "fr": "Bredene",
+   "nl": "Bredene",
+   "en": "Bredene",
+   "de": "Bredene"
+  },
+  "lat": 51.24085,
+  "lng": 2.96479,
+  "population": null,
+  "localities": [
+   "8450|Bredene"
+  ]
+ },
+ {
+  "ref": "35005",
+  "names": {
+   "fr": "Gistel",
+   "nl": "Gistel",
+   "en": "Gistel",
+   "de": "Gistel"
+  },
+  "lat": 51.15428,
+  "lng": 2.96154,
+  "population": null,
+  "localities": [
+   "8470|Gistel",
+   "8470|Zevekote",
+   "8470|Moere",
+   "8470|Snaaskerke"
+  ]
+ },
+ {
+  "ref": "35006",
+  "names": {
+   "fr": "Ichtegem",
+   "nl": "Ichtegem",
+   "en": "Ichtegem",
+   "de": "Ichtegem"
+  },
+  "lat": 51.09253,
+  "lng": 3.01027,
+  "population": null,
+  "localities": [
+   "8480|Eernegem",
+   "8480|Bekegem",
+   "8480|Ichtegem"
+  ]
+ },
+ {
+  "ref": "35011",
+  "names": {
+   "fr": "Middelkerke",
+   "nl": "Middelkerke",
+   "en": "Middelkerke",
+   "de": "Middelkerke"
+  },
+  "lat": 51.18648,
+  "lng": 2.82297,
+  "population": null,
+  "localities": [
+   "8430|Middelkerke",
+   "8431|Wilskerke",
+   "8432|Leffinge",
+   "8433|Sint-Pieters-Kapelle",
+   "8433|Schore",
+   "8433|Slijpe",
+   "8433|Mannekensvere",
+   "8434|Westende"
+  ]
+ },
+ {
+  "ref": "35013",
+  "names": {
+   "fr": "Ostende",
+   "nl": "Oostende",
+   "en": "Ostend",
+   "de": "Oostende"
+  },
+  "lat": 51.22586,
+  "lng": 2.9195,
+  "population": 70600,
+  "localities": [
+   "8400|Zandvoorde",
+   "8400|Oostende",
+   "8400|Stene"
+  ]
+ },
+ {
+  "ref": "35014",
+  "names": {
+   "fr": "Oudenburg",
+   "nl": "Oudenburg",
+   "en": "Oudenburg",
+   "de": "Oudenburg"
+  },
+  "lat": 51.18419,
+  "lng": 3.00494,
+  "population": null,
+  "localities": [
+   "8460|Ettelgem",
+   "8460|Westkerke",
+   "8460|Roksem",
+   "8460|Oudenburg"
+  ]
+ },
+ {
+  "ref": "35029",
+  "names": {
+   "fr": "Le Coq",
+   "nl": "De Haan",
+   "en": "De Haan",
+   "de": "De Haan"
+  },
+  "lat": 51.27508,
+  "lng": 3.03169,
+  "population": null,
+  "localities": [
+   "8420|De Haan",
+   "8420|Wenduine",
+   "8420|Klemskerke",
+   "8421|Vlissegem"
+  ]
+ },
+ {
+  "ref": "36006",
+  "names": {
+   "fr": "Hooglede",
+   "nl": "Hooglede",
+   "en": "Hooglede",
+   "de": "Hooglede"
+  },
+  "lat": 50.97855,
+  "lng": 3.08234,
+  "population": null,
+  "localities": [
+   "8830|Hooglede",
+   "8830|Gits"
+  ]
+ },
+ {
+  "ref": "36007",
+  "names": {
+   "fr": "Ingelmunster",
+   "nl": "Ingelmunster",
+   "en": "Ingelmunster",
+   "de": "Ingelmunster"
+  },
+  "lat": 50.92028,
+  "lng": 3.255,
+  "population": null,
+  "localities": [
+   "8770|Ingelmunster"
+  ]
+ },
+ {
+  "ref": "36008",
+  "names": {
+   "fr": "Izegem",
+   "nl": "Izegem",
+   "en": "Izegem",
+   "de": "Izegem"
+  },
+  "lat": 50.91983,
+  "lng": 3.21543,
+  "population": null,
+  "localities": [
+   "8870|Kachtem",
+   "8870|Izegem",
+   "8870|Emelgem"
+  ]
+ },
+ {
+  "ref": "36010",
+  "names": {
+   "fr": "Ledegem",
+   "nl": "Ledegem",
+   "en": "Ledegem",
+   "de": "Ledegem"
+  },
+  "lat": 50.85306,
+  "lng": 3.12609,
+  "population": null,
+  "localities": [
+   "8880|Sint-Eloois-Winkel",
+   "8880|Ledegem",
+   "8880|Rollegem-Kapelle"
+  ]
+ },
+ {
+  "ref": "36011",
+  "names": {
+   "fr": "Lichtervelde",
+   "nl": "Lichtervelde",
+   "en": "Lichtervelde",
+   "de": "Lichtervelde"
+  },
+  "lat": 51.02741,
+  "lng": 3.14022,
+  "population": null,
+  "localities": [
+   "8810|Lichtervelde"
+  ]
+ },
+ {
+  "ref": "36012",
+  "names": {
+   "fr": "Moorslede",
+   "nl": "Moorslede",
+   "en": "Moorslede",
+   "de": "Moorslede"
+  },
+  "lat": 50.8914,
+  "lng": 3.06303,
+  "population": null,
+  "localities": [
+   "8890|Moorslede",
+   "8890|Dadizele"
+  ]
+ },
+ {
+  "ref": "36015",
+  "names": {
+   "fr": "Roulers",
+   "nl": "Roeselare",
+   "en": "Roeselare",
+   "de": "Roeselare"
+  },
+  "lat": 50.94495,
+  "lng": 3.12439,
+  "population": null,
+  "localities": [
+   "8800|Oekene",
+   "8800|Roeselare",
+   "8800|Rumbeke",
+   "8800|Beveren"
+  ]
+ },
+ {
+  "ref": "36019",
+  "names": {
+   "fr": "Staden",
+   "nl": "Staden",
+   "en": "Staden",
+   "de": "Staden"
+  },
+  "lat": 50.97471,
+  "lng": 3.01457,
+  "population": null,
+  "localities": [
+   "8840|Westrozebeke",
+   "8840|Oostnieuwkerke",
+   "8840|Staden"
+  ]
+ },
+ {
+  "ref": "37002",
+  "names": {
+   "fr": "Dentergem",
+   "nl": "Dentergem",
+   "en": "Dentergem",
+   "de": "Dentergem"
+  },
+  "lat": 50.96428,
+  "lng": 3.41916,
+  "population": 8632,
+  "localities": [
+   "8720|Wakken",
+   "8720|Oeselgem",
+   "8720|Dentergem",
+   "8720|Markegem"
+  ]
+ },
+ {
+  "ref": "37010",
+  "names": {
+   "fr": "Oostrozebeke",
+   "nl": "Oostrozebeke",
+   "en": "Oostrozebeke",
+   "de": "Oostrozebeke"
+  },
+  "lat": 50.9204,
+  "lng": 3.33469,
+  "population": null,
+  "localities": [
+   "8780|Oostrozebeke"
+  ]
+ },
+ {
+  "ref": "37011",
+  "names": {
+   "fr": "Pittem",
+   "nl": "Pittem",
+   "en": "Pittem",
+   "de": "Pittem"
+  },
+  "lat": 50.99519,
+  "lng": 3.26677,
+  "population": null,
+  "localities": [
+   "8740|Pittem",
+   "8740|Egem"
+  ]
+ },
+ {
+  "ref": "37017",
+  "names": {
+   "fr": "Wielsbeke",
+   "nl": "Wielsbeke",
+   "en": "Wielsbeke",
+   "de": "Wielsbeke"
+  },
+  "lat": 50.90948,
+  "lng": 3.36998,
+  "population": 10013,
+  "localities": [
+   "8710|Wielsbeke",
+   "8710|Ooigem"
+  ]
+ },
+ {
+  "ref": "37020",
+  "names": {
+   "fr": "Ardoye",
+   "nl": "Ardooie",
+   "en": "Ardooie",
+   "de": "Ardooie"
+  },
+  "lat": 50.97979,
+  "lng": 3.19743,
+  "population": null,
+  "localities": [
+   "8850|Ardooie",
+   "8851|Koolskamp"
+  ]
+ },
+ {
+  "ref": "37021",
+  "names": {
+   "fr": "Wingene",
+   "nl": "Wingene",
+   "en": "Wingene",
+   "de": "Wingene"
+  },
+  "lat": 51.05817,
+  "lng": 3.27797,
+  "population": null,
+  "localities": [
+   "8750|Zwevezele",
+   "8750|Wingene",
+   "8755|Ruiselede"
+  ]
+ },
+ {
+  "ref": "37022",
+  "names": {
+   "fr": "Tielt",
+   "nl": "Tielt",
+   "en": "Tielt",
+   "de": "Tielt"
+  },
+  "lat": 51.00029,
+  "lng": 3.32734,
+  "population": null,
+  "localities": [
+   "8700|Schuiferskapelle",
+   "8700|Tielt",
+   "8700|Aarsele",
+   "8700|Kanegem",
+   "8760|Meulebeke"
+  ]
+ },
+ {
+  "ref": "38002",
+  "names": {
+   "fr": "Alveringem",
+   "nl": "Alveringem",
+   "en": "Alveringem",
+   "de": "Alveringem"
+  },
+  "lat": 51.012,
+  "lng": 2.7105,
+  "population": null,
+  "localities": [
+   "8690|Alveringem",
+   "8690|Hoogstade",
+   "8690|Oeren",
+   "8690|Sint-Rijkers",
+   "8691|Stavele",
+   "8691|Beveren-aan-de-IJzer",
+   "8691|Leisele",
+   "8691|Izenberge",
+   "8691|Gijverinkhove"
+  ]
+ },
+ {
+  "ref": "38008",
+  "names": {
+   "fr": "La Panne",
+   "nl": "De Panne",
+   "en": "De Panne",
+   "de": "De Panne"
+  },
+  "lat": 51.09883,
+  "lng": 2.59241,
+  "population": null,
+  "localities": [
+   "8660|De Panne",
+   "8660|Adinkerke"
+  ]
+ },
+ {
+  "ref": "38014",
+  "names": {
+   "fr": "Coxyde",
+   "nl": "Koksijde",
+   "en": "Koksijde",
+   "de": "Koksijde"
+  },
+  "lat": 51.11877,
+  "lng": 2.63493,
+  "population": null,
+  "localities": [
+   "8670|Koksijde",
+   "8670|Wulpen",
+   "8670|Oostduinkerke"
+  ]
+ },
+ {
+  "ref": "38016",
+  "names": {
+   "fr": "Nieuport",
+   "nl": "Nieuwpoort",
+   "en": "Nieuwpoort",
+   "de": "Nieuwpoort"
+  },
+  "lat": 51.12943,
+  "lng": 2.75167,
+  "population": null,
+  "localities": [
+   "8434|Lombardsijde",
+   "8620|Sint-Joris",
+   "8620|Nieuwpoort",
+   "8620|Ramskapelle"
+  ]
+ },
+ {
+  "ref": "38025",
+  "names": {
+   "fr": "Furnes",
+   "nl": "Veurne",
+   "en": "Veurne",
+   "de": "Veurne"
+  },
+  "lat": 51.07243,
+  "lng": 2.66213,
+  "population": null,
+  "localities": [
+   "8630|Bulskamp",
+   "8630|Houtem",
+   "8630|Zoutenaaie",
+   "8630|Veurne",
+   "8630|Wulveringem",
+   "8630|Booitshoeke",
+   "8630|Avekapelle",
+   "8630|De Moeren",
+   "8630|Eggewaartskapelle",
+   "8630|Vinkem",
+   "8630|Steenkerke"
+  ]
+ },
+ {
+  "ref": "41002",
+  "names": {
+   "fr": "Alost",
+   "nl": "Aalst",
+   "en": "Aalst",
+   "de": "Aalst"
+  },
+  "lat": 50.93832,
+  "lng": 4.03921,
+  "population": 78271,
+  "localities": [
+   "9300|Aalst",
+   "9308|Gijzegem",
+   "9308|Hofstade",
+   "9310|Baardegem",
+   "9310|Meldert",
+   "9310|Moorsel",
+   "9310|Herdersem",
+   "9320|Erembodegem",
+   "9320|Nieuwerkerken"
+  ]
+ },
+ {
+  "ref": "41011",
+  "names": {
+   "fr": "Denderleeuw",
+   "nl": "Denderleeuw",
+   "en": "Denderleeuw",
+   "de": "Denderleeuw"
+  },
+  "lat": 50.88345,
+  "lng": 4.08164,
+  "population": null,
+  "localities": [
+   "9470|Denderleeuw",
+   "9472|Iddergem",
+   "9473|Welle"
+  ]
+ },
+ {
+  "ref": "41018",
+  "names": {
+   "fr": "Grammont",
+   "nl": "Geraardsbergen",
+   "en": "Geraardsbergen",
+   "de": "Geraardsbergen"
+  },
+  "lat": 50.77158,
+  "lng": 3.88273,
+  "population": null,
+  "localities": [
+   "9500|Moerbeke",
+   "9500|Goeferdinge",
+   "9500|Ophasselt",
+   "9500|Zarlardinge",
+   "9500|Viane",
+   "9500|Geraardsbergen",
+   "9500|Nederboelare",
+   "9500|Onkerzele",
+   "9500|Overboelare",
+   "9506|Waarbeke",
+   "9506|Idegem",
+   "9506|Zandbergen",
+   "9506|Smeerebbe-Vloerzegem",
+   "9506|Schendelbeke",
+   "9506|Grimminge"
+  ]
+ },
+ {
+  "ref": "41024",
+  "names": {
+   "fr": "Haaltert",
+   "nl": "Haaltert",
+   "en": "Haaltert",
+   "de": "Haaltert"
+  },
+  "lat": 50.90225,
+  "lng": 4.00577,
+  "population": null,
+  "localities": [
+   "9450|Heldergem",
+   "9450|Denderhoutem",
+   "9450|Haaltert",
+   "9451|Kerksken"
+  ]
+ },
+ {
+  "ref": "41027",
+  "names": {
+   "fr": "Herzele",
+   "nl": "Herzele",
+   "en": "Herzele",
+   "de": "Herzele"
+  },
+  "lat": 50.8848,
+  "lng": 3.89356,
+  "population": null,
+  "localities": [
+   "9420|Mere",
+   "9550|Hillegem",
+   "9550|Sint-Lievens-Esse",
+   "9550|Sint-Antelinks",
+   "9550|Herzele",
+   "9550|Steenhuize-Wijnhuize",
+   "9550|Woubrechtegem",
+   "9551|Ressegem",
+   "9552|Borsbeke"
+  ]
+ },
+ {
+  "ref": "41034",
+  "names": {
+   "fr": "Lede",
+   "nl": "Lede",
+   "en": "Lede",
+   "de": "Lede"
+  },
+  "lat": 50.96615,
+  "lng": 3.97798,
+  "population": null,
+  "localities": [
+   "9340|Smetlede",
+   "9340|Lede",
+   "9340|Oordegem",
+   "9340|Impe",
+   "9340|Wanzele"
+  ]
+ },
+ {
+  "ref": "41048",
+  "names": {
+   "fr": "Ninove",
+   "nl": "Ninove",
+   "en": "Ninove",
+   "de": "Ninove"
+  },
+  "lat": 50.83536,
+  "lng": 4.02424,
+  "population": null,
+  "localities": [
+   "9400|Denderwindeke",
+   "9400|Lieferinge",
+   "9400|Ninove",
+   "9400|Voorde",
+   "9400|Nederhasselt",
+   "9400|Okegem",
+   "9400|Appelterre-Eichem",
+   "9401|Pollare",
+   "9402|Meerbeke",
+   "9403|Neigem",
+   "9404|Aspelare",
+   "9406|Outer",
+   "9506|Nieuwenhove"
+  ]
+ },
+ {
+  "ref": "41063",
+  "names": {
+   "fr": "Hautem-Saint-Liévin",
+   "nl": "Sint-Lievens-Houtem",
+   "en": "Sint-Lievens-Houtem",
+   "de": "Sint-Lievens-Houtem"
+  },
+  "lat": 50.92049,
+  "lng": 3.85892,
+  "population": null,
+  "localities": [
+   "9520|Zonnegem",
+   "9520|Sint-Lievens-Houtem",
+   "9520|Vlierzele",
+   "9520|Bavegem",
+   "9521|Letterhoutem"
+  ]
+ },
+ {
+  "ref": "41081",
+  "names": {
+   "fr": "Zottegem",
+   "nl": "Zottegem",
+   "en": "Zottegem",
+   "de": "Zottegem"
+  },
+  "lat": 50.86946,
+  "lng": 3.80925,
+  "population": null,
+  "localities": [
+   "9520|Oombergen",
+   "9620|Velzeke-Ruddershove",
+   "9620|Zottegem",
+   "9620|Elene",
+   "9620|Grotenberge",
+   "9620|Sint-Goriks-Oudenhove",
+   "9620|Strijpen",
+   "9620|Leeuwergem",
+   "9620|Erwetegem",
+   "9620|Oombergen",
+   "9620|Godveerdegem",
+   "9620|Sint-Maria-Oudenhove"
+  ]
+ },
+ {
+  "ref": "41082",
+  "names": {
+   "fr": "Erpe-Mere",
+   "nl": "Erpe-Mere",
+   "en": "Erpe-Mere",
+   "de": "Erpe-Mere"
+  },
+  "lat": 50.92264,
+  "lng": 3.94599,
+  "population": null,
+  "localities": [
+   "9420|Erpe",
+   "9420|Vlekkem",
+   "9420|Burst",
+   "9420|Ottergem",
+   "9420|Erpe-Mere",
+   "9420|Erondegem",
+   "9420|Bambrugge",
+   "9420|Aaigem"
+  ]
+ },
+ {
+  "ref": "42003",
+  "names": {
+   "fr": "Berlare",
+   "nl": "Berlare",
+   "en": "Berlare",
+   "de": "Berlare"
+  },
+  "lat": 51.02516,
+  "lng": 4.00347,
+  "population": null,
+  "localities": [
+   "9290|Berlare",
+   "9290|Overmere",
+   "9290|Uitbergen"
+  ]
+ },
+ {
+  "ref": "42004",
+  "names": {
+   "fr": "Buggenhout",
+   "nl": "Buggenhout",
+   "en": "Buggenhout",
+   "de": "Buggenhout"
+  },
+  "lat": 51.01523,
+  "lng": 4.20227,
+  "population": null,
+  "localities": [
+   "9255|Opdorp",
+   "9255|Buggenhout"
+  ]
+ },
+ {
+  "ref": "42006",
+  "names": {
+   "fr": "Termonde",
+   "nl": "Dendermonde",
+   "en": "Dendermonde",
+   "de": "Dendermonde"
+  },
+  "lat": 51.03123,
+  "lng": 4.09811,
+  "population": 44768,
+  "localities": [
+   "9200|Mespelare",
+   "9200|Appels",
+   "9200|Grembergen",
+   "9200|Oudegem",
+   "9200|Baasrode",
+   "9200|Sint-Gillis-Dendermonde",
+   "9200|Dendermonde",
+   "9200|Schoonaarde"
+  ]
+ },
+ {
+  "ref": "42008",
+  "names": {
+   "fr": "Hamme",
+   "nl": "Hamme",
+   "en": "Hamme",
+   "de": "Hamme"
+  },
+  "lat": 51.09776,
+  "lng": 4.13772,
+  "population": null,
+  "localities": [
+   "9220|Moerzeke",
+   "9220|Hamme"
+  ]
+ },
+ {
+  "ref": "42010",
+  "names": {
+   "fr": "Laerne",
+   "nl": "Laarne",
+   "en": "Laarne",
+   "de": "Laarne"
+  },
+  "lat": 51.02966,
+  "lng": 3.85047,
+  "population": null,
+  "localities": [
+   "9270|Kalken",
+   "9270|Laarne"
+  ]
+ },
+ {
+  "ref": "42011",
+  "names": {
+   "fr": "Lebbeke",
+   "nl": "Lebbeke",
+   "en": "Lebbeke",
+   "de": "Lebbeke"
+  },
+  "lat": 51.0004,
+  "lng": 4.13077,
+  "population": null,
+  "localities": [
+   "9280|Denderbelle",
+   "9280|Wieze",
+   "9280|Lebbeke"
+  ]
+ },
+ {
+  "ref": "42023",
+  "names": {
+   "fr": "Waasmunster",
+   "nl": "Waasmunster",
+   "en": "Waasmunster",
+   "de": "Waasmunster"
+  },
+  "lat": 51.10971,
+  "lng": 4.08422,
+  "population": null,
+  "localities": [
+   "9250|Waasmunster"
+  ]
+ },
+ {
+  "ref": "42025",
+  "names": {
+   "fr": "Wetteren",
+   "nl": "Wetteren",
+   "en": "Wetteren",
+   "de": "Wetteren"
+  },
+  "lat": 51.00688,
+  "lng": 3.88555,
+  "population": null,
+  "localities": [
+   "9230|Westrem",
+   "9230|Wetteren",
+   "9230|Massemen",
+   "9260|Schellebelle"
+  ]
+ },
+ {
+  "ref": "42026",
+  "names": {
+   "fr": "Wichelen",
+   "nl": "Wichelen",
+   "en": "Wichelen",
+   "de": "Wichelen"
+  },
+  "lat": 51.00608,
+  "lng": 3.97425,
+  "population": null,
+  "localities": [
+   "9260|Wichelen",
+   "9260|Serskamp"
+  ]
+ },
+ {
+  "ref": "42028",
+  "names": {
+   "fr": "Zele",
+   "nl": "Zele",
+   "en": "Zele",
+   "de": "Zele"
+  },
+  "lat": 51.06836,
+  "lng": 4.03859,
+  "population": null,
+  "localities": [
+   "9240|Zele"
+  ]
+ },
+ {
+  "ref": "43002",
+  "names": {
+   "fr": "Assenede",
+   "nl": "Assenede",
+   "en": "Assenede",
+   "de": "Assenede"
+  },
+  "lat": 51.22759,
+  "lng": 3.75329,
+  "population": 14381,
+  "localities": [
+   "9960|Assenede",
+   "9961|Boekhoute",
+   "9968|Oosteeklo",
+   "9968|Bassevelde"
+  ]
+ },
+ {
+  "ref": "43005",
+  "names": {
+   "fr": "Eeklo",
+   "nl": "Eeklo",
+   "en": "Eeklo",
+   "de": "Eeklo"
+  },
+  "lat": 51.18448,
+  "lng": 3.5666,
+  "population": null,
+  "localities": [
+   "9900|Eeklo"
+  ]
+ },
+ {
+  "ref": "43007",
+  "names": {
+   "fr": "Kaprijke",
+   "nl": "Kaprijke",
+   "en": "Kaprijke",
+   "de": "Kaprijke"
+  },
+  "lat": 51.21851,
+  "lng": 3.61908,
+  "population": null,
+  "localities": [
+   "9970|Kaprijke",
+   "9971|Lembeke"
+  ]
+ },
+ {
+  "ref": "43010",
+  "names": {
+   "fr": "Maldeghem",
+   "nl": "Maldegem",
+   "en": "Maldegem",
+   "de": "Maldegem"
+  },
+  "lat": 51.20889,
+  "lng": 3.44522,
+  "population": null,
+  "localities": [
+   "9990|Maldegem",
+   "9991|Adegem",
+   "9992|Middelburg"
+  ]
+ },
+ {
+  "ref": "43014",
+  "names": {
+   "fr": "Saint-Laurent",
+   "nl": "Sint-Laureins",
+   "en": "Sint-Laureins",
+   "de": "Sint-Laureins"
+  },
+  "lat": 51.2417,
+  "lng": 3.52384,
+  "population": null,
+  "localities": [
+   "9980|Sint-Laureins",
+   "9981|Sint-Margriete",
+   "9982|Sint-Jan-in-Eremo",
+   "9988|Watervliet",
+   "9988|Waterland-Oudeman"
+  ]
+ },
+ {
+  "ref": "43018",
+  "names": {
+   "fr": "Zelzate",
+   "nl": "Zelzate",
+   "en": "Zelzate",
+   "de": "Zelzate"
+  },
+  "lat": 51.2,
+  "lng": 3.8105,
+  "population": null,
+  "localities": [
+   "9060|Zelzate"
+  ]
+ },
+ {
+  "ref": "44013",
+  "names": {
+   "fr": "Destelbergen",
+   "nl": "Destelbergen",
+   "en": "Destelbergen",
+   "de": "Destelbergen"
+  },
+  "lat": 51.05562,
+  "lng": 3.79789,
+  "population": null,
+  "localities": [
+   "9070|Heusden",
+   "9070|Destelbergen"
+  ]
+ },
+ {
+  "ref": "44019",
+  "names": {
+   "fr": "Evergem",
+   "nl": "Evergem",
+   "en": "Evergem",
+   "de": "Evergem"
+  },
+  "lat": 51.10879,
+  "lng": 3.70786,
+  "population": null,
+  "localities": [
+   "9940|Ertvelde",
+   "9940|Evergem",
+   "9940|Sleidinge",
+   "9940|Kluizen"
+  ]
+ },
+ {
+  "ref": "44020",
+  "names": {
+   "fr": "Gavere",
+   "nl": "Gavere",
+   "en": "Gavere",
+   "de": "Gavere"
+  },
+  "lat": 50.92923,
+  "lng": 3.66142,
+  "population": null,
+  "localities": [
+   "9890|Semmerzake",
+   "9890|Gavere",
+   "9890|Asper",
+   "9890|Vurste",
+   "9890|Dikkelvenne",
+   "9890|Baaigem"
+  ]
+ },
+ {
+  "ref": "44021",
+  "names": {
+   "fr": "Gent",
+   "nl": "Gent",
+   "en": "Ghent",
+   "de": "Gent"
+  },
+  "lat": 51.05383,
+  "lng": 3.72501,
+  "population": null,
+  "localities": [
+   "9000|Gent",
+   "9030|Mariakerke",
+   "9031|Drongen",
+   "9032|Wondelgem",
+   "9040|Sint-Amandsberg",
+   "9041|Oostakker",
+   "9042|Desteldonk",
+   "9042|Sint-Kruis-Winkel",
+   "9042|Mendonk",
+   "9050|Gentbrugge",
+   "9050|Ledeberg",
+   "9051|Sint-Denijs-Westrem",
+   "9051|Afsnee",
+   "9052|Zwijnaarde"
+  ]
+ },
+ {
+  "ref": "44052",
+  "names": {
+   "fr": "Oosterzele",
+   "nl": "Oosterzele",
+   "en": "Oosterzele",
+   "de": "Oosterzele"
+  },
+  "lat": 50.94564,
+  "lng": 3.80327,
+  "population": null,
+  "localities": [
+   "9860|Gijzenzele",
+   "9860|Landskouter",
+   "9860|Scheldewindeke",
+   "9860|Oosterzele",
+   "9860|Balegem",
+   "9860|Moortsele"
+  ]
+ },
+ {
+  "ref": "44064",
+  "names": {
+   "fr": "Sint-Martens-Latem",
+   "nl": "Sint-Martens-Latem",
+   "en": "Sint-Martens-Latem",
+   "de": "Sint-Martens-Latem"
+  },
+  "lat": 51.02097,
+  "lng": 3.63975,
+  "population": null,
+  "localities": [
+   "9800|Sint-Martens-Leerne",
+   "9830|Sint-Martens-Latem",
+   "9831|Deurle"
+  ]
+ },
+ {
+  "ref": "44081",
+  "names": {
+   "fr": "Zulte",
+   "nl": "Zulte",
+   "en": "Zulte",
+   "de": "Zulte"
+  },
+  "lat": 50.92066,
+  "lng": 3.44856,
+  "population": null,
+  "localities": [
+   "9870|Olsene",
+   "9870|Machelen",
+   "9870|Zulte"
+  ]
+ },
+ {
+  "ref": "44083",
+  "names": {
+   "fr": "Deynze",
+   "nl": "Deinze",
+   "en": "Deinze",
+   "de": "Deinze"
+  },
+  "lat": 50.98419,
+  "lng": 3.52704,
+  "population": null,
+  "localities": [
+   "9800|Meigem",
+   "9800|Grammene",
+   "9800|Bachte-Maria-Leerne",
+   "9800|Petegem-aan-de-Leie",
+   "9800|Vinkt",
+   "9800|Gottem",
+   "9800|Astene",
+   "9800|Deinze",
+   "9800|Zeveren",
+   "9800|Wontergem",
+   "9850|Landegem",
+   "9850|Vosselare",
+   "9850|Poesele",
+   "9850|Merendree",
+   "9850|Nevele",
+   "9850|Hansbeke"
+  ]
+ },
+ {
+  "ref": "44084",
+  "names": {
+   "fr": "Aeltre",
+   "nl": "Aalter",
+   "en": "Aalter",
+   "de": "Aalter"
+  },
+  "lat": 51.08389,
+  "lng": 3.44852,
+  "population": null,
+  "localities": [
+   "9880|Aalter",
+   "9880|Lotenhulle",
+   "9880|Poeke",
+   "9881|Bellem",
+   "9910|Knesselare",
+   "9910|Ursel"
+  ]
+ },
+ {
+  "ref": "44085",
+  "names": {
+   "fr": "Lievegem",
+   "nl": "Lievegem",
+   "en": "Lievegem",
+   "de": "Lievegem"
+  },
+  "lat": 51.1184,
+  "lng": 3.5596,
+  "population": null,
+  "localities": [
+   "9920|Lovendegem",
+   "9921|Vinderhoute",
+   "9930|Zomergem",
+   "9930|Lievegem",
+   "9931|Oostwinkel",
+   "9932|Ronsele",
+   "9950|Waarschoot"
+  ]
+ },
+ {
+  "ref": "44086",
+  "names": {
+   "fr": "Nazareth-La Pinte",
+   "nl": "Nazareth-De Pinte",
+   "en": "Nazareth-De Pinte",
+   "de": "Nazareth-De Pinte"
+  },
+  "lat": 50.9598,
+  "lng": 3.59632,
+  "population": null,
+  "localities": [
+   "9810|Eke",
+   "9810|Nazareth",
+   "9840|De Pinte",
+   "9840|Zevergem"
+  ]
+ },
+ {
+  "ref": "44087",
+  "names": {
+   "fr": "Lochristi",
+   "nl": "Lochristi",
+   "en": "Lochristi",
+   "de": "Lochristi"
+  },
+  "lat": 51.09689,
+  "lng": 3.8356,
+  "population": null,
+  "localities": [
+   "9080|Zeveneken",
+   "9080|Beervelde",
+   "9080|Lochristi",
+   "9080|Zaffelare",
+   "9185|Wachtebeke"
+  ]
+ },
+ {
+  "ref": "44088",
+  "names": {
+   "fr": "Merelbeke-Melle",
+   "nl": "Merelbeke-Melle",
+   "en": "Merelbeke-Melle",
+   "de": "Merelbeke-Melle"
+  },
+  "lat": 50.99429,
+  "lng": 3.74591,
+  "population": null,
+  "localities": [
+   "9090|Gontrode",
+   "9090|Melle",
+   "9820|Munte",
+   "9820|Lemberge",
+   "9820|Melsen",
+   "9820|Merelbeke",
+   "9820|Schelderode",
+   "9820|Bottelare"
+  ]
+ },
+ {
+  "ref": "45035",
+  "names": {
+   "fr": "Audenarde",
+   "nl": "Oudenaarde",
+   "en": "Oudenaarde",
+   "de": "Oudenaarde"
+  },
+  "lat": 50.84337,
+  "lng": 3.60414,
+  "population": null,
+  "localities": [
+   "9660|Sint-Maria-Oudenhove",
+   "9700|Nederename",
+   "9700|Welden",
+   "9700|Eine",
+   "9700|Ename",
+   "9700|Oudenaarde",
+   "9700|Mater",
+   "9700|Edelare",
+   "9700|Melden",
+   "9700|Heurne",
+   "9700|Bevere",
+   "9700|Leupegem",
+   "9700|Volkegem",
+   "9700|Mullem"
+  ]
+ },
+ {
+  "ref": "45041",
+  "names": {
+   "fr": "Renaix",
+   "nl": "Ronse",
+   "en": "Ronse",
+   "de": "Ronse"
+  },
+  "lat": 50.74755,
+  "lng": 3.60209,
+  "population": null,
+  "localities": [
+   "9600|Renaix"
+  ]
+ },
+ {
+  "ref": "45059",
+  "names": {
+   "fr": "Bracle",
+   "nl": "Brakel",
+   "en": "Brakel",
+   "de": "Brakel"
+  },
+  "lat": 50.80306,
+  "lng": 3.76479,
+  "population": null,
+  "localities": [
+   "9660|Opbrakel",
+   "9660|Zegelsem",
+   "9660|Brakel",
+   "9660|Nederbrakel",
+   "9660|Elst",
+   "9660|Everbeek",
+   "9660|Michelbeke",
+   "9661|Parike"
+  ]
+ },
+ {
+  "ref": "45060",
+  "names": {
+   "fr": "Kluisbergen",
+   "nl": "Kluisbergen",
+   "en": "Kluisbergen",
+   "de": "Kluisbergen"
+  },
+  "lat": 50.79039,
+  "lng": 3.50827,
+  "population": null,
+  "localities": [
+   "9690|Zulzeke",
+   "9690|Kluisbergen",
+   "9690|Kwaremont",
+   "9690|Berchem",
+   "9690|Ruien"
+  ]
+ },
+ {
+  "ref": "45061",
+  "names": {
+   "fr": "Wortegem-Petegem",
+   "nl": "Wortegem-Petegem",
+   "en": "Wortegem-Petegem",
+   "de": "Wortegem-Petegem"
+  },
+  "lat": 50.85338,
+  "lng": 3.51011,
+  "population": null,
+  "localities": [
+   "9700|Ooike",
+   "9790|Wortegem-Petegem",
+   "9790|Elsegem",
+   "9790|Moregem",
+   "9790|Petegem-aan-de-Schelde",
+   "9790|Wortegem",
+   "9790|Ooike",
+   "8570|Gijzelbrechtegem"
+  ]
+ },
+ {
+  "ref": "45062",
+  "names": {
+   "fr": "Horebeke",
+   "nl": "Horebeke",
+   "en": "Horebeke",
+   "de": "Horebeke"
+  },
+  "lat": 50.83834,
+  "lng": 3.68751,
+  "population": null,
+  "localities": [
+   "9667|Horebeke",
+   "9667|Sint-Kornelis-Horebeke",
+   "9667|Sint-Maria-Horebeke"
+  ]
+ },
+ {
+  "ref": "45063",
+  "names": {
+   "fr": "Lierde",
+   "nl": "Lierde",
+   "en": "Lierde",
+   "de": "Lierde"
+  },
+  "lat": 50.81504,
+  "lng": 3.82496,
+  "population": null,
+  "localities": [
+   "9570|Deftinge",
+   "9570|Sint-Maria-Lierde",
+   "9570|Lierde",
+   "9571|Hemelveerdegem",
+   "9572|Sint-Martens-Lierde"
+  ]
+ },
+ {
+  "ref": "45064",
+  "names": {
+   "fr": "Markedal",
+   "nl": "Maarkedal",
+   "en": "Maarkedal",
+   "de": "Maarkedal"
+  },
+  "lat": 50.81292,
+  "lng": 3.626,
+  "population": null,
+  "localities": [
+   "9680|Maarkedal",
+   "9680|Maarke-Kerkem",
+   "9680|Etikhove",
+   "9681|Nukerke",
+   "9688|Schorisse"
+  ]
+ },
+ {
+  "ref": "45065",
+  "names": {
+   "fr": "Zwalin",
+   "nl": "Zwalm",
+   "en": "Zwalm",
+   "de": "Zwalm"
+  },
+  "lat": 50.87768,
+  "lng": 3.73274,
+  "population": null,
+  "localities": [
+   "9630|Munkzwalm",
+   "9630|Sint-Maria-Latem",
+   "9630|Sint-Blasius-Boekel",
+   "9630|Hundelgem",
+   "9630|Dikkele",
+   "9630|Zwalm",
+   "9630|Roborst",
+   "9630|Rozebeke",
+   "9630|Sint-Denijs-Boekel",
+   "9630|Meilegem",
+   "9630|Paulatem",
+   "9630|Beerlegem",
+   "9636|Nederzwalm-Hermelgem"
+  ]
+ },
+ {
+  "ref": "45068",
+  "names": {
+   "fr": "Kruisem",
+   "nl": "Kruisem",
+   "en": "Kruisem",
+   "de": "Kruisem"
+  },
+  "lat": 50.90482,
+  "lng": 3.52818,
+  "population": null,
+  "localities": [
+   "9750|Zingem",
+   "9750|Huise",
+   "9750|Ouwegem",
+   "9770|Kruishoutem",
+   "9770|Kruisem",
+   "9771|Nokere",
+   "9772|Wannegem-Lede"
+  ]
+ },
+ {
+  "ref": "46020",
+  "names": {
+   "fr": "Saint-Gilles-Waes",
+   "nl": "Sint-Gillis-Waas",
+   "en": "Sint-Gillis-Waas",
+   "de": "Sint-Gillis-Waas"
+  },
+  "lat": 51.21799,
+  "lng": 4.12861,
+  "population": 19076,
+  "localities": [
+   "9170|De Klinge",
+   "9170|Sint-Gillis-Waas",
+   "9170|Sint-Pauwels",
+   "9170|Meerdonk"
+  ]
+ },
+ {
+  "ref": "46021",
+  "names": {
+   "fr": "Saint-Nicolas-Waes",
+   "nl": "Sint-Niklaas",
+   "en": "Sint-Niklaas",
+   "de": "Sint-Niklaas"
+  },
+  "lat": 51.16467,
+  "lng": 4.13951,
+  "population": null,
+  "localities": [
+   "9100|Sint-Niklaas",
+   "9100|Nieuwkerken-Waas",
+   "9111|Belsele",
+   "9112|Sinaai-Waas"
+  ]
+ },
+ {
+  "ref": "46024",
+  "names": {
+   "fr": "Stekene",
+   "nl": "Stekene",
+   "en": "Stekene",
+   "de": "Stekene"
+  },
+  "lat": 51.20623,
+  "lng": 4.03969,
+  "population": null,
+  "localities": [
+   "9190|Stekene",
+   "9190|Kemzeke"
+  ]
+ },
+ {
+  "ref": "46025",
+  "names": {
+   "fr": "Tamise",
+   "nl": "Temse",
+   "en": "Temse",
+   "de": "Temse"
+  },
+  "lat": 51.12536,
+  "lng": 4.21333,
+  "population": null,
+  "localities": [
+   "9140|Tielrode",
+   "9140|Steendorp",
+   "9140|Elversele",
+   "9140|Temse"
+  ]
+ },
+ {
+  "ref": "46029",
+  "names": {
+   "fr": "Lokeren",
+   "nl": "Lokeren",
+   "en": "Lokeren",
+   "de": "Lokeren"
+  },
+  "lat": 51.10445,
+  "lng": 3.98987,
+  "population": null,
+  "localities": [
+   "9160|Daknam",
+   "9160|Eksaarde",
+   "9160|Lokeren",
+   "9180|Moerbeke-Waas"
+  ]
+ },
+ {
+  "ref": "46030",
+  "names": {
+   "fr": "Beveren-Kruibeke-Zwijndrecht",
+   "nl": "Beveren-Kruibeke-Zwijndrecht",
+   "en": "Beveren-Kruibeke-Zwijndrecht",
+   "de": "Beveren-Kruibeke-Zwijndrecht"
+  },
+  "lat": 51.21261,
+  "lng": 4.25778,
+  "population": null,
+  "localities": [
+   "2070|Zwijndrecht",
+   "2070|Burcht",
+   "9120|Haasdonk",
+   "9120|Kallo",
+   "9120|Melsele",
+   "9120|Vrasene",
+   "9120|Beveren-Waas",
+   "9130|Doel",
+   "9130|Kallo",
+   "9130|Kieldrecht",
+   "9130|Verrebroek",
+   "9150|Rupelmonde",
+   "9150|Bazel",
+   "9150|Kruibeke"
+  ]
+ },
+ {
+  "ref": "51004",
+  "names": {
+   "fr": "Ath",
+   "nl": "Aat",
+   "en": "Ath",
+   "de": "Ath"
+  },
+  "lat": 50.63113,
+  "lng": 3.77695,
+  "population": null,
+  "localities": [
+   "7800|Ath",
+   "7800|Lanquesaint",
+   "7801|Irchonwelz",
+   "7802|Ormeignies",
+   "7803|Bouvignies",
+   "7804|Ostiches",
+   "7804|Rebaix",
+   "7810|Maffle",
+   "7811|Arbre",
+   "7812|Villers-Notre-Dame",
+   "7812|Villers-Saint-Amand",
+   "7812|Mainvault",
+   "7812|Houtaing",
+   "7812|Ligne",
+   "7812|Moulbaix",
+   "7822|Ghislenghien",
+   "7822|Isières",
+   "7822|Meslin-l'Evêque",
+   "7823|Gibecq"
+  ]
+ },
+ {
+  "ref": "51008",
+  "names": {
+   "fr": "Belœil",
+   "nl": "Belœil",
+   "en": "Belœil",
+   "de": "Belœil"
+  },
+  "lat": 50.54843,
+  "lng": 3.73533,
+  "population": null,
+  "localities": [
+   "7970|Beloeil",
+   "7971|Thumaide",
+   "7971|Wadelincourt",
+   "7971|Basècles",
+   "7971|Ramegnies",
+   "7972|Ellignies-Sainte-Anne",
+   "7972|Aubechies",
+   "7972|Quevaucamps",
+   "7973|Stambruges",
+   "7973|Grandglise"
+  ]
+ },
+ {
+  "ref": "51009",
+  "names": {
+   "fr": "Bernissart",
+   "nl": "Bernissart",
+   "en": "Bernissart",
+   "de": "Bernissart"
+  },
+  "lat": 50.47555,
+  "lng": 3.65045,
+  "population": null,
+  "localities": [
+   "7320|Bernissart",
+   "7321|Blaton",
+   "7321|Harchies",
+   "7322|Ville-Pommeroeul",
+   "7322|Pommeroeul"
+  ]
+ },
+ {
+  "ref": "51012",
+  "names": {
+   "fr": "Brugelette",
+   "nl": "Brugelette",
+   "en": "Brugelette",
+   "de": "Brugelette"
+  },
+  "lat": 50.59596,
+  "lng": 3.85269,
+  "population": null,
+  "localities": [
+   "7940|Brugelette",
+   "7940|Cambron-Casteau",
+   "7941|Attre",
+   "7942|Mévergnies-lez-Lens",
+   "7943|Gages"
+  ]
+ },
+ {
+  "ref": "51014",
+  "names": {
+   "fr": "Chièvres",
+   "nl": "Chièvres",
+   "en": "Chièvres",
+   "de": "Chièvres"
+  },
+  "lat": 50.58727,
+  "lng": 3.80884,
+  "population": null,
+  "localities": [
+   "7950|Chièvres",
+   "7950|Ladeuze",
+   "7950|Tongre-Saint-Martin",
+   "7950|Grosage",
+   "7950|Huissignies",
+   "7951|Tongre-Notre-Dame"
+  ]
+ },
+ {
+  "ref": "51017",
+  "names": {
+   "fr": "Ellezelles",
+   "nl": "Elzele",
+   "en": "Ellezelles",
+   "de": "Ellezelles"
+  },
+  "lat": 50.73398,
+  "lng": 3.68,
+  "population": null,
+  "localities": [
+   "7890|Lahamaide",
+   "7890|Wodecq",
+   "7890|Ellezelles"
+  ]
+ },
+ {
+  "ref": "51019",
+  "names": {
+   "fr": "Flobecq",
+   "nl": "Vloesberg",
+   "en": "Flobecq",
+   "de": "Flobecq"
+  },
+  "lat": 50.73717,
+  "lng": 3.73787,
+  "population": null,
+  "localities": [
+   "7880|Flobecq"
+  ]
+ },
+ {
+  "ref": "51065",
+  "names": {
+   "fr": "Frasnes-lez-Anvaing",
+   "nl": "Frasnes-lez-Anvaing",
+   "en": "Frasnes-lez-Anvaing",
+   "de": "Frasnes-lez-Anvaing"
+  },
+  "lat": 50.66672,
+  "lng": 3.61844,
+  "population": null,
+  "localities": [
+   "7910|Forest",
+   "7910|Arc-Ainières",
+   "7910|Wattripont",
+   "7910|Arc-Wattripont",
+   "7910|Anvaing",
+   "7910|Frasnes-lez-Anvaing",
+   "7910|Cordes",
+   "7910|Ellignies-lez-Frasnes",
+   "7911|Hacquegnies",
+   "7911|Frasnes-lez-Buissenal",
+   "7911|Buissenal",
+   "7911|Herquegies",
+   "7911|Moustier",
+   "7911|Montroeul-Au-Bois",
+   "7911|Oeudeghien",
+   "7912|Saint-Sauveur",
+   "7912|Dergneau"
+  ]
+ },
+ {
+  "ref": "51067",
+  "names": {
+   "fr": "Enghien",
+   "nl": "Edingen",
+   "en": "Enghien",
+   "de": "Enghien"
+  },
+  "lat": 50.69571,
+  "lng": 4.04119,
+  "population": null,
+  "localities": [
+   "7850|Marcq",
+   "7850|Petit-Enghien",
+   "7850|Enghien"
+  ]
+ },
+ {
+  "ref": "51068",
+  "names": {
+   "fr": "Silly",
+   "nl": "Opzullik",
+   "en": "Silly",
+   "de": "Silly"
+  },
+  "lat": 50.64845,
+  "lng": 3.92359,
+  "population": null,
+  "localities": [
+   "7830|Gondregnies",
+   "7830|Fouleng",
+   "7830|Silly",
+   "7830|Graty",
+   "7830|Hellebecq",
+   "7830|Hoves",
+   "7830|Bassilly",
+   "7830|Thoricourt",
+   "7861|Papignies"
+  ]
+ },
+ {
+  "ref": "51069",
+  "names": {
+   "fr": "Lessines",
+   "nl": "Lessen",
+   "en": "Lessines",
+   "de": "Lessines"
+  },
+  "lat": 50.7123,
+  "lng": 3.83011,
+  "population": null,
+  "localities": [
+   "7860|Lessines",
+   "7861|Wannebecq",
+   "7862|Ogy",
+   "7863|Ghoy",
+   "7864|Deux-Acren",
+   "7866|Ollignies",
+   "7866|Bois-de-Lessines"
+  ]
+ },
+ {
+  "ref": "52010",
+  "names": {
+   "fr": "Chapelle-lez-Herlaimont",
+   "nl": "Chapelle-lez-Herlaimont",
+   "en": "Chapelle-lez-Herlaimont",
+   "de": "Chapelle-lez-Herlaimont"
+  },
+  "lat": 50.47131,
+  "lng": 4.2805,
+  "population": null,
+  "localities": [
+   "7160|Godarville",
+   "7160|Piéton",
+   "7160|Chapelle-lez-Herlaimont",
+   "7170|Bellecourt"
+  ]
+ },
+ {
+  "ref": "52011",
+  "names": {
+   "fr": "Charleroi",
+   "nl": "Charleroi",
+   "en": "Charleroi",
+   "de": "Charleroi"
+  },
+  "lat": 50.41162,
+  "lng": 4.44453,
+  "population": null,
+  "localities": [
+   "6000|Charleroi",
+   "6001|Marcinelle",
+   "6010|Couillet",
+   "6020|Dampremy",
+   "6030|Goutroux",
+   "6030|Marchienne-Au-Pont",
+   "6031|Monceau-sur-Sambre",
+   "6032|Mont-sur-Marchienne",
+   "6040|Jumet",
+   "6041|Gosselies",
+   "6042|Lodelinsart",
+   "6043|Ransart",
+   "6044|Roux",
+   "6060|Gilly",
+   "6061|Montignies-sur-Sambre"
+  ]
+ },
+ {
+  "ref": "52012",
+  "names": {
+   "fr": "Châtelet",
+   "nl": "Châtelet",
+   "en": "Châtelet",
+   "de": "Châtelet"
+  },
+  "lat": 50.40461,
+  "lng": 4.52435,
+  "population": null,
+  "localities": [
+   "6200|Châtelet",
+   "6200|Bouffioulx",
+   "6200|Châtelineau",
+   "6240|Pironchamps"
+  ]
+ },
+ {
+  "ref": "52015",
+  "names": {
+   "fr": "Courcelles",
+   "nl": "Courcelles",
+   "en": "Courcelles",
+   "de": "Courcelles"
+  },
+  "lat": 50.45747,
+  "lng": 4.37601,
+  "population": null,
+  "localities": [
+   "6180|Courcelles",
+   "6181|Gouy-lez-Piéton",
+   "6182|Souvret",
+   "6183|Trazegnies"
+  ]
+ },
+ {
+  "ref": "52018",
+  "names": {
+   "fr": "Farciennes",
+   "nl": "Farciennes",
+   "en": "Farciennes",
+   "de": "Farciennes"
+  },
+  "lat": 50.43184,
+  "lng": 4.54652,
+  "population": null,
+  "localities": [
+   "6240|Farciennes"
+  ]
+ },
+ {
+  "ref": "52021",
+  "names": {
+   "fr": "Fleurus",
+   "nl": "Fleurus",
+   "en": "Fleurus",
+   "de": "Fleurus"
+  },
+  "lat": 50.48294,
+  "lng": 4.5497,
+  "population": null,
+  "localities": [
+   "6220|Wangenies",
+   "6220|Heppignies",
+   "6220|Lambusart",
+   "6220|Fleurus",
+   "6221|Saint-Amand",
+   "6222|Brye",
+   "6223|Wagnelée",
+   "6224|Wanfercée-Baulet",
+   "5060|Keumiée",
+   "5060|Moignelée"
+  ]
+ },
+ {
+  "ref": "52022",
+  "names": {
+   "fr": "Fontaine-l'Évêque",
+   "nl": "Fontaine-l'Évêque",
+   "en": "Fontaine-l'Évêque",
+   "de": "Fontaine-l'Évêque"
+  },
+  "lat": 50.4107,
+  "lng": 4.32476,
+  "population": null,
+  "localities": [
+   "6140|Fontaine-l'Evêque",
+   "6141|Forchies-la-Marche",
+   "6142|Leernes"
+  ]
+ },
+ {
+  "ref": "52025",
+  "names": {
+   "fr": "Gerpinnes",
+   "nl": "Gerpinnes",
+   "en": "Gerpinnes",
+   "de": "Gerpinnes"
+  },
+  "lat": 50.33782,
+  "lng": 4.52768,
+  "population": null,
+  "localities": [
+   "6280|Loverval",
+   "6280|Acoz",
+   "6280|Gerpinnes",
+   "6280|Joncret",
+   "6280|Villers-Poterie",
+   "6280|Gougnies"
+  ]
+ },
+ {
+  "ref": "52048",
+  "names": {
+   "fr": "Montigny-le-Tilleul",
+   "nl": "Montigny-le-Tilleul",
+   "en": "Montigny-le-Tilleul",
+   "de": "Montigny-le-Tilleul"
+  },
+  "lat": 50.3789,
+  "lng": 4.37934,
+  "population": null,
+  "localities": [
+   "6110|Montigny-le-Tilleul",
+   "6111|Landelies"
+  ]
+ },
+ {
+  "ref": "52055",
+  "names": {
+   "fr": "Pont-à-Celles",
+   "nl": "Pont-à-Celles",
+   "en": "Pont-à-Celles",
+   "de": "Pont-à-Celles"
+  },
+  "lat": 50.51226,
+  "lng": 4.36174,
+  "population": null,
+  "localities": [
+   "6230|Pont-À-Celles",
+   "6230|Thiméon",
+   "6230|Obaix",
+   "6230|Viesville",
+   "6230|Buzet",
+   "6238|Luttre",
+   "6238|Liberchies"
+  ]
+ },
+ {
+  "ref": "52074",
+  "names": {
+   "fr": "Aiseau-Presles",
+   "nl": "Aiseau-Presles",
+   "en": "Aiseau-Presles",
+   "de": "Aiseau-Presles"
+  },
+  "lat": 50.41636,
+  "lng": 4.5712,
+  "population": null,
+  "localities": [
+   "6250|Pont-de-Loup",
+   "6250|Aiseau",
+   "6250|Aiseau-Presles",
+   "6250|Roselies",
+   "6250|Presles"
+  ]
+ },
+ {
+  "ref": "52075",
+  "names": {
+   "fr": "Les Bons Villers",
+   "nl": "Les Bons Villers",
+   "en": "Les Bons Villers",
+   "de": "Les Bons Villers"
+  },
+  "lat": 50.52264,
+  "lng": 4.47635,
+  "population": null,
+  "localities": [
+   "6210|Villers-Perwin",
+   "6210|Les Bons Villers",
+   "6210|Rèves",
+   "6210|Frasnes-lez-Gosselies",
+   "6210|Wayaux",
+   "6211|Mellet"
+  ]
+ },
+ {
+  "ref": "53014",
+  "names": {
+   "fr": "Boussu",
+   "nl": "Boussu",
+   "en": "Boussu",
+   "de": "Boussu"
+  },
+  "lat": 50.43313,
+  "lng": 3.79609,
+  "population": 19942,
+  "localities": [
+   "7300|Boussu",
+   "7301|Hornu"
+  ]
+ },
+ {
+  "ref": "53020",
+  "names": {
+   "fr": "Dour",
+   "nl": "Dour",
+   "en": "Dour",
+   "de": "Dour"
+  },
+  "lat": 50.39638,
+  "lng": 3.77868,
+  "population": 16903,
+  "localities": [
+   "7370|Blaugies",
+   "7370|Wihéries",
+   "7370|Dour",
+   "7370|Elouges"
+  ]
+ },
+ {
+  "ref": "53028",
+  "names": {
+   "fr": "Frameries",
+   "nl": "Frameries",
+   "en": "Frameries",
+   "de": "Frameries"
+  },
+  "lat": 50.40965,
+  "lng": 3.8933,
+  "population": 21296,
+  "localities": [
+   "7080|Sars-la-Bruyère",
+   "7080|La Bouverie",
+   "7080|Frameries",
+   "7080|Noirchain",
+   "7080|Eugies"
+  ]
+ },
+ {
+  "ref": "53039",
+  "names": {
+   "fr": "Hensies",
+   "nl": "Hensies",
+   "en": "Hensies",
+   "de": "Hensies"
+  },
+  "lat": 50.4326,
+  "lng": 3.68476,
+  "population": 6778,
+  "localities": [
+   "7350|Hensies",
+   "7350|Thulin",
+   "7350|Montroeul-sur-Haine",
+   "7350|Hainin"
+  ]
+ },
+ {
+  "ref": "53044",
+  "names": {
+   "fr": "Jurbise",
+   "nl": "Jurbeke",
+   "en": "Jurbise",
+   "de": "Jurbise"
+  },
+  "lat": 50.53251,
+  "lng": 3.91132,
+  "population": null,
+  "localities": [
+   "7050|Jurbise",
+   "7050|Erbisoeul",
+   "7050|Herchies",
+   "7050|Masnuy-Saint-Jean",
+   "7050|Erbaut",
+   "7050|Masnuy-Saint-Pierre"
+  ]
+ },
+ {
+  "ref": "53046",
+  "names": {
+   "fr": "Lens",
+   "nl": "Lens",
+   "en": "Lens",
+   "de": "Lens"
+  },
+  "lat": 50.55708,
+  "lng": 3.90055,
+  "population": null,
+  "localities": [
+   "7870|Lens",
+   "7870|Lombise",
+   "7870|Bauffe",
+   "7870|Cambron-Saint-Vincent",
+   "7870|Montignies-lez-Lens"
+  ]
+ },
+ {
+  "ref": "53053",
+  "names": {
+   "fr": "Mons",
+   "nl": "Bergen",
+   "en": "Mons",
+   "de": "Mons"
+  },
+  "lat": 50.45496,
+  "lng": 3.95196,
+  "population": null,
+  "localities": [
+   "7000|Mons",
+   "7011|Ghlin",
+   "7012|Jemappes",
+   "7012|Flénu",
+   "7020|Maisières",
+   "7020|Nimy",
+   "7021|Havré",
+   "7022|Hyon",
+   "7022|Nouvelles",
+   "7022|Harveng",
+   "7022|Harmignies",
+   "7022|Mesvin",
+   "7024|Ciply",
+   "7030|Saint-Symphorien",
+   "7031|Villers-Saint-Ghislain",
+   "7032|Spiennes",
+   "7033|Cuesmes",
+   "7034|Saint-Denis",
+   "7034|Obourg"
+  ]
+ },
+ {
+  "ref": "53065",
+  "names": {
+   "fr": "Quaregnon",
+   "nl": "Quaregnon",
+   "en": "Quaregnon",
+   "de": "Quaregnon"
+  },
+  "lat": 50.44216,
+  "lng": 3.86373,
+  "population": 18868,
+  "localities": [
+   "7390|Wasmuel",
+   "7390|Quaregnon"
+  ]
+ },
+ {
+  "ref": "53068",
+  "names": {
+   "fr": "Quiévrain",
+   "nl": "Quiévrain",
+   "en": "Quiévrain",
+   "de": "Quiévrain"
+  },
+  "lat": 50.40588,
+  "lng": 3.68238,
+  "population": 6715,
+  "localities": [
+   "7380|Baisieux",
+   "7380|Quiévrain",
+   "7382|Audregnies"
+  ]
+ },
+ {
+  "ref": "53070",
+  "names": {
+   "fr": "Saint-Ghislain",
+   "nl": "Saint-Ghislain",
+   "en": "Saint-Ghislain",
+   "de": "Saint-Ghislain"
+  },
+  "lat": 50.44775,
+  "lng": 3.81952,
+  "population": 23763,
+  "localities": [
+   "7330|Saint-Ghislain",
+   "7331|Baudour",
+   "7332|Sirault",
+   "7332|Neufmaison",
+   "7333|Tertre",
+   "7334|Villerot",
+   "7334|Hautrage"
+  ]
+ },
+ {
+  "ref": "53082",
+  "names": {
+   "fr": "Colfontaine",
+   "nl": "Colfontaine",
+   "en": "Colfontaine",
+   "de": "Colfontaine"
+  },
+  "lat": 50.40566,
+  "lng": 3.8514,
+  "population": 20446,
+  "localities": [
+   "7340|Warquignies",
+   "7340|Colfontaine",
+   "7340|Pâturages",
+   "7340|Wasmes"
+  ]
+ },
+ {
+  "ref": "53083",
+  "names": {
+   "fr": "Honnelles",
+   "nl": "Honnelles",
+   "en": "Honnelles",
+   "de": "Honnelles"
+  },
+  "lat": 50.35209,
+  "lng": 3.73102,
+  "population": 5059,
+  "localities": [
+   "7387|Fayt-le-Franc",
+   "7387|Marchipont",
+   "7387|Autreppe",
+   "7387|Angre",
+   "7387|Erquennes",
+   "7387|Honnelles",
+   "7387|Athis",
+   "7387|Roisin",
+   "7387|Angreau",
+   "7387|Montignies-sur-Roc",
+   "7387|Onnezies"
+  ]
+ },
+ {
+  "ref": "53084",
+  "names": {
+   "fr": "Quévy",
+   "nl": "Quévy",
+   "en": "Quévy",
+   "de": "Quévy"
+  },
+  "lat": 50.36672,
+  "lng": 3.9439,
+  "population": null,
+  "localities": [
+   "7040|Blaregnies",
+   "7040|Aulnois",
+   "7040|Quévy",
+   "7040|Asquillies",
+   "7040|Bougnies",
+   "7040|Quévy-le-Grand",
+   "7040|Goegnies-Chaussée",
+   "7040|Quévy-le-Petit",
+   "7040|Genly",
+   "7041|Givry",
+   "7041|Havay"
+  ]
+ },
+ {
+  "ref": "55004",
+  "names": {
+   "fr": "Braine-le-Comte",
+   "nl": "'s-Gravenbrakel",
+   "en": "Braine-le-Comte",
+   "de": "Braine-le-Comte"
+  },
+  "lat": 50.61071,
+  "lng": 4.13607,
+  "population": null,
+  "localities": [
+   "7090|Ronquières",
+   "7090|Hennuyères",
+   "7090|Petit-Roeulx-lez-Braine",
+   "7090|Steenkerque",
+   "7090|Braine-le-Comte",
+   "7090|Henripont"
+  ]
+ },
+ {
+  "ref": "55035",
+  "names": {
+   "fr": "Le Rœulx",
+   "nl": "Le Rœulx",
+   "en": "Le Rœulx",
+   "de": "Le Rœulx"
+  },
+  "lat": 50.50168,
+  "lng": 4.10886,
+  "population": null,
+  "localities": [
+   "7070|Le Roeulx",
+   "7070|Thieu",
+   "7070|Gottignies",
+   "7070|Ville-sur-Haine",
+   "7070|Mignault"
+  ]
+ },
+ {
+  "ref": "55040",
+  "names": {
+   "fr": "Soignies",
+   "nl": "Zinnik",
+   "en": "Soignies",
+   "de": "Soignies"
+  },
+  "lat": 50.5792,
+  "lng": 4.06856,
+  "population": null,
+  "localities": [
+   "7060|Soignies",
+   "7060|Horrues",
+   "7061|Casteau",
+   "7061|Thieusies",
+   "7062|Naast",
+   "7063|Neufvilles",
+   "7063|Chaussée-Notre-Dame-Louvignies"
+  ]
+ },
+ {
+  "ref": "55050",
+  "names": {
+   "fr": "Écaussinnes",
+   "nl": "Écaussinnes",
+   "en": "Écaussinnes",
+   "de": "Écaussinnes"
+  },
+  "lat": 50.56968,
+  "lng": 4.17529,
+  "population": null,
+  "localities": [
+   "7190|Marche-lez-Ecaussinnes",
+   "7190|Ecaussinnes",
+   "7190|Ecaussinnes-d'Enghien",
+   "7191|Ecaussinnes-Lalaing"
+  ]
+ },
+ {
+  "ref": "55085",
+  "names": {
+   "fr": "Seneffe",
+   "nl": "Seneffe",
+   "en": "Seneffe",
+   "de": "Seneffe"
+  },
+  "lat": 50.52926,
+  "lng": 4.2567,
+  "population": null,
+  "localities": [
+   "7180|Seneffe",
+   "7181|Arquennes",
+   "7181|Familleureux",
+   "7181|Petit-Roeulx-lez-Nivelles",
+   "7181|Feluy"
+  ]
+ },
+ {
+  "ref": "55086",
+  "names": {
+   "fr": "Manage",
+   "nl": "Manage",
+   "en": "Manage",
+   "de": "Manage"
+  },
+  "lat": 50.50402,
+  "lng": 4.23556,
+  "population": null,
+  "localities": [
+   "7170|Fayt-lez-Manage",
+   "7170|Bois-d'Haine",
+   "7170|La Hestre",
+   "7170|Manage"
+  ]
+ },
+ {
+  "ref": "56001",
+  "names": {
+   "fr": "Anderlues",
+   "nl": "Anderlues",
+   "en": "Anderlues",
+   "de": "Anderlues"
+  },
+  "lat": 50.40782,
+  "lng": 4.27009,
+  "population": null,
+  "localities": [
+   "6150|Anderlues"
+  ]
+ },
+ {
+  "ref": "56005",
+  "names": {
+   "fr": "Beaumont",
+   "nl": "Beaumont",
+   "en": "Beaumont",
+   "de": "Beaumont"
+  },
+  "lat": 50.23553,
+  "lng": 4.23831,
+  "population": null,
+  "localities": [
+   "6500|Leugnies",
+   "6500|Thirimont",
+   "6500|Solre-Saint-Géry",
+   "6500|Barbençon",
+   "6500|Beaumont",
+   "6500|Leval-Chaudeville",
+   "6500|Renlies",
+   "6511|Strée"
+  ]
+ },
+ {
+  "ref": "56016",
+  "names": {
+   "fr": "Chimay",
+   "nl": "Chimay",
+   "en": "Chimay",
+   "de": "Chimay"
+  },
+  "lat": 50.04793,
+  "lng": 4.31733,
+  "population": null,
+  "localities": [
+   "6460|Bailièvre",
+   "6460|Robechies",
+   "6460|Villers-la-Tour",
+   "6460|Saint-Remy",
+   "6460|Chimay",
+   "6460|Salles",
+   "6461|Virelles",
+   "6462|Vaulx-lez-Chimay",
+   "6463|Lompret",
+   "6464|Baileux",
+   "6464|Rièzes",
+   "6464|Bourlers",
+   "6464|Forges",
+   "6464|L'Escaillère"
+  ]
+ },
+ {
+  "ref": "56022",
+  "names": {
+   "fr": "Erquelinnes",
+   "nl": "Erquelinnes",
+   "en": "Erquelinnes",
+   "de": "Erquelinnes"
+  },
+  "lat": 50.3101,
+  "lng": 4.12187,
+  "population": null,
+  "localities": [
+   "6560|Erquelinnes",
+   "6560|Montignies-Saint-Christophe",
+   "6560|Bersillies-l'Abbaye",
+   "6560|Solre-sur-Sambre",
+   "6560|Hantes-Wihéries",
+   "6560|Grand-Reng"
+  ]
+ },
+ {
+  "ref": "56029",
+  "names": {
+   "fr": "Froidchapelle",
+   "nl": "Froidchapelle",
+   "en": "Froidchapelle",
+   "de": "Froidchapelle"
+  },
+  "lat": 50.15116,
+  "lng": 4.32691,
+  "population": 3835,
+  "localities": [
+   "6440|Vergnies",
+   "6440|Boussu-lez-Walcourt",
+   "6440|Fourbechies",
+   "6440|Froidchapelle",
+   "6441|Erpion"
+  ]
+ },
+ {
+  "ref": "56044",
+  "names": {
+   "fr": "Lobbes",
+   "nl": "Lobbes",
+   "en": "Lobbes",
+   "de": "Lobbes"
+  },
+  "lat": 50.34602,
+  "lng": 4.26549,
+  "population": null,
+  "localities": [
+   "6540|Lobbes",
+   "6540|Mont-Sainte-Geneviève",
+   "6542|Sars-la-Buissière",
+   "6543|Bienne-lez-Happart"
+  ]
+ },
+ {
+  "ref": "56049",
+  "names": {
+   "fr": "Merbes-le-Château",
+   "nl": "Merbes-le-Château",
+   "en": "Merbes-le-Château",
+   "de": "Merbes-le-Château"
+  },
+  "lat": 50.3234,
+  "lng": 4.16448,
+  "population": null,
+  "localities": [
+   "6567|Fontaine-Valmont",
+   "6567|Merbes-le-Château",
+   "6567|Labuissière",
+   "6567|Merbes-Sainte-Marie"
+  ]
+ },
+ {
+  "ref": "56051",
+  "names": {
+   "fr": "Momignies",
+   "nl": "Momignies",
+   "en": "Momignies",
+   "de": "Momignies"
+  },
+  "lat": 50.02863,
+  "lng": 4.165,
+  "population": null,
+  "localities": [
+   "6590|Momignies",
+   "6591|Macon",
+   "6592|Monceau-Imbrechies",
+   "6593|Macquenoise",
+   "6594|Beauwelz",
+   "6596|Seloignes",
+   "6596|Forge-Philippe"
+  ]
+ },
+ {
+  "ref": "56078",
+  "names": {
+   "fr": "Thuin",
+   "nl": "Thuin",
+   "en": "Thuin",
+   "de": "Thuin"
+  },
+  "lat": 50.33974,
+  "lng": 4.28705,
+  "population": null,
+  "localities": [
+   "6530|Thuin",
+   "6530|Leers-et-Fosteau",
+   "6531|Biesme-sous-Thuin",
+   "6532|Ragnies",
+   "6533|Biercée",
+   "6534|Gozée",
+   "6536|Donstiennes",
+   "6536|Thuillies"
+  ]
+ },
+ {
+  "ref": "56086",
+  "names": {
+   "fr": "Ham-sur-Heure-Nalinnes",
+   "nl": "Ham-sur-Heure-Nalinnes",
+   "en": "Ham-sur-Heure-Nalinnes",
+   "de": "Ham-sur-Heure-Nalinnes"
+  },
+  "lat": 50.31716,
+  "lng": 4.38032,
+  "population": null,
+  "localities": [
+   "6120|Marbaix",
+   "6120|Jamioulx",
+   "6120|Ham-sur-Heure",
+   "6120|Nalinnes",
+   "6120|Cour-sur-Heure"
+  ]
+ },
+ {
+  "ref": "56088",
+  "names": {
+   "fr": "Sivry-Rance",
+   "nl": "Sivry-Rance",
+   "en": "Sivry-Rance",
+   "de": "Sivry-Rance"
+  },
+  "lat": 50.164,
+  "lng": 4.19,
+  "population": null,
+  "localities": [
+   "6470|Montbliart",
+   "6470|Grandrieu",
+   "6470|Sautin",
+   "6470|Sivry",
+   "6470|Sivry-Rance",
+   "6470|Rance"
+  ]
+ },
+ {
+  "ref": "57003",
+  "names": {
+   "fr": "Antoing",
+   "nl": "Antoing",
+   "en": "Antoing",
+   "de": "Antoing"
+  },
+  "lat": 50.56595,
+  "lng": 3.45112,
+  "population": 7693,
+  "localities": [
+   "7640|Péronnes-lez-Antoing",
+   "7640|Antoing",
+   "7640|Maubray",
+   "7641|Bruyelle",
+   "7642|Calonne",
+   "7643|Fontenoy"
+  ]
+ },
+ {
+  "ref": "57018",
+  "names": {
+   "fr": "Celles",
+   "nl": "Celles",
+   "en": "Celles",
+   "de": "Celles"
+  },
+  "lat": 50.71254,
+  "lng": 3.45717,
+  "population": 5552,
+  "localities": [
+   "8587|Espierres-Helchin",
+   "7760|Molenbaix",
+   "7760|Celles",
+   "7760|Velaines",
+   "7760|Escanaffles",
+   "7760|Pottes",
+   "7760|Popuelles"
+  ]
+ },
+ {
+  "ref": "57027",
+  "names": {
+   "fr": "Estaimpuis",
+   "nl": "Steenput",
+   "en": "Estaimpuis",
+   "de": "Estaimpuis"
+  },
+  "lat": 50.70598,
+  "lng": 3.26402,
+  "population": 10075,
+  "localities": [
+   "7730|Néchin",
+   "7730|Estaimbourg",
+   "7730|Estaimpuis",
+   "7730|Bailleul",
+   "7730|Leers-Nord",
+   "7730|Evregnies",
+   "7730|Saint-Léger"
+  ]
+ },
+ {
+  "ref": "57062",
+  "names": {
+   "fr": "Pecq",
+   "nl": "Pecq",
+   "en": "Pecq",
+   "de": "Pecq"
+  },
+  "lat": 50.68562,
+  "lng": 3.34075,
+  "population": null,
+  "localities": [
+   "7740|Pecq",
+   "7740|Warcoing",
+   "7742|Hérinnes-lez-Pecq",
+   "7743|Esquelmes",
+   "7743|Obigies"
+  ]
+ },
+ {
+  "ref": "57064",
+  "names": {
+   "fr": "Péruwelz",
+   "nl": "Péruwelz",
+   "en": "Péruwelz",
+   "de": "Péruwelz"
+  },
+  "lat": 50.50799,
+  "lng": 3.59088,
+  "population": null,
+  "localities": [
+   "7600|Péruwelz",
+   "7601|Roucourt",
+   "7602|Bury",
+   "7603|Bon-Secours",
+   "7604|Brasménil",
+   "7604|Baugnies",
+   "7604|Wasmes-Audemez-Briffoeil",
+   "7604|Callenelle",
+   "7604|Braffe",
+   "7608|Wiers"
+  ]
+ },
+ {
+  "ref": "57072",
+  "names": {
+   "fr": "Rumes",
+   "nl": "Rumes",
+   "en": "Rumes",
+   "de": "Rumes"
+  },
+  "lat": 50.55577,
+  "lng": 3.30393,
+  "population": 5142,
+  "localities": [
+   "7610|Rumes",
+   "7611|La Glanerie",
+   "7618|Taintignies"
+  ]
+ },
+ {
+  "ref": "57081",
+  "names": {
+   "fr": "Tournai",
+   "nl": "Doornik",
+   "en": "Tournai",
+   "de": "Tournai"
+  },
+  "lat": 50.60565,
+  "lng": 3.38782,
+  "population": null,
+  "localities": [
+   "7500|Saint-Maur",
+   "7500|Ere",
+   "7500|Tournai",
+   "7501|Orcq",
+   "7502|Esplechin",
+   "7503|Froyennes",
+   "7504|Froidmont",
+   "7506|Willemeau",
+   "7520|Ramegnies-Chin",
+   "7520|Templeuve",
+   "7521|Chercq",
+   "7522|Blandain",
+   "7522|Lamain",
+   "7522|Hertain",
+   "7522|Marquain",
+   "7530|Gaurain-Ramecroix",
+   "7531|Havinnes",
+   "7532|Béclers",
+   "7533|Thimougies",
+   "7534|Maulde",
+   "7534|Barry",
+   "7536|Vaulx",
+   "7538|Vezon",
+   "7540|Melles",
+   "7540|Quartes",
+   "7540|Kain",
+   "7540|Rumillies",
+   "7542|Mont-Saint-Aubert",
+   "7543|Mourcourt",
+   "7548|Warchin",
+   "7904|Pipaix"
+  ]
+ },
+ {
+  "ref": "57093",
+  "names": {
+   "fr": "Brunehaut",
+   "nl": "Brunehaut",
+   "en": "Brunehaut",
+   "de": "Brunehaut"
+  },
+  "lat": 50.52927,
+  "lng": 3.39594,
+  "population": 7901,
+  "localities": [
+   "7620|Hollain",
+   "7620|Jollain-Merlin",
+   "7620|Bléharies",
+   "7620|Wez-Velvain",
+   "7620|Brunehaut",
+   "7620|Guignies",
+   "7621|Lesdain",
+   "7622|Laplaigne",
+   "7623|Rongy",
+   "7624|Howardries"
+  ]
+ },
+ {
+  "ref": "57094",
+  "names": {
+   "fr": "Leuze-en-Hainaut",
+   "nl": "Leuze-en-Hainaut",
+   "en": "Leuze-en-Hainaut",
+   "de": "Leuze-en-Hainaut"
+  },
+  "lat": 50.60053,
+  "lng": 3.62145,
+  "population": null,
+  "localities": [
+   "7900|Leuze-en-Hainaut",
+   "7900|Grandmetz",
+   "7901|Thieulain",
+   "7903|Chapelle-À-Wattines",
+   "7903|Chapelle-À-Oie",
+   "7903|Blicquy",
+   "7904|Willaupuis",
+   "7904|Tourpes",
+   "7906|Gallaix"
+  ]
+ },
+ {
+  "ref": "57095",
+  "names": {
+   "fr": "Mont-de-l'Enclus",
+   "nl": "Mont-de-l'Enclus",
+   "en": "Mont-de-l'Enclus",
+   "de": "Mont-de-l'Enclus"
+  },
+  "lat": 50.74372,
+  "lng": 3.50668,
+  "population": 3585,
+  "localities": [
+   "7750|Mont-de-l'Enclus",
+   "7750|Amougies",
+   "7750|Anseroeul",
+   "7750|Russeignies",
+   "7750|Orroir"
+  ]
+ },
+ {
+  "ref": "57096",
+  "names": {
+   "fr": "Mouscron",
+   "nl": "Moeskroen",
+   "en": "Mouscron",
+   "de": "Mouscron"
+  },
+  "lat": 50.74367,
+  "lng": 3.21427,
+  "population": null,
+  "localities": [
+   "7700|Luingne",
+   "7700|Mouscron",
+   "7711|Dottignies",
+   "7712|Herseaux"
+  ]
+ },
+ {
+  "ref": "57097",
+  "names": {
+   "fr": "Comines-Warneton",
+   "nl": "Komen-Waasten",
+   "en": "Comines-Warneton",
+   "de": "Comines-Warneton"
+  },
+  "lat": 50.76874,
+  "lng": 2.99976,
+  "population": null,
+  "localities": [
+   "7781|Houthem",
+   "7782|Ploegsteert",
+   "7783|Bizet",
+   "7784|Warneton",
+   "7784|Bas-Warneton"
+  ]
+ },
+ {
+  "ref": "58001",
+  "names": {
+   "fr": "La Louvière",
+   "nl": "La Louvière",
+   "en": "La Louvière",
+   "de": "La Louvière"
+  },
+  "lat": 50.47936,
+  "lng": 4.18563,
+  "population": null,
+  "localities": [
+   "7100|Trivières",
+   "7100|Saint-Vaast",
+   "7100|Haine-Saint-Pierre",
+   "7100|Haine-Saint-Paul",
+   "7100|La Louvière",
+   "7110|Strépy-Bracquegnies",
+   "7110|Houdeng-Aimeries",
+   "7110|Houdeng-Goegnies",
+   "7110|Maurage",
+   "7110|Boussoit"
+  ]
+ },
+ {
+  "ref": "58002",
+  "names": {
+   "fr": "Binche",
+   "nl": "Bing",
+   "en": "Binche",
+   "de": "Binche"
+  },
+  "lat": 50.4103,
+  "lng": 4.16516,
+  "population": null,
+  "localities": [
+   "7130|Battignies",
+   "7130|Binche",
+   "7130|Bray",
+   "7131|Waudrez",
+   "7133|Buvrinnes",
+   "7134|Péronnes-lez-Binche",
+   "7134|Leval-Trahegnies",
+   "7134|Epinois",
+   "7134|Ressaix"
+  ]
+ },
+ {
+  "ref": "58003",
+  "names": {
+   "fr": "Estinnes",
+   "nl": "Estinnes",
+   "en": "Estinnes",
+   "de": "Estinnes"
+  },
+  "lat": 50.39767,
+  "lng": 4.09758,
+  "population": null,
+  "localities": [
+   "7120|Fauroeulx",
+   "7120|Estinnes-Au-Val",
+   "7120|Haulchin",
+   "7120|Croix-lez-Rouveroy",
+   "7120|Peissant",
+   "7120|Rouveroy",
+   "7120|Vellereille-les-Brayeux",
+   "7120|Estinnes-Au-Mont",
+   "7120|Vellereille-le-Sec",
+   "7120|Estinnes"
+  ]
+ },
+ {
+  "ref": "58004",
+  "names": {
+   "fr": "Morlanwelz",
+   "nl": "Morlanwelz",
+   "en": "Morlanwelz",
+   "de": "Morlanwelz"
+  },
+  "lat": 50.45507,
+  "lng": 4.24254,
+  "population": null,
+  "localities": [
+   "7140|Morlanwelz",
+   "7140|Morlanwelz-Mariemont",
+   "7141|Carnières",
+   "7141|Mont-Sainte-Aldegonde"
+  ]
+ },
+ {
+  "ref": "61003",
+  "names": {
+   "fr": "Amay",
+   "nl": "Amay",
+   "en": "Amay",
+   "de": "Amay"
+  },
+  "lat": 50.54978,
+  "lng": 5.3241,
+  "population": 13863,
+  "localities": [
+   "4540|Jehay",
+   "4540|Flône",
+   "4540|Ombret",
+   "4540|Ampsin",
+   "4540|Amay"
+  ]
+ },
+ {
+  "ref": "61010",
+  "names": {
+   "fr": "Burdinne",
+   "nl": "Burdinne",
+   "en": "Burdinne",
+   "de": "Burdinne"
+  },
+  "lat": 50.58126,
+  "lng": 5.07244,
+  "population": 2994,
+  "localities": [
+   "4210|Lamontzée",
+   "4210|Oteppe",
+   "4210|Hannêche",
+   "4210|Marneffe",
+   "4210|Burdinne"
+  ]
+ },
+ {
+  "ref": "61012",
+  "names": {
+   "fr": "Clavier",
+   "nl": "Clavier",
+   "en": "Clavier",
+   "de": "Clavier"
+  },
+  "lat": 50.41189,
+  "lng": 5.35774,
+  "population": 4463,
+  "localities": [
+   "4560|Pailhe",
+   "4560|Bois-et-Borsu",
+   "4560|Terwagne",
+   "4560|Les Avins",
+   "4560|Clavier",
+   "4560|Ocquier"
+  ]
+ },
+ {
+  "ref": "61019",
+  "names": {
+   "fr": "Ferrières",
+   "nl": "Ferrières",
+   "en": "Ferrières",
+   "de": "Ferrières"
+  },
+  "lat": 50.4002,
+  "lng": 5.60639,
+  "population": 4724,
+  "localities": [
+   "4190|Vieuxville",
+   "4190|Xhoris",
+   "4190|Ferrières",
+   "4190|My",
+   "4190|Werbomont"
+  ]
+ },
+ {
+  "ref": "61024",
+  "names": {
+   "fr": "Hamoir",
+   "nl": "Hamoir",
+   "en": "Hamoir",
+   "de": "Hamoir"
+  },
+  "lat": 50.42541,
+  "lng": 5.53261,
+  "population": 3819,
+  "localities": [
+   "4180|Comblain-la-Tour",
+   "4180|Hamoir",
+   "4180|Comblain-Fairon",
+   "4181|Filot"
+  ]
+ },
+ {
+  "ref": "61028",
+  "names": {
+   "fr": "Héron",
+   "nl": "Héron",
+   "en": "Héron",
+   "de": "Héron"
+  },
+  "lat": 50.55082,
+  "lng": 5.09718,
+  "population": 5028,
+  "localities": [
+   "4217|Lavoir",
+   "4217|Héron",
+   "4217|Waret-l'Evêque",
+   "4218|Couthuin"
+  ]
+ },
+ {
+  "ref": "61031",
+  "names": {
+   "fr": "Huy",
+   "nl": "Hoei",
+   "en": "Huy",
+   "de": "Huy"
+  },
+  "lat": 50.51809,
+  "lng": 5.24081,
+  "population": 21354,
+  "localities": [
+   "4500|Tihange",
+   "4500|Ben-Ahin",
+   "4500|Huy"
+  ]
+ },
+ {
+  "ref": "61039",
+  "names": {
+   "fr": "Marchin",
+   "nl": "Marchin",
+   "en": "Marchin",
+   "de": "Marchin"
+  },
+  "lat": 50.48021,
+  "lng": 5.22634,
+  "population": 5259,
+  "localities": [
+   "4570|Marchin",
+   "4570|Vyle-et-Tharoul"
+  ]
+ },
+ {
+  "ref": "61041",
+  "names": {
+   "fr": "Modave",
+   "nl": "Modave",
+   "en": "Modave",
+   "de": "Modave"
+  },
+  "lat": 50.44161,
+  "lng": 5.30179,
+  "population": 4036,
+  "localities": [
+   "4577|Outrelouxhe",
+   "4577|Strée-lez-Huy",
+   "4577|Vierset-Barse",
+   "4577|Modave"
+  ]
+ },
+ {
+  "ref": "61043",
+  "names": {
+   "fr": "Nandrin",
+   "nl": "Nandrin",
+   "en": "Nandrin",
+   "de": "Nandrin"
+  },
+  "lat": 50.50634,
+  "lng": 5.41934,
+  "population": 5732,
+  "localities": [
+   "4480|Ehein",
+   "4550|Villers-le-Temple",
+   "4550|Saint-Séverin",
+   "4550|Nandrin",
+   "4550|Yernée-Fraineux"
+  ]
+ },
+ {
+  "ref": "61048",
+  "names": {
+   "fr": "Ouffet",
+   "nl": "Ouffet",
+   "en": "Ouffet",
+   "de": "Ouffet"
+  },
+  "lat": 50.43773,
+  "lng": 5.46533,
+  "population": 2755,
+  "localities": [
+   "4590|Ellemelle",
+   "4590|Warzée",
+   "4590|Ouffet"
+  ]
+ },
+ {
+  "ref": "61063",
+  "names": {
+   "fr": "Verlaine",
+   "nl": "Verlaine",
+   "en": "Verlaine",
+   "de": "Verlaine"
+  },
+  "lat": 50.60751,
+  "lng": 5.31844,
+  "population": 3926,
+  "localities": [
+   "4537|Verlaine",
+   "4537|Seraing-le-Château",
+   "4537|Bodegnée",
+   "4537|Chapon-Seraing"
+  ]
+ },
+ {
+  "ref": "61068",
+  "names": {
+   "fr": "Villers-le-Bouillet",
+   "nl": "Villers-le-Bouillet",
+   "en": "Villers-le-Bouillet",
+   "de": "Villers-le-Bouillet"
+  },
+  "lat": 50.57537,
+  "lng": 5.26071,
+  "population": 6320,
+  "localities": [
+   "4530|Fize-Fontaine",
+   "4530|Warnant-Dreye",
+   "4530|Vieux-Waleffe",
+   "4530|Villers-le-Bouillet",
+   "4530|Vaux-et-Borset"
+  ]
+ },
+ {
+  "ref": "61072",
+  "names": {
+   "fr": "Wanze",
+   "nl": "Wanze",
+   "en": "Wanze",
+   "de": "Wanze"
+  },
+  "lat": 50.53686,
+  "lng": 5.21439,
+  "population": 13250,
+  "localities": [
+   "4520|Moha",
+   "4520|Vinalmont",
+   "4520|Antheit",
+   "4520|Bas-Oha",
+   "4520|Wanze",
+   "4520|Huccorgne"
+  ]
+ },
+ {
+  "ref": "61079",
+  "names": {
+   "fr": "Anthisnes",
+   "nl": "Anthisnes",
+   "en": "Anthisnes",
+   "de": "Anthisnes"
+  },
+  "lat": 50.48166,
+  "lng": 5.52253,
+  "population": 4100,
+  "localities": [
+   "4160|Anthisnes",
+   "4161|Villers-aux-Tours",
+   "4162|Hody",
+   "4163|Tavier"
+  ]
+ },
+ {
+  "ref": "61080",
+  "names": {
+   "fr": "Engis",
+   "nl": "Engis",
+   "en": "Engis",
+   "de": "Engis"
+  },
+  "lat": 50.5825,
+  "lng": 5.40402,
+  "population": 5811,
+  "localities": [
+   "4480|Clermont-sous-Huy",
+   "4480|Engis",
+   "4480|Hermalle-sous-Huy"
+  ]
+ },
+ {
+  "ref": "61081",
+  "names": {
+   "fr": "Tinlot",
+   "nl": "Tinlot",
+   "en": "Tinlot",
+   "de": "Tinlot"
+  },
+  "lat": 50.47774,
+  "lng": 5.3787,
+  "population": 2609,
+  "localities": [
+   "4557|Ramelot",
+   "4557|Tinlot",
+   "4557|Abée",
+   "4557|Soheit-Tinlot",
+   "4557|Seny",
+   "4557|Fraiture"
+  ]
+ },
+ {
+  "ref": "62003",
+  "names": {
+   "fr": "Ans",
+   "nl": "Ans",
+   "en": "Ans",
+   "de": "Ans"
+  },
+  "lat": 50.65287,
+  "lng": 5.54061,
+  "population": 27813,
+  "localities": [
+   "4430|Ans",
+   "4431|Loncin",
+   "4432|Xhendremael",
+   "4432|Alleur"
+  ]
+ },
+ {
+  "ref": "62006",
+  "names": {
+   "fr": "Awans",
+   "nl": "Awans",
+   "en": "Awans",
+   "de": "Awans"
+  },
+  "lat": 50.66703,
+  "lng": 5.46222,
+  "population": 9016,
+  "localities": [
+   "4340|Fooz",
+   "4340|Awans",
+   "4340|Villers-l'Evêque",
+   "4340|Othée",
+   "4342|Hognoul"
+  ]
+ },
+ {
+  "ref": "62009",
+  "names": {
+   "fr": "Aywaille",
+   "nl": "Aywaille",
+   "en": "Aywaille",
+   "de": "Aywaille"
+  },
+  "lat": 50.4759,
+  "lng": 5.67632,
+  "population": 11938,
+  "localities": [
+   "4920|Sougné-Remouchamps",
+   "4920|Harzé",
+   "4920|Ernonheid",
+   "4920|Aywaille"
+  ]
+ },
+ {
+  "ref": "62011",
+  "names": {
+   "fr": "Bassenge",
+   "nl": "Bitsingen",
+   "en": "Bassenge",
+   "de": "Bassenge"
+  },
+  "lat": 50.75836,
+  "lng": 5.60948,
+  "population": 8815,
+  "localities": [
+   "4690|Eben-Emael",
+   "4690|Bassenge",
+   "4690|Glons",
+   "4690|Roclenge-sur-Geer",
+   "4690|Wonck",
+   "4690|Boirs"
+  ]
+ },
+ {
+  "ref": "62015",
+  "names": {
+   "fr": "Beyne-Heusay",
+   "nl": "Beyne-Heusay",
+   "en": "Beyne-Heusay",
+   "de": "Beyne-Heusay"
+  },
+  "lat": 50.62206,
+  "lng": 5.65341,
+  "population": 12017,
+  "localities": [
+   "4610|Bellaire",
+   "4610|Beyne-Heusay",
+   "4610|Queue-du-Bois"
+  ]
+ },
+ {
+  "ref": "62022",
+  "names": {
+   "fr": "Chaudfontaine",
+   "nl": "Chaudfontaine",
+   "en": "Chaudfontaine",
+   "de": "Chaudfontaine"
+  },
+  "lat": 50.58479,
+  "lng": 5.64697,
+  "population": 21003,
+  "localities": [
+   "4050|Chaudfontaine",
+   "4051|Vaux-sous-Chèvremont",
+   "4052|Beaufays",
+   "4053|Embourg"
+  ]
+ },
+ {
+  "ref": "62026",
+  "names": {
+   "fr": "Comblain-au-Pont",
+   "nl": "Comblain-au-Pont",
+   "en": "Comblain-au-Pont",
+   "de": "Comblain-au-Pont"
+  },
+  "lat": 50.4757,
+  "lng": 5.57485,
+  "population": 5359,
+  "localities": [
+   "4170|Comblain-Au-Pont",
+   "4171|Poulseur"
+  ]
+ },
+ {
+  "ref": "62027",
+  "names": {
+   "fr": "Dalhem",
+   "nl": "Dalhem",
+   "en": "Dalhem",
+   "de": "Dalhem"
+  },
+  "lat": 50.71393,
+  "lng": 5.72298,
+  "population": null,
+  "localities": [
+   "4606|Saint-André",
+   "4607|Bombaye",
+   "4607|Mortroux",
+   "4607|Feneur",
+   "4607|Berneau",
+   "4607|Dalhem",
+   "4608|Warsage",
+   "4608|Neufchâteau"
+  ]
+ },
+ {
+  "ref": "62032",
+  "names": {
+   "fr": "Esneux",
+   "nl": "Esneux",
+   "en": "Esneux",
+   "de": "Esneux"
+  },
+  "lat": 50.53359,
+  "lng": 5.56862,
+  "population": 13240,
+  "localities": [
+   "4130|Esneux",
+   "4130|Tilff"
+  ]
+ },
+ {
+  "ref": "62038",
+  "names": {
+   "fr": "Fléron",
+   "nl": "Fléron",
+   "en": "Fléron",
+   "de": "Fléron"
+  },
+  "lat": 50.61684,
+  "lng": 5.68322,
+  "population": 16227,
+  "localities": [
+   "4620|Fléron",
+   "4621|Retinne",
+   "4623|Magnée",
+   "4624|Romsée"
+  ]
+ },
+ {
+  "ref": "62051",
+  "names": {
+   "fr": "Herstal",
+   "nl": "Herstal",
+   "en": "Herstal",
+   "de": "Herstal"
+  },
+  "lat": 50.66504,
+  "lng": 5.62998,
+  "population": 39242,
+  "localities": [
+   "4040|Herstal",
+   "4041|Milmort",
+   "4041|Vottem",
+   "4042|Liers"
+  ]
+ },
+ {
+  "ref": "62060",
+  "names": {
+   "fr": "Juprelle",
+   "nl": "Juprelle",
+   "en": "Juprelle",
+   "de": "Juprelle"
+  },
+  "lat": 50.71124,
+  "lng": 5.52659,
+  "population": 9024,
+  "localities": [
+   "4450|Juprelle",
+   "4450|Slins",
+   "4450|Lantin",
+   "4451|Voroux-lez-Liers",
+   "4452|Wihogne",
+   "4452|Paifve",
+   "4453|Villers-Saint-Siméon",
+   "4458|Fexhe-Slins"
+  ]
+ },
+ {
+  "ref": "62063",
+  "names": {
+   "fr": "Liège",
+   "nl": "Luik",
+   "en": "Liège",
+   "de": "Lüttich"
+  },
+  "lat": 50.64509,
+  "lng": 5.57361,
+  "population": 197013,
+  "localities": [
+   "4000|Rocourt",
+   "4000|Liège",
+   "4000|Glain",
+   "4020|Liège",
+   "4020|Jupille-sur-Meuse",
+   "4020|Wandre",
+   "4020|Bressoux",
+   "4030|Grivegnée",
+   "4031|Angleur",
+   "4032|Chênée",
+   "4420|Tilleur"
+  ]
+ },
+ {
+  "ref": "62079",
+  "names": {
+   "fr": "Oupeye",
+   "nl": "Oupeye",
+   "en": "Oupeye",
+   "de": "Oupeye"
+  },
+  "lat": 50.70919,
+  "lng": 5.64507,
+  "population": 25690,
+  "localities": [
+   "4680|Hermée",
+   "4680|Oupeye",
+   "4681|Hermalle-sous-Argenteau",
+   "4682|Houtain-Saint-Siméon",
+   "4682|Heure-le-Romain",
+   "4683|Vivegnis",
+   "4684|Haccourt"
+  ]
+ },
+ {
+  "ref": "62093",
+  "names": {
+   "fr": "Saint-Nicolas",
+   "nl": "Saint-Nicolas",
+   "en": "Saint-Nicolas",
+   "de": "Saint-Nicolas"
+  },
+  "lat": 50.63167,
+  "lng": 5.53763,
+  "population": 24352,
+  "localities": [
+   "4420|Montegnée",
+   "4420|Saint-Nicolas"
+  ]
+ },
+ {
+  "ref": "62096",
+  "names": {
+   "fr": "Seraing",
+   "nl": "Seraing",
+   "en": "Seraing",
+   "de": "Seraing"
+  },
+  "lat": 50.61524,
+  "lng": 5.50894,
+  "population": 64035,
+  "localities": [
+   "4100|Boncelles",
+   "4100|Seraing",
+   "4101|Jemeppe-sur-Meuse",
+   "4102|Ougrée"
+  ]
+ },
+ {
+  "ref": "62099",
+  "names": {
+   "fr": "Soumagne",
+   "nl": "Soumagne",
+   "en": "Soumagne",
+   "de": "Soumagne"
+  },
+  "lat": 50.63306,
+  "lng": 5.73179,
+  "population": 16348,
+  "localities": [
+   "4630|Soumagne",
+   "4630|Ayeneux",
+   "4630|Micheroux",
+   "4630|Tignée",
+   "4631|Evegnée",
+   "4632|Cérexhe-Heuseux",
+   "4633|Melen"
+  ]
+ },
+ {
+  "ref": "62100",
+  "names": {
+   "fr": "Sprimont",
+   "nl": "Sprimont",
+   "en": "Sprimont",
+   "de": "Sprimont"
+  },
+  "lat": 50.50553,
+  "lng": 5.66172,
+  "population": 14147,
+  "localities": [
+   "4140|Dolembreux",
+   "4140|Rouvreux",
+   "4140|Gomzé-Andoumont",
+   "4140|Sprimont",
+   "4141|Louveigné",
+   "4920|Louveigné"
+  ]
+ },
+ {
+  "ref": "62108",
+  "names": {
+   "fr": "Visé",
+   "nl": "Wezet",
+   "en": "Visé",
+   "de": "Weset"
+  },
+  "lat": 50.73478,
+  "lng": 5.69364,
+  "population": 17341,
+  "localities": [
+   "4600|Lixhe",
+   "4600|Visé",
+   "4600|Lanaye",
+   "4600|Richelle",
+   "4601|Argenteau",
+   "4602|Cheratte"
+  ]
+ },
+ {
+  "ref": "62118",
+  "names": {
+   "fr": "Grâce-Hollogne",
+   "nl": "Grâce-Hollogne",
+   "en": "Grâce-Hollogne",
+   "de": "Grâce-Hollogne"
+  },
+  "lat": 50.6323,
+  "lng": 5.47684,
+  "population": 22297,
+  "localities": [
+   "4460|Hollogne-aux-Pierres",
+   "4460|Horion-Hozémont",
+   "4460|Grâce-Berleur",
+   "4460|Velroux",
+   "4460|Bierset",
+   "4460|Grâce-Hollogne"
+  ]
+ },
+ {
+  "ref": "62119",
+  "names": {
+   "fr": "Blegny",
+   "nl": "Blegny",
+   "en": "Blegny",
+   "de": "Blegny"
+  },
+  "lat": 50.67272,
+  "lng": 5.72524,
+  "population": 13136,
+  "localities": [
+   "4650|Julémont",
+   "4670|Mortier",
+   "4670|Blégny",
+   "4670|Trembleur",
+   "4671|Barchon",
+   "4671|Housse",
+   "4671|Saive",
+   "4672|Saint-Remy"
+  ]
+ },
+ {
+  "ref": "62120",
+  "names": {
+   "fr": "Flémalle",
+   "nl": "Flémalle",
+   "en": "Flémalle",
+   "de": "Flémalle"
+  },
+  "lat": 50.59914,
+  "lng": 5.47022,
+  "population": 25612,
+  "localities": [
+   "4400|Mons-lez-Liège",
+   "4400|Flémalle-Haute",
+   "4400|Gleixhe",
+   "4400|Awirs",
+   "4400|Flémalle",
+   "4400|Chokier",
+   "4400|Flémalle-Grande",
+   "4400|Ivoz-Ramet"
+  ]
+ },
+ {
+  "ref": "62121",
+  "names": {
+   "fr": "Neupré",
+   "nl": "Neupré",
+   "en": "Neupré",
+   "de": "Neupré"
+  },
+  "lat": 50.54318,
+  "lng": 5.49011,
+  "population": 9994,
+  "localities": [
+   "4120|Rotheux-Rimière",
+   "4120|Ehein",
+   "4120|Neupré",
+   "4121|Neuville-en-Condroz",
+   "4122|Plainevaux"
+  ]
+ },
+ {
+  "ref": "62122",
+  "names": {
+   "fr": "Trooz",
+   "nl": "Trooz",
+   "en": "Trooz",
+   "de": "Trooz"
+  },
+  "lat": 50.57281,
+  "lng": 5.68837,
+  "population": 8386,
+  "localities": [
+   "4870|Nessonvaux",
+   "4870|Trooz",
+   "4870|Fraipont",
+   "4870|Forêt"
+  ]
+ },
+ {
+  "ref": "63001",
+  "names": {
+   "fr": "Amblève",
+   "nl": "Amel",
+   "en": "Amel",
+   "de": "Amel"
+  },
+  "lat": 50.35431,
+  "lng": 6.17056,
+  "population": 5466,
+  "localities": [
+   "4770|Meyerode",
+   "4771|Heppenbach"
+  ]
+ },
+ {
+  "ref": "63003",
+  "names": {
+   "fr": "Aubel",
+   "nl": "Aubel",
+   "en": "Aubel",
+   "de": "Aubel"
+  },
+  "lat": 50.70415,
+  "lng": 5.85856,
+  "population": 4155,
+  "localities": [
+   "4880|Aubel"
+  ]
+ },
+ {
+  "ref": "63004",
+  "names": {
+   "fr": "Baelen",
+   "nl": "Baelen",
+   "en": "Baelen",
+   "de": "Baelen"
+  },
+  "lat": 50.63129,
+  "lng": 5.97135,
+  "population": 4326,
+  "localities": [
+   "4837|Baelen",
+   "4837|Membach"
+  ]
+ },
+ {
+  "ref": "63012",
+  "names": {
+   "fr": "Bullange",
+   "nl": "Büllingen",
+   "en": "Büllingen",
+   "de": "Büllingen"
+  },
+  "lat": 50.40755,
+  "lng": 6.25783,
+  "population": 5701,
+  "localities": [
+   "4760|Manderfeld",
+   "4760|Bullange",
+   "4761|Rocherath"
+  ]
+ },
+ {
+  "ref": "63013",
+  "names": {
+   "fr": "Butgenbach",
+   "nl": "Bütgenbach",
+   "en": "Bütgenbach",
+   "de": "Bütgenbach"
+  },
+  "lat": 50.42673,
+  "lng": 6.20536,
+  "population": 5741,
+  "localities": [
+   "4750|Elsenborn",
+   "4750|Butgenbach"
+  ]
+ },
+ {
+  "ref": "63020",
+  "names": {
+   "fr": "Dison",
+   "nl": "Dison",
+   "en": "Dison",
+   "de": "Dison"
+  },
+  "lat": 50.61137,
+  "lng": 5.85473,
+  "population": 15289,
+  "localities": [
+   "4820|Dison"
+  ]
+ },
+ {
+  "ref": "63023",
+  "names": {
+   "fr": "Eupen",
+   "nl": "Eupen",
+   "en": "Eupen",
+   "de": "Eupen"
+  },
+  "lat": 50.63057,
+  "lng": 6.03127,
+  "population": 19254,
+  "localities": [
+   "4700|Eupen",
+   "4701|Kettenis"
+  ]
+ },
+ {
+  "ref": "63035",
+  "names": {
+   "fr": "Herve",
+   "nl": "Herve",
+   "en": "Herve",
+   "de": "Herve"
+  },
+  "lat": 50.63916,
+  "lng": 5.7931,
+  "population": 17213,
+  "localities": [
+   "4650|Herve",
+   "4650|Chaineux",
+   "4650|Grand-Rechain",
+   "4651|Battice",
+   "4652|Xhendelesse",
+   "4653|Bolland"
+  ]
+ },
+ {
+  "ref": "63038",
+  "names": {
+   "fr": "Jalhay",
+   "nl": "Jalhay",
+   "en": "Jalhay",
+   "de": "Jalhay"
+  },
+  "lat": 50.55925,
+  "lng": 5.96475,
+  "population": 8407,
+  "localities": [
+   "4654|Charneux",
+   "4845|Jalhay",
+   "4845|Sart-lez-Spa"
+  ]
+ },
+ {
+  "ref": "63040",
+  "names": {
+   "fr": "La Calamine",
+   "nl": "Kelmis",
+   "en": "Kelmis",
+   "de": "Kelmis"
+  },
+  "lat": 50.7155,
+  "lng": 6.01334,
+  "population": 10943,
+  "localities": [
+   "4720|La Calamine",
+   "4721|Neu-Moresnet",
+   "4728|Hergenrath"
+  ]
+ },
+ {
+  "ref": "63045",
+  "names": {
+   "fr": "Lierneux",
+   "nl": "Lierneux",
+   "en": "Lierneux",
+   "de": "Lierneux"
+  },
+  "lat": 50.28581,
+  "lng": 5.79216,
+  "population": 3497,
+  "localities": [
+   "4990|Lierneux",
+   "4990|Arbrefontaine",
+   "4990|Bra"
+  ]
+ },
+ {
+  "ref": "63046",
+  "names": {
+   "fr": "Limbourg",
+   "nl": "Limburg",
+   "en": "Limbourg",
+   "de": "Limburg"
+  },
+  "lat": 50.61228,
+  "lng": 5.9403,
+  "population": 5800,
+  "localities": [
+   "4830|Limbourg",
+   "4831|Bilstain",
+   "4834|Goé"
+  ]
+ },
+ {
+  "ref": "63048",
+  "names": {
+   "fr": "Lontzen",
+   "nl": "Lontzen",
+   "en": "Lontzen",
+   "de": "Lontzen"
+  },
+  "lat": 50.68047,
+  "lng": 6.00721,
+  "population": 5537,
+  "localities": [
+   "4710|Lontzen",
+   "4711|Walhorn"
+  ]
+ },
+ {
+  "ref": "63049",
+  "names": {
+   "fr": "Malmedy",
+   "nl": "Malmedy",
+   "en": "Malmedy",
+   "de": "Malmedy"
+  },
+  "lat": 50.42653,
+  "lng": 6.02761,
+  "population": 12345,
+  "localities": [
+   "4770|Amblève",
+   "4960|Bevercé",
+   "4960|Bellevaux-Ligneuville",
+   "4960|Malmedy"
+  ]
+ },
+ {
+  "ref": "63057",
+  "names": {
+   "fr": "Olne",
+   "nl": "Olne",
+   "en": "Olne",
+   "de": "Olne"
+  },
+  "lat": 50.59012,
+  "lng": 5.74799,
+  "population": 3822,
+  "localities": [
+   "4877|Olne"
+  ]
+ },
+ {
+  "ref": "63058",
+  "names": {
+   "fr": "Pepinster",
+   "nl": "Pepinster",
+   "en": "Pepinster",
+   "de": "Pepinster"
+  },
+  "lat": 50.56752,
+  "lng": 5.80371,
+  "population": 9735,
+  "localities": [
+   "4860|Pepinster",
+   "4860|Wegnez",
+   "4860|Cornesse",
+   "4861|Soiron"
+  ]
+ },
+ {
+  "ref": "63061",
+  "names": {
+   "fr": "Raeren",
+   "nl": "Raeren",
+   "en": "Raeren",
+   "de": "Raeren"
+  },
+  "lat": 50.67613,
+  "lng": 6.11084,
+  "population": 10651,
+  "localities": [
+   "4730|Raeren",
+   "4730|Hauset",
+   "4731|Eynatten"
+  ]
+ },
+ {
+  "ref": "63067",
+  "names": {
+   "fr": "Saint-Vith",
+   "nl": "Sankt Vith",
+   "en": "Saint Vith",
+   "de": "Sankt Vith"
+  },
+  "lat": 50.28039,
+  "lng": 6.1259,
+  "population": 9481,
+  "localities": [
+   "4780|Recht",
+   "4780|Saint-Vith",
+   "4782|Schoenberg",
+   "4783|Lommersweiler",
+   "4784|Crombach"
+  ]
+ },
+ {
+  "ref": "63072",
+  "names": {
+   "fr": "Spa",
+   "nl": "Spa",
+   "en": "Spa",
+   "de": "Spa"
+  },
+  "lat": 50.49207,
+  "lng": 5.86276,
+  "population": 10591,
+  "localities": [
+   "4900|Spa"
+  ]
+ },
+ {
+  "ref": "63073",
+  "names": {
+   "fr": "Stavelot",
+   "nl": "Stavelot",
+   "en": "Stavelot",
+   "de": "Stablo"
+  },
+  "lat": 50.39424,
+  "lng": 5.93103,
+  "population": 6919,
+  "localities": [
+   "4970|Francorchamps",
+   "4970|Stavelot"
+  ]
+ },
+ {
+  "ref": "63075",
+  "names": {
+   "fr": "Stoumont",
+   "nl": "Stoumont",
+   "en": "Stoumont",
+   "de": "Stoumont"
+  },
+  "lat": 50.40695,
+  "lng": 5.80836,
+  "population": 3249,
+  "localities": [
+   "4821|Andrimont",
+   "4987|Rahier",
+   "4987|Lorcé",
+   "4987|La Gleize",
+   "4987|Stoumont",
+   "4987|Chevron"
+  ]
+ },
+ {
+  "ref": "63076",
+  "names": {
+   "fr": "Theux",
+   "nl": "Theux",
+   "en": "Theux",
+   "de": "Theux"
+  },
+  "lat": 50.53492,
+  "lng": 5.81329,
+  "population": 12015,
+  "localities": [
+   "4800|Polleur",
+   "4910|Theux",
+   "4910|Polleur",
+   "4910|La Reid"
+  ]
+ },
+ {
+  "ref": "63079",
+  "names": {
+   "fr": "Verviers",
+   "nl": "Verviers",
+   "en": "Verviers",
+   "de": "Verviers"
+  },
+  "lat": 50.59324,
+  "lng": 5.86783,
+  "population": 56594,
+  "localities": [
+   "4800|Petit-Rechain",
+   "4800|Verviers",
+   "4800|Lambermont",
+   "4800|Ensival",
+   "4801|Stembert",
+   "4802|Heusy"
+  ]
+ },
+ {
+  "ref": "63080",
+  "names": {
+   "fr": "Waimes",
+   "nl": "Waimes",
+   "en": "Waimes",
+   "de": "Weismes"
+  },
+  "lat": 50.41491,
+  "lng": 6.11175,
+  "population": 7135,
+  "localities": [
+   "4950|Waimes",
+   "4950|Faymonville",
+   "4950|Sourbrodt",
+   "4950|Robertville"
+  ]
+ },
+ {
+  "ref": "63084",
+  "names": {
+   "fr": "Welkenraedt",
+   "nl": "Welkenraat",
+   "en": "Welkenraedt",
+   "de": "Welkenrath"
+  },
+  "lat": 50.66078,
+  "lng": 5.97328,
+  "population": 9728,
+  "localities": [
+   "4840|Welkenraedt",
+   "4841|Henri-Chapelle"
+  ]
+ },
+ {
+  "ref": "63086",
+  "names": {
+   "fr": "Trois-Ponts",
+   "nl": "Trois-Ponts",
+   "en": "Trois-Ponts",
+   "de": "Dreibrücken"
+  },
+  "lat": 50.37268,
+  "lng": 5.8703,
+  "population": 2550,
+  "localities": [
+   "4980|Trois-Ponts",
+   "4980|Wanne",
+   "4980|Fosse",
+   "4983|Basse-Bodeux"
+  ]
+ },
+ {
+  "ref": "63087",
+  "names": {
+   "fr": "Burg-Reuland",
+   "nl": "Burg-Reuland",
+   "en": "Burg-Reuland",
+   "de": "Burg-Reuland"
+  },
+  "lat": 50.19675,
+  "lng": 6.13426,
+  "population": 4001,
+  "localities": [
+   "4790|Burg-Reuland",
+   "4790|Reuland",
+   "4791|Thommen"
+  ]
+ },
+ {
+  "ref": "63088",
+  "names": {
+   "fr": "Plombières",
+   "nl": "Blieberg",
+   "en": "Plombières",
+   "de": "Bleiberg"
+  },
+  "lat": 50.73773,
+  "lng": 5.96111,
+  "population": 9906,
+  "localities": [
+   "4850|Plombières",
+   "4850|Montzen",
+   "4850|Moresnet",
+   "4851|Gemmenich",
+   "4851|Sippenaeken",
+   "4852|Hombourg"
+  ]
+ },
+ {
+  "ref": "63089",
+  "names": {
+   "fr": "Thimister-Clermont",
+   "nl": "Thimister-Clermont",
+   "en": "Thimister-Clermont",
+   "de": "Thimister-Clermont"
+  },
+  "lat": 50.65332,
+  "lng": 5.86252,
+  "population": 5510,
+  "localities": [
+   "4890|Thimister",
+   "4890|Clermont",
+   "4890|Thimister-Clermont"
+  ]
+ },
+ {
+  "ref": "64008",
+  "names": {
+   "fr": "Berloz",
+   "nl": "Berloz",
+   "en": "Berloz",
+   "de": "Berloz"
+  },
+  "lat": 50.69784,
+  "lng": 5.21402,
+  "population": 2942,
+  "localities": [
+   "4257|Rosoux-Crenwick",
+   "4257|Berloz",
+   "4257|Corswarem"
+  ]
+ },
+ {
+  "ref": "64015",
+  "names": {
+   "fr": "Braives",
+   "nl": "Braives",
+   "en": "Braives",
+   "de": "Braives"
+  },
+  "lat": 50.63007,
+  "lng": 5.14353,
+  "population": 5949,
+  "localities": [
+   "4260|Ciplet",
+   "4260|Braives",
+   "4260|Ville-en-Hesbaye",
+   "4260|Fallais",
+   "4260|Fumal",
+   "4260|Avennes",
+   "4261|Latinne",
+   "4263|Tourinne"
+  ]
+ },
+ {
+  "ref": "64021",
+  "names": {
+   "fr": "Crisnée",
+   "nl": "Crisnée",
+   "en": "Crisnée",
+   "de": "Crisnée"
+  },
+  "lat": 50.71589,
+  "lng": 5.39732,
+  "population": 3094,
+  "localities": [
+   "4367|Kemexhe",
+   "4367|Odeur",
+   "4367|Fize-le-Marsal",
+   "4367|Thys",
+   "4367|Crisnée"
+  ]
+ },
+ {
+  "ref": "64023",
+  "names": {
+   "fr": "Donceel",
+   "nl": "Donceel",
+   "en": "Donceel",
+   "de": "Donceel"
+  },
+  "lat": 50.6479,
+  "lng": 5.31994,
+  "population": 2970,
+  "localities": [
+   "4357|Jeneffe",
+   "4357|Donceel",
+   "4357|Limont",
+   "4357|Haneffe"
+  ]
+ },
+ {
+  "ref": "64025",
+  "names": {
+   "fr": "Fexhe-le-Haut-Clocher",
+   "nl": "Fexhe-le-Haut-Clocher",
+   "en": "Fexhe-le-Haut-Clocher",
+   "de": "Fexhe-le-Haut-Clocher"
+  },
+  "lat": 50.66431,
+  "lng": 5.39938,
+  "population": 3226,
+  "localities": [
+   "4347|Roloux",
+   "4347|Freloux",
+   "4347|Noville",
+   "4347|Fexhe-le-Haut-Clocher",
+   "4347|Voroux-Goreux"
+  ]
+ },
+ {
+  "ref": "64029",
+  "names": {
+   "fr": "Geer",
+   "nl": "Geer",
+   "en": "Geer",
+   "de": "Geer"
+  },
+  "lat": 50.66849,
+  "lng": 5.17105,
+  "population": 3211,
+  "localities": [
+   "4250|Lens-Saint-Servais",
+   "4250|Hollogne-sur-Geer",
+   "4250|Geer",
+   "4250|Boëlhe",
+   "4252|Omal",
+   "4253|Darion",
+   "4254|Ligney"
+  ]
+ },
+ {
+  "ref": "64034",
+  "names": {
+   "fr": "Hannut",
+   "nl": "Hannuit",
+   "en": "Hannut",
+   "de": "Hannut"
+  },
+  "lat": 50.67246,
+  "lng": 5.07799,
+  "population": 15587,
+  "localities": [
+   "4280|Grand-Hallet",
+   "4280|Cras-Avernas",
+   "4280|Crehen",
+   "4280|Avernas-le-Bauduin",
+   "4280|Thisnes",
+   "4280|Wansin",
+   "4280|Blehen",
+   "4280|Trognée",
+   "4280|Hannut",
+   "4280|Lens-Saint-Remy",
+   "4280|Petit-Hallet",
+   "4280|Moxhe",
+   "4280|Merdorp",
+   "4280|Avin",
+   "4280|Poucet",
+   "4280|Abolens",
+   "4280|Villers-le-Peuplier",
+   "4280|Bertrée"
+  ]
+ },
+ {
+  "ref": "64047",
+  "names": {
+   "fr": "Lincent",
+   "nl": "Lijsem",
+   "en": "Lincent",
+   "de": "Lincent"
+  },
+  "lat": 50.71161,
+  "lng": 5.03182,
+  "population": 3203,
+  "localities": [
+   "4287|Pellaines",
+   "4287|Lincent",
+   "4287|Racour"
+  ]
+ },
+ {
+  "ref": "64056",
+  "names": {
+   "fr": "Oreye",
+   "nl": "Oerle",
+   "en": "Oreye",
+   "de": "Oreye"
+  },
+  "lat": 50.72917,
+  "lng": 5.35307,
+  "population": 3633,
+  "localities": [
+   "4360|Otrange",
+   "4360|Oreye",
+   "4360|Bergilers",
+   "4360|Lens-sur-Geer",
+   "4360|Grandville"
+  ]
+ },
+ {
+  "ref": "64063",
+  "names": {
+   "fr": "Remicourt",
+   "nl": "Remicourt",
+   "en": "Remicourt",
+   "de": "Remicourt"
+  },
+  "lat": 50.67848,
+  "lng": 5.31999,
+  "population": 5717,
+  "localities": [
+   "4350|Momalle",
+   "4350|Remicourt",
+   "4350|Lamine",
+   "4350|Pousset",
+   "4351|Hodeige"
+  ]
+ },
+ {
+  "ref": "64065",
+  "names": {
+   "fr": "Saint-Georges-sur-Meuse",
+   "nl": "Saint-Georges-sur-Meuse",
+   "en": "Saint-Georges-sur-Meuse",
+   "de": "Saint-Georges-sur-Meuse"
+  },
+  "lat": 50.60007,
+  "lng": 5.35843,
+  "population": 6557,
+  "localities": [
+   "4470|Saint-Georges-sur-Meuse"
+  ]
+ },
+ {
+  "ref": "64074",
+  "names": {
+   "fr": "Waremme",
+   "nl": "Borgworm",
+   "en": "Waremme",
+   "de": "Waremme"
+  },
+  "lat": 50.69769,
+  "lng": 5.25462,
+  "population": 14789,
+  "localities": [
+   "4300|Bettincourt",
+   "4300|Waremme",
+   "4300|Oleye",
+   "4300|Grand-Axhe",
+   "4300|Bleret",
+   "4300|Bovenistier",
+   "4300|Lantremange"
+  ]
+ },
+ {
+  "ref": "64075",
+  "names": {
+   "fr": "Wasseiges",
+   "nl": "Wasseiges",
+   "en": "Wasseiges",
+   "de": "Wasseiges"
+  },
+  "lat": 50.62101,
+  "lng": 5.00691,
+  "population": 2964,
+  "localities": [
+   "4219|Acosse",
+   "4219|Ambresin",
+   "4219|Meeffe",
+   "4219|Wasseiges"
+  ]
+ },
+ {
+  "ref": "64076",
+  "names": {
+   "fr": "Faimes",
+   "nl": "Faimes",
+   "en": "Faimes",
+   "de": "Faimes"
+  },
+  "lat": 50.66522,
+  "lng": 5.26274,
+  "population": 3787,
+  "localities": [
+   "4317|Les Waleffes",
+   "4317|Celles",
+   "4317|Aineffe",
+   "4317|Viemme",
+   "4317|Faimes",
+   "4317|Borlez"
+  ]
+ },
+ {
+  "ref": "71002",
+  "names": {
+   "fr": "As",
+   "nl": "As",
+   "en": "As",
+   "de": "As"
+  },
+  "lat": 51.00633,
+  "lng": 5.58313,
+  "population": 8020,
+  "localities": [
+   "3665|As",
+   "3668|Niel-bij-As"
+  ]
+ },
+ {
+  "ref": "71004",
+  "names": {
+   "fr": "Béringue",
+   "nl": "Beringen",
+   "en": "Beringen",
+   "de": "Beringen"
+  },
+  "lat": 51.04896,
+  "lng": 5.22669,
+  "population": 43697,
+  "localities": [
+   "3580|Beringen",
+   "3581|Beverlo",
+   "3582|Koersel",
+   "3583|Paal"
+  ]
+ },
+ {
+  "ref": "71011",
+  "names": {
+   "fr": "Diepenbeek",
+   "nl": "Diepenbeek",
+   "en": "Diepenbeek",
+   "de": "Diepenbeek"
+  },
+  "lat": 50.90785,
+  "lng": 5.42003,
+  "population": 18403,
+  "localities": [
+   "3590|Diepenbeek"
+  ]
+ },
+ {
+  "ref": "71016",
+  "names": {
+   "fr": "Genk",
+   "nl": "Genk",
+   "en": "Genk",
+   "de": "Genk"
+  },
+  "lat": 50.96549,
+  "lng": 5.50015,
+  "population": 65321,
+  "localities": [
+   "3600|Genk"
+  ]
+ },
+ {
+  "ref": "71017",
+  "names": {
+   "fr": "Gingelom",
+   "nl": "Gingelom",
+   "en": "Gingelom",
+   "de": "Gingelom"
+  },
+  "lat": 50.75003,
+  "lng": 5.13321,
+  "population": 8245,
+  "localities": [
+   "3890|Montenaken",
+   "3890|Jeuk",
+   "3890|Niel-bij-Sint-Truiden",
+   "3890|Boekhout",
+   "3890|Vorsen",
+   "3890|Gingelom",
+   "3890|Kortijs",
+   "3891|Muizen",
+   "3891|Borlo",
+   "3891|Mielen-Boven-Aalst",
+   "3891|Buvingen"
+  ]
+ },
+ {
+  "ref": "71020",
+  "names": {
+   "fr": "Halen",
+   "nl": "Halen",
+   "en": "Halen",
+   "de": "Halen"
+  },
+  "lat": 50.94794,
+  "lng": 5.11425,
+  "population": 9361,
+  "localities": [
+   "3545|Zelem",
+   "3545|Loksbergen",
+   "3545|Halen"
+  ]
+ },
+ {
+  "ref": "71024",
+  "names": {
+   "fr": "Herck-la-Ville",
+   "nl": "Herk-de-Stad",
+   "en": "Herk-de-Stad",
+   "de": "Herk-de-Stad"
+  },
+  "lat": 50.9407,
+  "lng": 5.16597,
+  "population": 12240,
+  "localities": [
+   "3540|Berbroek",
+   "3540|Schulen",
+   "3540|Herk-de-Stad",
+   "3540|Donk"
+  ]
+ },
+ {
+  "ref": "71034",
+  "names": {
+   "fr": "Bourg-Léopold",
+   "nl": "Leopoldsburg",
+   "en": "Leopoldsburg",
+   "de": "Leopoldsburg"
+  },
+  "lat": 51.1193,
+  "lng": 5.2627,
+  "population": 15215,
+  "localities": [
+   "3970|Leopoldsburg",
+   "3971|Heppen"
+  ]
+ },
+ {
+  "ref": "71037",
+  "names": {
+   "fr": "Lummen",
+   "nl": "Lummen",
+   "en": "Lummen",
+   "de": "Lummen"
+  },
+  "lat": 50.98622,
+  "lng": 5.19186,
+  "population": 14386,
+  "localities": [
+   "3560|Meldert",
+   "3560|Lummen",
+   "3560|Linkhout"
+  ]
+ },
+ {
+  "ref": "71045",
+  "names": {
+   "fr": "Nieuwerkerken",
+   "nl": "Nieuwerkerken",
+   "en": "Nieuwerkerken",
+   "de": "Nieuwerkerken"
+  },
+  "lat": 50.86516,
+  "lng": 5.19385,
+  "population": 6706,
+  "localities": [
+   "3850|Wijer",
+   "3850|Binderveld",
+   "3850|Nieuwerkerken",
+   "3850|Kozen"
+  ]
+ },
+ {
+  "ref": "71053",
+  "names": {
+   "fr": "Saint-Trond",
+   "nl": "Sint-Truiden",
+   "en": "Sint-Truiden",
+   "de": "Sint-Truiden"
+  },
+  "lat": 50.81528,
+  "lng": 5.18589,
+  "population": 40357,
+  "localities": [
+   "3800|Sint-Truiden",
+   "3800|Zepperen",
+   "3800|Groot-Gelmen",
+   "3800|Kerkom-bij-Sint-Truiden",
+   "3800|Aalst",
+   "3800|Halmaal",
+   "3800|Engelmanshoven",
+   "3800|Ordingen",
+   "3800|Brustem",
+   "3800|Gelinden",
+   "3803|Duras",
+   "3803|Wilderen",
+   "3803|Gorsem",
+   "3803|Runkelen",
+   "3806|Velm"
+  ]
+ },
+ {
+  "ref": "71066",
+  "names": {
+   "fr": "Zonhoven",
+   "nl": "Zonhoven",
+   "en": "Zonhoven",
+   "de": "Zonhoven"
+  },
+  "lat": 50.99098,
+  "lng": 5.36777,
+  "population": 20936,
+  "localities": [
+   "3520|Zonhoven"
+  ]
+ },
+ {
+  "ref": "71067",
+  "names": {
+   "fr": "Zutendaal",
+   "nl": "Zutendaal",
+   "en": "Zutendaal",
+   "de": "Zutendaal"
+  },
+  "lat": 50.9319,
+  "lng": 5.57255,
+  "population": 7096,
+  "localities": [
+   "3690|Zutendaal"
+  ]
+ },
+ {
+  "ref": "71070",
+  "names": {
+   "fr": "Heusden-Zolder",
+   "nl": "Heusden-Zolder",
+   "en": "Heusden-Zolder",
+   "de": "Heusden-Zolder"
+  },
+  "lat": 51.02335,
+  "lng": 5.27505,
+  "population": 32249,
+  "localities": [
+   "3550|Zolder",
+   "3550|Heusden-Zolder",
+   "3550|Heusden"
+  ]
+ },
+ {
+  "ref": "71071",
+  "names": {
+   "fr": "Tessenderlo-Ham",
+   "nl": "Tessenderlo-Ham",
+   "en": "Tessenderlo-Ham",
+   "de": "Tessenderlo-Ham"
+  },
+  "lat": 51.06762,
+  "lng": 5.08786,
+  "population": 30645,
+  "localities": [
+   "3945|Kwaadmechelen",
+   "3945|Ham",
+   "3945|Oostham",
+   "3980|Tessenderlo"
+  ]
+ },
+ {
+  "ref": "71072",
+  "names": {
+   "fr": "Hasselt",
+   "nl": "Hasselt",
+   "en": "Hasselt",
+   "de": "Hasselt"
+  },
+  "lat": 50.93037,
+  "lng": 5.3378,
+  "population": 74694,
+  "localities": [
+   "3500|Hasselt",
+   "3500|Sint-Lambrechts-Herk",
+   "3501|Wimmertingen",
+   "3510|Spalbeek",
+   "3510|Kermt",
+   "3511|Stokrooie",
+   "3511|Kuringen",
+   "3512|Stevoort",
+   "3720|Kortessem",
+   "3721|Vliermaalroot",
+   "3722|Wintershoven",
+   "3723|Guigoven",
+   "3724|Vliermaal"
+  ]
+ },
+ {
+  "ref": "72003",
+  "names": {
+   "fr": "Bocholt",
+   "nl": "Bocholt",
+   "en": "Bocholt",
+   "de": "Bocholt"
+  },
+  "lat": 51.17298,
+  "lng": 5.57758,
+  "population": null,
+  "localities": [
+   "3950|Reppel",
+   "3950|Kaulille",
+   "3950|Bocholt"
+  ]
+ },
+ {
+  "ref": "72004",
+  "names": {
+   "fr": "Brée",
+   "nl": "Bree",
+   "en": "Bree",
+   "de": "Bree"
+  },
+  "lat": 51.14161,
+  "lng": 5.59746,
+  "population": null,
+  "localities": [
+   "3960|Gerdingen",
+   "3960|Bree",
+   "3960|Beek",
+   "3960|Tongerlo",
+   "3960|Opitter"
+  ]
+ },
+ {
+  "ref": "72018",
+  "names": {
+   "fr": "Kinrooi",
+   "nl": "Kinrooi",
+   "en": "Kinrooi",
+   "de": "Kinrooi"
+  },
+  "lat": 51.14497,
+  "lng": 5.7414,
+  "population": null,
+  "localities": [
+   "3640|Kessenich",
+   "3640|Kinrooi",
+   "3640|Molenbeersel"
+  ]
+ },
+ {
+  "ref": "72020",
+  "names": {
+   "fr": "Lommel",
+   "nl": "Lommel",
+   "en": "Lommel",
+   "de": "Lommel"
+  },
+  "lat": 51.23057,
+  "lng": 5.30769,
+  "population": null,
+  "localities": [
+   "3920|Lommel"
+  ]
+ },
+ {
+  "ref": "72021",
+  "names": {
+   "fr": "Maaseik",
+   "nl": "Maaseik",
+   "en": "Maaseik",
+   "de": "Maaseik"
+  },
+  "lat": 51.09472,
+  "lng": 5.79173,
+  "population": 24865,
+  "localities": [
+   "3680|Neeroeteren",
+   "3680|Opoeteren",
+   "3680|Maaseik"
+  ]
+ },
+ {
+  "ref": "72030",
+  "names": {
+   "fr": "Peer",
+   "nl": "Peer",
+   "en": "Peer",
+   "de": "Peer"
+  },
+  "lat": 51.13191,
+  "lng": 5.45463,
+  "population": null,
+  "localities": [
+   "3660|Opglabbeek",
+   "3990|Wijchmaal",
+   "3990|Kleine-Brogel",
+   "3990|Grote-Brogel",
+   "3990|Peer"
+  ]
+ },
+ {
+  "ref": "72037",
+  "names": {
+   "fr": "Hamont-Achel",
+   "nl": "Hamont-Achel",
+   "en": "Hamont-Achel",
+   "de": "Hamont-Achel"
+  },
+  "lat": 51.25123,
+  "lng": 5.54544,
+  "population": null,
+  "localities": [
+   "3930|Hamont",
+   "3930|Hamont-Achel",
+   "3930|Achel"
+  ]
+ },
+ {
+  "ref": "72038",
+  "names": {
+   "fr": "Hechtel-Eksel",
+   "nl": "Hechtel-Eksel",
+   "en": "Hechtel-Eksel",
+   "de": "Hechtel-Eksel"
+  },
+  "lat": 51.1538,
+  "lng": 5.3923,
+  "population": null,
+  "localities": [
+   "3940|Hechtel",
+   "3940|Hechtel-Eksel",
+   "3941|Eksel"
+  ]
+ },
+ {
+  "ref": "72039",
+  "names": {
+   "fr": "Houthalen-Helchteren",
+   "nl": "Houthalen-Helchteren",
+   "en": "Houthalen-Helchteren",
+   "de": "Houthalen-Helchteren"
+  },
+  "lat": 51.04679,
+  "lng": 5.37804,
+  "population": null,
+  "localities": [
+   "3530|Helchteren",
+   "3530|Houthalen-Helchteren",
+   "3530|Houthalen"
+  ]
+ },
+ {
+  "ref": "72041",
+  "names": {
+   "fr": "Dilsen-Stockem",
+   "nl": "Dilsen-Stokkem",
+   "en": "Dilsen-Stokkem",
+   "de": "Dilsen-Stockheim"
+  },
+  "lat": 51.03547,
+  "lng": 5.72468,
+  "population": 19977,
+  "localities": [
+   "3650|Lanklaar",
+   "3650|Dilsen-Stokkem",
+   "3650|Elen",
+   "3650|Rotem",
+   "3650|Stokkem",
+   "3650|Dilsen"
+  ]
+ },
+ {
+  "ref": "72042",
+  "names": {
+   "fr": "Oudsbergen",
+   "nl": "Oudsbergen",
+   "en": "Oudsbergen",
+   "de": "Oudsbergen"
+  },
+  "lat": 51.04299,
+  "lng": 5.58196,
+  "population": null,
+  "localities": [
+   "3640|Ophoven",
+   "3670|Ellikom",
+   "3670|Meeuwen",
+   "3670|Gruitrode",
+   "3670|Wijshagen",
+   "3670|Neerglabbeek",
+   "3670|Oudsbergen"
+  ]
+ },
+ {
+  "ref": "72043",
+  "names": {
+   "fr": "Pelt",
+   "nl": "Pelt",
+   "en": "Pelt",
+   "de": "Pelt"
+  },
+  "lat": 51.21135,
+  "lng": 5.42298,
+  "population": null,
+  "localities": [
+   "3900|Overpelt",
+   "3900|Pelt",
+   "3910|Neerpelt",
+   "3910|Sint-Huibrechts-Lille"
+  ]
+ },
+ {
+  "ref": "73001",
+  "names": {
+   "fr": "Alken",
+   "nl": "Alken",
+   "en": "Alken",
+   "de": "Alken"
+  },
+  "lat": 50.87547,
+  "lng": 5.30799,
+  "population": 11335,
+  "localities": [
+   "3570|Alken"
+  ]
+ },
+ {
+  "ref": "73022",
+  "names": {
+   "fr": "Heers",
+   "nl": "Heers",
+   "en": "Heers",
+   "de": "Heers"
+  },
+  "lat": 50.751,
+  "lng": 5.30175,
+  "population": 7120,
+  "localities": [
+   "3870|Mechelen-Bovelingen",
+   "3870|Klein-Gelmen",
+   "3870|Horpmaal",
+   "3870|Gutshoven",
+   "3870|Mettekoven",
+   "3870|Bovelingen",
+   "3870|Veulen",
+   "3870|Vechmaal",
+   "3870|Rukkelingen-Loon",
+   "3870|Heks",
+   "3870|Opheers",
+   "3870|Heers",
+   "3870|Batsheers"
+  ]
+ },
+ {
+  "ref": "73028",
+  "names": {
+   "fr": "Herstappe",
+   "nl": "Herstappe",
+   "en": "Herstappe",
+   "de": "Herstappe"
+  },
+  "lat": 50.72738,
+  "lng": 5.42609,
+  "population": 87,
+  "localities": [
+   "3717|Herstappe"
+  ]
+ },
+ {
+  "ref": "73042",
+  "names": {
+   "fr": "Lanaken",
+   "nl": "Lanaken",
+   "en": "Lanaken",
+   "de": "Lanaken"
+  },
+  "lat": 50.88928,
+  "lng": 5.65132,
+  "population": null,
+  "localities": [
+   "3620|Lanaken",
+   "3620|Veldwezelt",
+   "3620|Gellik",
+   "3620|Neerharen",
+   "3621|Rekem"
+  ]
+ },
+ {
+  "ref": "73066",
+  "names": {
+   "fr": "Riemst",
+   "nl": "Riemst",
+   "en": "Riemst",
+   "de": "Riemst"
+  },
+  "lat": 50.81158,
+  "lng": 5.59787,
+  "population": 16284,
+  "localities": [
+   "3770|Genoelselderen",
+   "3770|Val-Meer",
+   "3770|Kanne",
+   "3770|Vroenhoven",
+   "3770|Zichen-Zussen-Bolder",
+   "3770|Millen",
+   "3770|Membruggen",
+   "3770|Riemst",
+   "3770|Herderen",
+   "3770|Vlijtingen"
+  ]
+ },
+ {
+  "ref": "73098",
+  "names": {
+   "fr": "Wellen",
+   "nl": "Wellen",
+   "en": "Wellen",
+   "de": "Wellen"
+  },
+  "lat": 50.84149,
+  "lng": 5.33709,
+  "population": 7414,
+  "localities": [
+   "3830|Berlingen",
+   "3830|Wellen",
+   "3831|Herten",
+   "3832|Ulbeek"
+  ]
+ },
+ {
+  "ref": "73107",
+  "names": {
+   "fr": "Maasmechelen",
+   "nl": "Maasmechelen",
+   "en": "Maasmechelen",
+   "de": "Maasmechelen"
+  },
+  "lat": 50.96342,
+  "lng": 5.69602,
+  "population": null,
+  "localities": [
+   "3630|Vucht",
+   "3630|Eisden",
+   "3630|Leut",
+   "3630|Opgrimbie",
+   "3630|Maasmechelen",
+   "3630|Meeswijk",
+   "3630|Mechelen-aan-de-Maas",
+   "3631|Boorsem",
+   "3631|Uikhoven"
+  ]
+ },
+ {
+  "ref": "73109",
+  "names": {
+   "fr": "Fourons",
+   "nl": "Voeren",
+   "en": "Voeren",
+   "de": "Vuren"
+  },
+  "lat": 50.7588,
+  "lng": 5.76197,
+  "population": 4180,
+  "localities": [
+   "3790|Fourons",
+   "3790|Mouland",
+   "3790|Fouron-Saint-Martin",
+   "3791|Remersdaal",
+   "3792|Fouron-Saint-Pierre",
+   "3793|Teuven",
+   "3798|Fouron-le-Comte"
+  ]
+ },
+ {
+  "ref": "73110",
+  "names": {
+   "fr": "Bilzen-Hoeselt",
+   "nl": "Bilzen-Hoeselt",
+   "en": "Bilzen-Hoeselt",
+   "de": "Bilzen-Hoeselt"
+  },
+  "lat": 50.87078,
+  "lng": 5.51811,
+  "population": null,
+  "localities": [
+   "3730|Hoeselt",
+   "3730|Sint-Huibrechts-Hern",
+   "3730|Romershoven",
+   "3730|Werm",
+   "3732|Schalkhoven",
+   "3740|Munsterbilzen",
+   "3740|Waltwilder",
+   "3740|Rosmeer",
+   "3740|Hees",
+   "3740|Rijkhoven",
+   "3740|Bilzen",
+   "3740|Kleine-Spouwen",
+   "3740|Grote-Spouwen",
+   "3740|Mopertingen",
+   "3740|Eigenbilzen",
+   "3740|Beverst",
+   "3742|Martenslinde",
+   "3746|Hoelbeek"
+  ]
+ },
+ {
+  "ref": "73111",
+  "names": {
+   "fr": "Tongres-Looz",
+   "nl": "Tongeren-Borgloon",
+   "en": "Tongeren-Borgloon",
+   "de": "Tongeren-Borgloon"
+  },
+  "lat": 50.78063,
+  "lng": 5.46392,
+  "population": null,
+  "localities": [
+   "3700|Neerrepen",
+   "3700|Sluizen",
+   "3700|'s Herenelderen",
+   "3700|Tongeren",
+   "3700|Koninksem",
+   "3700|Nerem",
+   "3700|Widooie",
+   "3700|Berg",
+   "3700|Riksingen",
+   "3700|Kolmont",
+   "3700|Piringen",
+   "3700|Vreren",
+   "3700|Overrepen",
+   "3700|Rutten",
+   "3700|Haren",
+   "3700|Mal",
+   "3700|Diets-Heur",
+   "3700|Henis",
+   "3700|Lauw",
+   "3840|Rijkel",
+   "3840|Bommershoven",
+   "3840|Haren",
+   "3840|Broekom",
+   "3840|Gors-Opleeuw",
+   "3840|Kolmont",
+   "3840|Voort",
+   "3840|Kuttekoven",
+   "3840|Gotem",
+   "3840|Groot-Loon",
+   "3840|Hendrieken",
+   "3840|Hoepertingen",
+   "3840|Borgloon",
+   "3840|Jesseren",
+   "3840|Kerniel"
+  ]
+ },
+ {
+  "ref": "81001",
+  "names": {
+   "fr": "Arlon",
+   "nl": "Aarlen",
+   "en": "Arlon",
+   "de": "Arel"
+  },
+  "lat": 49.68346,
+  "lng": 5.81677,
+  "population": null,
+  "localities": [
+   "6700|Heinsch",
+   "6700|Bonnert",
+   "6700|Toernich",
+   "6700|Arlon",
+   "6704|Guirsch",
+   "6706|Autelbas"
+  ]
+ },
+ {
+  "ref": "81003",
+  "names": {
+   "fr": "Attert",
+   "nl": "Attert",
+   "en": "Attert",
+   "de": "Attert"
+  },
+  "lat": 49.7515,
+  "lng": 5.78722,
+  "population": null,
+  "localities": [
+   "6717|Tontelange",
+   "6717|Thiaumont",
+   "6717|Nothomb",
+   "6717|Nobressart",
+   "6717|Attert"
+  ]
+ },
+ {
+  "ref": "81004",
+  "names": {
+   "fr": "Aubange",
+   "nl": "Aubange",
+   "en": "Aubange",
+   "de": "Ibingen"
+  },
+  "lat": 49.5672,
+  "lng": 5.8045,
+  "population": null,
+  "localities": [
+   "6790|Aubange",
+   "6791|Athus",
+   "6792|Rachecourt",
+   "6792|Halanzy"
+  ]
+ },
+ {
+  "ref": "81013",
+  "names": {
+   "fr": "Martelange",
+   "nl": "Martelange",
+   "en": "Martelange",
+   "de": "Martelingen"
+  },
+  "lat": 49.83133,
+  "lng": 5.73764,
+  "population": null,
+  "localities": [
+   "6630|Martelange"
+  ]
+ },
+ {
+  "ref": "81015",
+  "names": {
+   "fr": "Messancy",
+   "nl": "Messancy",
+   "en": "Messancy",
+   "de": "Messancy"
+  },
+  "lat": 49.59499,
+  "lng": 5.81457,
+  "population": null,
+  "localities": [
+   "6780|Hondelange",
+   "6780|Wolkrange",
+   "6780|Messancy",
+   "6781|Sélange",
+   "6782|Habergy"
+  ]
+ },
+ {
+  "ref": "82009",
+  "names": {
+   "fr": "Fauvillers",
+   "nl": "Fauvillers",
+   "en": "Fauvillers",
+   "de": "Feitweiler"
+  },
+  "lat": 49.85093,
+  "lng": 5.66503,
+  "population": 2215,
+  "localities": [
+   "6637|Hollange",
+   "6637|Tintange",
+   "6637|Fauvillers"
+  ]
+ },
+ {
+  "ref": "82014",
+  "names": {
+   "fr": "Houffalize",
+   "nl": "Houffalize",
+   "en": "Houffalize",
+   "de": "Hohenfels"
+  },
+  "lat": 50.13238,
+  "lng": 5.78869,
+  "population": 5068,
+  "localities": [
+   "6660|Houffalize",
+   "6660|Nadrin",
+   "6661|Tailles",
+   "6662|Tavigny",
+   "6663|Mabompré",
+   "6666|Wibrin"
+  ]
+ },
+ {
+  "ref": "82032",
+  "names": {
+   "fr": "Vielsalm",
+   "nl": "Vielsalm",
+   "en": "Vielsalm",
+   "de": "Vielsalm"
+  },
+  "lat": 50.28422,
+  "lng": 5.91628,
+  "population": 7495,
+  "localities": [
+   "6690|Bihain",
+   "6690|Vielsalm",
+   "6692|Petit-Thier",
+   "6698|Grand-Halleux"
+  ]
+ },
+ {
+  "ref": "82036",
+  "names": {
+   "fr": "Vaux-sur-Sûre",
+   "nl": "Vaux-sur-Sûre",
+   "en": "Vaux-sur-Sûre",
+   "de": "Vaux-sur-Sûre"
+  },
+  "lat": 49.9105,
+  "lng": 5.56631,
+  "population": 5241,
+  "localities": [
+   "6640|Vaux-sur-Sûre",
+   "6640|Hompré",
+   "6640|Sibret",
+   "6640|Morhet",
+   "6640|Nives",
+   "6640|Vaux-lez-Rosières",
+   "6642|Juseret"
+  ]
+ },
+ {
+  "ref": "82037",
+  "names": {
+   "fr": "Gouvy",
+   "nl": "Gouvy",
+   "en": "Gouvy",
+   "de": "Geilich"
+  },
+  "lat": 50.18574,
+  "lng": 5.9428,
+  "population": 5459,
+  "localities": [
+   "6670|Limerlé",
+   "6670|Gouvy",
+   "6671|Bovigny",
+   "6672|Beho",
+   "6673|Cherain",
+   "6674|Montleban"
+  ]
+ },
+ {
+  "ref": "82038",
+  "names": {
+   "fr": "Sainte-Ode",
+   "nl": "Sainte-Ode",
+   "en": "Sainte-Ode",
+   "de": "Sainte-Ode"
+  },
+  "lat": 50.03629,
+  "lng": 5.52451,
+  "population": 2437,
+  "localities": [
+   "6680|Sainte-Ode",
+   "6680|Amberloup",
+   "6680|Tillet",
+   "6681|Lavacherie"
+  ]
+ },
+ {
+  "ref": "82039",
+  "names": {
+   "fr": "Bastogne",
+   "nl": "Bastenaken",
+   "en": "Bastogne",
+   "de": "Bastnach"
+  },
+  "lat": 50.00231,
+  "lng": 5.71734,
+  "population": 15127,
+  "localities": [
+   "6600|Wardin",
+   "6600|Villers-la-Bonne-Eau",
+   "6600|Bastogne",
+   "6600|Noville",
+   "6600|Longvilly",
+   "6661|Mont",
+   "6686|Flamierge",
+   "6687|Bertogne",
+   "6688|Longchamps"
+  ]
+ },
+ {
+  "ref": "83012",
+  "names": {
+   "fr": "Durbuy",
+   "nl": "Durbuy",
+   "en": "Durbuy",
+   "de": "Durbuy"
+  },
+  "lat": 50.35241,
+  "lng": 5.45625,
+  "population": 11326,
+  "localities": [
+   "6940|Grandhan",
+   "6940|Durbuy",
+   "6940|Septon",
+   "6940|Wéris",
+   "6940|Barvaux-sur-Ourthe",
+   "6941|Bende",
+   "6941|Borlon",
+   "6941|Izier",
+   "6941|Bomal-sur-Ourthe",
+   "6941|Villers-Sainte-Gertrude",
+   "6941|Tohogne",
+   "6941|Heyd"
+  ]
+ },
+ {
+  "ref": "83013",
+  "names": {
+   "fr": "Érezée",
+   "nl": "Érezée",
+   "en": "Érezée",
+   "de": "Érezée"
+  },
+  "lat": 50.29306,
+  "lng": 5.55976,
+  "population": 3154,
+  "localities": [
+   "6997|Mormont",
+   "6997|Erezée",
+   "6997|Amonines",
+   "6997|Soy"
+  ]
+ },
+ {
+  "ref": "83028",
+  "names": {
+   "fr": "Hotton",
+   "nl": "Hotton",
+   "en": "Hotton",
+   "de": "Hotton"
+  },
+  "lat": 50.2688,
+  "lng": 5.44633,
+  "population": 5729,
+  "localities": [
+   "6990|Hampteau",
+   "6990|Hotton",
+   "6990|Marenne",
+   "6990|Fronville"
+  ]
+ },
+ {
+  "ref": "83031",
+  "names": {
+   "fr": "La Roche-en-Ardenne",
+   "nl": "La Roche-en-Ardenne",
+   "en": "La Roche-en-Ardenne",
+   "de": "La Roche-en-Ardenne"
+  },
+  "lat": 50.18156,
+  "lng": 5.57595,
+  "population": null,
+  "localities": [
+   "6980|La Roche-en-Ardenne",
+   "6980|Beausaint",
+   "6982|Samrée",
+   "6983|Ortho",
+   "6984|Hives",
+   "6986|Halleux"
+  ]
+ },
+ {
+  "ref": "83034",
+  "names": {
+   "fr": "Marche-en-Famenne",
+   "nl": "Marche-en-Famenne",
+   "en": "Marche-en-Famenne",
+   "de": "Marche-en-Famenne"
+  },
+  "lat": 50.22709,
+  "lng": 5.34196,
+  "population": 17454,
+  "localities": [
+   "6900|Waha",
+   "6900|Marche-en-Famenne",
+   "6900|Humain",
+   "6900|On",
+   "6900|Roy",
+   "6900|Aye",
+   "6900|Hargimont"
+  ]
+ },
+ {
+  "ref": "83040",
+  "names": {
+   "fr": "Nassogne",
+   "nl": "Nassogne",
+   "en": "Nassogne",
+   "de": "Nassogne"
+  },
+  "lat": 50.12874,
+  "lng": 5.3419,
+  "population": 5310,
+  "localities": [
+   "6950|Nassogne",
+   "6950|Harsin",
+   "6951|Bande",
+   "6952|Grune",
+   "6953|Lesterny",
+   "6953|Masbourg",
+   "6953|Forrières",
+   "6953|Ambly"
+  ]
+ },
+ {
+  "ref": "83044",
+  "names": {
+   "fr": "Rendeux",
+   "nl": "Rendeux",
+   "en": "Rendeux",
+   "de": "Rendeux"
+  },
+  "lat": 50.23327,
+  "lng": 5.50402,
+  "population": null,
+  "localities": [
+   "6960|Dochamps",
+   "6987|Rendeux",
+   "6987|Beffe",
+   "6987|Hodister",
+   "6987|Marcourt"
+  ]
+ },
+ {
+  "ref": "83049",
+  "names": {
+   "fr": "Tenneville",
+   "nl": "Tenneville",
+   "en": "Tenneville",
+   "de": "Tenneville"
+  },
+  "lat": 50.09126,
+  "lng": 5.52409,
+  "population": null,
+  "localities": [
+   "6970|Tenneville",
+   "6971|Champlon",
+   "6972|Erneuville"
+  ]
+ },
+ {
+  "ref": "83055",
+  "names": {
+   "fr": "Manhay",
+   "nl": "Manhay",
+   "en": "Manhay",
+   "de": "Manhay"
+  },
+  "lat": 50.29305,
+  "lng": 5.67615,
+  "population": 3460,
+  "localities": [
+   "6960|Manhay",
+   "6960|Vaux-Chavanne",
+   "6960|Grandménil",
+   "6960|Harre",
+   "6960|Odeigne",
+   "6960|Malempré"
+  ]
+ },
+ {
+  "ref": "84009",
+  "names": {
+   "fr": "Bertrix",
+   "nl": "Bertrix",
+   "en": "Bertrix",
+   "de": "Bertrix"
+  },
+  "lat": 49.85466,
+  "lng": 5.25293,
+  "population": 8507,
+  "localities": [
+   "6860|Assenois",
+   "6880|Auby-sur-Semois",
+   "6880|Orgeo",
+   "6880|Bertrix",
+   "6880|Cugnon",
+   "6880|Jehonville"
+  ]
+ },
+ {
+  "ref": "84010",
+  "names": {
+   "fr": "Bouillon",
+   "nl": "Bouillon",
+   "en": "Bouillon",
+   "de": "Bouillon"
+  },
+  "lat": 49.79498,
+  "lng": 5.06725,
+  "population": 5426,
+  "localities": [
+   "6830|Les Hayons",
+   "6830|Rochehaut",
+   "6830|Poupehan",
+   "6830|Bouillon",
+   "6832|Sensenruth",
+   "6833|Ucimont",
+   "6833|Vivy",
+   "6834|Bellevaux",
+   "6836|Dohan",
+   "6838|Corbion"
+  ]
+ },
+ {
+  "ref": "84016",
+  "names": {
+   "fr": "Daverdisse",
+   "nl": "Daverdisse",
+   "en": "Daverdisse",
+   "de": "Daverdisse"
+  },
+  "lat": 50.02149,
+  "lng": 5.11834,
+  "population": 1405,
+  "localities": [
+   "6929|Porcheresse",
+   "6929|Haut-Fays",
+   "6929|Gembes",
+   "6929|Daverdisse"
+  ]
+ },
+ {
+  "ref": "84029",
+  "names": {
+   "fr": "Herbeumont",
+   "nl": "Herbeumont",
+   "en": "Herbeumont",
+   "de": "Herbeumont"
+  },
+  "lat": 49.78154,
+  "lng": 5.23777,
+  "population": 2010,
+  "localities": [
+   "6887|Straimont",
+   "6887|Saint-Médard",
+   "6887|Herbeumont"
+  ]
+ },
+ {
+  "ref": "84033",
+  "names": {
+   "fr": "Léglise",
+   "nl": "Léglise",
+   "en": "Léglise",
+   "de": "Léglise"
+  },
+  "lat": 49.80009,
+  "lng": 5.53818,
+  "population": 4824,
+  "localities": [
+   "6860|Mellier",
+   "6860|Léglise",
+   "6860|Witry",
+   "6860|Ebly"
+  ]
+ },
+ {
+  "ref": "84035",
+  "names": {
+   "fr": "Libin",
+   "nl": "Libin",
+   "en": "Libin",
+   "de": "Libin"
+  },
+  "lat": 49.98095,
+  "lng": 5.2569,
+  "population": 4911,
+  "localities": [
+   "6890|Ochamps",
+   "6890|Transinne",
+   "6890|Libin",
+   "6890|Villance",
+   "6890|Smuid",
+   "6890|Redu",
+   "6890|Anloy"
+  ]
+ },
+ {
+  "ref": "84043",
+  "names": {
+   "fr": "Neufchâteau",
+   "nl": "Neufchâteau",
+   "en": "Neufchâteau",
+   "de": "Neufchâteau"
+  },
+  "lat": 49.84047,
+  "lng": 5.43553,
+  "population": 7284,
+  "localities": [
+   "6840|Grandvoir",
+   "6840|Longlier",
+   "6840|Tournay",
+   "6840|Neufchâteau",
+   "6840|Hamipré",
+   "6840|Grapfontaine"
+  ]
+ },
+ {
+  "ref": "84050",
+  "names": {
+   "fr": "Paliseul",
+   "nl": "Paliseul",
+   "en": "Paliseul",
+   "de": "Paliseul"
+  },
+  "lat": 49.90353,
+  "lng": 5.1349,
+  "population": 5215,
+  "localities": [
+   "6850|Offagne",
+   "6850|Carlsbourg",
+   "6850|Paliseul",
+   "6851|Nollevaux",
+   "6852|Opont",
+   "6852|Maissin",
+   "6853|Framont",
+   "6856|Fays-les-Veneurs"
+  ]
+ },
+ {
+  "ref": "84059",
+  "names": {
+   "fr": "Saint-Hubert",
+   "nl": "Saint-Hubert",
+   "en": "Saint-Hubert",
+   "de": "Saint-Hubert"
+  },
+  "lat": 50.02514,
+  "lng": 5.37386,
+  "population": 5652,
+  "localities": [
+   "6870|Vesqueville",
+   "6870|Saint-Hubert",
+   "6870|Mirwart",
+   "6870|Arville",
+   "6870|Hatrival",
+   "6870|Awenne"
+  ]
+ },
+ {
+  "ref": "84068",
+  "names": {
+   "fr": "Tellin",
+   "nl": "Tellin",
+   "en": "Tellin",
+   "de": "Tellin"
+  },
+  "lat": 50.08102,
+  "lng": 5.21684,
+  "population": 2488,
+  "localities": [
+   "6927|Grupont",
+   "6927|Tellin",
+   "6927|Bure",
+   "6927|Resteigne"
+  ]
+ },
+ {
+  "ref": "84075",
+  "names": {
+   "fr": "Wellin",
+   "nl": "Wellin",
+   "en": "Wellin",
+   "de": "Wellin"
+  },
+  "lat": 50.0823,
+  "lng": 5.11467,
+  "population": 3000,
+  "localities": [
+   "6920|Sohier",
+   "6920|Wellin",
+   "6921|Chanly",
+   "6922|Halma",
+   "6924|Lomprez"
+  ]
+ },
+ {
+  "ref": "84077",
+  "names": {
+   "fr": "Libramont-Chevigny",
+   "nl": "Libramont-Chevigny",
+   "en": "Libramont-Chevigny",
+   "de": "Libramont-Chevigny"
+  },
+  "lat": 49.91563,
+  "lng": 5.3762,
+  "population": 10459,
+  "localities": [
+   "6800|Saint-Pierre",
+   "6800|Moircy",
+   "6800|Freux",
+   "6800|Sainte-Marie-Chevigny",
+   "6800|Bras",
+   "6800|Remagne",
+   "6800|Recogne",
+   "6800|Libramont-Chevigny",
+   "6831|Noirfontaine"
+  ]
+ },
+ {
+  "ref": "85007",
+  "names": {
+   "fr": "Chiny",
+   "nl": "Chiny",
+   "en": "Chiny",
+   "de": "Chiny"
+  },
+  "lat": 49.73825,
+  "lng": 5.3407,
+  "population": 5168,
+  "localities": [
+   "6810|Chiny",
+   "6810|Jamoigne",
+   "6810|Izel",
+   "6811|Les Bulles",
+   "6812|Suxy",
+   "6813|Termes"
+  ]
+ },
+ {
+  "ref": "85009",
+  "names": {
+   "fr": "Étalle",
+   "nl": "Étalle",
+   "en": "Étalle",
+   "de": "Étalle"
+  },
+  "lat": 49.67291,
+  "lng": 5.59844,
+  "population": 5691,
+  "localities": [
+   "6740|Etalle",
+   "6740|Sainte-Marie-sur-Semois",
+   "6740|Villers-sur-Semois",
+   "6741|Vance",
+   "6742|Chantemelle",
+   "6743|Buzenol"
+  ]
+ },
+ {
+  "ref": "85011",
+  "names": {
+   "fr": "Florenville",
+   "nl": "Florenville",
+   "en": "Florenville",
+   "de": "Florenville"
+  },
+  "lat": 49.69932,
+  "lng": 5.31005,
+  "population": 5516,
+  "localities": [
+   "6820|Muno",
+   "6820|Florenville",
+   "6820|Fontenoille",
+   "6820|Sainte-Cécile",
+   "6821|Lacuisine",
+   "6823|Villers-devant-Orval",
+   "6824|Chassepierre"
+  ]
+ },
+ {
+  "ref": "85024",
+  "names": {
+   "fr": "Meix-devant-Virton",
+   "nl": "Meix-devant-Virton",
+   "en": "Meix-devant-Virton",
+   "de": "Meix-devant-Virton"
+  },
+  "lat": 49.60559,
+  "lng": 5.48162,
+  "population": 2732,
+  "localities": [
+   "6769|Sommethonne",
+   "6769|Villers-la-Loue",
+   "6769|Meix-devant-Virton",
+   "6769|Robelmont",
+   "6769|Gérouville"
+  ]
+ },
+ {
+  "ref": "85026",
+  "names": {
+   "fr": "Musson",
+   "nl": "Musson",
+   "en": "Musson",
+   "de": "Musson"
+  },
+  "lat": 49.55808,
+  "lng": 5.70588,
+  "population": 4434,
+  "localities": [
+   "6750|Signeulx",
+   "6750|Mussy-la-Ville",
+   "6750|Musson"
+  ]
+ },
+ {
+  "ref": "85034",
+  "names": {
+   "fr": "Saint-Léger",
+   "nl": "Saint-Léger",
+   "en": "Saint-Léger",
+   "de": "Zillig"
+  },
+  "lat": 49.61344,
+  "lng": 5.65696,
+  "population": 3397,
+  "localities": [
+   "6747|Saint-Léger",
+   "6747|Châtillon",
+   "6747|Meix-le-Tige"
+  ]
+ },
+ {
+  "ref": "85039",
+  "names": {
+   "fr": "Tintigny",
+   "nl": "Tintigny",
+   "en": "Tintigny",
+   "de": "Tintigny"
+  },
+  "lat": 49.6821,
+  "lng": 5.51852,
+  "population": 3973,
+  "localities": [
+   "6730|Saint-Vincent",
+   "6730|Rossignol",
+   "6730|Bellefontaine",
+   "6730|Tintigny"
+  ]
+ },
+ {
+  "ref": "85045",
+  "names": {
+   "fr": "Virton",
+   "nl": "Virton",
+   "en": "Virton",
+   "de": "Wirten"
+  },
+  "lat": 49.56773,
+  "lng": 5.53296,
+  "population": 11670,
+  "localities": [
+   "6760|Virton",
+   "6760|Ethe",
+   "6760|Bleid",
+   "6760|Ruette",
+   "6761|Latour",
+   "6762|Saint-Mard"
+  ]
+ },
+ {
+  "ref": "85046",
+  "names": {
+   "fr": "Habay",
+   "nl": "Habay",
+   "en": "Habay",
+   "de": "Habich"
+  },
+  "lat": 49.73098,
+  "lng": 5.65282,
+  "population": 8259,
+  "localities": [
+   "6720|Habay-la-Neuve",
+   "6720|Habay",
+   "6720|Hachy",
+   "6721|Anlier",
+   "6723|Habay-la-Vieille",
+   "6724|Rulles",
+   "6724|Houdemont"
+  ]
+ },
+ {
+  "ref": "85047",
+  "names": {
+   "fr": "Rouvroy",
+   "nl": "Rouvroy",
+   "en": "Rouvroy",
+   "de": "Rouvroy"
+  },
+  "lat": 49.53907,
+  "lng": 5.48971,
+  "population": 2081,
+  "localities": [
+   "6767|Dampicourt",
+   "6767|Rouvroy",
+   "6767|Lamorteau",
+   "6767|Harnoncourt",
+   "6767|Torgny"
+  ]
+ },
+ {
+  "ref": "91005",
+  "names": {
+   "fr": "Anhée",
+   "nl": "Anhée",
+   "en": "Anhée",
+   "de": "Anhée"
+  },
+  "lat": 50.31015,
+  "lng": 4.8776,
+  "population": 7074,
+  "localities": [
+   "5537|Anhée",
+   "5537|Haut-le-Wastia",
+   "5537|Sosoye",
+   "5537|Denée",
+   "5537|Annevoie-Rouillon",
+   "5537|Warnant",
+   "5537|Bioul"
+  ]
+ },
+ {
+  "ref": "91013",
+  "names": {
+   "fr": "Beauraing",
+   "nl": "Beauraing",
+   "en": "Beauraing",
+   "de": "Beauraing"
+  },
+  "lat": 50.11027,
+  "lng": 4.95493,
+  "population": 9050,
+  "localities": [
+   "5570|Beauraing",
+   "5570|Felenne",
+   "5570|Baronville",
+   "5570|Honnay",
+   "5570|Feschaux",
+   "5570|Dion",
+   "5570|Javingue",
+   "5570|Winenne",
+   "5570|Vonêche",
+   "5570|Wancennes",
+   "5571|Wiesme",
+   "5572|Focant",
+   "5573|Martouzin-Neuville",
+   "5574|Pondrôme",
+   "5576|Froidfontaine"
+  ]
+ },
+ {
+  "ref": "91015",
+  "names": {
+   "fr": "Bièvre",
+   "nl": "Bièvre",
+   "en": "Bièvre",
+   "de": "Bièvre"
+  },
+  "lat": 49.94112,
+  "lng": 5.01685,
+  "population": 3219,
+  "localities": [
+   "5555|Bellefontaine",
+   "5555|Graide",
+   "5555|Gros-Fays",
+   "5555|Bièvre",
+   "5555|Monceau-en-Ardenne",
+   "5555|Petit-Fays",
+   "5555|Naomé",
+   "5555|Cornimont",
+   "5555|Baillamont",
+   "5555|Oizy"
+  ]
+ },
+ {
+  "ref": "91030",
+  "names": {
+   "fr": "Ciney",
+   "nl": "Ciney",
+   "en": "Ciney",
+   "de": "Ciney"
+  },
+  "lat": 50.29649,
+  "lng": 5.10087,
+  "population": 15670,
+  "localities": [
+   "5590|Conneux",
+   "5590|Leignon",
+   "5590|Sovet",
+   "5590|Haversin",
+   "5590|Achêne",
+   "5590|Ciney",
+   "5590|Braibant",
+   "5590|Pessoux",
+   "5590|Serinchamps",
+   "5590|Chevetogne"
+  ]
+ },
+ {
+  "ref": "91034",
+  "names": {
+   "fr": "Dinant",
+   "nl": "Dinant",
+   "en": "Dinant",
+   "de": "Dinant"
+  },
+  "lat": 50.25918,
+  "lng": 4.91306,
+  "population": 13912,
+  "localities": [
+   "5500|Dréhance",
+   "5500|Furfooz",
+   "5500|Falmignoul",
+   "5500|Dinant",
+   "5500|Bouvignes-sur-Meuse",
+   "5500|Falmagne",
+   "5500|Anseremme",
+   "5501|Lisogne",
+   "5502|Thynes",
+   "5503|Sorinnes",
+   "5504|Foy-Notre-Dame"
+  ]
+ },
+ {
+  "ref": "91054",
+  "names": {
+   "fr": "Gedinne",
+   "nl": "Gedinne",
+   "en": "Gedinne",
+   "de": "Gedinne"
+  },
+  "lat": 49.97927,
+  "lng": 4.9389,
+  "population": 4455,
+  "localities": [
+   "5575|Malvoisin",
+   "5575|Vencimont",
+   "5575|Willerzie",
+   "5575|Bourseigne-Neuve",
+   "5575|Houdremont",
+   "5575|Rienne",
+   "5575|Louette-Saint-Denis",
+   "5575|Sart-Custinne",
+   "5575|Bourseigne-Vieille",
+   "5575|Louette-Saint-Pierre",
+   "5575|Gedinne",
+   "5575|Patignies"
+  ]
+ },
+ {
+  "ref": "91059",
+  "names": {
+   "fr": "Hamois",
+   "nl": "Hamois",
+   "en": "Hamois",
+   "de": "Hamois"
+  },
+  "lat": 50.34087,
+  "lng": 5.15945,
+  "population": 7375,
+  "localities": [
+   "5360|Natoye",
+   "5360|Hamois",
+   "5361|Scy",
+   "5361|Mohiville",
+   "5362|Achet",
+   "5363|Emptinne",
+   "5364|Schaltin"
+  ]
+ },
+ {
+  "ref": "91064",
+  "names": {
+   "fr": "Havelange",
+   "nl": "Havelange",
+   "en": "Havelange",
+   "de": "Havelange"
+  },
+  "lat": 50.38709,
+  "lng": 5.23958,
+  "population": 5053,
+  "localities": [
+   "5370|Jeneffe",
+   "5370|Barvaux-Condroz",
+   "5370|Verlée",
+   "5370|Porcheresse",
+   "5370|Flostoy",
+   "5370|Havelange",
+   "5372|Méan",
+   "5374|Maffe",
+   "5376|Miécret"
+  ]
+ },
+ {
+  "ref": "91072",
+  "names": {
+   "fr": "Houyet",
+   "nl": "Houyet",
+   "en": "Houyet",
+   "de": "Houyet"
+  },
+  "lat": 50.18686,
+  "lng": 5.0067,
+  "population": 4649,
+  "localities": [
+   "5560|Mesnil-Eglise",
+   "5560|Ciergnon",
+   "5560|Hulsonniaux",
+   "5560|Houyet",
+   "5560|Mesnil-Saint-Blaise",
+   "5560|Finnevaux",
+   "5561|Celles",
+   "5562|Custinne",
+   "5563|Hour",
+   "5564|Wanlin"
+  ]
+ },
+ {
+  "ref": "91103",
+  "names": {
+   "fr": "Onhaye",
+   "nl": "Onhaye",
+   "en": "Onhaye",
+   "de": "Onhaye"
+  },
+  "lat": 50.24357,
+  "lng": 4.84086,
+  "population": 3153,
+  "localities": [
+   "5520|Onhaye",
+   "5520|Anthée",
+   "5521|Serville",
+   "5522|Falaën",
+   "5523|Sommière",
+   "5523|Weillen",
+   "5524|Gérin"
+  ]
+ },
+ {
+  "ref": "91114",
+  "names": {
+   "fr": "Rochefort",
+   "nl": "Rochefort",
+   "en": "Rochefort",
+   "de": "Rochefort"
+  },
+  "lat": 50.15885,
+  "lng": 5.22334,
+  "population": 12515,
+  "localities": [
+   "5580|Wavreille",
+   "5580|Rochefort",
+   "5580|Mont-Gauthier",
+   "5580|Han-sur-Lesse",
+   "5580|Jemelle",
+   "5580|Ave-et-Auffe",
+   "5580|Villers-sur-Lesse",
+   "5580|Eprave",
+   "5580|Lavaux-Sainte-Anne",
+   "5580|Buissonville",
+   "5580|Lessive"
+  ]
+ },
+ {
+  "ref": "91120",
+  "names": {
+   "fr": "Somme-Leuze",
+   "nl": "Somme-Leuze",
+   "en": "Somme-Leuze",
+   "de": "Somme-Leuze"
+  },
+  "lat": 50.33678,
+  "lng": 5.36739,
+  "population": 5032,
+  "localities": [
+   "5377|Somme-Leuze",
+   "5377|Sinsin",
+   "5377|Heure",
+   "5377|Waillet",
+   "5377|Hogne",
+   "5377|Bonsin",
+   "5377|Nettinne",
+   "5377|Noiseux",
+   "5377|Baillonville"
+  ]
+ },
+ {
+  "ref": "91141",
+  "names": {
+   "fr": "Yvoir",
+   "nl": "Yvoir",
+   "en": "Yvoir",
+   "de": "Yvoir"
+  },
+  "lat": 50.32604,
+  "lng": 4.87782,
+  "population": 9339,
+  "localities": [
+   "5530|Yvoir",
+   "5530|Houx",
+   "5530|Mont",
+   "5530|Purnode",
+   "5530|Dorinne",
+   "5530|Durnal",
+   "5530|Godinne",
+   "5530|Evrehailles",
+   "5530|Spontin"
+  ]
+ },
+ {
+  "ref": "91142",
+  "names": {
+   "fr": "Hastière",
+   "nl": "Hastière",
+   "en": "Hastière",
+   "de": "Hastière"
+  },
+  "lat": 50.21734,
+  "lng": 4.82588,
+  "population": 5708,
+  "localities": [
+   "5540|Waulsort",
+   "5540|Hermeton-sur-Meuse",
+   "5540|Hastière",
+   "5540|Hastière-Lavaux",
+   "5541|Hastière-Par-Delà",
+   "5542|Blaimont",
+   "5543|Heer",
+   "5544|Agimont"
+  ]
+ },
+ {
+  "ref": "91143",
+  "names": {
+   "fr": "Vresse-sur-Semois",
+   "nl": "Vresse-sur-Semois",
+   "en": "Vresse-sur-Semois",
+   "de": "Vresse-sur-Semois"
+  },
+  "lat": 49.87298,
+  "lng": 4.93406,
+  "population": 2924,
+  "localities": [
+   "5550|Orchimont",
+   "5550|Laforêt",
+   "5550|Mouzaive",
+   "5550|Bohan",
+   "5550|Pussemange",
+   "5550|Alle",
+   "5550|Chairière",
+   "5550|Sugny",
+   "5550|Vresse-sur-Semois",
+   "5550|Nafraiture",
+   "5550|Membre",
+   "5550|Bagimont"
+  ]
+ },
+ {
+  "ref": "92003",
+  "names": {
+   "fr": "Andenne",
+   "nl": "Andenne",
+   "en": "Andenne",
+   "de": "Andenne"
+  },
+  "lat": 50.4894,
+  "lng": 5.09655,
+  "population": null,
+  "localities": [
+   "5300|Sclayn",
+   "5300|Maizeret",
+   "5300|Andenne",
+   "5300|Thon",
+   "5300|Namêche",
+   "5300|Vezin",
+   "5300|Coutisse",
+   "5300|Landenne",
+   "5300|Seilles",
+   "5300|Bonneville"
+  ]
+ },
+ {
+  "ref": "92006",
+  "names": {
+   "fr": "Assesse",
+   "nl": "Assesse",
+   "en": "Assesse",
+   "de": "Assesse"
+  },
+  "lat": 50.37183,
+  "lng": 5.02176,
+  "population": null,
+  "localities": [
+   "5330|Sart-Bernard",
+   "5330|Assesse",
+   "5330|Maillen",
+   "5332|Crupet",
+   "5333|Sorinne-la-Longue",
+   "5334|Florée",
+   "5336|Courrière"
+  ]
+ },
+ {
+  "ref": "92035",
+  "names": {
+   "fr": "Eghezée",
+   "nl": "Eghezée",
+   "en": "Eghezée",
+   "de": "Eghezée"
+  },
+  "lat": 50.59168,
+  "lng": 4.9066,
+  "population": null,
+  "localities": [
+   "5310|Mehaigne",
+   "5310|Leuze",
+   "5310|Bolinne",
+   "5310|Dhuy",
+   "5310|Longchamps",
+   "5310|Noville-sur-Mehaigne",
+   "5310|Boneffe",
+   "5310|Saint-Germain",
+   "5310|Taviers",
+   "5310|Eghezée",
+   "5310|Branchon",
+   "5310|Aische-en-Refail",
+   "5310|Hanret",
+   "5310|Liernu",
+   "5310|Upigny",
+   "5310|Waret-la-Chaussée"
+  ]
+ },
+ {
+  "ref": "92045",
+  "names": {
+   "fr": "Floreffe",
+   "nl": "Floreffe",
+   "en": "Floreffe",
+   "de": "Floreffe"
+  },
+  "lat": 50.43669,
+  "lng": 4.76004,
+  "population": null,
+  "localities": [
+   "5150|Soye",
+   "5150|Floriffoux",
+   "5150|Franière",
+   "5150|Floreffe"
+  ]
+ },
+ {
+  "ref": "92048",
+  "names": {
+   "fr": "Fosses-la-Ville",
+   "nl": "Fosses-la-Ville",
+   "en": "Fosses-la-Ville",
+   "de": "Fosses-la-Ville"
+  },
+  "lat": 50.39595,
+  "lng": 4.69789,
+  "population": null,
+  "localities": [
+   "5070|Aisemont",
+   "5070|Sart-Eustache",
+   "5070|Le Roux",
+   "5070|Sart-Saint-Laurent",
+   "5070|Fosses-la-Ville",
+   "5070|Vitrival"
+  ]
+ },
+ {
+  "ref": "92054",
+  "names": {
+   "fr": "Gesves",
+   "nl": "Gesves",
+   "en": "Gesves",
+   "de": "Gesves"
+  },
+  "lat": 50.40285,
+  "lng": 5.07762,
+  "population": null,
+  "localities": [
+   "5340|Haltinne",
+   "5340|Faulx-les-Tombes",
+   "5340|Gesves",
+   "5340|Mozet",
+   "5340|Sorée"
+  ]
+ },
+ {
+  "ref": "92087",
+  "names": {
+   "fr": "Mettet",
+   "nl": "Mettet",
+   "en": "Mettet",
+   "de": "Mettet"
+  },
+  "lat": 50.32121,
+  "lng": 4.65849,
+  "population": null,
+  "localities": [
+   "5640|Biesme",
+   "5640|Saint-Gérard",
+   "5640|Oret",
+   "5640|Graux",
+   "5640|Biesmerée",
+   "5640|Mettet",
+   "5641|Furnaux",
+   "5644|Ermeton-sur-Biert",
+   "5646|Stave"
+  ]
+ },
+ {
+  "ref": "92094",
+  "names": {
+   "fr": "Namur",
+   "nl": "Namen",
+   "en": "Namur",
+   "de": "Namur"
+  },
+  "lat": 50.46653,
+  "lng": 4.86619,
+  "population": null,
+  "localities": [
+   "5000|Beez",
+   "5000|Namur",
+   "5001|Belgrade",
+   "5002|Saint-Servais",
+   "5003|Saint-Marc",
+   "5004|Bouge",
+   "5020|Champion",
+   "5020|Temploux",
+   "5020|Daussoulx",
+   "5020|Vedrin",
+   "5020|Suarlée",
+   "5020|Malonne",
+   "5020|Flawinne",
+   "5021|Boninne",
+   "5022|Cognelée",
+   "5024|Marche-les-Dames",
+   "5024|Gelbressée",
+   "5100|Wépion",
+   "5100|Naninne",
+   "5100|Jambes",
+   "5100|Wierde",
+   "5100|Dave",
+   "5101|Lives-sur-Meuse",
+   "5101|Erpent",
+   "5101|Loyers"
+  ]
+ },
+ {
+  "ref": "92097",
+  "names": {
+   "fr": "Ohey",
+   "nl": "Ohey",
+   "en": "Ohey",
+   "de": "Ohey"
+  },
+  "lat": 50.43591,
+  "lng": 5.12384,
+  "population": null,
+  "localities": [
+   "5350|Evelette",
+   "5350|Ohey",
+   "5351|Haillot",
+   "5352|Perwez-Haillot",
+   "5353|Goesnes",
+   "5354|Jallet"
+  ]
+ },
+ {
+  "ref": "92101",
+  "names": {
+   "fr": "Profondeville",
+   "nl": "Profondeville",
+   "en": "Profondeville",
+   "de": "Profondeville"
+  },
+  "lat": 50.3762,
+  "lng": 4.8675,
+  "population": null,
+  "localities": [
+   "5170|Lustin",
+   "5170|Profondeville",
+   "5170|Rivière",
+   "5170|Lesve",
+   "5170|Arbre",
+   "5170|Bois-de-Villers"
+  ]
+ },
+ {
+  "ref": "92114",
+  "names": {
+   "fr": "Sombreffe",
+   "nl": "Sombreffe",
+   "en": "Sombreffe",
+   "de": "Sombreffe"
+  },
+  "lat": 50.52254,
+  "lng": 4.59919,
+  "population": null,
+  "localities": [
+   "5140|Tongrinne",
+   "5140|Ligny",
+   "5140|Sombreffe",
+   "5140|Boignée"
+  ]
+ },
+ {
+  "ref": "92137",
+  "names": {
+   "fr": "Sambreville",
+   "nl": "Sambreville",
+   "en": "Sambreville",
+   "de": "Sambreville"
+  },
+  "lat": 50.44906,
+  "lng": 4.61082,
+  "population": null,
+  "localities": [
+   "5060|Arsimont",
+   "5060|Sambreville",
+   "5060|Auvelais",
+   "5060|Falisolle",
+   "5060|Tamines",
+   "5060|Velaine-sur-Sambre"
+  ]
+ },
+ {
+  "ref": "92138",
+  "names": {
+   "fr": "Fernelmont",
+   "nl": "Fernelmont",
+   "en": "Fernelmont",
+   "de": "Fernelmont"
+  },
+  "lat": 50.55528,
+  "lng": 4.98289,
+  "population": 7360,
+  "localities": [
+   "5380|Hingeon",
+   "5380|Noville-les-Bois",
+   "5380|Pontillas",
+   "5380|Hemptinne",
+   "5380|Marchovelette",
+   "5380|Forville",
+   "5380|Cortil-Wodon",
+   "5380|Bierwart",
+   "5380|Tillier",
+   "5380|Franc-Waret",
+   "5380|Fernelmont"
+  ]
+ },
+ {
+  "ref": "92140",
+  "names": {
+   "fr": "Jemeppe-sur-Sambre",
+   "nl": "Jemeppe-sur-Sambre",
+   "en": "Jemeppe-sur-Sambre",
+   "de": "Jemeppe-sur-Sambre"
+  },
+  "lat": 50.46564,
+  "lng": 4.66868,
+  "population": 18646,
+  "localities": [
+   "5030|Sauvenière",
+   "5190|Onoz",
+   "5190|Ham-sur-Sambre",
+   "5190|Moustier-sur-Sambre",
+   "5190|Saint-Martin",
+   "5190|Balâtre",
+   "5190|Jemeppe-sur-Sambre",
+   "5190|Mornimont",
+   "5190|Spy"
+  ]
+ },
+ {
+  "ref": "92141",
+  "names": {
+   "fr": "La Bruyère",
+   "nl": "La Bruyère",
+   "en": "La Bruyère",
+   "de": "La Bruyère"
+  },
+  "lat": 50.53348,
+  "lng": 4.80971,
+  "population": 8400,
+  "localities": [
+   "5080|Emines",
+   "5080|Warisoulx",
+   "5080|Villers-lez-Heest",
+   "5080|La Bruyère",
+   "5080|Rhisnes",
+   "5081|Meux",
+   "5081|Bovesse",
+   "5081|Saint-Denis-Bovesse"
+  ]
+ },
+ {
+  "ref": "92142",
+  "names": {
+   "fr": "Gembloux",
+   "nl": "Gembloers",
+   "en": "Gembloux",
+   "de": "Gembloux"
+  },
+  "lat": 50.55973,
+  "lng": 4.69431,
+  "population": null,
+  "localities": [
+   "5030|Lonzée",
+   "5030|Gembloux",
+   "5030|Grand-Manil",
+   "5030|Beuzet",
+   "5030|Ernage",
+   "5031|Grand-Leez",
+   "5032|Corroy-le-Château",
+   "5032|Isnes",
+   "5032|Bossière",
+   "5032|Bothey",
+   "5032|Mazy"
+  ]
+ },
+ {
+  "ref": "93010",
+  "names": {
+   "fr": "Cerfontaine",
+   "nl": "Cerfontaine",
+   "en": "Cerfontaine",
+   "de": "Cerfontaine"
+  },
+  "lat": 50.16897,
+  "lng": 4.41257,
+  "population": null,
+  "localities": [
+   "5630|Cerfontaine",
+   "5630|Villers-Deux-Eglises",
+   "5630|Daussois",
+   "5630|Senzeilles",
+   "5630|Soumoy",
+   "5630|Silenrieux"
+  ]
+ },
+ {
+  "ref": "93014",
+  "names": {
+   "fr": "Couvin",
+   "nl": "Couvin",
+   "en": "Couvin",
+   "de": "Couvin"
+  },
+  "lat": 50.05243,
+  "lng": 4.49687,
+  "population": null,
+  "localities": [
+   "5660|Boussu-en-Fagne",
+   "5660|Mariembourg",
+   "5660|Presgaux",
+   "5660|Couvin",
+   "5660|Pesche",
+   "5660|Brûly-de-Pesche",
+   "5660|Petite-Chapelle",
+   "5660|Pétigny",
+   "5660|Dailly",
+   "5660|Gonrieux",
+   "5660|Brûly",
+   "5660|Aublain",
+   "5660|Cul-des-Sarts",
+   "5660|Frasnes"
+  ]
+ },
+ {
+  "ref": "93018",
+  "names": {
+   "fr": "Doische",
+   "nl": "Doische",
+   "en": "Doische",
+   "de": "Doische"
+  },
+  "lat": 50.13572,
+  "lng": 4.74582,
+  "population": null,
+  "localities": [
+   "5680|Vaucelles",
+   "5680|Niverlée",
+   "5680|Matagne-la-Petite",
+   "5680|Doische",
+   "5680|Gochenée",
+   "5680|Vodelée",
+   "5680|Gimnée",
+   "5680|Matagne-la-Grande",
+   "5680|Soulme",
+   "5680|Romerée"
+  ]
+ },
+ {
+  "ref": "93022",
+  "names": {
+   "fr": "Florennes",
+   "nl": "Florennes",
+   "en": "Florennes",
+   "de": "Florennes"
+  },
+  "lat": 50.25142,
+  "lng": 4.60302,
+  "population": null,
+  "localities": [
+   "5620|Florennes",
+   "5620|Corenne",
+   "5620|Morville",
+   "5620|Saint-Aubin",
+   "5620|Flavion",
+   "5620|Hemptinne-lez-Florennes",
+   "5620|Rosée",
+   "5621|Hanzinelle",
+   "5621|Hanzinne",
+   "5621|Morialmé",
+   "5621|Thy-le-Baudouin"
+  ]
+ },
+ {
+  "ref": "93056",
+  "names": {
+   "fr": "Philippeville",
+   "nl": "Philippeville",
+   "en": "Philippeville",
+   "de": "Philippeville"
+  },
+  "lat": 50.19627,
+  "lng": 4.54361,
+  "population": null,
+  "localities": [
+   "5600|Franchimont",
+   "5600|Romedenne",
+   "5600|Sart-en-Fagne",
+   "5600|Merlemont",
+   "5600|Samart",
+   "5600|Neuville",
+   "5600|Philippeville",
+   "5600|Surice",
+   "5600|Jamagne",
+   "5600|Villers-en-Fagne",
+   "5600|Fagnolle",
+   "5600|Jamiolle",
+   "5600|Omezée",
+   "5600|Sautour",
+   "5600|Vodecée",
+   "5600|Villers-le-Gambon",
+   "5600|Roly"
+  ]
+ },
+ {
+  "ref": "93088",
+  "names": {
+   "fr": "Walcourt",
+   "nl": "Walcourt",
+   "en": "Walcourt",
+   "de": "Walcourt"
+  },
+  "lat": 50.2514,
+  "lng": 4.43141,
+  "population": null,
+  "localities": [
+   "5650|Chastrès",
+   "5650|Fontenelle",
+   "5650|Walcourt",
+   "5650|Clermont",
+   "5650|Vogenée",
+   "5650|Pry",
+   "5650|Castillon",
+   "5650|Fraire",
+   "5650|Yves-Gomezée",
+   "5651|Laneffe",
+   "5651|Thy-le-Château",
+   "5651|Somzée",
+   "5651|Rognée",
+   "5651|Berzée",
+   "5651|Tarcienne",
+   "5651|Gourdinne"
+  ]
+ },
+ {
+  "ref": "93090",
+  "names": {
+   "fr": "Viroinval",
+   "nl": "Viroinval",
+   "en": "Viroinval",
+   "de": "Viroinval"
+  },
+  "lat": 50.05164,
+  "lng": 4.62703,
+  "population": null,
+  "localities": [
+   "5670|Nismes",
+   "5670|Vierves-sur-Viroin",
+   "5670|Dourbes",
+   "5670|Oignies-en-Thiérache",
+   "5670|Treignes",
+   "5670|Le Mesnil",
+   "5670|Mazée",
+   "5670|Olloy-sur-Viroin",
+   "5670|Viroinval"
+  ]
+ }
+]
