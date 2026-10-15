@@ -39,8 +39,8 @@
                                 </div>
                                 <dl class="mt-4 grid grid-cols-2 gap-2 text-sm">
                                     <div class="rounded-xl bg-cream-light px-3 py-2">
-                                        <dt class="font-bold text-muted">{{ __('dogs.age') }}</dt>
-                                        <dd class="font-semibold text-brown-dark">
+                                        <dt class="text-xs font-bold tracking-wide text-muted uppercase">{{ __('dogs.age') }}</dt>
+                                        <dd class="text-base font-bold text-brown-dark">
                                             @if ($dog->birth_date)
                                                 @php($age = $dog->birth_date->diff(now()))
                                                 {{ $age->y > 0 ? trans_choice('dogs.age_years', $age->y) : trans_choice('dogs.age_months', max(1, $age->m)) }}
@@ -50,16 +50,16 @@
                                         </dd>
                                     </div>
                                     <div class="rounded-xl bg-cream-light px-3 py-2">
-                                        <dt class="font-bold text-muted">{{ __('dogs.sex') }}</dt>
-                                        <dd class="font-semibold text-brown-dark">{{ $dog->sex ? __('dogs.sex_'.$dog->sex->value) : '—' }}</dd>
+                                        <dt class="text-xs font-bold tracking-wide text-muted uppercase">{{ __('dogs.sex') }}</dt>
+                                        <dd class="text-base font-bold text-brown-dark">{{ $dog->sex ? __('dogs.sex_'.$dog->sex->value) : '—' }}</dd>
                                     </div>
                                     <div class="rounded-xl bg-cream-light px-3 py-2">
-                                        <dt class="font-bold text-muted">{{ __('dogs.weight') }}</dt>
-                                        <dd class="font-semibold text-brown-dark">{{ $dog->weight_kg ? __('dogs.weight_value', ['kg' => \Illuminate\Support\Number::format((float) $dog->weight_kg, maxPrecision: 1, locale: app()->getLocale())]) : '—' }}</dd>
+                                        <dt class="text-xs font-bold tracking-wide text-muted uppercase">{{ __('dogs.weight') }}</dt>
+                                        <dd class="text-base font-bold text-brown-dark">{{ $dog->weight_kg ? __('dogs.weight_value', ['kg' => \Illuminate\Support\Number::format((float) $dog->weight_kg, maxPrecision: 1, locale: app()->getLocale())]) : '—' }}</dd>
                                     </div>
                                     <div class="rounded-xl bg-cream-light px-3 py-2">
-                                        <dt class="font-bold text-muted">{{ __('dogs.vaccinations') }}</dt>
-                                        <dd class="font-semibold text-brown-dark">{{ trans_choice('dogs.vaccinations_count', count($dog->vaccinations ?? [])) }}</dd>
+                                        <dt class="text-xs font-bold tracking-wide text-muted uppercase">{{ __('dogs.vaccinations') }}</dt>
+                                        <dd class="text-base font-bold text-brown-dark">{{ trans_choice('dogs.vaccinations_count', count($dog->vaccinations ?? [])) }}</dd>
                                     </div>
                                 </dl>
                                 <div class="mt-4 flex flex-wrap gap-2">

@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'meta_title' => 'Doggys · De beste pro’s voor uw hond in België',
+    'meta_title' => 'Doggys · Alle hondenprofessionals in België',
     'meta_description' => 'Trimmers, dierenartsen, hondentrainers, petsitters, hondenpensions… Vind betrouwbare hondenprofessionals bij u in de buurt, overal in België.',
 
     'hero_eyebrow' => 'Gratis, in heel België',
-    'hero_title' => 'Alles voor het geluk van uw hond,',
+    'hero_title' => 'De beste hondenprofessionals,',
     'hero_title_highlight' => 'dicht bij huis',
-    'hero_subtitle' => 'Trimmers, dierenartsen, hondentrainers, petsitters… Vind professionals die u kunt vertrouwen, lees geverifieerde reviews en houd het gezondheidsboekje van uw viervoeter bij.',
+    'hero_subtitle' => 'Trimmers, dierenartsen, hondentrainers, petsitters… Alles voor het geluk van uw hond: betrouwbare professionals, geverifieerde reviews en zijn gezondheidsboekje, op één plek.',
     'hero_chip_grooming' => 'Trimsalon',
     'hero_chip_vet' => 'Dierenarts',
     'hero_chip_trainer' => 'Training',
@@ -44,7 +44,7 @@ return [
     'trust_verified_title' => 'Geverifieerde onderneming',
     'trust_verified_text' => 'Het ondernemingsnummer (KBO) en de identiteit van de professional zijn door Doggys gecontroleerd.',
     'trust_regulated_title' => 'Erkend beroep',
-    'trust_regulated_text' => 'Voor gereglementeerde beroepen (dierenartsen, fokkers, asielen…) is ook de officiële erkenning nagekeken.',
+    'trust_regulated_text' => 'Voor gereglementeerde beroepen (dierenartsen, kwekers, asielen…) is ook de officiële erkenning nagekeken.',
     'trust_reviews_stars' => 'Reviews met een score van 1 tot 5 sterren',
     'trust_reviews_title' => 'Reviews die tellen',
     'trust_reviews_text' => 'Alleen leden met een geverifieerd account kunnen een review schrijven, met strikte limieten tegen misbruik.',

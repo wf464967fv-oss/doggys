@@ -63,6 +63,7 @@
     --color-regulated: #1d5fa8;
     --color-regulated-soft: #e3eefb;
     --color-line: #f1dcc0;
+    --color-line-strong: #b07a4a;
 
     --shadow-soft: 0 1px 2px rgb(74 40 18 / 0.06), 0 8px 24px -8px rgb(74 40 18 / 0.14);
     --shadow-lift: 0 2px 4px rgb(74 40 18 / 0.08), 0 16px 40px -12px rgb(74 40 18 / 0.22);
@@ -72,6 +73,8 @@
     html {
         -webkit-tap-highlight-color: transparent;
         scroll-behavior: smooth;
+        /* Keeps anchors and keyboard focus clear of the sticky header. */
+        scroll-padding-top: 6rem;
     }
 
     body {
@@ -109,6 +112,18 @@
 }
 
 @layer components {
+    /*
+     * Form controls (x-input, x-select, x-textarea and the Alpine vaccination rows).
+     * Border line-strong = 3.67:1 on white (WCAG 1.4.11); focus = brown border (8.5:1) + orange halo.
+     */
+    .field {
+        @apply block w-full rounded-2xl border-2 border-line-strong bg-white text-base text-brown-dark transition placeholder:text-muted focus:border-brown focus:ring-4 focus:ring-orange/40 focus:outline-none;
+    }
+
+    .field-error {
+        @apply border-rose-dark focus:border-rose-dark focus:ring-rose/30;
+    }
+
     /* Shared link style for text links inside content. */
     .link {
         @apply font-semibold text-orange-dark underline decoration-orange/60 decoration-2 underline-offset-4 transition hover:text-brown hover:decoration-brown;

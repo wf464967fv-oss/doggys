@@ -2,7 +2,7 @@
     $accountType = old('account_type', request('type') === 'pro' ? 'pro' : 'owner');
 @endphp
 
-<x-layouts.app :title="__('auth.register_title')" :description="__('auth.register_meta')" noindex>
+<x-layouts.app :title="__('auth.register_title')" :description="__('auth.register_meta')" noindex full-title>
     <x-auth-shell :title="__('auth.register_title')" :subtitle="__('auth.register_subtitle')" icon="paw">
         <form method="POST" action="{{ localized_route('register.store') }}" class="relative space-y-5" novalidate>
             @csrf

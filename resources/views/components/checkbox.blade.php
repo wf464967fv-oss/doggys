@@ -19,7 +19,7 @@
             @if ($describedBy) aria-describedby="{{ $describedBy }}" @endif
             @if ($error) aria-invalid="true" @endif
             {{ $attributes->except(['class', 'id']) }}
-            class="mt-0.5 size-6 shrink-0 cursor-pointer rounded-lg border-2 border-brown-mid accent-orange-dark focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-brown">
+            class="mt-0.5 size-6 shrink-0 cursor-pointer rounded-lg border-2 border-line-strong accent-orange-dark focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-brown">
         <label for="{{ $id }}" class="cursor-pointer pt-0.5 text-base text-brown-dark">{{ $slot }}</label>
     </div>
     @if ($hint)

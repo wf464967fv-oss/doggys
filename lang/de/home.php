@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'meta_title' => 'Doggys · Die besten Profis für Ihren Hund in Belgien',
+    'meta_title' => 'Doggys · Verzeichnis der Hundeprofis in Belgien',
     'meta_description' => 'Hundefriseure, Tierärzte, Hundetrainer, Tiersitter, Hundepensionen… Finden Sie vertrauenswürdige Hundeprofis in Ihrer Nähe, überall in Belgien.',
 
     'hero_eyebrow' => 'Kostenlos, in ganz Belgien',
-    'hero_title' => 'Alles für das Glück Ihres Hundes,',
+    'hero_title' => 'Die besten Hundeprofis,',
     'hero_title_highlight' => 'ganz in Ihrer Nähe',
-    'hero_subtitle' => 'Hundefriseure, Tierärzte, Hundetrainer, Tiersitter… Finden Sie Profis, denen Sie vertrauen können, lesen Sie verifizierte Bewertungen und führen Sie das Gesundheitsheft Ihres Vierbeiners.',
+    'hero_subtitle' => 'Hundefriseure, Tierärzte, Hundetrainer, Tiersitter… Alles für das Glück Ihres Hundes: vertrauenswürdige Profis, verifizierte Bewertungen und sein Gesundheitsheft an einem Ort.',
     'hero_chip_grooming' => 'Fellpflege',
     'hero_chip_vet' => 'Tierarzt',
     'hero_chip_trainer' => 'Erziehung',

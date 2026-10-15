@@ -22,7 +22,7 @@
         </ul>
     </nav>
 @else
-    <details {{ $attributes->class(['group relative']) }}>
+    <details {{ $attributes->class(['group relative']) }} x-data="dropdown" x-on:keydown.escape="close" x-on:click.outside="close">
         <summary class="flex min-h-11 cursor-pointer list-none items-center gap-1.5 rounded-full px-3 font-bold text-brown transition hover:bg-cream [&::-webkit-details-marker]:hidden">
             <x-icon name="globe" class="size-5" />
             <span class="sr-only">{{ __('ui.language') }}:</span>

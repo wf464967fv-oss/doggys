@@ -1,20 +1,20 @@
 <?php
 
 return [
-    'meta_title' => 'Doggys · Les meilleurs pros pour votre chien en Belgique',
+    'meta_title' => 'Doggys · Annuaire des professionnels canins en Belgique',
     'meta_description' => 'Toiletteurs, vétérinaires, éducateurs, pet-sitters, pensions… Trouvez des professionnels canins de confiance près de chez vous, partout en Belgique.',
 
     'hero_eyebrow' => 'Gratuit, partout en Belgique',
-    'hero_title' => 'Tout pour le bonheur de votre chien,',
+    'hero_title' => 'Les meilleurs professionnels canins,',
     'hero_title_highlight' => 'près de chez vous',
-    'hero_subtitle' => 'Toiletteurs, vétérinaires, éducateurs, pet-sitters… Trouvez des professionnels de confiance, lisez des avis vérifiés et gardez le carnet de santé de votre compagnon.',
+    'hero_subtitle' => 'Toiletteurs, vétérinaires, éducateurs, pet-sitters… Tout pour le bonheur de votre chien : des pros de confiance, des avis vérifiés et son carnet de santé, au même endroit.',
     'hero_chip_grooming' => 'Toilettage',
     'hero_chip_vet' => 'Vétérinaire',
     'hero_chip_trainer' => 'Éducation',
 
     'search_category' => 'Je cherche',
     'search_all_categories' => 'Tous les professionnels',
-    'search_location' => 'Où ?',
+    'search_location' => 'Où ?',
     'search_location_placeholder' => 'Code postal ou commune',
     'search_submit' => 'Rechercher',
     'search_near_me' => 'Autour de moi',
@@ -23,13 +23,13 @@ return [
 
     'categories_eyebrow' => 'Nos catégories',
     'categories_title' => 'Tous les pros dont votre chien a besoin',
-    'categories_subtitle' => 'Du toilettage aux soins, de l’éducation à la garde : choisissez un service pour voir les professionnels les plus proches.',
+    'categories_subtitle' => 'Du toilettage aux soins, de l’éducation à la garde : choisissez un service pour voir les professionnels les plus proches.',
 
     'life_eyebrow' => 'À chaque étape',
     'life_title' => 'Toute la vie de votre chien',
     'life_subtitle' => 'Doggys vous accompagne de l’arrivée du chiot jusqu’aux années de sagesse.',
     'life_puppy_title' => 'Les premiers pas',
-    'life_puppy_text' => 'Adoption, premiers vaccins, identification et bonnes habitudes : un bon départ pour une belle histoire.',
+    'life_puppy_text' => 'Adoption, premiers vaccins, identification et bonnes habitudes : un bon départ pour une belle histoire.',
     'life_adult_title' => 'La belle vie',
     'life_adult_text' => 'Toilettage, balades, garde pendant vos absences et sorties entre amis à quatre pattes.',
     'life_senior_title' => 'Les années douces',
@@ -55,12 +55,12 @@ return [
     'promise_belgium' => 'Toute la Belgique, en 4 langues',
 
     'pros_eyebrow' => 'Professionnels',
-    'pros_title' => 'C’est votre entreprise ?',
+    'pros_title' => 'C’est votre entreprise ?',
     'pros_text' => 'Votre activité est peut-être déjà sur Doggys. Réclamez votre fiche gratuitement pour la tenir à jour et échanger avec les propriétaires de chiens.',
     'pros_cta' => 'Créer mon compte pro',
     'pros_find' => 'Rechercher ma fiche',
     'pros_benefit_claim' => 'Réclamez et mettez à jour votre fiche',
-    'pros_benefit_badge' => 'Obtenez le badge « Pro vérifié »',
+    'pros_benefit_badge' => 'Obtenez le badge « Pro vérifié »',
     'pros_benefit_reply' => 'Répondez aux avis de vos clients',
     'pros_benefit_free' => 'Gratuit, sans engagement',
 ];

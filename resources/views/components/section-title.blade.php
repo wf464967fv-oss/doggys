@@ -11,8 +11,8 @@
             <x-icon name="paw" class="size-4" />{{ $eyebrow }}
         </p>
     @endif
-    <{{ $as }} @if ($attributes->has('id')) id="{{ $attributes->get('id') }}" @endif class="font-display text-3xl leading-tight font-semibold text-brown sm:text-4xl">{{ $title }}</{{ $as }}>
+    <{{ $as }} @if ($attributes->has('id')) id="{{ $attributes->get('id') }}" @endif class="font-display text-[1.75rem] leading-tight font-semibold text-brown sm:text-4xl">{{ $title }}</{{ $as }}>
     @if ($subtitle)
-        <p class="mt-3 text-lg leading-relaxed text-muted">{{ $subtitle }}</p>
+        <p class="mt-2 text-base leading-relaxed text-muted sm:mt-3 sm:text-lg">{{ $subtitle }}</p>
     @endif
 </div>

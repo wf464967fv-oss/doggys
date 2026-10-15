@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'meta_description' => 'Doggys, l’annuaire belge des professionnels canins : toiletteurs, vétérinaires, éducateurs, pet-sitters… près de chez vous, avec des avis vérifiés.',
+    'meta_description' => 'Doggys, l’annuaire belge des professionnels canins : toiletteurs, vétérinaires, éducateurs, pet-sitters… près de chez vous, avec des avis vérifiés.',
     'slogan' => 'Le meilleur ami de l’humain',
     'skip_to_content' => 'Aller au contenu',
     'home_link' => 'Doggys, retour à l’accueil',
@@ -22,7 +22,7 @@ return [
 
     'footer_pitch' => 'Trouvez les bons professionnels pour votre chien, partout en Belgique. Gratuit, sans publicité et sans traqueur.',
     'footer_explore' => 'Explorer',
-    'footer_for_pros' => 'Vous êtes un professionnel ?',
+    'footer_for_pros' => 'Vous êtes un professionnel ?',
     'footer_trust' => 'Confiance',
     'footer_reviews_policy' => 'Comment les avis sont vérifiés',
     'footer_contact' => 'Nous contacter',
@@ -33,13 +33,13 @@ return [
     'footer_cookies' => 'Cookies',
     'footer_free' => 'Gratuit et sans publicité',
     'footer_osm' => 'Données cartographiques © contributeurs :link',
-    'footer_geonames' => 'Codes postaux : :link (CC BY 4.0)',
+    'footer_geonames' => 'Codes postaux : :link (CC BY 4.0)',
     'footer_made_by' => 'Un projet de',
 
     'badge_verified' => 'Pro vérifié',
     'badge_verified_help' => 'Numéro d’entreprise (BCE) et identité contrôlés par Doggys',
     'badge_regulated' => 'Agréé',
-    'badge_regulated_help' => 'Profession réglementée : agrément ou numéro d’ordre contrôlé par Doggys',
+    'badge_regulated_help' => 'Profession réglementée : agrément ou numéro d’ordre contrôlé par Doggys',
 
     'optional' => 'facultatif',
     'choose' => 'Choisir…',
@@ -52,11 +52,12 @@ return [
 
     'coming_soon_eyebrow' => 'Bientôt disponible',
     'coming_soon_title' => 'Cette page arrive très bientôt',
-    'coming_soon_text' => 'Nous y mettons la dernière main. Revenez dans quelques jours : votre chien en vaut la peine !',
+    'coming_soon_text' => 'Nous y mettons la dernière main. Revenez dans quelques jours : votre chien en vaut la peine !',
 
     'status' => [
         'verification-link-sent' => 'Un nouveau lien de confirmation vient d’être envoyé à votre adresse e-mail.',
         'profile-information-updated' => 'Votre profil a bien été mis à jour.',
         'password-updated' => 'Votre mot de passe a bien été modifié.',
     ],
+    'og_image_alt' => 'Logo Doggys : un chien souriant et le nom Doggys',
 ];

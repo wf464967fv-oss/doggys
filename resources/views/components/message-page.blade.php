@@ -8,7 +8,7 @@
 <section class="relative overflow-hidden">
     <x-paw class="absolute top-12 left-[10%] size-10 -rotate-12 text-orange/25" />
     <x-paw class="absolute right-[12%] bottom-16 size-14 rotate-12 text-brown-mid/20" />
-    <x-paw class="absolute top-1/2 right-[6%] size-7 rotate-45 text-rose/25" />
+    <x-paw class="absolute top-1/2 right-[6%] hidden size-7 rotate-45 text-rose/25 sm:block" />
 
     <div class="relative mx-auto flex max-w-2xl flex-col items-center px-4 py-16 text-center sm:px-6 sm:py-24">
         <div class="relative">
@@ -21,7 +21,7 @@
         </div>
 
         @if ($code)
-            <p class="mt-6 font-display text-6xl font-semibold text-orange sm:text-7xl" aria-hidden="true">{{ $code }}</p>
+            <p class="mt-6 font-display text-6xl font-semibold text-orange-dark sm:text-7xl" aria-hidden="true">{{ $code }}</p>
         @elseif ($eyebrow)
             <p class="mt-6 text-sm font-extrabold tracking-wider text-orange-dark uppercase">{{ $eyebrow }}</p>
         @endif

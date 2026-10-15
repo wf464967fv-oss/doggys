@@ -59,4 +59,5 @@ return [
         'profile-information-updated' => 'Your profile has been updated.',
         'password-updated' => 'Your password has been changed.',
     ],
+    'og_image_alt' => 'Doggys logo: a smiling dog and the Doggys name',
 ];

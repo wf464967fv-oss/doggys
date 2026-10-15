@@ -28,9 +28,8 @@
         @if ($describedBy) aria-describedby="{{ $describedBy }}" @endif
         @if ($error) aria-invalid="true" @endif
         {{ $attributes->except(['class', 'id'])->merge(['rows' => 4])->class([
-            'block w-full rounded-2xl border-2 bg-white px-4 py-3 text-base text-brown-dark placeholder:text-muted/70 transition focus:outline-none focus:ring-4',
-            'border-line focus:border-orange focus:ring-orange/25' => ! $error,
-            'border-rose-dark focus:border-rose-dark focus:ring-rose/20' => $error,
+            'field px-4 py-3',
+            'field-error' => $error,
         ]) }}>{{ old($key, $value) }}</textarea>
     @if ($hint)
         <p id="{{ $id }}-hint" class="text-sm text-muted">{{ $hint }}</p>

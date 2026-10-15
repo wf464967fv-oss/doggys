@@ -33,9 +33,8 @@
             @if ($describedBy) aria-describedby="{{ $describedBy }}" @endif
             @if ($error) aria-invalid="true" @endif
             {{ $attributes->except(['class', 'id'])->class([
-                'block min-h-12 w-full appearance-none rounded-2xl border-2 bg-white py-2.5 pr-11 pl-4 text-base text-brown-dark transition focus:outline-none focus:ring-4',
-                'border-line focus:border-orange focus:ring-orange/25' => ! $error,
-                'border-rose-dark focus:border-rose-dark focus:ring-rose/20' => $error,
+                'field min-h-12 appearance-none py-2.5 pr-11 pl-4',
+                'field-error' => $error,
             ]) }}>
             @if ($placeholder !== null)
                 <option value="">{{ $placeholder }}</option>

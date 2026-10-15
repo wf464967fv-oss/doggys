@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'meta_title' => 'Doggys · The best pros for your dog in Belgium',
+    'meta_title' => 'Doggys · Directory of dog professionals in Belgium',
     'meta_description' => 'Groomers, vets, trainers, pet sitters, boarding kennels… Find trusted dog professionals near you, anywhere in Belgium.',
 
     'hero_eyebrow' => 'Free, all over Belgium',
-    'hero_title' => 'Everything for your dog’s happiness,',
+    'hero_title' => 'The best dog professionals,',
     'hero_title_highlight' => 'close to home',
-    'hero_subtitle' => 'Groomers, vets, trainers, pet sitters… Find professionals you can trust, read verified reviews and keep your companion’s health record in one place.',
+    'hero_subtitle' => 'Groomers, vets, trainers, pet sitters… Everything for your dog’s happiness: trusted professionals, verified reviews and their health record, all in one place.',
     'hero_chip_grooming' => 'Grooming',
     'hero_chip_vet' => 'Vet',
     'hero_chip_trainer' => 'Training',

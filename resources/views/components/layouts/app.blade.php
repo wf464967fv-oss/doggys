@@ -57,7 +57,9 @@
     @foreach (array_diff_key($ogLocales, [$locale => true]) as $ogLocale)
         <meta property="og:locale:alternate" content="{{ $ogLocale }}">
     @endforeach
+    <meta property="og:image:alt" content="{{ __('ui.og_image_alt') }}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ asset('images/og-default.png') }}">
 
     <meta name="theme-color" content="#f5a043">
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="48x48">

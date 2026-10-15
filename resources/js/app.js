@@ -75,4 +75,19 @@ Alpine.data('confirmSubmit', () => ({
     },
 }));
 
+/* <details> dropdown (language, account menu): closes on Escape (focus back to summary) and on outside click. */
+Alpine.data('dropdown', () => ({
+    close(event) {
+        if (!this.$el.hasAttribute('open')) {
+            return;
+        }
+
+        this.$el.removeAttribute('open');
+
+        if (event && event.type === 'keydown') {
+            this.$el.querySelector('summary').focus();
+        }
+    },
+}));
+
 Alpine.start();

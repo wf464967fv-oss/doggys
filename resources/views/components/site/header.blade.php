@@ -13,7 +13,9 @@
     <div class="mx-auto flex h-16 max-w-6xl items-center gap-3 px-4 sm:h-20 sm:px-6">
         <a href="{{ localized_route('home') }}" class="-ml-1 flex shrink-0 items-center gap-2 rounded-2xl p-1" aria-label="{{ __('ui.home_link') }}">
             <img src="{{ asset('images/logo-mark-96.webp') }}" alt="" width="48" height="48" class="size-10 sm:size-12">
-            <img src="{{ asset('images/logo-wordmark.webp') }}" alt="Doggys" width="400" height="104" class="h-8 w-auto sm:h-10">
+            <img src="{{ asset('images/logo-wordmark-160.webp') }}"
+                srcset="{{ asset('images/logo-wordmark-160.webp') }} 160w, {{ asset('images/logo-wordmark-320.webp') }} 320w"
+                sizes="(min-width: 640px) 156px, 125px" alt="Doggys" width="160" height="41" class="h-8 w-auto sm:h-10">
         </a>
 
         <nav aria-label="{{ __('ui.nav_main') }}" class="ml-6 hidden lg:block">
@@ -37,7 +39,7 @@
 
             @unless ($bare)
                 @if ($user)
-                    <details class="group relative hidden lg:block">
+                    <details class="group relative hidden lg:block" x-data="dropdown" x-on:keydown.escape="close" x-on:click.outside="close">
                         <summary class="flex min-h-11 cursor-pointer list-none items-center gap-2 rounded-full bg-white py-1.5 pr-3 pl-1.5 font-bold text-brown ring-2 ring-line transition hover:ring-brown-mid [&::-webkit-details-marker]:hidden">
                             <span class="flex size-8 items-center justify-center rounded-full bg-orange font-display text-brown-dark">{{ mb_strtoupper(mb_substr($user->name, 0, 1)) }}</span>
                             <span class="max-w-36 truncate">{{ $user->name }}</span>
@@ -105,9 +107,12 @@
                             </button>
                         </form>
                     @else
-                        <div class="grid grid-cols-2 gap-3">
-                            <x-button variant="soft" :href="localized_route('login')">{{ __('ui.login') }}</x-button>
-                            <x-button :href="localized_route('register')">{{ __('ui.register') }}</x-button>
+                        {{-- From sm the header already shows "Sign up": only "Log in" is repeated here. --}}
+                        <div class="grid grid-cols-1 gap-3 min-[400px]:grid-cols-2 sm:grid-cols-1">
+                            <x-button variant="soft" :href="localized_route('login')" full>{{ __('ui.login') }}</x-button>
+                            <div class="sm:hidden">
+                                <x-button :href="localized_route('register')" full>{{ __('ui.register') }}</x-button>
+                            </div>
                         </div>
                     @endif
                 </div>

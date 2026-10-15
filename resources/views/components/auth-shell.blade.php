@@ -30,6 +30,9 @@
                 @if ($subtitle)
                     <p class="mt-2 text-muted">{{ $subtitle }}</p>
                 @endif
+                @if ($errors->any())
+                    <x-alert variant="error" class="mt-5" :title="__('ui.form_has_errors')" />
+                @endif
                 <div class="mt-7">{{ $slot }}</div>
             </div>
             @isset($footer)

@@ -1,9 +1,9 @@
-<footer class="relative mt-16 overflow-hidden bg-brown-dark text-cream">
+<footer class="relative mt-12 overflow-hidden sm:mt-16 bg-brown-dark text-cream [&_:focus-visible]:outline-orange">
     <x-paw class="absolute -top-6 right-8 size-28 rotate-12 text-white/5" />
     <x-paw class="absolute bottom-10 -left-6 size-20 -rotate-12 text-white/5" />
 
-    <div class="relative mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-4">
-        <div class="space-y-4">
+    <div class="relative mx-auto grid max-w-6xl grid-cols-2 gap-x-6 gap-y-8 px-4 py-12 sm:px-6 lg:grid-cols-4 lg:gap-10">
+        <div class="col-span-2 space-y-4 lg:col-span-1">
             <a href="{{ localized_route('home') }}" class="inline-flex items-center gap-3 rounded-2xl" aria-label="{{ __('ui.home_link') }}">
                 <img src="{{ asset('images/logo-mark-96.webp') }}" alt="" width="48" height="48" loading="lazy" class="size-12">
                 <span class="font-display text-3xl font-semibold text-orange">Doggys</span>
@@ -43,9 +43,9 @@
     <div class="relative border-t border-white/10">
         <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-sm text-cream/80 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
             <p>&copy; {{ date('Y') }} Doggys · {{ __('ui.footer_free') }}</p>
-            <p class="flex flex-wrap gap-x-4 gap-y-1">
-                <span>{!! __('ui.footer_osm', ['link' => '<a class="underline hover:text-white" href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>']) !!}</span>
-                <span>{!! __('ui.footer_geonames', ['link' => '<a class="underline hover:text-white" href="https://www.geonames.org/" rel="noopener">GeoNames</a>']) !!}</span>
+            <p class="flex flex-wrap items-center gap-x-4">
+                <span>{!! __('ui.footer_osm', ['link' => '<a class="inline-flex min-h-11 items-center underline hover:text-white" href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>']) !!}</span>
+                <span>{!! __('ui.footer_geonames', ['link' => '<a class="inline-flex min-h-11 items-center underline hover:text-white" href="https://www.geonames.org/" rel="noopener">GeoNames</a>']) !!}</span>
                 <span>{{ __('ui.footer_made_by') }} Novexa Digital</span>
             </p>
         </div>

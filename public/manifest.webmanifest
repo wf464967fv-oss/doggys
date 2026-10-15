@@ -1,8 +1,8 @@
 {
+    "id": "/",
     "name": "Doggys",
     "short_name": "Doggys",
-    "description": "Les meilleurs professionnels canins près de chez vous, partout en Belgique.",
-    "lang": "fr",
+    "description": "Doggys · professionnels canins · hondenprofessionals · dog professionals · Hundeprofis — Belgique / België / Belgium / Belgien",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",

@@ -59,4 +59,5 @@ return [
         'profile-information-updated' => 'Uw profiel is bijgewerkt.',
         'password-updated' => 'Uw wachtwoord is gewijzigd.',
     ],
+    'og_image_alt' => 'Logo van Doggys: een lachende hond en de naam Doggys',
 ];

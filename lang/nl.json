@@ -3,5 +3,11 @@
     "Hello!": "Hallo!",
     "Regards,": "Met vriendelijke groeten,",
     "All rights reserved.": "Alle rechten voorbehouden.",
-    "If you're having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser:": "Werkt de knop “:actionText” niet? Kopieer dan de onderstaande link en plak hem in uw browser:"
+    "If you're having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser:": "Werkt de knop “:actionText” niet? Kopieer dan de onderstaande link en plak hem in uw browser:",
+    "Showing": "Resultaat",
+    "to": "tot",
+    "of": "van",
+    "results": "resultaten",
+    "Go to page :page": "Ga naar pagina :page",
+    "Pagination Navigation": "Paginanavigatie"
 }

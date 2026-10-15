@@ -75,7 +75,7 @@ class CategorySeeder extends Seeder
                 ['fr' => 'Pension canine', 'nl' => 'Hondenpension', 'en' => 'Boarding kennel', 'de' => 'Hundepension'],
                 ['fr' => 'Hébergement de quelques nuits à plusieurs semaines.', 'nl' => 'Verblijf van enkele nachten tot meerdere weken.', 'en' => 'Stays from a few nights to several weeks.', 'de' => 'Unterbringung von wenigen Nächten bis zu mehreren Wochen.']],
             'eleveur-agree' => ['adoption', 'award', true,
-                ['fr' => 'Éleveur agréé', 'nl' => 'Erkende fokker', 'en' => 'Licensed breeder', 'de' => 'Anerkannter Züchter'],
+                ['fr' => 'Éleveur agréé', 'nl' => 'Erkende kweker', 'en' => 'Licensed breeder', 'de' => 'Anerkannter Züchter'],
                 ['fr' => 'Élevages disposant d’un agrément officiel.', 'nl' => 'Kwekers met een officiële erkenning.', 'en' => 'Breeders holding an official licence.', 'de' => 'Zuchtstätten mit offizieller Zulassung.']],
             'refuge' => ['adoption', 'home-heart', true,
                 ['fr' => 'Refuge', 'nl' => 'Dierenasiel', 'en' => 'Animal shelter', 'de' => 'Tierheim'],

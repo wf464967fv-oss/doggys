@@ -34,7 +34,7 @@
                         :options="collect($sexes)->mapWithKeys(fn ($sex) => [$sex->value => __('dogs.sex_'.$sex->value)])->all()" />
                     <x-input name="birth_date" type="date" :label="__('dogs.birth_date')" :value="$dog->birth_date?->toDateString()" :max="now()->toDateString()" optional />
                 </div>
-                <x-input name="weight_kg" type="number" step="0.1" min="0.2" max="150" inputmode="decimal" :label="__('dogs.weight_kg')" :value="$dog->weight_kg" class="sm:max-w-xs" optional />
+                <x-input name="weight_kg" type="number" step="0.1" min="0.2" max="150" inputmode="decimal" :label="__('dogs.weight_kg')" :value="$dog->weight_kg !== null ? (float) $dog->weight_kg : null" class="sm:max-w-xs" optional />
             </x-card>
 
             <x-card as="section" class="space-y-5" aria-labelledby="section-identification">
@@ -61,12 +61,12 @@
                                     <label class="block text-sm font-bold text-brown" x-bind:for="fieldId(index, 'name')">{{ __('dogs.vaccine_name') }}</label>
                                     <input type="text" maxlength="120" data-vaccine-name x-bind:id="fieldId(index, 'name')" x-bind:name="fieldName(index, 'name')" x-model="item.name"
                                         placeholder="{{ __('dogs.vaccine_placeholder') }}"
-                                        class="block min-h-12 w-full rounded-2xl border-2 border-line bg-white px-4 py-2.5 text-base placeholder:text-muted/70 focus:border-orange focus:ring-4 focus:ring-orange/25 focus:outline-none">
+                                        class="field min-h-12 px-4 py-2.5">
                                 </div>
                                 <div class="order-3 col-span-2 space-y-1 sm:order-none sm:col-span-1">
                                     <label class="block text-sm font-bold text-brown" x-bind:for="fieldId(index, 'date')">{{ __('dogs.vaccine_date') }}</label>
                                     <input type="date" max="{{ now()->toDateString() }}" x-bind:id="fieldId(index, 'date')" x-bind:name="fieldName(index, 'date')" x-model="item.date"
-                                        class="block min-h-12 w-full rounded-2xl border-2 border-line bg-white px-4 py-2.5 text-base focus:border-orange focus:ring-4 focus:ring-orange/25 focus:outline-none">
+                                        class="field min-h-12 px-4 py-2.5">
                                 </div>
                                 <button type="button" x-on:click="remove(index)"
                                     class="inline-flex size-12 items-center justify-center self-end rounded-full text-rose-dark ring-2 ring-line transition hover:bg-rose-soft">

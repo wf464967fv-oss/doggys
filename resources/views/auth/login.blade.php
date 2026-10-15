@@ -4,9 +4,9 @@
             @csrf
             <x-input name="email" type="email" :label="__('auth.email')" autocomplete="email" required autofocus />
             <x-input name="password" type="password" :label="__('auth.password_label')" autocomplete="current-password" required />
-            <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+            <div class="flex flex-wrap items-start justify-between gap-x-4 gap-y-1">
                 <x-checkbox name="remember">{{ __('auth.remember') }}</x-checkbox>
-                <a href="{{ localized_route('password.request') }}" class="link inline-flex min-h-11 items-center text-sm">{{ __('auth.forgot_link') }}</a>
+                <a href="{{ localized_route('password.request') }}" class="link inline-block py-2.5 text-sm">{{ __('auth.forgot_link') }}</a>
             </div>
             <x-button size="lg" full>{{ __('auth.login_submit') }}</x-button>
         </form>
