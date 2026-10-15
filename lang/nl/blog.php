@@ -23,7 +23,6 @@ return [
     'empty_title' => 'Onze gidsen komen eraan',
     'empty_text' => 'We leggen de laatste hand aan onze eerste gidsen. Kom snel terug!',
 
-    'breadcrumb' => 'Kruimelpad',
     'breadcrumb_home' => 'Home',
     'breadcrumb_guides' => 'Gidsen',
     'updated_on' => 'Bijgewerkt op :date',
@@ -34,4 +33,11 @@ return [
     'find_pro_all' => 'Alle professionals bekijken',
     'related_title' => 'Lees ook',
     'all_guides' => 'Alle gidsen',
+    'filter_all' => 'Alle thema’s',
+    'author' => 'Redactie Doggys',
+    'sources_count' => '{1} :count officiële bron|[2,*] :count officiële bronnen',
+    'toc_parts' => '{1} :count deel|[2,*] :count delen',
+    'emergency_title' => 'Is uw hond nu ziek of gewond?',
+    'emergency_text' => 'Bel uw dierenarts of een wachtdienst voor u vertrekt. Vind er een in uw buurt:',
+    'emergency_all' => 'Alle professionals',
 ];

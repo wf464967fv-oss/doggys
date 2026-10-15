@@ -8,7 +8,7 @@
 <div class="relative overflow-hidden">
     <div class="pointer-events-none absolute -top-32 -right-24 size-96 rounded-full bg-orange/10 blur-3xl"></div>
     <div class="relative mx-auto grid max-w-6xl gap-10 px-4 py-10 sm:px-6 sm:py-14 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-        <aside class="relative hidden overflow-hidden rounded-[2rem] bg-brown p-10 text-cream-light lg:block" aria-hidden="true">
+        <aside class="on-dark relative hidden overflow-hidden rounded-[2rem] bg-brown p-10 text-cream-light lg:block" aria-hidden="true">
             <x-paw class="absolute -top-4 -right-4 size-32 rotate-12 text-white/10" />
             <x-paw class="absolute -right-3 -bottom-3 size-20 rotate-45 text-orange/30" />
             <img src="{{ asset('images/logo-mark-240.webp') }}" alt="" width="240" height="240" class="size-36 rounded-full ring-8 ring-white/10">

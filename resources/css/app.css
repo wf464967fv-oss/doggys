@@ -93,6 +93,11 @@
         @apply outline-3 outline-offset-2 outline-brown;
     }
 
+    /* Brown backgrounds (footer, CTA bands, admin bar…): the brown focus ring would be invisible, use orange. */
+    .on-dark :focus-visible {
+        @apply outline-orange;
+    }
+
     [x-cloak] {
         display: none !important;
     }
@@ -131,7 +136,7 @@
 
     /* Long-form typography for rendered Markdown (guides). Blockquotes become "Good to know" callouts. */
     .prose-doggys {
-        @apply max-w-[68ch] text-[1.0625rem] leading-[1.75] text-brown-dark sm:text-lg;
+        @apply max-w-[36rem] text-[1.0625rem] leading-[1.75] text-brown-dark hyphens-auto sm:text-lg;
 
         & > :first-child {
             @apply mt-0;

@@ -59,7 +59,7 @@ class Post extends Model
      * Safe HTML of the Markdown body (raw HTML stripped, unsafe links dropped, external links rel="noopener"),
      * with an id on every H2 and the matching table of contents.
      *
-     * @return array{html: string, toc: list<array{id: string, title: string}>}
+     * @return array{html: string, toc: list<array{id: string, title: string}>, sources: int, sources_id: ?string}
      */
     public function renderBody(): array
     {
@@ -83,6 +83,14 @@ class Post extends Model
             return '<h2 id="'.$id.'">'.$match[1].'</h2>';
         }, $html);
 
-        return ['html' => $html, 'toc' => $toc];
+        // Guides end with their official sources: the links of the last H2 section.
+        $lastSection = substr($html, (int) strrpos($html, '<h2 id='));
+
+        return [
+            'html' => $html,
+            'toc' => $toc,
+            'sources' => $toc === [] ? 0 : substr_count($lastSection, 'href="http'),
+            'sources_id' => $toc === [] ? null : end($toc)['id'],
+        ];
     }
 }

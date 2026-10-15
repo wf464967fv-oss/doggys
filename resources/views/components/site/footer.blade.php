@@ -1,4 +1,4 @@
-<footer class="relative mt-12 overflow-hidden sm:mt-16 bg-brown-dark text-cream [&_:focus-visible]:outline-orange">
+<footer class="on-dark relative mt-12 overflow-hidden sm:mt-16 bg-brown-dark text-cream [&_:focus-visible]:outline-orange">
     <x-paw class="absolute -top-6 right-8 size-28 rotate-12 text-white/5" />
     <x-paw class="absolute bottom-10 -left-6 size-20 -rotate-12 text-white/5" />
 

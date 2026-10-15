@@ -5,6 +5,7 @@ namespace Tests\Feature;
 use App\Http\Controllers\GuideController;
 use App\Models\Category;
 use App\Models\Post;
+use App\Models\Provider;
 use Database\Seeders\CategorySeeder;
 use Database\Seeders\GuideSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -51,15 +52,14 @@ class GuideTest extends TestCase
         $this->get('/fr/guides')->assertOk()->assertSee(__('blog.empty_title', [], 'fr'));
     }
 
-    public function test_article_renders_with_toc_breadcrumb_json_ld_and_pro_links(): void
+    public function test_article_renders_with_toc_breadcrumb_json_ld_author_and_editorial_date(): void
     {
-        $this->seed(CategorySeeder::class);
         $guide = Post::factory()->create([
             'slug' => 'vaccins-du-chien',
             'title' => 'Vaccins du chien',
             'category' => 'health',
-            'related_categories' => ['veterinaire'],
-            'body' => "Intro.\n\n## Le calendrier\n\nTexte.\n\n## Les rappels\n\n> **Bon à savoir** : demandez à votre vétérinaire.\n\n[DogID](https://www.dogid.be/fr)",
+            'updated_at' => '2026-09-30 00:00:00',
+            'body' => "Intro.\n\n## Le calendrier\n\nTexte.\n\n## Les rappels\n\n> **Bon à savoir** : demandez à votre vétérinaire.\n\n## Sources officielles\n\n- [DogID](https://www.dogid.be/fr)\n- [AFSCA](https://www.favv-afsca.be)",
         ]);
         $other = Post::factory()->create(['category' => 'health', 'title' => 'Le chien senior']);
 
@@ -68,14 +68,60 @@ class GuideTest extends TestCase
             ->assertSee('<h1', false)
             ->assertSee('<h2 id="le-calendrier">', false)
             ->assertSee('href="#les-rappels"', false)
+            ->assertSee('data-toc', false)
+            ->assertDontSee('data-toc class="group rounded-3xl bg-white px-5 py-2 ring-1 ring-line shadow-soft lg:sticky lg:top-24 lg:py-4" open', false)
             ->assertSee('<blockquote>', false)
             ->assertSee('rel="noopener noreferrer"', false)
+            ->assertSee('<meta property="og:type" content="article">', false)
             ->assertSee('"@type":"Article"', false)
+            ->assertSee('"dateModified":"2026-09-30', false)
             ->assertSee('"@type":"BreadcrumbList"', false)
+            ->assertSee(__('blog.author', [], 'fr'))
+            ->assertSee('href="#sources-officielles"', false)
+            ->assertSee(trans_choice('blog.sources_count', 2, ['count' => 2], 'fr'))
+            ->assertSee(__('blog.updated_on', ['date' => '30 septembre 2026'], 'fr'))
+            ->assertSee($other->title);
+    }
+
+    public function test_find_a_pro_only_links_categories_with_active_pros(): void
+    {
+        $this->seed(CategorySeeder::class);
+        foreach (['veterinaire', 'urgences-24h'] as $slug) {
+            Category::where('slug', $slug)->first()->providers()->attach(Provider::factory()->create());
+        }
+        Category::where('slug', 'pension')->first()->providers()->attach(Provider::factory()->hidden()->create());
+        Post::factory()->create([
+            'slug' => 'senior',
+            'related_categories' => ['veterinaire', 'urgences-24h', 'pension', 'kine-physio'],
+        ]);
+
+        $vet = Category::where('slug', 'veterinaire')->first();
+        $this->get('/fr/guides/senior')
+            ->assertOk()
             ->assertSee(__('blog.find_pro_title', [], 'fr'))
-            ->assertSee('Vétérinaire')
-            ->assertSee($other->title)
-            ->assertSee(__('blog.updated_on', ['date' => $guide->updated_at->locale('fr')->isoFormat('LL')], 'fr'));
+            ->assertSee(localized_route('categories.show', ['category' => $vet->routeSlug('fr')], 'fr'), false)
+            ->assertDontSee(Category::where('slug', 'pension')->first()->label('fr'))
+            ->assertDontSee(Category::where('slug', 'kine-physio')->first()->label('fr'));
+    }
+
+    public function test_find_a_pro_block_is_hidden_without_at_least_two_useful_categories(): void
+    {
+        $this->seed(CategorySeeder::class);
+        Post::factory()->create(['slug' => 'toilettage', 'related_categories' => ['toiletteur-salon', 'toiletteur-domicile']]);
+
+        $this->get('/fr/guides/toilettage')->assertOk()->assertDontSee(__('blog.find_pro_title', [], 'fr'));
+    }
+
+    public function test_emergency_guide_starts_with_an_action_box(): void
+    {
+        $this->seed(CategorySeeder::class);
+        Category::where('slug', 'urgences-24h')->first()->providers()->attach(Provider::factory()->create());
+        Post::factory()->create(['slug' => 'urgences', 'translation_key' => 'emergencies', 'related_categories' => ['urgences-24h', 'veterinaire']]);
+
+        $this->get('/fr/guides/urgences')
+            ->assertOk()
+            ->assertSeeInOrder([__('blog.emergency_title', [], 'fr'), Category::where('slug', 'urgences-24h')->first()->label('fr'), 'prose-doggys'], false)
+            ->assertSee(localized_route('categories.index', [], 'fr'), false);
     }
 
     public function test_article_is_not_found_when_unpublished_scheduled_or_in_another_language(): void
@@ -110,8 +156,9 @@ class GuideTest extends TestCase
     {
         Post::factory()->create([
             'slug' => 'piege',
-            'title' => '<script>alert("title")</script>',
-            'body' => "## Titre <img src=x onerror=alert(1)>\n\n<script>alert('xss')</script>\n\n<iframe src=\"https://evil.test\"></iframe>\n\n[clic](javascript:alert(1))",
+            'title' => '</script><script>alert("title")</script>',
+            'body' => "## Titre <img src=x onerror=alert(1)>\n\n<script>alert('xss')</script>\n\n<iframe src=\"https://evil.test\"></iframe>\n\n"
+                ."[clic](javascript:alert(1)) [data](data:text/html;base64,PHNjcmlwdD4=) [entite](&#106;avascript:alert(2)) [ref][r]\n\n[r]: javascript:alert(3)",
         ]);
 
         $response = $this->get('/fr/guides/piege')->assertOk();
@@ -119,21 +166,88 @@ class GuideTest extends TestCase
         $response->assertDontSee('<script>alert', false)
             ->assertDontSee('<iframe', false)
             ->assertDontSee('onerror', false)
-            ->assertDontSee('javascript:alert', false)
-            ->assertSee('&lt;script&gt;alert(&quot;title&quot;)&lt;/script&gt;', false);
+            ->assertDontSee('javascript:', false)
+            ->assertDontSee('href="data:', false)
+            ->assertSee('&lt;/script&gt;&lt;script&gt;alert(&quot;title&quot;)&lt;/script&gt;', false)
+            ->assertSee(trim(json_encode('</script><script>', JSON_HEX_TAG | JSON_UNESCAPED_SLASHES), '"'), false);
     }
 
-    public function test_guide_import_is_idempotent_and_keeps_rows_up_to_date(): void
+    public function test_guide_import_is_idempotent_and_removes_guides_deleted_from_disk(): void
     {
+        $this->seed(CategorySeeder::class);
+        $removed = Post::factory()->create(['slug' => 'ancien-guide', 'translation_key' => 'removed-guide']);
+
         $this->artisan('doggys:import-guides')->assertSuccessful();
         $count = Post::count();
         $this->assertGreaterThanOrEqual(40, $count);
+        $this->assertModelMissing($removed);
+        $this->get('/fr/guides/ancien-guide')->assertNotFound();
 
-        Post::where('locale', 'fr')->first()->update(['title' => 'Modifié à la main']);
+        $post = Post::where('locale', 'fr')->where('translation_key', 'dog-food')->first();
+        $editorialDate = $post->updated_at->toDateString();
+        $post->update(['title' => 'Modifié à la main']);
 
         $this->artisan('doggys:import-guides')->assertSuccessful();
         $this->assertSame($count, Post::count());
         $this->assertSame(0, Post::where('title', 'Modifié à la main')->count());
+        $this->assertSame($editorialDate, $post->fresh()->updated_at->toDateString());
+    }
+
+    public function test_parse_accepts_a_bom_and_crlf_line_endings(): void
+    {
+        $path = $this->guideFile("\xEF\xBB\xBF".str_replace("\n", "\r\n", $this->frontMatter()."\n## Titre\nTexte."));
+
+        $guide = GuideSeeder::parse($path);
+
+        $this->assertSame('un-guide', $guide['slug']);
+        $this->assertSame('2026-10-01', $guide['updated_at']->toDateString());
+        $this->assertSame("## Titre\nTexte.", $guide['body']);
+    }
+
+    /**
+     * @return array<string, array{string, string, string}>
+     */
+    public static function invalidGuides(): array
+    {
+        return [
+            'slug' => ['slug: un-guide', 'slug: Mon Slug!', 'Invalid "slug"'],
+            'category' => ['category: health', 'category: astrologie', 'Invalid "category"'],
+            'date' => ['published_at: 2026-09-01', 'published_at: demain midi', 'Invalid "published_at"'],
+            'impossible date' => ['updated_at: 2026-10-01', 'updated_at: 2026-02-31', 'Invalid "updated_at"'],
+            'missing title' => ['title: Un guide', 'title:', 'Missing "title"'],
+        ];
+    }
+
+    #[DataProvider('invalidGuides')]
+    public function test_parse_rejects_an_invalid_front_matter(string $valid, string $invalid, string $message): void
+    {
+        $path = $this->guideFile(str_replace($valid, $invalid, $this->frontMatter())."\n## Titre\n");
+
+        $this->expectExceptionMessage($message);
+        GuideSeeder::parse($path);
+    }
+
+    public function test_parse_rejects_an_unknown_locale(): void
+    {
+        $path = $this->guideFile($this->frontMatter()."\n## Titre\n", 'xx');
+
+        $this->expectExceptionMessage('Invalid "locale"');
+        GuideSeeder::parse($path);
+    }
+
+    private function frontMatter(): string
+    {
+        return "---\ntitle: Un guide\nslug: un-guide\nexcerpt: Résumé.\nmeta_title: Un guide\nmeta_description: Description.\n"
+            ."category: health\nrelated_categories: [veterinaire]\npublished_at: 2026-09-01\nupdated_at: 2026-10-01\n---\n";
+    }
+
+    private function guideFile(string $content, string $locale = 'fr'): string
+    {
+        $directory = sys_get_temp_dir().'/doggys-guide-'.uniqid().'/a-guide';
+        mkdir($directory, 0777, true);
+        file_put_contents("{$directory}/{$locale}.md", $content);
+
+        return "{$directory}/{$locale}.md";
     }
 
     public function test_every_guide_file_is_complete_in_four_languages_and_seo_ready(): void

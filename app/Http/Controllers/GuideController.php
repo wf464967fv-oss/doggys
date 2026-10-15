@@ -49,11 +49,14 @@ class GuideController extends Controller
             ->orderBy('published_at')->orderBy('id')
             ->get(['id', 'translation_key', 'slug', 'title', 'excerpt', 'category', 'reading_minutes', 'published_at']);
 
-        $groups = collect(self::CATEGORIES)
-            ->map(fn (array $style, string $category) => $guides->where('category', $category)->values())
-            ->filter(fn ($group) => $group->isNotEmpty());
+        // One continuous grid, theme by theme; the theme buttons filter it client-side.
+        $order = array_flip(array_keys(self::CATEGORIES));
+        $guides = $guides->sortBy(fn (Post $guide) => $order[$guide->category] ?? count($order))->values();
 
-        return view('guides.index', ['groups' => $groups, 'count' => $guides->count()]);
+        return view('guides.index', [
+            'guides' => $guides,
+            'themes' => array_intersect_key(self::CATEGORIES, $guides->pluck('category', 'category')->all()),
+        ]);
     }
 
     public function show(string $slug): View
@@ -82,7 +85,14 @@ class GuideController extends Controller
             'guide' => $guide,
             'body' => $guide->renderBody(),
             'alternates' => $alternates,
-            'proCategories' => Category::query()->whereIn('slug', $guide->related_categories ?? [])->orderBy('sort')->get(),
+            // Same rule as the category page's indexability: only categories with active pros get a link.
+            'proCategories' => Category::query()
+                ->whereIn('slug', $guide->related_categories ?? [])
+                ->withCount(['providers' => fn ($query) => $query->active()])
+                ->get()
+                ->where('providers_count', '>', 0)
+                ->sortByDesc('providers_count')
+                ->values(),
             'related' => $related,
         ]);
     }

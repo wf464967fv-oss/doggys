@@ -22,10 +22,11 @@
 <nav aria-label="{{ __('ui.breadcrumb') }}" {{ $attributes }}>
     <ol class="flex flex-wrap items-center gap-x-1.5 text-sm font-semibold text-muted">
         @foreach ($items as $label => $url)
-            <li class="flex items-center gap-1.5">
+            {{-- On phones the current page (repeated by the H1 just below) is hidden. --}}
+            <li @class(['flex items-center gap-1.5', 'max-sm:hidden' => $loop->last])>
                 @if (! $loop->last)
                     <a href="{{ $url }}" class="inline-flex min-h-11 items-center rounded-md underline-offset-4 hover:text-brown hover:underline">{{ $label }}</a>
-                    <x-icon name="chevron-right" class="size-4 text-brown-mid" />
+                    <x-icon name="chevron-right" :class="$loop->remaining === 1 ? 'size-4 text-brown-mid max-sm:hidden' : 'size-4 text-brown-mid'" />
                 @else
                     <span aria-current="page" class="inline-flex min-h-11 items-center text-brown-dark">{{ $label }}</span>
                 @endif

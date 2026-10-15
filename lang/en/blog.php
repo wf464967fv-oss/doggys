@@ -23,7 +23,6 @@ return [
     'empty_title' => 'Our guides are on their way',
     'empty_text' => 'We are putting the finishing touches to our first guides. Check back soon!',
 
-    'breadcrumb' => 'Breadcrumb',
     'breadcrumb_home' => 'Home',
     'breadcrumb_guides' => 'Guides',
     'updated_on' => 'Updated on :date',
@@ -34,4 +33,11 @@ return [
     'find_pro_all' => 'See all pros',
     'related_title' => 'You may also like',
     'all_guides' => 'All guides',
+    'filter_all' => 'All topics',
+    'author' => 'Doggys editorial team',
+    'sources_count' => '{1} :count official source|[2,*] :count official sources',
+    'toc_parts' => '{1} :count section|[2,*] :count sections',
+    'emergency_title' => 'Is your dog unwell right now?',
+    'emergency_text' => 'Call your vet or an out-of-hours clinic before you set off. Find one near you:',
+    'emergency_all' => 'All professionals',
 ];

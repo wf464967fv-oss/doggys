@@ -23,7 +23,6 @@ return [
     'empty_title' => 'Nos guides arrivent bientôt',
     'empty_text' => 'Nous peaufinons nos premiers guides. Revenez très vite !',
 
-    'breadcrumb' => 'Fil d’Ariane',
     'breadcrumb_home' => 'Accueil',
     'breadcrumb_guides' => 'Guides',
     'updated_on' => 'Mis à jour le :date',
@@ -34,4 +33,11 @@ return [
     'find_pro_all' => 'Voir tous les pros',
     'related_title' => 'À lire aussi',
     'all_guides' => 'Tous les guides',
+    'filter_all' => 'Tous les thèmes',
+    'author' => 'Rédaction Doggys',
+    'sources_count' => '{1} :count source officielle|[2,*] :count sources officielles',
+    'toc_parts' => '{1} :count partie|[2,*] :count parties',
+    'emergency_title' => 'Votre chien va mal maintenant ?',
+    'emergency_text' => 'Appelez votre vétérinaire ou une clinique de garde avant de partir. Trouvez-en une près de chez vous :',
+    'emergency_all' => 'Tous les professionnels',
 ];

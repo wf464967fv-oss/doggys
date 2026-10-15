@@ -157,7 +157,7 @@
                 @endforeach
             </ol>
 
-            <div class="mt-8 flex flex-col items-center gap-4 rounded-3xl bg-brown p-6 text-center text-cream-light sm:flex-row sm:p-8 sm:text-left [&_:focus-visible]:outline-orange">
+            <div class="on-dark mt-8 flex flex-col items-center gap-4 rounded-3xl bg-brown p-6 text-center text-cream-light sm:flex-row sm:p-8 sm:text-left [&_:focus-visible]:outline-orange">
                 <span class="flex size-14 shrink-0 items-center justify-center rounded-full bg-orange text-brown-dark"><x-icon name="paw" class="size-8" /></span>
                 <div class="flex-1">
                     <p class="font-display text-2xl font-semibold text-cream-light">{{ __('home.profile_title') }}</p>

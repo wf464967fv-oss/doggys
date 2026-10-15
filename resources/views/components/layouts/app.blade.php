@@ -8,6 +8,7 @@
       noindex      true for private, thin or internal-search pages
       bare         true on 5xx error pages: no session/database-dependent UI
       fullTitle    true when title already contains the brand (home page)
+      ogType       Open Graph type (default website; guides pass article and add article:* tags in the head slot)
     Slot "head": extra tags (JSON-LD, preload…). Inline scripts need nonce="{{ Vite::cspNonce() }}".
 --}}
 @props([
@@ -17,6 +18,7 @@
     'noindex' => false,
     'bare' => false,
     'fullTitle' => false,
+    'ogType' => 'website',
 ])
 
 @php
@@ -45,7 +47,7 @@
         <link rel="alternate" hreflang="x-default" href="{{ $alternates[config('app.locales')[0]] ?? $canonical }}">
     @endif
 
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="{{ $ogType }}">
     <meta property="og:site_name" content="Doggys">
     <meta property="og:title" content="{{ $pageTitle }}">
     <meta property="og:description" content="{{ $description }}">

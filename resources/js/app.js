@@ -130,4 +130,37 @@ if (document.querySelector('[data-map]')) {
     import('./map.js').then(({ mountMaps }) => mountMaps());
 }
 
+/*
+ * Guide table of contents: folded on phones (the article starts on the first screen), always open from 1024px.
+ * On desktop the summary cannot fold it back (mouse or keyboard).
+ */
+const desktop = window.matchMedia('(min-width: 1024px)');
+document.querySelectorAll('[data-toc]').forEach((details) => {
+    details.open = desktop.matches;
+    details.querySelector('summary').addEventListener('click', (event) => {
+        if (desktop.matches) {
+            event.preventDefault();
+        }
+    });
+});
+
+/* Guides index: theme buttons filter the cards (all visible without JS); the URL hash keeps the choice. */
+const guideGrid = document.querySelector('[data-guide-grid]');
+if (guideGrid) {
+    const buttons = document.querySelectorAll('[data-guide-filter]');
+    const themes = [...buttons].map((button) => button.dataset.guideFilter);
+    const apply = (theme) => {
+        guideGrid.querySelectorAll('[data-guide-category]').forEach((card) => {
+            card.hidden = theme !== '' && card.dataset.guideCategory !== theme;
+        });
+        buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.guideFilter === theme)));
+    };
+    buttons.forEach((button) => button.addEventListener('click', () => {
+        const theme = button.dataset.guideFilter;
+        history.replaceState(null, '', theme ? `#${theme}` : window.location.pathname);
+        apply(theme);
+    }));
+    const initial = window.location.hash.slice(1);
+    apply(themes.includes(initial) ? initial : '');
+}
 Alpine.start();

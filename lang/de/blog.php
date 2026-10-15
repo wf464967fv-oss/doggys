@@ -23,7 +23,6 @@ return [
     'empty_title' => 'Unsere Ratgeber sind bald da',
     'empty_text' => 'Wir legen gerade letzte Hand an unsere ersten Ratgeber. Schauen Sie bald wieder vorbei!',
 
-    'breadcrumb' => 'Brotkrümelnavigation',
     'breadcrumb_home' => 'Startseite',
     'breadcrumb_guides' => 'Ratgeber',
     'updated_on' => 'Aktualisiert am :date',
@@ -34,4 +33,11 @@ return [
     'find_pro_all' => 'Alle Profis ansehen',
     'related_title' => 'Das könnte Sie auch interessieren',
     'all_guides' => 'Alle Ratgeber',
+    'filter_all' => 'Alle Themen',
+    'author' => 'Doggys-Redaktion',
+    'sources_count' => '{1} :count offizielle Quelle|[2,*] :count offizielle Quellen',
+    'toc_parts' => '{1} :count Abschnitt|[2,*] :count Abschnitte',
+    'emergency_title' => 'Geht es Ihrem Hund gerade schlecht?',
+    'emergency_text' => 'Rufen Sie vor der Abfahrt Ihren Tierarzt oder eine Notdienstklinik an. Finden Sie eine in Ihrer Nähe:',
+    'emergency_all' => 'Alle Fachleute',
 ];
