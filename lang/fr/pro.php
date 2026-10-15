@@ -51,6 +51,7 @@ return [
         ],
         'submit' => 'Envoyer ma demande',
         'already_pending' => 'Vous avez déjà une demande en cours pour cette fiche.',
+        'too_many_pending' => 'Vous avez déjà 5 demandes en attente : patientez le traitement de l’une d’elles.',
         'sent' => 'Merci ! Votre demande est envoyée : vous recevrez un e-mail de confirmation, puis notre réponse.',
     ],
 

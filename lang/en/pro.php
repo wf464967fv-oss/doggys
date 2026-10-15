@@ -51,6 +51,7 @@ return [
         ],
         'submit' => 'Send my request',
         'already_pending' => 'You already have a pending request for this listing.',
+        'too_many_pending' => 'You already have 5 pending requests: please wait until one is handled.',
         'sent' => 'Thank you! Your request has been sent: you will receive a confirmation e-mail, then our answer.',
     ],
 

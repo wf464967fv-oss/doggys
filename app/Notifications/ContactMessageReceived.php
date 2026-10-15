@@ -27,7 +27,8 @@ class ContactMessageReceived extends Notification
             ->subject(__('contact.mail.subject', ['subject' => $this->contactMessage->subject]))
             ->replyTo($this->contactMessage->email, $this->contactMessage->name)
             ->line(__('contact.mail.from', ['name' => $this->contactMessage->name, 'email' => $this->contactMessage->email]))
-            ->line($this->contactMessage->message)
+            // Visitor text: Markdown characters are backslash-escaped so it cannot become links/images/HTML in the mail.
+            ->line(preg_replace('/[\\\\`*_{}\[\]()#+\-.!<>|~:\/]/', '\\\\$0', $this->contactMessage->message))
             ->action(__('contact.mail.action'), route('admin.contact.index'));
     }
 }

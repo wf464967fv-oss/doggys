@@ -50,6 +50,7 @@ class ClaimController extends Controller
             throw ValidationException::withMessages(['form' => __('pro.claim.already_pending')]);
         }
 
+        $this->ensureFewPendingClaims($request->user());
         $this->createClaim($request, $provider, ClaimAction::from($request->validated('action')));
 
         return redirect()->to(localized_route('pro.index'))->with('status', __('pro.claim.sent'));
@@ -62,6 +63,8 @@ class ClaimController extends Controller
 
     public function storeListing(NewProviderRequest $request): RedirectResponse
     {
+        $this->ensureFewPendingClaims($request->user());
+
         $data = $request->validated();
         $postalCodes = PostalCode::query()->where('code', $data['postal_code'])->get();
 
@@ -107,6 +110,13 @@ class ClaimController extends Controller
         $request->user()->notify(new RequestReceived($createsListing ? 'listing' : 'claim', $provider));
 
         return $claim;
+    }
+
+    private function ensureFewPendingClaims(User $user): void
+    {
+        if (Claim::query()->where('user_id', $user->id)->where('status', ClaimStatus::Pending)->count() >= 5) {
+            throw ValidationException::withMessages(['form' => __('pro.claim.too_many_pending')]);
+        }
     }
 
     private function pendingClaim(User $user, Provider $provider): ?Claim

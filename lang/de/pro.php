@@ -51,6 +51,7 @@ return [
         ],
         'submit' => 'Antrag senden',
         'already_pending' => 'Für diesen Eintrag läuft bereits ein Antrag von Ihnen.',
+        'too_many_pending' => 'Sie haben bereits 5 offene Anträge: bitte warten Sie, bis einer bearbeitet ist.',
         'sent' => 'Danke! Ihr Antrag ist unterwegs: Sie erhalten eine Bestätigung per E-Mail und danach unsere Antwort.',
     ],
 

@@ -2,6 +2,8 @@
 
 namespace App\Policies;
 
+use App\Enums\ProviderStatus;
+use App\Enums\ReviewStatus;
 use App\Models\Review;
 use App\Models\User;
 
@@ -28,7 +30,10 @@ class ReviewPolicy
      */
     public function reply(User $user, Review $review): bool
     {
-        return $user->isPro() && $review->provider?->claimed_by_user_id === $user->id;
+        return $user->isPro()
+            && $review->status === ReviewStatus::Published
+            && $review->provider?->claimed_by_user_id === $user->id
+            && $review->provider->status !== ProviderStatus::Removed;
     }
 
     /**

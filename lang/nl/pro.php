@@ -51,6 +51,7 @@ return [
         ],
         'submit' => 'Mijn aanvraag versturen',
         'already_pending' => 'U hebt al een lopende aanvraag voor deze fiche.',
+        'too_many_pending' => 'U hebt al 5 lopende aanvragen: wacht tot er één behandeld is.',
         'sent' => 'Bedankt! Uw aanvraag is verstuurd: u krijgt een bevestigingsmail en daarna ons antwoord.',
     ],
 

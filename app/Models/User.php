@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Enums\ClaimStatus;
+use App\Enums\ProviderStatus;
 use App\Enums\UserRole;
 use App\Enums\VerificationLevel;
 use Database\Factories\UserFactory;
@@ -130,6 +132,11 @@ class User extends Authenticatable implements MustVerifyEmail
                 'verification_level' => VerificationLevel::None,
                 'plan' => 'free',
             ])->save());
+            // Listings created through "Add your business" and still hidden would stay orphaned: nobody could approve them.
+            Provider::query()->where('status', ProviderStatus::Hidden)
+                ->whereHas('claims', fn ($q) => $q->where('user_id', $this->id)->where('status', ClaimStatus::Pending)->where('creates_listing', true))
+                ->whereDoesntHave('claims', fn ($q) => $q->where('user_id', '!=', $this->id)->where('status', ClaimStatus::Pending))
+                ->each(fn (Provider $provider) => $provider->forceDelete());
             $this->claims()->each(fn (Claim $claim) => $claim->delete());
             $this->badgeRequests()->each(fn (BadgeRequest $badgeRequest) => $badgeRequest->delete());
 

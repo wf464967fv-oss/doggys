@@ -2,6 +2,7 @@
 
 namespace App\Policies;
 
+use App\Enums\ProviderStatus;
 use App\Models\Provider;
 use App\Models\User;
 
@@ -12,6 +13,7 @@ class ProviderPolicy
      */
     public function manage(User $user, Provider $provider): bool
     {
-        return $user->isPro() && $provider->claimed_by_user_id === $user->id;
+        return $user->isPro() && $provider->claimed_by_user_id === $user->id
+            && $provider->status !== ProviderStatus::Removed;
     }
 }

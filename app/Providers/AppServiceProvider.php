@@ -88,10 +88,7 @@ class AppServiceProvider extends ServiceProvider
         RateLimiter::for('review-reports', fn (Request $request) => Limit::perHour(20)->by('review-reports|'.($request->user()?->id ?: $request->ip())));
         RateLimiter::for('claims', fn (Request $request) => Limit::perHour(10)->by('claims|'.($request->user()?->id ?: $request->ip())));
         RateLimiter::for('pro-updates', fn (Request $request) => Limit::perMinute(30)->by('pro-updates|'.($request->user()?->id ?: $request->ip())));
-        RateLimiter::for('contact', fn (Request $request) => [
-            Limit::perHour(5)->by('contact|'.$request->ip()),
-            Limit::perDay(200)->by('contact|global'),
-        ]);
+        RateLimiter::for('contact', fn (Request $request) => Limit::perHour(5)->by('contact|'.$request->ip()));
 
         // Directory: search pages and API are cheap per request but must not be hammered from one IP.
         // Category and city pages get more room than the search form: crawlers read them in bursts.

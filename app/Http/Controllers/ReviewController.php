@@ -9,8 +9,11 @@ use App\Http\Requests\ReviewReportRequest;
 use App\Http\Requests\ReviewRequest;
 use App\Models\Provider;
 use App\Models\Review;
+use Illuminate\Contracts\Cache\LockTimeoutException;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Validation\ValidationException;
 use Illuminate\View\View;
 
 /**
@@ -23,9 +26,20 @@ class ReviewController extends Controller
     {
         abort_unless($provider->status === ProviderStatus::Active, 404);
 
-        $review = new Review($request->validated());
-        $review->user()->associate($request->user());
-        $provider->reviews()->save($review);
+        // Per-user lock + re-check inside it: two simultaneous POSTs cannot both pass the 30-day / daily limits.
+        try {
+            Cache::lock('review:'.$request->user()->id, 10)->block(3, function () use ($request, $provider) {
+                if ($reason = Review::blockReason($request->user(), $provider)) {
+                    throw ValidationException::withMessages(['body' => __('reviews.blocked.'.$reason, ['days' => Review::COOLDOWN_DAYS, 'limit' => Review::DAILY_LIMIT])])->errorBag('review');
+                }
+
+                $review = new Review($request->validated());
+                $review->user()->associate($request->user());
+                $provider->reviews()->save($review);
+            });
+        } catch (LockTimeoutException) {
+            abort(429);
+        }
 
         return redirect()->to(localized_route('providers.show', $provider).'#reviews')->with('status', __('reviews.flash.published'));
     }
