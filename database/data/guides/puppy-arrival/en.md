@@ -7,6 +7,7 @@ meta_description: Kit, a puppy-proof home, the first day and night, toilet train
 category: adoption
 related_categories: [veterinaire, educateur, animalerie]
 published_at: 2026-09-04
+updated_at: 2026-09-04
 ---
 The big day is nearly here: your puppy will soon discover its new home. For a puppy this is a huge change. It is leaving its mother, its littermates and every smell and sound it knows. A well-prepared arrival helps it gain confidence faster, and spares you quite a few sleepless nights. Here is how to organise things, step by step.
 

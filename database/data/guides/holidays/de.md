@@ -2,11 +2,12 @@
 title: "Urlaub: mit Hund verreisen oder gut betreuen lassen?"
 slug: urlaub-mit-hund-pension-tiersitter-heimtierausweis
 excerpt: EU-Heimtierausweis, Tollwutimpfung, Bandwurmbehandlung, Reise mit Auto oder Flugzeug, zugelassene Hundepension oder Tiersitter: alles für einen entspannten Urlaub, mit oder ohne Hund.
-meta_title: Urlaub mit oder ohne Hund
+meta_title: "Urlaub mit Hund: Heimtierausweis und Tollwut"
 meta_description: EU-Heimtierausweis, Tollwut, Bandwurmbehandlung, Anreise, Hitze, zugelassene Pension oder Tiersitter: So planen Sie den Urlaub mit oder ohne Hund.
 category: daily
 related_categories: [pension, pet-sitter, veterinaire, lieu-dog-friendly]
 published_at: 2026-10-06
+updated_at: 2026-10-15
 ---
 Der Urlaub naht, und die Frage stellt sich: Kommt Ihr Hund mit, oder bleibt er in Belgien in guten Händen? Beides kann wunderbar funktionieren. Wichtig ist, rechtzeitig zu planen, denn manche Schritte brauchen mehrere Wochen. Hier ist Ihr Leitfaden für eine entspannte Abreise.
 

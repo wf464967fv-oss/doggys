@@ -7,6 +7,7 @@ meta_description: Respiration difficile, ventre gonflé, intoxication, coup de c
 category: health
 related_categories: [urgences-24h, veterinaire]
 published_at: 2026-10-13
+updated_at: 2026-10-15
 ---
 Personne n’aime y penser, mais savoir reconnaître une urgence peut sauver la vie de votre chien. Dans certaines situations, quelques minutes comptent. Dans d’autres, un rendez-vous le lendemain suffit. Ce guide vous aide à faire la différence et à garder les bons réflexes. Il ne remplace jamais l’avis d’un vétérinaire : **en cas de doute, appelez**. Aucun vétérinaire ne vous reprochera d’avoir téléphoné pour rien.
 

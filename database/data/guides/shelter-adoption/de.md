@@ -7,6 +7,7 @@ meta_description: Anerkanntes Tierheim, Kennenlernen, Schutzgebühr, Papiere, wa
 category: adoption
 related_categories: [refuge, educateur, comportementaliste, veterinaire]
 published_at: 2026-09-15
+updated_at: 2026-10-15
 ---
 Jedes Jahr warten in belgischen Tierheimen Tausende Hunde auf eine Familie. Welpen, erwachsene Hunde in Bestform, Senioren mit goldenem Charakter: Oft ist ein Begleiter dabei, der genau zu Ihrem Leben passt. Aus dem Tierheim zu adoptieren heißt, eine zweite Chance zu schenken – und unglaublich viel zurückzubekommen. So gelingt der Start.
 
@@ -47,7 +48,7 @@ Sie treffen den Hund, manchmal mehrmals, und machen einen ersten gemeinsamen Spa
 
 ### 4. Die Papiere
 
-Bei der Adoption unterschreiben Sie einen Vertrag und zahlen die Schutzgebühr. Sie erhalten den EU-Heimtierausweis des Hundes, und das Tierheim **überträgt die DogID-Registrierung** auf Ihren Namen. In der Wallonie und in Ostbelgien müssen Sie den **Auszug aus dem Zentralregister** (die Haltererlaubnis) vorlegen, den Sie bei Ihrer Gemeinde beantragen und der 30 Tage gültig ist. Adoptieren Sie als Bewohner Flanderns oder Brüssels in einem wallonischen Tierheim, beantragen Sie ihn beim Öffentlichen Dienst der Wallonie.
+Bei der Adoption unterschreiben Sie einen Vertrag und zahlen die Schutzgebühr. Sie erhalten den EU-Heimtierausweis des Hundes, und das Tierheim **überträgt die DogID-Registrierung** auf Ihren Namen. Wohnen Sie in der Wallonie oder in Ostbelgien, legen Sie den **Auszug aus der Zentraldatei** (die sogenannte Haltererlaubnis) vor. Diesen Auszug beantragen Sie bei Ihrer Gemeinde, er ist 30 Tage gültig. Wer außerhalb der Wallonie wohnt, braucht auch in einem wallonischen Tierheim kein wallonisches Dokument.
 
 ## Was kostet eine Adoption?
 
@@ -83,7 +84,7 @@ Trotz allen guten Willens passt eine Adoption manchmal nicht. Bleiben Sie damit 
 - Ich habe ein anerkanntes Tierheim gewählt und die Profile der Hunde angesehen.
 - Ich habe den Hund mindestens einmal getroffen, idealerweise zweimal.
 - Ich habe nach Charakter, Gesundheit und Vorgeschichte gefragt.
-- In der Wallonie habe ich meinen Auszug beantragt.
+- Wohne ich in der Wallonie, habe ich meinen Auszug beantragt.
 - Die DogID-Registrierung läuft auf meinen Namen, und ich habe seinen Heimtierausweis.
 - Sein Platz, seine Ausstattung und ruhige erste Wochen sind vorbereitet.
 - Ich weiß, welchen Tierarzt und bei Bedarf welchen Hundetrainer in der Nähe ich kontaktieren kann.

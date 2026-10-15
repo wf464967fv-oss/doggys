@@ -7,6 +7,7 @@ meta_description: "Voor u een pup in huis haalt: tijd, budget, ras, kweker of as
 category: adoption
 related_categories: [eleveur-agree, refuge, veterinaire, educateur]
 published_at: 2026-09-01
+updated_at: 2026-10-15
 ---
 Een pup die door het huis dartelt: wat een vreugde. Maar het is ook een engagement voor tien tot vijftien jaar, soms langer. Neem daarom de tijd om na te gaan of het juiste moment, de juiste plek en de juiste hond samenvallen. Deze checklist helpt u de goede vragen te stellen, zonder schuldgevoel: met een goede voorbereiding wordt een adoptie bijna altijd een mooi verhaal.
 
@@ -52,7 +53,7 @@ Een pup vraagt heel veel tijd en opvoeding. Een volwassen hond, bijvoorbeeld uit
 
 In België regelen de gewesten de verkoop van pups. Of u nu bij een kweker of een asiel terechtkomt, kies altijd voor een **erkende** organisatie:
 
-- **Erkende kweker**: in Vlaanderen heeft een kweker vanaf drie nesten per jaar een **HK-nummer**, en in elke advertentie moet het **chipnummer** van de pup staan. In Wallonië moet elke kweker een erkenningsnummer vermelden. Een goede kweker laat u de moederhond en de leefruimte van de pups zien en beantwoordt graag al uw vragen.
+- **Erkende kweker**: in Vlaanderen heeft een kweker vanaf drie nesten per jaar een **HK-nummer**, dat in elke advertentie staat, net als het **chipnummer** van elke pup. Een occasionele kweker mag alleen adverteren in erkende gespecialiseerde media, nooit op sociale media of algemene zoekertjessites. In Wallonië moet elke kweker een erkenningsnummer vermelden. Een goede kweker laat u de moederhond en de leefruimte van de pups zien en beantwoordt graag al uw vragen.
 - **Erkend asiel**: tientallen honden van alle leeftijden wachten op een gezin. De medewerkers kennen hun karakter en helpen u de juiste match te vinden.
 
 Wantrouw advertenties die te mooi zijn om waar te zijn: rashondjes tegen een spotprijs, levering op een parking, een verkoper die aandringt, geen bezoek mogelijk. Dat zijn typische signalen van illegale pupphandel, met vaak zieke en slecht gesocialiseerde dieren.
@@ -65,8 +66,8 @@ Sommige regels gelden in heel België, andere hangen af van uw gewest.
 - **Minimumleeftijd**: een pup mag niet verkocht of weggegeven worden voor hij 8 weken oud is.
 - **Paspoort**: een geïdentificeerde hond krijgt een Europees paspoort, waarin de dierenarts onder meer de vaccinaties noteert.
 - **In Vlaanderen**: geen voorafgaande vergunning, maar wel strikte regels voor wie verkoopt: gechipt, geregistreerd, geldig paspoort en minstens 8 weken oud.
-- **In Wallonië**: wie een dier wil verwerven (kopen, adopteren of krijgen), moet een **uittreksel uit het centraal bestand** voorleggen, de zogenaamde houdersvergunning (« permis de détention »). U vraagt het aan bij uw gemeente en het is 30 dagen geldig. Er komt een digitaal certificaat in de plaats; controleer de geldende procedure bij uw gemeente.
-- **In Brussel**: dezelfde regels voor identificatie en registratie; kwekers, asielen en dierenpensions moeten erkend zijn door Leefmilieu Brussel.
+- **Woont u in Wallonië?** Wie daar een hond wil verwerven (kopen, adopteren of krijgen), moet een **uittreksel uit het centraal bestand** voorleggen, de zogenaamde houdersvergunning (*permis de détention*). Woont u elders, dan vraagt een Waals asiel of een Waalse kweker geen Waals document. U vraagt het aan bij uw gemeente en het is 30 dagen geldig. Er komt een digitaal certificaat in de plaats; controleer de geldende procedure bij uw gemeente.
+- **In Brussel**: dezelfde regels voor identificatie en registratie; asielen, dierenpensions en kwekers vanaf de amateurkweek moeten erkend zijn door Leefmilieu Brussel. Een particulier met minder dan 3 nesten per jaar mag alleen in gespecialiseerde media adverteren.
 
 > **Goed om te weten**: vraag bij het ophalen van de pup altijd de documenten: paspoort, registratiecertificaat van DogID, vaccinatieoverzicht en een verkoop- of adoptiecontract. Een ernstige verkoper heeft ze spontaan klaarliggen.
 
@@ -80,7 +81,7 @@ Print ze af of bewaar ze op uw smartphone:
 4. Het ras of profiel van de hond past bij uw levensritme.
 5. U hebt een erkende kweker of een asiel gevonden en bent ter plaatse gaan kijken.
 6. U hebt de moederhond gezien (bij een pup van een kweker) en vragen gesteld over gezondheid en socialisatie.
-7. In Wallonië hebt u uw uittreksel bij de gemeente aangevraagd.
+7. Woont u in Wallonië, dan hebt u uw uittreksel bij de gemeente aangevraagd.
 8. U hebt een dierenarts gekozen voor het eerste bezoek, liefst binnen de week na aankomst.
 9. U hebt een hondenschool of puppycursus in de buurt gevonden.
 10. Voor de vakanties en afwezigheden van het komende jaar is opvang geregeld.

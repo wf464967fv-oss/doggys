@@ -7,6 +7,7 @@ meta_description: Agrément, numéro HK, visite, mère, documents, tests de sant
 category: adoption
 related_categories: [eleveur-agree, veterinaire, educateur]
 published_at: 2026-09-18
+updated_at: 2026-10-15
 ---
 Vous avez choisi une race et vous souhaitez accueillir un chiot d’élevage ? Excellente idée, à condition de bien choisir l’éleveur. Un éleveur sérieux sélectionne des parents sains et équilibrés, socialise ses chiots et vous accompagne longtemps après la vente. À l’inverse, les trafics de chiots prospèrent sur les petites annonces, avec des animaux souvent malades et mal sevrés. Voici comment faire la différence.
 
@@ -20,15 +21,15 @@ L’élevage et la vente de chiens sont encadrés par les Régions. Les grandes 
 
 ### En Wallonie
 
-Tout éleveur de chiens doit disposer d’un **agrément**, y compris pour un élevage occasionnel (jusqu’à deux portées par an). Les catégories varient selon le nombre de femelles reproductrices et de portées. Le **numéro d’agrément doit figurer dans les annonces**. L’acheteur, lui, doit présenter l’extrait du fichier central demandé à sa commune (le « permis de détention »).
+Tout éleveur de chiens doit disposer d’un **agrément**, y compris pour un élevage occasionnel (jusqu’à deux portées par an). Les catégories varient selon le nombre de femelles reproductrices et de portées. Le **numéro d’agrément doit figurer dans les annonces**. Un acheteur domicilié en Wallonie doit présenter l’extrait du fichier central demandé à sa commune (le « permis de détention ») ; un acheteur qui habite ailleurs n’a besoin d’aucun document wallon.
 
 ### En Flandre
 
-Un éleveur qui produit **trois portées ou plus par an** doit être agréé et reçoit un **numéro HK**. En dessous, on parle d’éleveur occasionnel, qui reste soumis à des règles strictes. Seuls les éleveurs peuvent vendre des chiens, et les annonces doivent mentionner le **numéro de puce** du chiot. Il est interdit de donner de fausses informations sur l’âge, l’origine ou la race, d’utiliser des photos trompeuses ou de vendre un animal manifestement malade.
+Un éleveur qui produit **trois portées ou plus par an** doit être agréé et reçoit un **numéro HK**. En dessous, on parle d’éleveur occasionnel, qui reste soumis à des règles strictes. Seuls les éleveurs peuvent vendre des chiens, et les annonces doivent mentionner le **numéro de puce** de chaque chiot. Un éleveur agréé indique son **numéro HK** dans toute publicité. Un éleveur occasionnel ne peut publier d’annonces que dans des médias spécialisés agréés par Dierenwelzijn Vlaanderen : jamais sur un site de petites annonces généraliste ni sur les réseaux sociaux. Un chiot « flamand » proposé sur un réseau social sans numéro HK est donc un signal d’alerte. Il est interdit de donner de fausses informations sur l’âge, l’origine ou la race, d’utiliser des photos trompeuses ou de vendre un animal manifestement malade.
 
 ### À Bruxelles
 
-Les élevages doivent être agréés par **Bruxelles Environnement**, qui fixe des conditions d’hébergement et de soins.
+L’agrément de **Bruxelles Environnement** est obligatoire à partir de l’élevage amateur (au moins deux femelles reproductrices), ainsi que pour les pensions, refuges et commerces. Un particulier qui fait moins de 3 portées par an n’en a pas besoin, mais ne peut publier ses annonces que dans des médias spécialisés.
 
 > **Bon à savoir** : un numéro d’agrément ou un numéro HK dans une annonce est un bon début, pas une garantie absolue. Vérifiez-le auprès de l’administration régionale en cas de doute, et fiez-vous aussi à ce que vous voyez sur place.
 
@@ -99,4 +100,5 @@ Visiter, rencontrer la mère, vérifier l’agrément et les documents, poser de
 - [Vlaanderen – Honden en katten kweken (en néerlandais)](https://www.vlaanderen.be/honden-en-katten-kweken)
 - [Vlaanderen – Huisdieren verhandelen of weggeven (en néerlandais)](https://www.vlaanderen.be/huisdieren-kweken-verkopen-of-weggeven)
 - [Bruxelles Environnement – Agrément des métiers liés aux animaux](https://environnement.brussels/thematiques/bien-etre-animal/le-commerce-des-animaux-de-compagnie/lagrement-procedure)
+- [Bruxelles Environnement – Métiers liés aux chats ou aux chiens](https://environnement.brussels/pro/services-et-demandes/agrements-et-enregistrements/metiers-lies-aux-chats-ou-aux-chiens-vos-obligations-et-conditions)
 - [DogID – identification et enregistrement](https://www.dogid.be/fr)

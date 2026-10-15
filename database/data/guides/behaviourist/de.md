@@ -7,6 +7,7 @@ meta_description: "Angst, Aggression, Trennungsangst, Leinenreaktivität: wann e
 category: education
 related_categories: [comportementaliste, veterinaire, educateur]
 published_at: 2026-10-02
+updated_at: 2026-10-15
 ---
 Ihr Hund bellt, sobald Sie gehen, stürzt sich an der Leine auf andere Hunde, zittert beim kleinsten Geräusch oder hat schon geknurrt oder sogar gebissen? Sie sind nicht allein, und es ist weder ein Versagen noch Schicksal. Verhaltensprobleme sind häufig und bessern sich in den allermeisten Fällen mit der richtigen Hilfe. Man muss nur wissen, an wen man sich wendet – und wann.
 
@@ -81,7 +82,7 @@ Veränderung braucht Zeit: einige Wochen bis mehrere Monate. Eine gute Fachperso
 ## Die richtige Fachperson wählen
 
 - Sie fragt zuerst, ob eine **tierärztliche Untersuchung** stattgefunden hat.
-- Sie erklärt ihre Methoden und lehnt Zwangsmittel ab (Strom-, Würge-, Stachelhalsbänder). In der Wallonie und in Ostbelgien sind Elektro- und Würgehalsbänder ohnehin verboten, Flandern verbietet Stromhalsbänder ab 2027.
+- Sie erklärt ihre Methoden und lehnt Zwangsmittel ab (Strom-, Würge-, Stachelhalsbänder). In der Wallonie und in Ostbelgien sind Elektro- und Würgehalsbänder ohnehin verboten (mit engen Ausnahmen), Flandern verbietet Halsbänder mit elektrischen Impulsen ab dem 1. Januar 2027, ausgenommen beim unsichtbaren Zaun.
 - Sie verspricht keine Wunder in einer Sitzung.
 - Sie arbeitet bei Bedarf mit Tierarzt und Hundetrainer zusammen.
 - Sie begegnet Ihnen mit Respekt und ohne Urteil.
@@ -104,5 +105,5 @@ Einen Verhaltenstherapeuten aufzusuchen, ist kein Eingeständnis des Scheiterns,
 ## Offizielle Quellen
 
 - [Tierärztekammer Belgiens (auf Französisch)](https://www.ordre-veterinaires.be)
-- [Wallonie – Elektro- oder Würgehalsband (auf Französisch)](https://wallonie.be/fr/demarches/utiliser-un-collier-electrique-ou-etrangleur-pour-chien)
+- [Wallonie – Verwendung eines Elektro- oder Würgehalsbandes für Hunde](https://www.wallonie.be/de/demarches/verwendung-eines-elektro-oder-wurgehalsbandes-fur-hunde)
 - [Flandern – Tierschutz (auf Niederländisch)](https://www.vlaanderen.be/dierenwelzijn)

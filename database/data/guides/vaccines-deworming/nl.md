@@ -7,6 +7,7 @@ meta_description: "Basisvaccins, rabiës, kennelhoest, ontworming, vlooien en te
 category: health
 related_categories: [veterinaire, urgences-24h]
 published_at: 2026-09-08
+updated_at: 2026-09-08
 ---
 Vaccins, ontwormingsmiddelen, pipetten, tabletten… Preventie kan ingewikkeld lijken als u net een hond hebt. Toch steunt ze op enkele eenvoudige principes, en ze beschermt uw viervoeter tegen ernstige, soms dodelijke ziekten. Deze gids geeft u de nodige houvast voor België. Het precieze schema van uw hond bepaalt u altijd samen met uw dierenarts, op basis van leeftijd, gezondheid en levensstijl.
 

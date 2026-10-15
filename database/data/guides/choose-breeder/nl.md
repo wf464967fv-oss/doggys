@@ -7,6 +7,7 @@ meta_description: HK-nummer, erkenning, bezoek, moederhond, documenten, gezondhe
 category: adoption
 related_categories: [eleveur-agree, veterinaire, educateur]
 published_at: 2026-09-18
+updated_at: 2026-10-15
 ---
 U hebt een ras gekozen en wilt een pup van een kweker? Prima, op voorwaarde dat u de kweker goed kiest. Een ernstige kweker selecteert gezonde, evenwichtige ouderdieren, socialiseert zijn pups en blijft u lang na de verkoop bijstaan. Illegale pupphandel daarentegen bloeit via zoekertjes, met dieren die vaak ziek en te vroeg gespeend zijn. Zo maakt u het verschil.
 
@@ -20,15 +21,15 @@ Het kweken en verkopen van honden wordt geregeld door de gewesten. De hoofdregel
 
 ### In Vlaanderen
 
-Een kweker met **drie of meer nesten per jaar** heeft een erkenning nodig en krijgt een **HK-nummer**. Er zijn drie soorten erkende kwekers: hobbykwekers, beroepskwekers en kweker-handelaars. Wie minder dan drie nesten per jaar heeft, is een occasionele kweker en moet zich ook aan strikte regels houden. Alleen kwekers mogen honden verhandelen, en in elke advertentie moet het **chipnummer** van de pup staan. Het is verboden valse informatie te geven over leeftijd, herkomst of ras, misleidende foto’s te gebruiken, kortingen aan te bieden of een zichtbaar ziek of niet goed gespeend dier te verkopen. Aan minderjarigen mag u niet verkopen zonder toestemming van hun ouders.
+Een kweker met **drie of meer nesten per jaar** heeft een erkenning nodig en krijgt een **HK-nummer**. Wie minder dan drie nesten per jaar heeft, is een occasionele kweker en moet zich ook aan strikte regels houden. Alleen kwekers mogen honden verhandelen, en in elke advertentie moet het **chipnummer** van elke pup staan. Een erkende kweker vermeldt zijn **HK-nummer** in elke advertentie. Een occasionele kweker mag alleen adverteren in gespecialiseerde media die Dierenwelzijn Vlaanderen erkend heeft: nooit op een algemene zoekertjessite of op sociale media. Een pup op sociale media zonder HK-nummer is dus een alarmsignaal. Het is verboden valse informatie te geven over leeftijd, herkomst of ras, misleidende foto’s te gebruiken, kortingen aan te bieden of een zichtbaar ziek of niet goed gespeend dier te verkopen. Aan minderjarigen mag u niet verkopen zonder toestemming van hun ouders.
 
 ### In Wallonië
 
-Elke hondenkweker moet een **erkenning** hebben, ook voor een occasionele kweek (tot twee nesten per jaar). Het **erkenningsnummer moet in de advertenties** staan. De koper moet het uittreksel uit het centraal bestand voorleggen dat hij bij zijn gemeente aanvraagt (de ‘permis de détention’).
+Elke hondenkweker moet een **erkenning** hebben, ook voor een occasionele kweek (tot twee nesten per jaar). Het **erkenningsnummer moet in de advertenties** staan. Een koper die in Wallonië woont, legt het uittreksel uit het centraal bestand voor dat hij bij zijn gemeente aanvraagt (de *permis de détention*); woont de koper elders, dan is geen Waals document nodig.
 
 ### In Brussel
 
-Kwekerijen moeten erkend zijn door **Leefmilieu Brussel**, dat voorwaarden oplegt voor huisvesting en verzorging.
+Een erkenning van **Leefmilieu Brussel** is verplicht vanaf de amateurkweek (minstens twee fokteven), en ook voor pensions, asielen en dierenwinkels. Een particulier met minder dan 3 nesten per jaar heeft geen erkenning nodig, maar mag alleen adverteren in gespecialiseerde media.
 
 > **Goed om te weten**: een HK-nummer of erkenningsnummer in een advertentie is een goed begin, geen absolute garantie. Twijfelt u, controleer het dan bij de gewestelijke administratie en vertrouw ook op wat u ter plaatse ziet.
 
@@ -98,5 +99,6 @@ Ter plaatse gaan kijken, de moeder ontmoeten, de erkenning en documenten control
 - [Vlaanderen – Honden en katten kweken](https://www.vlaanderen.be/honden-en-katten-kweken)
 - [Vlaanderen – Huisdieren verhandelen of weggeven](https://www.vlaanderen.be/huisdieren-kweken-verkopen-of-weggeven)
 - [Vlaanderen – Erkenning aanvragen als kwekerij](https://www.vlaanderen.be/natuur-milieu-en-klimaat/dieren/huisdieren-en-landbouwhuisdieren/een-erkenning-aanvragen-als-kwekerij-dierenasiel-dierenhandelszaak-of-dierenpension)
+- [Leefmilieu Brussel – Werken met katten en honden: verplichtingen en voorwaarden](https://leefmilieu.brussels/pro/diensten-en-aanvragen/erkenningen-en-registraties/werken-met-katten-honden-verplichtingen-en-voorwaarden)
 - [Wallonië – Erkenning als hondenkweker (in het Frans)](https://wallonie.be/fr/demarches/obtenir-un-agrement-en-tant-queleveur-de-chiens-ou-de-chats)
 - [DogID – identificatie en registratie](https://www.dogid.be/nl)

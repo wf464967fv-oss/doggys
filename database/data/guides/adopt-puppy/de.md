@@ -7,6 +7,7 @@ meta_description: "Vor dem Welpenkauf in Belgien: Zeit, Budget, Rasse, Züchter 
 category: adoption
 related_categories: [eleveur-agree, refuge, veterinaire, educateur]
 published_at: 2026-09-01
+updated_at: 2026-10-15
 ---
 Ein Welpe, der durchs Haus tapst, verspricht jede Menge Zärtlichkeit – und eine Verpflichtung für zehn bis fünfzehn Jahre, manchmal länger. Bevor Sie sich in ein kleines Fellknäuel verlieben, nehmen Sie sich Zeit zu prüfen, ob Zeitpunkt, Zuhause und Hund wirklich passen. Diese Checkliste hilft Ihnen, die richtigen Fragen zu stellen, ganz ohne schlechtes Gewissen: Gut vorbereitet wird eine Adoption fast immer eine schöne Geschichte.
 
@@ -52,7 +53,7 @@ Ein Welpe braucht enorm viel Zeit und Erziehung. Ein erwachsener Hund, zum Beisp
 
 In Belgien regeln die Regionen den Verkauf von Welpen. Ob Züchter oder Tierheim: Wählen Sie immer eine **anerkannte** Einrichtung.
 
-- **Anerkannter Züchter**: In der Wallonie – und damit auch in Ostbelgien – braucht jeder Hundezüchter eine Zulassung, deren Nummer in jeder Anzeige stehen muss. In Flandern haben Züchter ab drei Würfen pro Jahr eine **HK-Nummer**, und jede Anzeige muss die **Chipnummer** des Welpen nennen. Ein guter Züchter zeigt Ihnen die Mutterhündin und den Lebensraum der Welpen und beantwortet gern Ihre Fragen.
+- **Anerkannter Züchter**: In der Wallonie – und damit auch in Ostbelgien – braucht jeder Hundezüchter eine Zulassung, deren Nummer in jeder Anzeige stehen muss. In Flandern haben Züchter ab drei Würfen pro Jahr eine **HK-Nummer**, die in jeder Anzeige steht, zusammen mit der **Chipnummer** jedes Welpen; Gelegenheitszüchter dürfen nur in anerkannten Fachmedien inserieren, nie in sozialen Netzwerken oder auf allgemeinen Kleinanzeigenportalen. Ein guter Züchter zeigt Ihnen die Mutterhündin und den Lebensraum der Welpen und beantwortet gern Ihre Fragen.
 - **Anerkanntes Tierheim**: Dutzende Hunde jeden Alters warten auf eine Familie. Das Team kennt ihren Charakter und hilft Ihnen, den passenden Begleiter zu finden.
 
 Meiden Sie Angebote, die zu schön sind, um wahr zu sein: „Rassewelpen“ zum Schnäppchenpreis, Übergabe auf einem Parkplatz, ein drängelnder Verkäufer, kein Besuch möglich. Das sind typische Zeichen für illegalen Welpenhandel, oft mit kranken und schlecht sozialisierten Tieren.
@@ -64,8 +65,8 @@ Manche Regeln gelten in ganz Belgien, andere hängen von Ihrer Region ab.
 - **Kennzeichnung und Registrierung**: Jeder Hund muss von einem Tierarzt gechippt und in der Datenbank **DogID** registriert werden, bevor er 8 Wochen alt ist, und in jedem Fall vor jeder Abgabe (Verkauf oder Schenkung). Achten Sie darauf, dass die Registrierung auf Ihren Namen übertragen wird.
 - **Mindestalter**: Ein Welpe darf nicht vor der 8. Lebenswoche verkauft oder abgegeben werden.
 - **Heimtierausweis**: Ein gekennzeichneter Hund erhält einen EU-Heimtierausweis, in den der Tierarzt unter anderem die Impfungen einträgt.
-- **In der Wallonie und in Ostbelgien**: Wer ein Tier erwirbt (kauft, adoptiert oder geschenkt bekommt), muss einen **Auszug aus dem Zentralregister** der Umwelt- und Tierschutzdelikte vorlegen, die sogenannte Haltererlaubnis („permis de détention“). Sie beantragen ihn bei Ihrer Gemeinde, er ist 30 Tage gültig. Ein digitales Zertifikat soll ihn ersetzen: Erkundigen Sie sich bei Ihrer Gemeinde nach dem aktuellen Verfahren.
-- **In Flandern und Brüssel**: keine vorherige Erlaubnis, aber dieselben Regeln zu Kennzeichnung, Registrierung und Kauf bei anerkannten Züchtern oder Tierheimen.
+- **Wohnsitz in der Wallonie oder in Ostbelgien**: Wer dort wohnt und einen Hund erwirbt (kauft, adoptiert oder geschenkt bekommt), muss einen **Auszug aus der Zentraldatei** für Umweltkriminalität und Tierwohl vorlegen, oft Haltererlaubnis genannt (*permis de détention*). Diesen Auszug beantragen Sie bei Ihrer Gemeinde, er ist 30 Tage gültig. Wer außerhalb der Wallonie wohnt, braucht kein wallonisches Dokument. Ein digitales Zertifikat soll ihn ersetzen: Erkundigen Sie sich bei Ihrer Gemeinde nach dem aktuellen Verfahren.
+- **In Flandern und Brüssel**: keine vorherige Erlaubnis, aber dieselben Regeln zu Kennzeichnung und Registrierung; kaufen Sie nur bei Züchtern und Tierheimen, die die Regeln ihrer Region einhalten.
 
 > **Gut zu wissen**: Verlangen Sie bei der Übergabe immer die Unterlagen: Heimtierausweis, DogID-Registrierungsbescheinigung, Impfnachweis und einen Kauf- oder Adoptionsvertrag. Ein seriöser Verkäufer hat sie unaufgefordert bereit.
 
@@ -79,7 +80,7 @@ Drucken Sie sie aus oder speichern Sie sie auf dem Handy:
 4. Rasse oder Typ des Hundes passen zu Ihrem Lebensrhythmus.
 5. Sie haben einen anerkannten Züchter oder ein Tierheim gefunden und vor Ort besucht.
 6. Sie haben die Mutterhündin gesehen (bei einem Züchterwelpen) und nach Gesundheit und Sozialisierung gefragt.
-7. In der Wallonie haben Sie Ihren Auszug bei der Gemeinde beantragt.
+7. Wenn Sie in der Wallonie wohnen, haben Sie Ihren Auszug bei der Gemeinde beantragt.
 8. Ein Tierarzt für den ersten Besuch ist gewählt, idealerweise in der Woche nach dem Einzug.
 9. Sie haben eine Welpengruppe oder Hundeschule in Ihrer Nähe gefunden.
 10. Für Urlaub und Abwesenheiten im kommenden Jahr gibt es eine Betreuungslösung.

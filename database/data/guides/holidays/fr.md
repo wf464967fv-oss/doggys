@@ -2,11 +2,12 @@
 title: "Vacances : partir avec son chien ou le faire garder ?"
 slug: vacances-chien-pension-pet-sitter-passeport
 excerpt: Passeport européen, vaccin contre la rage, traitement contre l’échinocoque, voyage en voiture ou en avion, pension agréée ou pet-sitter : tout pour organiser des vacances sereines, avec ou sans votre chien.
-meta_title: Vacances avec ou sans son chien
+meta_title: "Voyager avec son chien : passeport, rage, pension"
 meta_description: Passeport européen, rage, échinocoque, trajet, chaleur, pension agréée ou pet-sitter : comment organiser vos vacances avec ou sans votre chien.
 category: daily
 related_categories: [pension, pet-sitter, veterinaire, lieu-dog-friendly]
 published_at: 2026-10-06
+updated_at: 2026-10-15
 ---
 Les vacances approchent et une question se pose : votre chien vient-il avec vous ou reste-t-il en Belgique, entre de bonnes mains ? Les deux options peuvent être excellentes. L’essentiel est de les préparer à temps, car certaines démarches demandent plusieurs semaines. Voici le guide pour partir l’esprit léger.
 

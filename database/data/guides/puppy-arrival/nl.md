@@ -7,6 +7,7 @@ meta_description: Spullen, een veilig huis, de eerste dag en nacht, zindelijkhei
 category: adoption
 related_categories: [veterinaire, educateur, animalerie]
 published_at: 2026-09-04
+updated_at: 2026-09-04
 ---
 De grote dag komt eraan: binnenkort ontdekt uw pup zijn nieuwe thuis. Voor hem is dat een enorme verandering. Hij verlaat zijn moeder, zijn broertjes en zusjes, en alle geuren en geluiden die hij kent. Met een goede voorbereiding krijgt hij sneller vertrouwen, en blijven u heel wat slapeloze nachten bespaard. Zo pakt u het stap voor stap aan.
 

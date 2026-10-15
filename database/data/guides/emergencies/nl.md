@@ -7,6 +7,7 @@ meta_description: Moeilijke ademhaling, opgezette buik, vergiftiging, hitteslag,
 category: health
 related_categories: [urgences-24h, veterinaire]
 published_at: 2026-10-13
+updated_at: 2026-10-15
 ---
 Niemand denkt er graag aan, maar een spoedgeval herkennen kan het leven van uw hond redden. In sommige situaties telt elke minuut. In andere volstaat een afspraak de volgende dag. Deze gids helpt u het verschil te maken en de juiste reflexen te hebben. Hij vervangt nooit het advies van een dierenarts: **bij twijfel belt u**. Geen enkele dierenarts zal het u kwalijk nemen dat u voor niets belde.
 
@@ -25,7 +26,7 @@ Contacteer in deze situaties **onmiddellijk** uw dierenarts of een spoeddienst, 
 
 ### Hij ademt moeilijk
 
-Heel snelle of luidruchtige ademhaling, wijd open mond in rust, gestrekte nek, blauwachtige of heel bleke tandvlees of tong. Een hond die niet normaal kan ademen, is altijd een spoedgeval.
+Heel snelle of luidruchtige ademhaling, wijd open mond in rust, gestrekte nek, blauwachtig of heel bleek tandvlees, of een blauwe of bleke tong. Een hond die niet normaal kan ademen, is altijd een spoedgeval.
 
 ### De buik zwelt op en hij probeert tevergeefs te braken
 

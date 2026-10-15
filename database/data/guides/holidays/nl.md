@@ -2,11 +2,12 @@
 title: "Op vakantie: met uw hond op reis of opvang regelen?"
 slug: vakantie-hond-pension-petsitter-paspoort
 excerpt: Europees paspoort, rabiësvaccin, behandeling tegen de vossenlintworm, reizen met de auto of het vliegtuig, erkend hondenpension of petsitter: alles voor een zorgeloze vakantie, met of zonder uw hond.
-meta_title: Op vakantie met of zonder uw hond
+meta_title: "Op reis met uw hond: paspoort, rabiës, pension"
 meta_description: Europees paspoort, rabiës, lintwormbehandeling, de reis, hitte, erkend hondenpension of petsitter: zo plant u uw vakantie met of zonder hond.
 category: daily
 related_categories: [pension, pet-sitter, veterinaire, lieu-dog-friendly]
 published_at: 2026-10-06
+updated_at: 2026-10-15
 ---
 De vakantie komt eraan en de vraag rijst: gaat uw hond mee, of blijft hij in België, in goede handen? Beide opties kunnen uitstekend zijn. Het belangrijkste is dat u ze tijdig voorbereidt, want sommige stappen vragen meerdere weken. Hier vindt u alles om met een gerust hart te vertrekken.
 

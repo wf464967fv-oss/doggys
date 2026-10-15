@@ -7,6 +7,7 @@ meta_description: "Laboured breathing, swollen belly, poisoning, heatstroke, sei
 category: health
 related_categories: [urgences-24h, veterinaire]
 published_at: 2026-10-13
+updated_at: 2026-10-15
 ---
 Nobody likes to think about it, but knowing how to recognise an emergency can save your dog’s life. In some situations, minutes count. In others, an appointment the next day is fine. This guide helps you tell the difference and keep a cool head. It never replaces a vet’s advice: **if in doubt, call**. No vet will ever blame you for phoning about nothing.
 

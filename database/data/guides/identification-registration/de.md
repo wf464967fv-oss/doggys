@@ -2,11 +2,12 @@
 title: "Chip, DogID und wallonische Haltererlaubnis: Hunde in Belgien kennzeichnen"
 slug: hund-chippen-registrieren-dogid
 excerpt: Mikrochip, Registrierung in DogID, Heimtierausweis, Halter- oder Adresswechsel, entlaufener Hund und die wallonische Haltererlaubnis: die Regeln in allen drei Regionen, auch für Ostbelgien.
-meta_title: "Chip und DogID: Hund registrieren"
+meta_title: Hund chippen und registrieren in Belgien
 meta_description: Chip, DogID-Registrierung, Heimtierausweis, Umzug, entlaufener Hund, wallonische Haltererlaubnis und flämische Verkaufsregeln für Hunde in Belgien.
 category: rules
 related_categories: [veterinaire, refuge, eleveur-agree]
 published_at: 2026-09-11
+updated_at: 2026-10-15
 ---
 In Belgien ist ein Hund ohne Chip und ohne Registrierung nicht ordnungsgemäß gemeldet. Vor allem hat er, wenn er entläuft, viel geringere Chancen, nach Hause zurückzufinden. Die Kennzeichnung ist seit 1998 Pflicht, und ihre Regeln werden heute von den drei Regionen verwaltet – mit einer gemeinsamen Datenbank: **DogID**. Ob Sie in Eupen, Lüttich, Gent oder Brüssel wohnen: Das sollten Sie wissen.
 
@@ -67,26 +68,27 @@ Seit 2014 ist der Tierschutz in Belgien Sache der Regionen. Die Grundregeln der 
 
 ### In der Wallonie und in Ostbelgien: die Haltererlaubnis
 
-Seit dem 1. Juli 2022 muss jeder, der in der Wallonie **ein Tier erwerben** möchte (Kauf, Adoption, Schenkung), einen **Auszug aus dem Zentralregister der Umwelt- und Tierschutzdelikte** vorlegen, die sogenannte Haltererlaubnis („permis de détention“). Sie bescheinigt, dass gegen Sie kein Tierhaltungsverbot besteht.
+Seit dem 1. Juli 2022 muss jeder, der **in der Wallonie wohnt** und einen Hund erwerben möchte (Kauf, Adoption, Schenkung), einen **Auszug aus der Zentraldatei für Umweltkriminalität und Tierwohl** vorlegen. Dieser Nachweis wird oft Haltererlaubnis genannt (*permis de détention*) und bescheinigt, dass gegen Sie kein Tierhaltungsverbot besteht.
 
-- Sie beantragen sie bei der Gemeindeverwaltung Ihres Wohnorts.
-- Sie ist 30 Tage gültig.
-- Verkäufer, Züchter oder Tierheim müssen sie vor der Übergabe des Tieres prüfen.
-- Die Regel gilt für jeden Erwerb **auf wallonischem Gebiet**: Wohnen Sie in Brüssel, Flandern oder im Ausland und adoptieren Sie bei einem wallonischen Tierheim oder Züchter, beantragen Sie den Auszug beim Öffentlichen Dienst der Wallonie (Antwortfrist bis zu 15 Tage).
+- Diesen Auszug beantragen Sie bei der Gemeindeverwaltung Ihres Wohnorts.
+- Er ist 30 Tage gültig.
+- Züchter, Tierheim oder Zoohandlung müssen ihn vor der Übergabe des Tieres verlangen.
+- Die Regel betrifft nur Personen mit Wohnsitz in der Wallonie. Wohnen Sie außerhalb der Wallonie, etwa in Brüssel, Flandern oder im Ausland, können Sie ein Tier bei einem wallonischen Züchter, Tierheim oder Geschäft **ohne Dokument der wallonischen Verwaltung** erwerben.
+- Weitere Ausnahmen gibt es zum Beispiel für Assistenzhunde: Die offizielle wallonische Seite listet sie auf.
 
 Die wallonische Regierung hat eine Reform des wallonischen Tierschutzgesetzbuchs eingeleitet, die den Auszug durch ein automatisch ausgestelltes **digitales Zertifikat** ersetzen soll. Solange die Reform nicht in Kraft ist, bleibt das Verfahren über die Gemeinde maßgeblich.
 
 ### In Flandern
 
-Eine vorherige Erlaubnis ist nicht nötig, doch die Verkaufsregeln sind streng: Ein Hund darf nur gehandelt werden, wenn er gechippt, korrekt registriert ist, einen gültigen Heimtierausweis hat und mindestens 8 Wochen alt ist. In Anzeigen muss immer die **Chipnummer** stehen. Die flämische Tierschutzbehörde überwacht diese Regeln.
+Eine vorherige Erlaubnis ist nicht nötig, doch die Verkaufsregeln sind streng: Ein Hund darf nur gehandelt werden, wenn er gechippt, korrekt registriert ist, einen gültigen Heimtierausweis hat und mindestens 8 Wochen alt ist. In Anzeigen muss immer die **Chipnummer** jedes Hundes stehen. Anerkannte Züchter (ab drei Würfen pro Jahr) nennen in jeder Werbung ihre **HK-Nummer**. Ein Gelegenheitszüchter darf nur in Fachmedien inserieren, die die flämische Tierschutzbehörde anerkannt hat – nicht auf allgemeinen Kleinanzeigenportalen oder in sozialen Netzwerken. Die Behörde überwacht diese Regeln.
 
 ### In Brüssel
 
-Zuständig ist Brüssel Umwelt (Bruxelles Environnement). Kennzeichnung und Registrierung in DogID sind nach denselben Grundsätzen Pflicht, und Zuchtstätten, Pensionen und Zoohandlungen müssen zugelassen sein.
+Zuständig ist Brüssel Umwelt (Bruxelles Environnement). Kennzeichnung und Registrierung in DogID sind nach denselben Grundsätzen Pflicht. Pensionen, Tierheime und Zoohandlungen brauchen eine Zulassung, ebenso Zuchtstätten ab der Amateurzucht (mindestens zwei Zuchthündinnen). Eine Privatperson mit weniger als drei Würfen pro Jahr braucht keine Zulassung, darf ihre Welpen aber nur in Fachmedien anbieten.
 
 ## Was sich auf EU-Ebene ändert
 
-Die Europäische Union hat 2026 eine Verordnung über das Wohlergehen und die Rückverfolgbarkeit von Hunden und Katzen verabschiedet. Sie verallgemeinert die Kennzeichnung per Chip und die Registrierung in miteinander vernetzten nationalen Datenbanken, schrittweise über mehrere Jahre. Belgien, das Chip und DogID bereits vorschreibt, ist gut vorbereitet, doch einzelne Details können sich noch ändern: Verfolgen Sie die offiziellen Mitteilungen.
+Die Europäische Union hat 2026 die [Verordnung (EU) 2026/1818](https://eur-lex.europa.eu/eli/reg/2026/1818/oj) über das Wohlergehen und die Rückverfolgbarkeit von Hunden und Katzen verabschiedet. Sie verallgemeinert die Kennzeichnung per Chip und die Registrierung in miteinander vernetzten nationalen Datenbanken, schrittweise über mehrere Jahre. Belgien, das Chip und DogID bereits vorschreibt, ist gut vorbereitet, doch einzelne Details können sich noch ändern: Verfolgen Sie die offiziellen Mitteilungen.
 
 > **Gut zu wissen**: Sie haben auch eine Katze? Auch sie muss gekennzeichnet und registriert sein, in der Datenbank **CatID**.
 
@@ -96,7 +98,7 @@ Die Europäische Union hat 2026 eine Verordnung über das Wohlergehen und die R�
 - Er ist in DogID auf meinen Namen registriert, mit aktueller Adresse und Telefonnummer.
 - Ich habe seinen EU-Heimtierausweis und seine Registrierungsbescheinigung.
 - Meine Kontaktdaten sind sichtbar, falls er verloren geht.
-- In der Wallonie habe ich beim Erwerb meinen Auszug von der Gemeinde vorgelegt.
+- Wohne ich in der Wallonie, habe ich beim Erwerb meinen Auszug von der Gemeinde vorgelegt.
 - Ich melde jede Änderung (Adresse, Halter, Tod) ohne Verzögerung.
 
 ## Offizielle Quellen
@@ -106,3 +108,5 @@ Die Europäische Union hat 2026 eine Verordnung über das Wohlergehen und die R�
 - [Wallonie – Tierschutz (auf Französisch)](https://bienetreanimal.wallonie.be)
 - [Flandern – Haustiere verkaufen oder verschenken (auf Niederländisch)](https://www.vlaanderen.be/huisdieren-kweken-verkopen-of-weggeven)
 - [Brüssel Umwelt – Kennzeichnung und Registrierung (auf Französisch)](https://environnement.brussels/citoyen/agir-pour-lenvironnement/veiller-au-bien-etre-animal/identification-et-enregistrement-des-animaux)
+- [Brüssel Umwelt – Berufe rund um Hunde und Katzen (auf Französisch)](https://environnement.brussels/pro/services-et-demandes/agrements-et-enregistrements/metiers-lies-aux-chats-ou-aux-chiens-vos-obligations-et-conditions)
+- [EUR-Lex – Verordnung (EU) 2026/1818 über das Wohlergehen und die Rückverfolgbarkeit von Hunden und Katzen](https://eur-lex.europa.eu/eli/reg/2026/1818/oj)

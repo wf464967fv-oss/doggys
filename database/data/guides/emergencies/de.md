@@ -7,6 +7,7 @@ meta_description: "Atemnot, aufgeblähter Bauch, Vergiftung, Hitzschlag, Krampfa
 category: health
 related_categories: [urgences-24h, veterinaire]
 published_at: 2026-10-13
+updated_at: 2026-10-15
 ---
 Niemand denkt gern daran, doch einen Notfall zu erkennen, kann Ihrem Hund das Leben retten. In manchen Situationen zählt jede Minute, in anderen reicht ein Termin am nächsten Tag. Dieser Ratgeber hilft Ihnen, den Unterschied zu erkennen und richtig zu reagieren. Er ersetzt nie den Rat eines Tierarztes: **Im Zweifel rufen Sie an.** Kein Tierarzt wird Ihnen vorwerfen, umsonst angerufen zu haben.
 

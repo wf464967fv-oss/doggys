@@ -7,6 +7,7 @@ meta_description: "Before getting a puppy in Belgium: time, budget, breed, breed
 category: adoption
 related_categories: [eleveur-agree, refuge, veterinaire, educateur]
 published_at: 2026-09-01
+updated_at: 2026-10-15
 ---
 A puppy padding around the house is a promise of endless cuddles… and a commitment of ten to fifteen years, sometimes more. Before you fall for a little ball of fluff, take the time to check that the timing, the home and the dog are right. This checklist helps you ask the right questions, without any guilt: with good preparation, adopting a dog is almost always a lovely story.
 
@@ -52,7 +53,7 @@ A puppy demands an enormous amount of time and training. An adult dog, for insta
 
 In Belgium, puppy sales are regulated by the three regions. Whether you go to a breeder or a shelter, always choose a **licensed** one:
 
-- **Licensed breeder**: in Wallonia every dog breeder needs a licence number, which must appear in adverts. In Flanders, breeders with three or more litters a year have an **HK number**, and every advert must show the puppy’s **microchip number**. A good breeder lets you meet the mother and see where the puppies live, and is happy to answer all your questions.
+- **Licensed breeder**: in Wallonia every dog breeder needs a licence number, which must appear in adverts. In Flanders, breeders with three or more litters a year have an **HK number**, shown in every advert together with each puppy’s **microchip number**; occasional breeders may only advertise in approved specialist media, never on social media or general classified sites. A good breeder lets you meet the mother and see where the puppies live, and is happy to answer all your questions.
 - **Licensed shelter**: dozens of dogs of all ages are waiting for a family. The team knows their personalities and will help you find the right match.
 
 Steer clear of adverts that look too good to be true: “pedigree” puppies at bargain prices, handovers in a car park, a seller in a hurry, no visit possible. These are classic signs of puppy trafficking, often involving sick and poorly socialised animals.
@@ -64,8 +65,8 @@ Some rules apply throughout Belgium, others depend on your region.
 - **Identification and registration**: every dog must be microchipped by a vet and registered in the **DogID** database before it is 8 weeks old, and in any case before it changes hands (sale or gift). Make sure the registration is transferred to your name.
 - **Minimum age**: a puppy may not be sold or given away before 8 weeks.
 - **Passport**: an identified dog receives a European pet passport, in which the vet records vaccinations among other things.
-- **In Wallonia**: anyone acquiring an animal (buying, adopting or receiving one) must show an **extract from the central register** of environmental and animal welfare offences, known as the “permis de détention”. You request it from your municipality and it is valid for 30 days. A digital certificate is due to replace it: check the current procedure with your municipality.
-- **In Flanders and Brussels**: no prior permit, but the same rules on identification, registration and buying from licensed breeders or shelters apply.
+- **If you live in Wallonia**: anyone resident there who acquires a dog (buying, adopting or receiving one) must show an **extract from the central register** of environmental and animal welfare offences, known as the *permis de détention*. If you live elsewhere, no Walloon document is required, even when adopting from a Walloon shelter. You request it from your municipality and it is valid for 30 days. A digital certificate is due to replace it: check the current procedure with your municipality.
+- **In Flanders and Brussels**: no prior permit, but the same rules on identification and registration apply, and you should buy only from breeders and shelters that follow their region’s rules.
 
 > **Good to know**: always ask for the documents when you collect your puppy: passport, DogID registration certificate, vaccination record and a sale or adoption contract. A responsible seller will have them ready without being asked.
 
@@ -79,7 +80,7 @@ Print it out or keep it on your phone:
 4. The breed or type of dog fits your lifestyle.
 5. You have found a licensed breeder or shelter and visited in person.
 6. You have met the mother (for a puppy from a breeder) and asked about health and socialisation.
-7. In Wallonia, you have requested your extract from the municipality.
+7. If you live in Wallonia, you have requested your extract from the municipality.
 8. You have chosen a vet for a first check-up, ideally in the week after arrival.
 9. You have found a puppy class or dog trainer nearby.
 10. You have a plan for holidays and absences over the coming year.

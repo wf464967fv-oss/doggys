@@ -2,11 +2,12 @@
 title: "Holidays: travelling with your dog or leaving it in good hands?"
 slug: holidays-with-or-without-your-dog
 excerpt: European pet passport, rabies vaccination, tapeworm treatment, travelling by car or plane, licensed boarding kennels or pet sitters: everything you need for a stress-free holiday, with or without your dog.
-meta_title: Holidays with or without your dog
+meta_title: "Travel with your dog: passport, rabies, kennels"
 meta_description: European pet passport, rabies, tapeworm treatment, the journey, heat, licensed kennels or pet sitters: how to plan your holiday with or without your dog.
 category: daily
 related_categories: [pension, pet-sitter, veterinaire, lieu-dog-friendly]
 published_at: 2026-10-06
+updated_at: 2026-10-15
 ---
 The holidays are coming and the big question arises: is your dog coming with you, or staying in Belgium in good hands? Both options can work beautifully. The key is to prepare in time, because some steps take several weeks. Here is your guide to setting off with peace of mind.
 

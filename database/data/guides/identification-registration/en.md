@@ -2,11 +2,12 @@
 title: "Microchip, DogID and the Walloon permit: identifying your dog in Belgium"
 slug: microchip-dogid-dog-registration-belgium
 excerpt: Microchip, DogID registration, passport, change of owner or address, lost dogs and the Walloon ownership permit: the rules you need to know in all three Belgian regions.
-meta_title: "Microchip and DogID: registering your dog"
+meta_title: "Microchipping and registering a dog in Belgium"
 meta_description: Microchip, DogID registration, passport, moving house, lost dogs, the Walloon ownership permit and Flemish sale rules for dogs in Belgium.
 category: rules
 related_categories: [veterinaire, refuge, eleveur-agree]
 published_at: 2026-09-11
+updated_at: 2026-10-15
 ---
 In Belgium, a dog without a microchip and registration is not legal. Above all, if it runs away, it has a much smaller chance of making it home. Identification has been compulsory since 1998, and the rules are now managed by the three regions with a single shared database: **DogID**. Whether you have just moved to Brussels for work or have lived in Ghent or Liège all your life, here is what you need to know.
 
@@ -67,26 +68,27 @@ Since 2014, animal welfare has been a regional competence in Belgium. The basic 
 
 ### Wallonia: the ownership permit
 
-Since 1 July 2022, anyone who wants to **acquire an animal** (buy, adopt or receive one) in Wallonia must show an **extract from the central register of environmental and animal welfare offences**, commonly called the “permis de détention”. It certifies that you are not banned from keeping animals.
+Since 1 July 2022, anyone **resident in Wallonia** who wants to acquire a dog (buy, adopt or receive one) must show an **extract from the central register of environmental and animal welfare offences**, commonly called the *permis de détention*. It certifies that you are not banned from keeping animals.
 
 - You request it from the municipal administration where you live.
 - It is valid for 30 days.
-- The seller, breeder or shelter must check it before handing over the animal.
-- The rule applies to any acquisition **on Walloon territory**: if you live in Brussels or Flanders and adopt from a Walloon shelter or breeder, request the extract from the Public Service of Wallonia (allow up to 15 days for a reply).
+- The breeder, shelter or shop must ask for it before handing over the animal.
+- The rule only concerns people resident in Wallonia. If you live in Brussels, Flanders or abroad, you can acquire an animal from a Walloon breeder, shelter or shop **without any document from the Walloon administration**.
+- Other exceptions exist, for example for assistance dogs: the official Walloon page lists them.
 
 The Walloon government has started a reform of the Walloon Animal Welfare Code, which plans to replace this extract with a **digital certificate** issued automatically. Until the reform applies, the procedure through your municipality remains the rule.
 
 ### Flanders
 
-No prior permit is required, but the rules on selling are strict: a dog may only be traded if it is chipped, correctly registered, has a valid passport and is at least 8 weeks old. Adverts must always show the dog’s **microchip number**. The Flemish Animal Welfare department enforces these rules.
+No prior permit is required, but the rules on selling are strict: a dog may only be traded if it is chipped, correctly registered, has a valid passport and is at least 8 weeks old. Adverts must always show each dog’s **microchip number**. Licensed breeders (three or more litters a year) must show their **HK number** in every advert. An occasional breeder may only advertise in specialist media approved by the Flemish Animal Welfare department: not on general classified-ad sites or social media. The department enforces these rules.
 
 ### Brussels
 
-Brussels Environment is responsible for animal welfare. Identification and DogID registration are compulsory on the same principles, and breeders, boarding kennels and pet shops must be licensed.
+Brussels Environment is responsible for animal welfare. Identification and DogID registration are compulsory on the same principles. Boarding kennels, shelters and pet shops must be licensed, and so must breeders from the “amateur” level upwards (at least two breeding females). A private person with fewer than three litters a year needs no licence, but may only advertise puppies in specialist media.
 
 ## What is changing at EU level
 
-In 2026, the European Union adopted a regulation on the welfare and traceability of dogs and cats. It will make microchipping and registration in interconnected national databases standard across the EU, phased in over several years. Belgium, which already requires the chip and DogID, is well prepared, but some details may change: keep an eye on official announcements.
+In 2026, the European Union adopted [Regulation (EU) 2026/1818](https://eur-lex.europa.eu/eli/reg/2026/1818/oj) on the welfare and traceability of dogs and cats. It will make microchipping and registration in interconnected national databases standard across the EU, phased in over several years. Belgium, which already requires the chip and DogID, is well prepared, but some details may change: keep an eye on official announcements.
 
 > **Good to know**: do you also have a cat? It too must be identified and registered, in the **CatID** database.
 
@@ -96,7 +98,7 @@ In 2026, the European Union adopted a regulation on the welfare and traceability
 - It is registered in DogID, in my name, with my current address and phone number.
 - I have its European pet passport and its registration certificate.
 - My contact details are visible in case it gets lost.
-- In Wallonia, I showed my extract from the municipality when I acquired it.
+- If I live in Wallonia, I showed my extract from the municipality when I acquired my dog.
 - I report any change (address, owner, death) without delay.
 
 ## Official sources
@@ -104,5 +106,7 @@ In 2026, the European Union adopted a regulation on the welfare and traceability
 - [DogID – the official dog database in Belgium](https://www.dogid.be/en)
 - [Flanders – Selling or giving away pets (in Dutch)](https://www.vlaanderen.be/huisdieren-kweken-verkopen-of-weggeven)
 - [Brussels Environment – Identification and registration of animals (in French)](https://environnement.brussels/citoyen/agir-pour-lenvironnement/veiller-au-bien-etre-animal/identification-et-enregistrement-des-animaux)
+- [Brussels Environment – Working with cats and dogs: obligations (in French)](https://environnement.brussels/pro/services-et-demandes/agrements-et-enregistrements/metiers-lies-aux-chats-ou-aux-chiens-vos-obligations-et-conditions)
+- [EUR-Lex – Regulation (EU) 2026/1818 on the welfare and traceability of dogs and cats](https://eur-lex.europa.eu/eli/reg/2026/1818/oj)
 - [Wallonia – Requesting an extract of the central file to acquire a pet](https://www.wallonie.be/en/demarches/requesting-extract-central-environmental-crime-and-animal-welfare-file-acquiring-pet)
 - [Wallonia – Animal welfare (in French)](https://bienetreanimal.wallonie.be)

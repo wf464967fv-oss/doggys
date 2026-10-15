@@ -7,6 +7,7 @@ meta_description: Licences, HK numbers, visits, meeting the mother, documents, h
 category: adoption
 related_categories: [eleveur-agree, veterinaire, educateur]
 published_at: 2026-09-18
+updated_at: 2026-10-15
 ---
 You have chosen a breed and would like a puppy from a breeder? A great idea, as long as you choose the breeder carefully. A responsible breeder selects healthy, well-balanced parents, socialises the puppies and supports you long after the sale. Puppy trafficking, on the other hand, thrives on online classifieds, with animals that are often sick and weaned too early. Here is how to tell the difference.
 
@@ -20,15 +21,15 @@ Dog breeding and sales are regulated by the regions. The main rules:
 
 ### In Wallonia
 
-Every dog breeder must hold a **licence**, including for occasional breeding (up to two litters a year). Licence categories depend on the number of breeding females and litters. The **licence number must appear in adverts**. The buyer, for their part, must show the extract from the central register obtained from their municipality (the “permis de détention”).
+Every dog breeder must hold a **licence**, including for occasional breeding (up to two litters a year). Licence categories depend on the number of breeding females and litters. The **licence number must appear in adverts**. A buyer resident in Wallonia must show the extract from the central register obtained from their municipality (the *permis de détention*); a buyer living elsewhere needs no Walloon document.
 
 ### In Flanders
 
-A breeder with **three or more litters a year** must be licensed and receives an **HK number**. Below that threshold, they are an occasional breeder, who must still follow strict rules. Only breeders may sell dogs, and adverts must show the puppy’s **microchip number**. It is forbidden to give false information about age, origin or breed, to use misleading photos, to offer discounts or to sell an animal that is visibly ill.
+A breeder with **three or more litters a year** must be licensed and receives an **HK number**. Below that threshold, they are an occasional breeder, who must still follow strict rules. Only breeders may sell dogs, and adverts must show each puppy’s **microchip number**. A licensed breeder shows their **HK number** in every advert. An occasional breeder may only advertise in specialist media approved by the Flemish Animal Welfare department, never on general classified-ad sites or social media. A “Flemish” puppy offered on social media without an HK number is therefore a red flag. It is forbidden to give false information about age, origin or breed, to use misleading photos, to offer discounts or to sell an animal that is visibly ill.
 
 ### In Brussels
 
-Breeders must be licensed by **Brussels Environment**, which sets conditions for housing and care.
+A licence from **Brussels Environment** is required from the “amateur” level upwards (at least two breeding females), as well as for boarding kennels, shelters and pet shops. A private person with fewer than three litters a year needs no licence, but may only advertise in specialist media.
 
 > **Good to know**: a licence or HK number in an advert is a good start, not an absolute guarantee. If in doubt, check it with the regional authority, and trust what you see on site.
 
@@ -99,4 +100,5 @@ Visit, meet the mother, check the licence and the paperwork, ask questions and n
 - [Flanders – Selling or giving away pets (in Dutch)](https://www.vlaanderen.be/huisdieren-kweken-verkopen-of-weggeven)
 - [Wallonia – Licensing as a dog or cat breeder (in French)](https://wallonie.be/fr/demarches/obtenir-un-agrement-en-tant-queleveur-de-chiens-ou-de-chats)
 - [Brussels Environment – Licensing procedure (in French)](https://environnement.brussels/thematiques/bien-etre-animal/le-commerce-des-animaux-de-compagnie/lagrement-procedure)
+- [Brussels Environment – Working with cats and dogs: obligations (in French)](https://environnement.brussels/pro/services-et-demandes/agrements-et-enregistrements/metiers-lies-aux-chats-ou-aux-chiens-vos-obligations-et-conditions)
 - [DogID – identification and registration](https://www.dogid.be/en)

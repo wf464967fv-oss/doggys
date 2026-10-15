@@ -7,6 +7,7 @@ meta_description: "Trockenfutter, Nassfutter, selbst gekocht oder BARF: Vorteile
 category: daily
 related_categories: [veterinaire, animalerie]
 published_at: 2026-09-22
+updated_at: 2026-09-22
 ---
 Im Zoofachhandel wie in den sozialen Netzwerken sorgt Hundefutter für hitzige Debatten. Getreidefreies Trockenfutter, Gourmet-Nassfutter, BARF, selbst Gekochtes … Da den Überblick zu behalten, ist nicht leicht. Die gute Nachricht: Es gibt nicht die eine richtige Antwort, sondern mehrere gute Wege, einen Hund zu ernähren – wenn man ein paar Grundsätze beachtet. Hier finden Sie alles für eine fundierte Entscheidung, die Sie mit Ihrem Tierarzt verfeinern.
 

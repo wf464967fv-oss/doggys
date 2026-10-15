@@ -7,6 +7,7 @@ meta_description: Refuge agréé, rencontre, frais d’adoption, papiers, permis
 category: adoption
 related_categories: [refuge, educateur, comportementaliste, veterinaire]
 published_at: 2026-09-15
+updated_at: 2026-10-15
 ---
 Chaque année, des milliers de chiens attendent une famille dans les refuges belges. Chiots, adultes en pleine forme, seniors au caractère en or : il y a souvent un compagnon qui correspond exactement à votre vie. Adopter en refuge, c’est offrir une seconde chance… et recevoir énormément en retour. Voici comment s’y prendre pour que l’histoire commence bien.
 
@@ -47,7 +48,7 @@ Vous rencontrez le chien, parfois à plusieurs reprises, et vous faites une prem
 
 ### 4. Les papiers
 
-Au moment de l’adoption, vous signez un contrat et réglez les frais d’adoption. Vous recevez le passeport européen du chien, et le refuge procède au **transfert de l’enregistrement DogID** à votre nom. En Wallonie, vous devez présenter l’**extrait du fichier central** (le « permis de détention ») demandé à votre commune, valable 30 jours.
+Au moment de l’adoption, vous signez un contrat et réglez les frais d’adoption. Vous recevez le passeport européen du chien, et le refuge procède au **transfert de l’enregistrement DogID** à votre nom. Si vous habitez en Wallonie, vous devez présenter l’**extrait du fichier central** (le « permis de détention ») demandé à votre commune, valable 30 jours. Si vous habitez à Bruxelles, en Flandre ou à l’étranger, aucun document wallon n’est demandé, même dans un refuge wallon.
 
 ## Combien coûte une adoption ?
 
@@ -83,7 +84,7 @@ Malgré toute la bonne volonté, il arrive qu’une adoption ne convienne pas. N
 - J’ai choisi un refuge agréé et j’ai consulté les profils des chiens.
 - J’ai rencontré le chien au moins une fois, idéalement deux.
 - J’ai posé mes questions sur son caractère, sa santé et son histoire.
-- En Wallonie, j’ai demandé mon extrait à la commune.
+- Si j’habite en Wallonie, j’ai demandé mon extrait à la commune.
 - Le transfert DogID est fait à mon nom et j’ai son passeport.
 - Son coin, son matériel et ses premières semaines calmes sont organisés.
 - Un vétérinaire et, si besoin, un éducateur sont repérés près de chez moi.

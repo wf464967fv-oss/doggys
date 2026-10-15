@@ -7,6 +7,7 @@ meta_description: Zulassung, HK-Nummer, Besuch, Mutterhündin, Dokumente, Gesund
 category: adoption
 related_categories: [eleveur-agree, veterinaire, educateur]
 published_at: 2026-09-18
+updated_at: 2026-10-15
 ---
 Sie haben sich für eine Rasse entschieden und möchten einen Welpen vom Züchter? Eine gute Idee – vorausgesetzt, Sie wählen den Züchter sorgfältig. Ein seriöser Züchter wählt gesunde, ausgeglichene Elterntiere aus, sozialisiert seine Welpen und begleitet Sie lange über den Kauf hinaus. Der illegale Welpenhandel dagegen blüht auf Kleinanzeigenportalen, mit Tieren, die oft krank und zu früh abgesetzt sind. So erkennen Sie den Unterschied.
 
@@ -20,15 +21,15 @@ Zucht und Verkauf von Hunden regeln die Regionen. Die wichtigsten Regeln:
 
 ### In der Wallonie und in Ostbelgien
 
-Jeder Hundezüchter braucht eine **Zulassung**, auch für eine Gelegenheitszucht (bis zu zwei Würfe pro Jahr). Die Kategorien richten sich nach der Zahl der Zuchthündinnen und Würfe. Die **Zulassungsnummer muss in den Anzeigen stehen**. Der Käufer seinerseits legt den Auszug aus dem Zentralregister vor (die Haltererlaubnis).
+Jeder Hundezüchter braucht eine **Zulassung**, auch für eine Gelegenheitszucht (bis zu zwei Würfe pro Jahr). Die Kategorien richten sich nach der Zahl der Zuchthündinnen und Würfe. Die **Zulassungsnummer muss in den Anzeigen stehen**. Ein Käufer mit Wohnsitz in der Wallonie legt den Auszug aus der Zentraldatei vor (die sogenannte Haltererlaubnis); wer außerhalb der Wallonie wohnt, braucht kein wallonisches Dokument.
 
 ### In Flandern
 
-Ein Züchter mit **drei oder mehr Würfen pro Jahr** braucht eine Anerkennung und erhält eine **HK-Nummer**. Darunter gilt er als Gelegenheitszüchter, für den ebenfalls strenge Regeln gelten. Nur Züchter dürfen Hunde verkaufen, und Anzeigen müssen die **Chipnummer** des Welpen nennen. Verboten sind falsche Angaben zu Alter, Herkunft oder Rasse, irreführende Fotos, Rabatte und der Verkauf offensichtlich kranker Tiere.
+Ein Züchter mit **drei oder mehr Würfen pro Jahr** braucht eine Anerkennung und erhält eine **HK-Nummer**. Darunter gilt er als Gelegenheitszüchter, für den ebenfalls strenge Regeln gelten. Nur Züchter dürfen Hunde verkaufen, und Anzeigen müssen die **Chipnummer** jedes Welpen nennen. Ein anerkannter Züchter nennt in jeder Werbung seine **HK-Nummer**. Ein Gelegenheitszüchter darf nur in Fachmedien inserieren, die die flämische Tierschutzbehörde anerkannt hat – nie auf allgemeinen Kleinanzeigenportalen oder in sozialen Netzwerken. Ein „flämischer“ Welpe in sozialen Netzwerken ohne HK-Nummer ist also ein Warnsignal. Verboten sind falsche Angaben zu Alter, Herkunft oder Rasse, irreführende Fotos, Rabatte und der Verkauf offensichtlich kranker Tiere.
 
 ### In Brüssel
 
-Zuchtstätten müssen von **Brüssel Umwelt** zugelassen sein, das Bedingungen für Unterbringung und Pflege festlegt.
+Eine Zulassung von **Brüssel Umwelt** ist ab der Amateurzucht (mindestens zwei Zuchthündinnen) Pflicht, ebenso für Pensionen, Tierheime und Zoohandlungen. Eine Privatperson mit weniger als drei Würfen pro Jahr braucht keine Zulassung, darf ihre Welpen aber nur in Fachmedien anbieten.
 
 > **Gut zu wissen**: Eine Zulassungs- oder HK-Nummer in der Anzeige ist ein guter Anfang, aber keine absolute Garantie. Prüfen Sie sie im Zweifel bei der regionalen Verwaltung und vertrauen Sie auf das, was Sie vor Ort sehen.
 
@@ -99,4 +100,5 @@ Vor Ort besuchen, die Mutter kennenlernen, Zulassung und Papiere prüfen, Fragen
 - [Wallonie – Auszug aus der Zentraldatei beantragen, um ein Haustier zu erwerben](https://www.wallonie.be/de/demarches/einen-auszug-aus-der-zentraldatei-fur-umweltkriminalitat-und-tierwohl-beantragen-um-ein-haustier-zu-erwerben)
 - [Flandern – Hunde und Katzen züchten (auf Niederländisch)](https://www.vlaanderen.be/honden-en-katten-kweken)
 - [Brüssel Umwelt – Zulassungsverfahren (auf Französisch)](https://environnement.brussels/thematiques/bien-etre-animal/le-commerce-des-animaux-de-compagnie/lagrement-procedure)
+- [Brüssel Umwelt – Berufe rund um Hunde und Katzen (auf Französisch)](https://environnement.brussels/pro/services-et-demandes/agrements-et-enregistrements/metiers-lies-aux-chats-ou-aux-chiens-vos-obligations-et-conditions)
 - [DogID – Kennzeichnung und Registrierung](https://www.dogid.be/de)

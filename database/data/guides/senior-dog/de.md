@@ -7,6 +7,7 @@ meta_description: Senioralter, Warnzeichen, tierärztliche Kontrollen, Ernährun
 category: health
 related_categories: [veterinaire, kine-physio, hydrotherapie, osteopathe, toiletteur-domicile]
 published_at: 2026-10-09
+updated_at: 2026-10-09
 ---
 Die Schnauze wird grau, er schläft etwas mehr, morgens kommt er langsamer hoch … Ihr Hund kommt ins Seniorenalter. Oft ist das die Zeit, in der die Verbindung am tiefsten ist. Mit ein paar Anpassungen und aufmerksamer Begleitung kann ein älterer Hund noch lange glücklich, neugierig und komfortabel leben. So begleiten Sie ihn.
 

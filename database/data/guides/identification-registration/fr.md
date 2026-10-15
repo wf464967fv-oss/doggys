@@ -2,11 +2,12 @@
 title: Puce, DogID et permis wallon : identifier son chien en Belgique
 slug: identification-puce-dogid-chien
 excerpt: Puce électronique, enregistrement DogID, passeport, changement de propriétaire ou d’adresse, chien perdu, permis de détention en Wallonie : les règles à connaître dans les trois Régions.
-meta_title: Puce et DogID : identifier son chien
+meta_title: "Puce et DogID : identifier son chien en Belgique"
 meta_description: Puce, enregistrement DogID, passeport, changement d’adresse, chien perdu, permis de détention wallon : les règles d’identification du chien en Belgique.
 category: rules
 related_categories: [veterinaire, refuge, eleveur-agree]
 published_at: 2026-09-11
+updated_at: 2026-10-15
 ---
 En Belgique, un chien sans puce et sans enregistrement n’est pas en règle. Surtout, en cas de fugue, il a beaucoup moins de chances de rentrer à la maison. L’identification est obligatoire depuis 1998 et ses règles sont aujourd’hui gérées par les trois Régions, avec une base de données commune : **DogID**. Voici ce que vous devez savoir, que vous viviez à Liège, Gand ou Bruxelles.
 
@@ -67,26 +68,27 @@ Depuis 2014, le bien-être animal est une compétence régionale. Les règles de
 
 ### En Wallonie : le permis de détention
 
-Depuis le 1er juillet 2022, toute personne qui souhaite **acquérir un animal** (achat, adoption, don) en Wallonie doit présenter un **extrait du fichier central de la délinquance environnementale et du bien-être animal**, communément appelé « permis de détention ». Il atteste que vous n’êtes pas sous le coup d’une interdiction de détenir des animaux.
+Depuis le 1er juillet 2022, une personne **domiciliée en Wallonie** qui souhaite acquérir un chien (achat, adoption, don) doit présenter un **extrait du fichier central de la délinquance environnementale et du bien-être animal**, communément appelé « permis de détention ». Il atteste que vous n’êtes pas sous le coup d’une interdiction de détenir des animaux.
 
 - Il se demande à l’administration communale de votre domicile.
 - Il est valable 30 jours.
-- Le vendeur, l’éleveur ou le refuge doit le vérifier avant de vous remettre l’animal.
-- La règle vaut pour toute acquisition **sur le territoire wallon** : si vous habitez à Bruxelles ou en Flandre et adoptez auprès d’un refuge ou d’un éleveur wallon, demandez l’extrait au Service public de Wallonie (le délai de réponse peut aller jusqu’à 15 jours).
+- L’éleveur, le refuge ou le commerce doit vous le demander avant de vous remettre l’animal.
+- La règle concerne uniquement les personnes domiciliées en Wallonie. Si vous habitez à Bruxelles, en Flandre ou à l’étranger, vous pouvez acquérir un animal auprès d’un éleveur, d’un refuge ou d’un commerce wallon **sans document de l’administration wallonne**.
+- D’autres exceptions existent, par exemple pour les chiens d’assistance : la page officielle de la Wallonie les détaille.
 
 Le Gouvernement wallon a engagé une réforme du Code wallon du bien-être animal, qui prévoit de remplacer cet extrait par un **certificat numérique** délivré automatiquement. Tant que la réforme n’est pas d’application, la procédure via la commune reste la référence : renseignez-vous auprès de votre commune ou du site officiel wallon.
 
 ### En Flandre
 
-Pas de permis préalable, mais des règles strictes sur la vente : un chien ne peut être cédé que s’il est pucé, enregistré, muni d’un passeport valide et âgé d’au moins 8 semaines. Dans les annonces, le numéro de puce doit être mentionné. Le Département Bien-être animal (Dierenwelzijn Vlaanderen) contrôle ces règles.
+Pas de permis préalable, mais des règles strictes sur la vente : un chien ne peut être cédé que s’il est pucé, enregistré, muni d’un passeport valide et âgé d’au moins 8 semaines. Le numéro de puce de chaque chien doit figurer dans les annonces. Un éleveur agréé (à partir de 3 portées par an) indique son **numéro HK** dans toute publicité. Un éleveur occasionnel ne peut publier d’annonces que dans des médias spécialisés agréés par Dierenwelzijn Vlaanderen : pas sur les sites de petites annonces généralistes ni sur les réseaux sociaux. Le Département Bien-être animal contrôle ces règles.
 
 ### À Bruxelles
 
-Bruxelles Environnement est compétent pour le bien-être animal. L’identification et l’enregistrement dans DogID sont obligatoires selon les mêmes principes, et les élevages, pensions et commerces doivent être agréés.
+Bruxelles Environnement est compétent pour le bien-être animal. L’identification et l’enregistrement dans DogID sont obligatoires selon les mêmes principes. Les pensions, refuges et commerces doivent être agréés, de même que les élevages à partir de l’élevage amateur (au moins deux femelles reproductrices). Un particulier qui fait moins de 3 portées par an n’a pas besoin d’agrément, mais ne peut annoncer ses chiots que dans des médias spécialisés.
 
 ## Ce qui arrive au niveau européen
 
-L’Union européenne a adopté en 2026 un règlement sur le bien-être et la traçabilité des chiens et des chats. Il généralisera l’identification par puce et l’enregistrement dans des bases de données nationales interconnectées, avec une mise en œuvre progressive sur plusieurs années. La Belgique, qui impose déjà la puce et DogID, est bien préparée, mais certaines modalités pourraient évoluer : suivez les communications officielles.
+L’Union européenne a adopté en 2026 le [règlement (UE) 2026/1818](https://eur-lex.europa.eu/eli/reg/2026/1818/oj) sur le bien-être et la traçabilité des chiens et des chats. Il généralisera l’identification par puce et l’enregistrement dans des bases de données nationales interconnectées, avec une mise en œuvre progressive sur plusieurs années. La Belgique, qui impose déjà la puce et DogID, est bien préparée, mais certaines modalités pourraient évoluer : suivez les communications officielles.
 
 > **Bon à savoir** : vous avez aussi un chat ? Il doit lui aussi être identifié et enregistré, dans la base de données **CatID**.
 
@@ -96,7 +98,7 @@ L’Union européenne a adopté en 2026 un règlement sur le bien-être et la tr
 - Il est enregistré dans DogID, à mon nom, avec mon adresse et mon téléphone actuels.
 - J’ai son passeport européen et son certificat d’enregistrement.
 - Mes coordonnées sont visibles en cas de perte.
-- En Wallonie, j’ai présenté mon extrait de la commune lors de l’acquisition.
+- Si j’habite en Wallonie, j’ai présenté mon extrait de la commune lors de l’acquisition.
 - Je signale tout changement (adresse, propriétaire, décès) sans tarder.
 
 ## Sources officielles
@@ -104,5 +106,7 @@ L’Union européenne a adopté en 2026 un règlement sur le bien-être et la tr
 - [DogID – base de données officielle des chiens en Belgique](https://www.dogid.be/fr)
 - [Bruxelles Environnement – Identification et enregistrement des animaux](https://environnement.brussels/citoyen/agir-pour-lenvironnement/veiller-au-bien-etre-animal/identification-et-enregistrement-des-animaux)
 - [Wallonie – Bien-être animal](https://bienetreanimal.wallonie.be)
+- [Bruxelles Environnement – Métiers liés aux chats ou aux chiens](https://environnement.brussels/pro/services-et-demandes/agrements-et-enregistrements/metiers-lies-aux-chats-ou-aux-chiens-vos-obligations-et-conditions)
+- [EUR-Lex – Règlement (UE) 2026/1818 sur le bien-être et la traçabilité des chiens et des chats](https://eur-lex.europa.eu/eli/reg/2026/1818/oj)
 - [Wallonie – Demander l’extrait du fichier central pour acquérir un animal](https://www.wallonie.be/fr/demarches/demander-un-extrait-du-fichier-central-de-la-delinquance-environnementale-et-du-bien-etre-animal-afin-dacheter-adopter-ou-recevoir-un-animal-de-compagnie)
 - [Vlaanderen – Huisdieren verhandelen of weggeven (en néerlandais)](https://www.vlaanderen.be/huisdieren-kweken-verkopen-of-weggeven)

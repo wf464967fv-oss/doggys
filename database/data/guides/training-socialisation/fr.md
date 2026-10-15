@@ -7,6 +7,7 @@ meta_description: Renforcement positif, assis, rappel, marche en laisse, sociali
 category: education
 related_categories: [educateur, comportementaliste, garderie]
 published_at: 2026-09-25
+updated_at: 2026-10-15
 ---
 Un chien bien éduqué n’est pas un chien qui « obéit au doigt et à l’œil ». C’est un chien qui comprend ce qu’on attend de lui, se sent en sécurité et peut donc profiter de plus de liberté : balades en ville, terrasses, visites chez des amis. Bonne nouvelle : l’éducation moderne est douce, ludique et accessible à tous. Voici les bases pour bien démarrer, avec un chiot comme avec un chien adulte.
 
@@ -18,7 +19,7 @@ Le **renforcement positif** consiste à récompenser immédiatement un comportem
 
 ### Éviter la punition physique et l’intimidation
 
-Crier, secouer, taper ou utiliser des colliers qui font mal génère de la peur et du stress, et peut aggraver les problèmes, voire provoquer de l’agressivité. En Wallonie, les **colliers électriques et étrangleurs sont interdits** (sauf dérogations très encadrées), et la Flandre a annoncé l’interdiction des colliers électriques à partir de 2027. Le message est clair : on éduque sans douleur.
+Crier, secouer, taper ou utiliser des colliers qui font mal génère de la peur et du stress, et peut aggraver les problèmes, voire provoquer de l’agressivité. En Wallonie, les **colliers électriques et étrangleurs sont interdits**, sauf dérogations très encadrées (chiens de police ou de l’armée, étrangleur sur attestation vétérinaire) ; le collier semi-étrangleur muni d’une butée reste autorisé. En Flandre, les colliers à impulsions électriques seront interdits à partir du 1er janvier 2027, à l’exception du collier couplé à une clôture invisible. Le message est clair : on éduque sans douleur.
 
 ### Être cohérent et patient
 
@@ -102,4 +103,5 @@ Récompenser, répéter, rester cohérent et patient : l’éducation de base re
 - [Wallonie – Utiliser un collier électrique ou étrangleur pour chien](https://wallonie.be/fr/demarches/utiliser-un-collier-electrique-ou-etrangleur-pour-chien)
 - [Wallonie – Bien-être animal](https://bienetreanimal.wallonie.be)
 - [Vlaanderen – Dierenwelzijn (en néerlandais)](https://www.vlaanderen.be/dierenwelzijn)
+- [Ministre flamand du Bien-être animal – Interdiction des colliers électriques en 2027 (en néerlandais)](https://www.benweyts.be/nieuws/uitdoofscenario-voor-stroomhalsbanden-verbod-vanaf-2027)
 - [Bruxelles Environnement – Prendre soin de son animal de compagnie](https://environnement.brussels/citoyen/agir-pour-lenvironnement/veiller-au-bien-etre-animal/prendre-soin-de-son-animal-de-compagnie)

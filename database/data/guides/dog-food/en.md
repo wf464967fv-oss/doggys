@@ -7,6 +7,7 @@ meta_description: "Kibble, wet food, home-cooked or raw (BARF): benefits, risks,
 category: daily
 related_categories: [veterinaire, animalerie]
 published_at: 2026-09-22
+updated_at: 2026-09-22
 ---
 In the pet shop and on social media, dog food sparks heated debate. Grain-free kibble, gourmet wet food, raw feeding, home cooking… It is hard to know where to start. The good news: there is no single right answer, but several good ways to feed a dog, as long as you follow a few principles. Here is what you need to make an informed choice, to be fine-tuned with your vet.
 

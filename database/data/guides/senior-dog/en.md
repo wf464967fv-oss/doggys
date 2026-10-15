@@ -7,6 +7,7 @@ meta_description: Senior age, signs to watch, vet check-ups, diet, arthritis, ge
 category: health
 related_categories: [veterinaire, kine-physio, hydrotherapie, osteopathe, toiletteur-domicile]
 published_at: 2026-10-09
+updated_at: 2026-10-09
 ---
 The muzzle is turning grey, there is more napping, it takes a little longer to get up in the morning… Your dog is entering its senior years. This is often when the bond between you is at its deepest. With a few adjustments and attentive care, an older dog can stay happy, curious and comfortable for a long time. Here is how to support them.
 

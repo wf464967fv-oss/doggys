@@ -7,6 +7,7 @@ meta_description: Salon or mobile grooming, how often for each coat type, signs 
 category: daily
 related_categories: [toiletteur-salon, toiletteur-domicile]
 published_at: 2026-09-29
+updated_at: 2026-09-29
 ---
 Grooming is not just about looks. A well-kept coat protects the skin, prevents painful mats and makes it easier to spot a lump, a wound or parasites early. The key is finding the right groomer: someone who puts your dog at ease. Salon or mobile grooming? Here is how to choose.
 

@@ -7,6 +7,7 @@ meta_description: Choosing a licensed shelter, meeting the dog, adoption fees, p
 category: adoption
 related_categories: [refuge, educateur, comportementaliste, veterinaire]
 published_at: 2026-09-15
+updated_at: 2026-10-15
 ---
 Every year, thousands of dogs wait for a family in Belgian shelters. Puppies, adults in their prime, seniors with hearts of gold: there is often a dog that fits your life perfectly. Adopting from a shelter means giving a second chance… and getting so much back. Here is how to make sure the story gets off to a good start.
 
@@ -47,7 +48,7 @@ You meet the dog, sometimes several times, and go for a first walk together. If 
 
 ### 4. Paperwork
 
-On adoption day, you sign a contract and pay the adoption fee. You receive the dog’s European pet passport, and the shelter **transfers the DogID registration** to your name. In Wallonia, you must show the **extract from the central register** (the “permis de détention”), requested from your municipality and valid for 30 days. No such permit is needed in Flanders or Brussels.
+On adoption day, you sign a contract and pay the adoption fee. You receive the dog’s European pet passport, and the shelter **transfers the DogID registration** to your name. If you live in Wallonia, you must show the **extract from the central register** (the *permis de détention*), requested from your municipality and valid for 30 days. If you live in Flanders, Brussels or abroad, no Walloon document is needed, even at a Walloon shelter.
 
 ## How much does adoption cost?
 
@@ -83,7 +84,7 @@ Despite everyone’s best efforts, an adoption sometimes does not work. Do not s
 - I have chosen a licensed shelter and looked at the dogs’ profiles.
 - I have met the dog at least once, ideally twice.
 - I have asked about its personality, health and background.
-- In Wallonia, I have requested my extract from the municipality.
+- If I live in Wallonia, I have requested my extract from the municipality.
 - The DogID transfer is in my name and I have its passport.
 - Its corner, its kit and a calm first few weeks are organised.
 - I know which vet and, if needed, which dog trainer to contact nearby.

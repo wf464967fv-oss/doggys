@@ -7,6 +7,7 @@ meta_description: Erkend asiel, kennismaking, adoptiebijdrage, papieren, Waalse 
 category: adoption
 related_categories: [refuge, educateur, comportementaliste, veterinaire]
 published_at: 2026-09-15
+updated_at: 2026-10-15
 ---
 Elk jaar wachten duizenden honden in Belgische asielen op een gezin. Pups, volwassen honden in topvorm, senioren met een gouden karakter: vaak zit er een viervoeter tussen die perfect bij uw leven past. Adopteren uit een asiel is een tweede kans geven… en er heel veel voor terugkrijgen. Zo zorgt u ervoor dat het verhaal goed begint.
 
@@ -47,7 +48,7 @@ U ontmoet de hond, soms meermaals, en maakt samen een eerste wandeling. Hebt u a
 
 ### 4. De papieren
 
-Bij de adoptie ondertekent u een contract en betaalt u de adoptiebijdrage. U krijgt het Europees paspoort van de hond, en het asiel zorgt voor de **overdracht van de DogID-registratie** op uw naam. In Wallonië moet u het **uittreksel uit het centraal bestand** (de ‘permis de détention’) voorleggen, dat u bij uw gemeente aanvraagt en dat 30 dagen geldig is. In Vlaanderen en Brussel is zo’n vergunning niet nodig.
+Bij de adoptie ondertekent u een contract en betaalt u de adoptiebijdrage. U krijgt het Europees paspoort van de hond, en het asiel zorgt voor de **overdracht van de DogID-registratie** op uw naam. Woont u in Wallonië, dan moet u het **uittreksel uit het centraal bestand** (de *permis de détention*) voorleggen, dat u bij uw gemeente aanvraagt en dat 30 dagen geldig is. Woont u in Vlaanderen, Brussel of het buitenland, dan is geen enkel Waals document nodig, ook niet in een Waals asiel.
 
 ## Wat kost een adoptie?
 
@@ -83,7 +84,7 @@ Ondanks alle goede wil past een adoptie soms toch niet. Blijf er niet alleen mee
 - Ik heb een erkend asiel gekozen en de profielen van de honden bekeken.
 - Ik heb de hond minstens één keer ontmoet, liefst twee keer.
 - Ik heb vragen gesteld over zijn karakter, gezondheid en verleden.
-- In Wallonië heb ik mijn uittreksel bij de gemeente aangevraagd.
+- Woon ik in Wallonië, dan heb ik mijn uittreksel bij de gemeente aangevraagd.
 - De DogID-registratie staat op mijn naam en ik heb zijn paspoort.
 - Zijn plekje, zijn spullen en rustige eerste weken zijn voorbereid.
 - Ik weet welke dierenarts en, indien nodig, welke hondentrainer ik in de buurt kan contacteren.

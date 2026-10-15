@@ -7,6 +7,7 @@ meta_description: Positive reinforcement, sit, recall, loose-lead walking, puppy
 category: education
 related_categories: [educateur, comportementaliste, garderie]
 published_at: 2026-09-25
+updated_at: 2026-10-15
 ---
 A well-trained dog is not a dog that obeys every command instantly. It is a dog that understands what is expected of it, feels safe and can therefore enjoy more freedom: walks in town, café terraces, visits to friends. The good news is that modern training is gentle, fun and within everyone’s reach. Here are the basics for a great start, with a puppy or an adult dog.
 
@@ -18,7 +19,7 @@ A well-trained dog is not a dog that obeys every command instantly. It is a dog 
 
 ### Avoid physical punishment and intimidation
 
-Shouting, shaking, hitting or using collars that hurt creates fear and stress, can make problems worse and may even trigger aggression. In Wallonia, **electric and choke collars are banned** (with very limited exceptions), and Flanders is banning shock collars from 1 January 2027. The message is clear: we train without pain.
+Shouting, shaking, hitting or using collars that hurt creates fear and stress, can make problems worse and may even trigger aggression. In Wallonia, **electric and choke collars are banned**, with very limited exceptions (police and army dogs, a choke collar on a vet’s certificate); a half-check collar with a stopper is still allowed. Flanders is banning electric-impulse collars from 1 January 2027, except collars linked to an invisible fence. The message is clear: we train without pain.
 
 ### Be consistent and patient
 
@@ -101,4 +102,5 @@ Reward, repeat, stay consistent and patient: basic training rests on simple habi
 
 - [Wallonia – Using an electric or choke collar (in French)](https://wallonie.be/fr/demarches/utiliser-un-collier-electrique-ou-etrangleur-pour-chien)
 - [Flanders – Animal welfare (in Dutch)](https://www.vlaanderen.be/dierenwelzijn)
+- [Flemish Animal Welfare Minister – Shock collar ban from 2027 (in Dutch)](https://www.benweyts.be/nieuws/uitdoofscenario-voor-stroomhalsbanden-verbod-vanaf-2027)
 - [Brussels Environment – Caring for your pet (in French)](https://environnement.brussels/citoyen/agir-pour-lenvironnement/veiller-au-bien-etre-animal/prendre-soin-de-son-animal-de-compagnie)

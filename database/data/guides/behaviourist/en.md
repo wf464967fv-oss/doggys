@@ -7,6 +7,7 @@ meta_description: "Fear, aggression, separation anxiety, reactivity: when to see
 category: education
 related_categories: [comportementaliste, veterinaire, educateur]
 published_at: 2026-10-02
+updated_at: 2026-10-15
 ---
 Does your dog bark the moment you leave, lunge at other dogs on the lead, tremble at the slightest noise, or has it already growled, or even bitten? You are not alone, and it is neither a failure nor a lost cause. Behaviour problems are common and, in the vast majority of cases, they improve with the right help. You just need to know who to turn to, and when.
 
@@ -81,7 +82,7 @@ Change takes time: a few weeks to several months. A good professional plans foll
 ## Choosing the right professional
 
 - They ask first whether your dog has had a **vet check**.
-- They explain their methods and refuse aversive tools (shock, choke or prong collars). Electric and choke collars are already banned in Wallonia, and Flanders is banning shock collars from 2027.
+- They explain their methods and refuse aversive tools (shock, choke or prong collars). Electric and choke collars are already banned in Wallonia (with limited exceptions), and Flanders is banning electric-impulse collars from 1 January 2027, except for invisible fences.
 - They do not promise miracle results in one session.
 - They work with a vet and a trainer when needed.
 - They treat you with respect and without judgement.

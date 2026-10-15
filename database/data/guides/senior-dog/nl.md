@@ -7,6 +7,7 @@ meta_description: Seniorleeftijd, signalen om op te letten, controles bij de die
 category: health
 related_categories: [veterinaire, kine-physio, hydrotherapie, osteopathe, toiletteur-domicile]
 published_at: 2026-10-09
+updated_at: 2026-10-09
 ---
 Zijn snuit wordt grijs, hij slaapt wat meer, hij komt ’s morgens trager overeind… Uw hond wordt senior. Vaak is dat de periode waarin de band het hechtst is. Met enkele aanpassingen en een aandachtige opvolging kan een oudere hond nog lang gelukkig, nieuwsgierig en comfortabel blijven. Zo begeleidt u hem.
 

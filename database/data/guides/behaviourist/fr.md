@@ -7,6 +7,7 @@ meta_description: Peurs, agressivité, anxiété de séparation, réactivité : 
 category: education
 related_categories: [comportementaliste, veterinaire, educateur]
 published_at: 2026-10-02
+updated_at: 2026-10-15
 ---
 Votre chien aboie dès que vous partez, se jette sur les autres chiens en laisse, tremble au moindre bruit ou a déjà grogné, voire mordu ? Vous n’êtes pas seul·e, et ce n’est ni un échec ni une fatalité. Les troubles du comportement sont fréquents et, dans la grande majorité des cas, ils s’améliorent avec une aide adaptée. Encore faut-il savoir vers qui se tourner, et quand.
 
@@ -81,7 +82,7 @@ Le changement prend du temps : quelques semaines à plusieurs mois. Un bon profe
 ## Bien choisir son professionnel
 
 - Il vous demande d’abord si un **bilan vétérinaire** a été fait.
-- Il explique ses méthodes et refuse les outils coercitifs (colliers électriques, étrangleurs, à pointes). En Wallonie, les colliers électriques et étrangleurs sont d’ailleurs interdits, et la Flandre interdira les colliers électriques en 2027.
+- Il explique ses méthodes et refuse les outils coercitifs (colliers électriques, étrangleurs, à pointes). En Wallonie, les colliers électriques et étrangleurs sont d’ailleurs interdits (sauf dérogations), et la Flandre interdira les colliers à impulsions électriques au 1er janvier 2027, hors clôture invisible.
 - Il ne promet pas de résultat miracle en une séance.
 - Il travaille, si nécessaire, avec un vétérinaire et un éducateur.
 - Il vous traite avec respect et sans jugement.

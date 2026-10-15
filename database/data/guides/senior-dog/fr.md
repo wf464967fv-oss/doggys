@@ -7,6 +7,7 @@ meta_description: Âge senior, signes à surveiller, bilans vétérinaires, alim
 category: health
 related_categories: [veterinaire, kine-physio, hydrotherapie, osteopathe, toiletteur-domicile]
 published_at: 2026-10-09
+updated_at: 2026-10-09
 ---
 Son museau blanchit, il dort un peu plus, il met plus de temps à se lever le matin… Votre chien entre dans ses années seniors. C’est souvent la période où la complicité est la plus profonde. Avec quelques adaptations et un suivi attentif, un chien âgé peut rester heureux, curieux et confortable pendant longtemps. Voici comment l’accompagner.
 

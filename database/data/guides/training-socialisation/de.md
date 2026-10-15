@@ -7,6 +7,7 @@ meta_description: Positive Verstärkung, Sitz, Rückruf, Leinenführigkeit, Sozi
 category: education
 related_categories: [educateur, comportementaliste, garderie]
 published_at: 2026-09-25
+updated_at: 2026-10-15
 ---
 Ein gut erzogener Hund ist kein Hund, der aufs Wort pariert. Es ist ein Hund, der versteht, was von ihm erwartet wird, sich sicher fühlt und deshalb mehr Freiheit genießen kann: Spaziergänge in der Stadt, Café-Terrassen, Besuche bei Freunden. Die gute Nachricht: Moderne Erziehung ist sanft, spielerisch und für alle machbar. So gelingt der Start – mit einem Welpen ebenso wie mit einem erwachsenen Hund.
 
@@ -18,7 +19,7 @@ Ein gut erzogener Hund ist kein Hund, der aufs Wort pariert. Es ist ein Hund, de
 
 ### Keine körperliche Strafe und keine Einschüchterung
 
-Anschreien, Schütteln, Schlagen oder schmerzhafte Halsbänder erzeugen Angst und Stress, können Probleme verschlimmern und sogar Aggression auslösen. In der Wallonie – und damit auch in Ostbelgien – sind **Elektro- und Würgehalsbänder verboten** (mit sehr engen Ausnahmen), und Flandern verbietet Stromhalsbänder ab dem 1. Januar 2027. Die Botschaft ist klar: Wir erziehen ohne Schmerz.
+Anschreien, Schütteln, Schlagen oder schmerzhafte Halsbänder erzeugen Angst und Stress, können Probleme verschlimmern und sogar Aggression auslösen. In der Wallonie – und damit auch in Ostbelgien – sind **Elektro- und Würgehalsbänder verboten**, mit sehr engen Ausnahmen (Polizei- und Armeehunde, Würgehalsband mit tierärztlicher Bescheinigung); ein Halbwürger mit Stopp bleibt erlaubt. Flandern verbietet Halsbänder mit elektrischen Impulsen ab dem 1. Januar 2027, ausgenommen Halsbänder für einen unsichtbaren Zaun. Die Botschaft ist klar: Wir erziehen ohne Schmerz.
 
 ### Konsequent und geduldig sein
 
@@ -99,6 +100,7 @@ Belohnen, wiederholen, konsequent und geduldig bleiben: Die Grunderziehung beruh
 
 ## Offizielle Quellen
 
-- [Wallonie – Elektro- oder Würgehalsband (auf Französisch)](https://wallonie.be/fr/demarches/utiliser-un-collier-electrique-ou-etrangleur-pour-chien)
+- [Wallonie – Verwendung eines Elektro- oder Würgehalsbandes für Hunde](https://www.wallonie.be/de/demarches/verwendung-eines-elektro-oder-wurgehalsbandes-fur-hunde)
 - [Wallonie – Tierschutz (auf Französisch)](https://bienetreanimal.wallonie.be)
 - [Flandern – Tierschutz (auf Niederländisch)](https://www.vlaanderen.be/dierenwelzijn)
+- [Flämischer Tierschutzminister – Verbot von Stromhalsbändern ab 2027 (auf Niederländisch)](https://www.benweyts.be/nieuws/uitdoofscenario-voor-stroomhalsbanden-verbod-vanaf-2027)

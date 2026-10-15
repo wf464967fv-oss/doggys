@@ -7,6 +7,7 @@ meta_description: Vaccins essentiels, rage, toux du chenil, vermifuges, puces et
 category: health
 related_categories: [veterinaire, urgences-24h]
 published_at: 2026-09-08
+updated_at: 2026-09-08
 ---
 Vaccins, vermifuges, pipettes, comprimés… La prévention peut sembler compliquée quand on accueille un chien. Pourtant, elle repose sur quelques principes simples et elle protège votre compagnon de maladies graves, parfois mortelles. Ce guide vous donne les repères utiles en Belgique. Le programme exact de votre chien, lui, se décide toujours avec votre vétérinaire, en fonction de son âge, de sa santé et de son mode de vie.
 

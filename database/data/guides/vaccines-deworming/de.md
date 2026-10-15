@@ -7,6 +7,7 @@ meta_description: "Grundimpfungen, Tollwut, Zwingerhusten, Entwurmung, Flöhe un
 category: health
 related_categories: [veterinaire, urgences-24h]
 published_at: 2026-09-08
+updated_at: 2026-09-08
 ---
 Impfungen, Wurmkuren, Spot-ons, Tabletten … Die Vorsorge kann kompliziert wirken, wenn ein Hund neu in der Familie ist. Dabei beruht sie auf wenigen einfachen Grundsätzen und schützt Ihren Begleiter vor schweren, manchmal tödlichen Krankheiten. Dieser Ratgeber gibt Ihnen die wichtigsten Orientierungspunkte für Belgien. Den genauen Plan Ihres Hundes legen Sie immer mit Ihrem Tierarzt fest, abhängig von Alter, Gesundheit und Lebensweise.
 

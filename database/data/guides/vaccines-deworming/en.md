@@ -7,6 +7,7 @@ meta_description: "Core vaccines, rabies, kennel cough, worming, fleas and ticks
 category: health
 related_categories: [veterinaire, urgences-24h]
 published_at: 2026-09-08
+updated_at: 2026-09-08
 ---
 Vaccines, wormers, spot-ons, tablets… Preventive care can feel complicated when you first get a dog. Yet it rests on a few simple principles, and it protects your companion from serious, sometimes fatal diseases. This guide gives you the key reference points for Belgium. Your dog’s exact schedule is always decided with your vet, based on its age, health and lifestyle.
 

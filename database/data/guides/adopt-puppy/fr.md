@@ -7,6 +7,7 @@ meta_description: Avant d’adopter un chiot en Belgique : temps, budget, race, 
 category: adoption
 related_categories: [eleveur-agree, refuge, veterinaire, educateur]
 published_at: 2026-09-01
+updated_at: 2026-10-15
 ---
 Un chiot qui trottine dans la maison, c’est une promesse de tendresse… et un engagement de dix à quinze ans, parfois plus. Avant de craquer pour une petite boule de poils, prenez le temps de vérifier que le moment, le lieu et le chien sont les bons. Cette checklist vous aide à poser les bonnes questions, sans culpabiliser : bien préparée, une adoption est presque toujours une belle histoire.
 
@@ -52,7 +53,7 @@ Un chiot demande énormément de temps et d’éducation. Un chien adulte, par e
 
 En Belgique, la vente de chiots est encadrée par les Régions. Que vous passiez par un éleveur ou par un refuge, privilégiez toujours une structure **agréée** :
 
-- **Éleveur agréé** : il doit afficher son numéro d’agrément (en Flandre, le numéro « HK ») dans ses annonces. Il vous laisse voir la mère, le lieu de vie des chiots et répond volontiers à vos questions.
+- **Éleveur agréé** : il affiche son numéro d’agrément (en Flandre, le numéro HK) dans ses annonces. En Flandre et à Bruxelles, un petit éleveur occasionnel peut ne pas être agréé, mais il ne peut alors annoncer que dans des médias spécialisés, jamais sur les réseaux sociaux. Il vous laisse voir la mère, le lieu de vie des chiots et répond volontiers à vos questions.
 - **Refuge agréé** : des dizaines de chiens de tous âges attendent une famille. L’équipe connaît leur caractère et vous aide à trouver le bon compagnon.
 
 Fuyez les annonces trop belles pour être vraies : chiots « de race » à prix cassé, livraison sur un parking, vendeur pressé, aucune visite possible. Ce sont des signaux typiques de trafic de chiots, souvent malades et mal socialisés.
@@ -64,7 +65,7 @@ Quelques règles valent partout en Belgique, d’autres dépendent de votre Rég
 - **Identification et enregistrement** : tout chien doit être identifié par puce électronique par un vétérinaire et enregistré dans la base de données **DogID**, avant l’âge de 8 semaines et en tout cas avant toute cession (vente ou don). Vérifiez que le changement de responsable est bien fait à votre nom.
 - **Âge minimum** : un chiot ne peut pas être vendu ou cédé avant 8 semaines.
 - **Passeport** : un chien identifié reçoit un passeport européen, sur lequel le vétérinaire note notamment les vaccins.
-- **En Wallonie** : pour acquérir un animal (achat, adoption ou don), vous devez présenter un **extrait du fichier central de la délinquance environnementale et du bien-être animal**, appelé « permis de détention ». Il est délivré par votre commune et est valable 30 jours. Un certificat numérique doit le remplacer à terme : vérifiez la procédure en vigueur auprès de votre commune.
+- **Si vous habitez en Wallonie** : pour acquérir un chien (achat, adoption ou don), vous devez présenter un **extrait du fichier central de la délinquance environnementale et du bien-être animal**, appelé « permis de détention ». Il est délivré par votre commune et est valable 30 jours. Si vous habitez ailleurs, aucun document wallon n’est demandé, même pour adopter dans un refuge wallon. Un certificat numérique doit le remplacer à terme : vérifiez la procédure en vigueur auprès de votre commune.
 - **En Flandre et à Bruxelles** : pas de permis préalable, mais les mêmes règles d’identification, d’enregistrement et d’achat auprès d’éleveurs ou de refuges en ordre s’appliquent.
 
 > **Bon à savoir** : demandez toujours les documents au moment de la remise du chiot : passeport, certificat d’enregistrement DogID, carnet de vaccination, contrat de vente ou d’adoption. Un vendeur sérieux les prépare spontanément.
@@ -79,7 +80,7 @@ Imprimez-la ou gardez-la sur votre téléphone :
 4. La race ou le profil du chien correspond à votre rythme de vie.
 5. Vous avez identifié un éleveur agréé ou un refuge, et vous avez visité les lieux.
 6. Vous avez vu la mère (pour un chiot d’élevage) et posé vos questions sur la santé et la socialisation.
-7. En Wallonie, vous avez demandé votre extrait à la commune.
+7. Si vous habitez en Wallonie, vous avez demandé votre extrait à la commune.
 8. Un vétérinaire est choisi pour la première visite, idéalement dans la semaine qui suit l’arrivée.
 9. Vous avez repéré un éducateur canin ou une école du chiot près de chez vous.
 10. Les vacances et les absences de l’année à venir ont une solution de garde.

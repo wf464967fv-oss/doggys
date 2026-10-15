@@ -7,6 +7,7 @@ meta_description: Angst, agressie, verlatingsangst, reactiviteit: wanneer een ge
 category: education
 related_categories: [comportementaliste, veterinaire, educateur]
 published_at: 2026-10-02
+updated_at: 2026-10-15
 ---
 Uw hond blaft zodra u vertrekt, valt andere honden aan de leiband uit, trilt bij elk geluid, of heeft al gegromd of zelfs gebeten? U bent niet alleen, en het is geen mislukking of noodlot. Gedragsproblemen komen vaak voor en verbeteren in de grote meerderheid van de gevallen met de juiste hulp. U moet alleen weten bij wie u terechtkunt, en wanneer.
 
@@ -81,7 +82,7 @@ Verandering vraagt tijd: enkele weken tot enkele maanden. Een goede professional
 ## De juiste professional kiezen
 
 - Hij vraagt eerst of er een **dierenartsonderzoek** gebeurd is.
-- Hij legt zijn methodes uit en weigert dwangmiddelen (stroomhalsbanden, wurgkettingen, prikbanden). In Vlaanderen zijn stroomhalsbanden trouwens verboden vanaf 2027, in Wallonië zijn elektrische halsbanden en wurgkettingen al verboden.
+- Hij legt zijn methodes uit en weigert dwangmiddelen (stroomhalsbanden, wurgkettingen, prikbanden). In Vlaanderen zijn halsbanden met elektrische impulsen trouwens verboden vanaf 1 januari 2027 (behalve bij een onzichtbare omheining), in Wallonië zijn elektrische halsbanden en wurgkettingen al verboden, op uitzonderingen na.
 - Hij belooft geen wonderresultaat in één sessie.
 - Hij werkt zo nodig samen met een dierenarts en een hondentrainer.
 - Hij behandelt u met respect en zonder oordeel.

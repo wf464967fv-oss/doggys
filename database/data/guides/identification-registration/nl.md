@@ -2,11 +2,12 @@
 title: "Chip, DogID en Waalse vergunning: uw hond identificeren in België"
 slug: hond-chippen-registreren-dogid
 excerpt: Chip, registratie in DogID, paspoort, nieuwe eigenaar of adres, verloren hond en de Waalse houdersvergunning: de regels die u moet kennen in de drie gewesten.
-meta_title: "Chip en DogID: uw hond identificeren"
+meta_title: Hond chippen en registreren in DogID
 meta_description: Chip, registratie in DogID, paspoort, verhuizing, verloren hond, Waalse houdersvergunning en Vlaamse verkoopregels voor honden in België.
 category: rules
 related_categories: [veterinaire, refuge, eleveur-agree]
 published_at: 2026-09-11
+updated_at: 2026-10-15
 ---
 Een hond zonder chip en zonder registratie is in België niet in orde. En vooral: als hij wegloopt, heeft hij veel minder kans om thuis te raken. Identificatie is verplicht sinds 1998. De regels worden vandaag beheerd door de drie gewesten, met één gemeenschappelijke databank: **DogID**. Dit moet u weten, of u nu in Gent, Luik of Brussel woont.
 
@@ -67,26 +68,27 @@ Sinds 2014 is dierenwelzijn een bevoegdheid van de gewesten. De basisregels van 
 
 ### In Vlaanderen
 
-Er is geen voorafgaande vergunning nodig om een hond te kopen of te adopteren, maar de verkoopregels zijn streng. Een hond mag alleen verhandeld worden als hij gechipt en correct geregistreerd is, een geldig paspoort heeft en minstens 8 weken oud is. In advertenties voor honden moet altijd het **chipnummer** vermeld worden. Kwekers die drie of meer nesten per jaar hebben, hebben een erkenning met **HK-nummer** nodig. Het Departement Omgeving, afdeling Dierenwelzijn, ziet erop toe.
+Er is geen voorafgaande vergunning nodig om een hond te kopen of te adopteren, maar de verkoopregels zijn streng. Een hond mag alleen verhandeld worden als hij gechipt en correct geregistreerd is, een geldig paspoort heeft en minstens 8 weken oud is. In advertenties voor honden moet altijd het **chipnummer** van elke hond vermeld worden. Kwekers die drie of meer nesten per jaar hebben, hebben een erkenning nodig en vermelden hun **HK-nummer** in elke advertentie. Een occasionele kweker mag alleen adverteren in gespecialiseerde media die Dierenwelzijn Vlaanderen erkend heeft: niet op algemene zoekertjessites en niet op sociale media. Het Departement Omgeving, afdeling Dierenwelzijn, ziet erop toe.
 
 ### In Wallonië: de houdersvergunning
 
-Sinds 1 juli 2022 moet iedereen die in Wallonië **een dier wil verwerven** (kopen, adopteren, krijgen) een **uittreksel uit het centraal bestand van milieu- en dierenwelzijnsmisdrijven** voorleggen, de zogenaamde « permis de détention ». Het bewijst dat u geen verbod hebt om dieren te houden.
+Sinds 1 juli 2022 moet wie **in Wallonië gedomicilieerd is** en een hond wil verwerven (kopen, adopteren, krijgen) een **uittreksel uit het centraal bestand van milieu- en dierenwelzijnsmisdrijven** voorleggen, de zogenaamde houdersvergunning (*permis de détention*). Het bewijst dat u geen verbod hebt om dieren te houden.
 
 - U vraagt het aan bij het gemeentebestuur van uw woonplaats.
 - Het is 30 dagen geldig.
-- De verkoper, de kweker of het asiel moet het controleren voor het dier wordt overgedragen.
-- De regel geldt voor elke verwerving **op Waals grondgebied**: woont u in Vlaanderen of Brussel en adopteert u bij een Waals asiel of een Waalse kweker, dan vraagt u het uittreksel aan bij de Waalse Overheidsdienst (antwoord binnen maximaal 15 dagen).
+- De kweker, het asiel of de winkel moet het u vragen voor het dier wordt overgedragen.
+- De regel geldt alleen voor inwoners van Wallonië. Woont u in Vlaanderen, Brussel of het buitenland, dan kunt u een dier bij een Waalse kweker, een Waals asiel of een Waalse winkel verwerven **zonder enig document van de Waalse overheid**.
+- Er bestaan nog andere uitzonderingen, bijvoorbeeld voor assistentiehonden: de officiële Waalse pagina somt ze op.
 
 De Waalse regering werkt aan een hervorming van de Waalse dierenwelzijnscode, die dit uittreksel moet vervangen door een automatisch afgeleverd **digitaal certificaat**. Zolang die hervorming niet van kracht is, blijft de procedure via de gemeente de regel.
 
 ### In Brussel
 
-Leefmilieu Brussel is bevoegd voor dierenwelzijn. Identificatie en registratie in DogID zijn er volgens dezelfde principes verplicht, en kwekerijen, pensions en dierenwinkels moeten erkend zijn.
+Leefmilieu Brussel is bevoegd voor dierenwelzijn. Identificatie en registratie in DogID zijn er volgens dezelfde principes verplicht. Pensions, asielen en dierenwinkels moeten erkend zijn, net als kwekerijen vanaf de amateurkweek (minstens twee fokteven). Een particulier met minder dan 3 nesten per jaar heeft geen erkenning nodig, maar mag zijn pups alleen in gespecialiseerde media aanbieden.
 
 ## Wat er op Europees niveau verandert
 
-De Europese Unie keurde in 2026 een verordening goed over het welzijn en de traceerbaarheid van honden en katten. Ze veralgemeent de identificatie met een chip en de registratie in onderling verbonden nationale databanken, met een geleidelijke invoering over meerdere jaren. België, dat de chip en DogID al oplegt, is goed voorbereid, maar sommige details kunnen nog veranderen: volg de officiële communicatie.
+De Europese Unie keurde in 2026 [verordening (EU) 2026/1818](https://eur-lex.europa.eu/eli/reg/2026/1818/oj) goed over het welzijn en de traceerbaarheid van honden en katten. Ze veralgemeent de identificatie met een chip en de registratie in onderling verbonden nationale databanken, met een geleidelijke invoering over meerdere jaren. België, dat de chip en DogID al oplegt, is goed voorbereid, maar sommige details kunnen nog veranderen: volg de officiële communicatie.
 
 > **Goed om te weten**: hebt u ook een kat? Ook zij moet geïdentificeerd en geregistreerd zijn, in de databank **CatID**.
 
@@ -96,7 +98,7 @@ De Europese Unie keurde in 2026 een verordening goed over het welzijn en de trac
 - Hij is geregistreerd in DogID, op mijn naam, met mijn huidige adres en telefoonnummer.
 - Ik heb zijn Europees paspoort en zijn registratiecertificaat.
 - Mijn contactgegevens zijn zichtbaar voor als hij zoekraakt.
-- In Wallonië heb ik bij de aankoop mijn uittreksel van de gemeente voorgelegd.
+- Woon ik in Wallonië, dan heb ik bij de aankoop mijn uittreksel van de gemeente voorgelegd.
 - Ik meld elke wijziging (adres, eigenaar, overlijden) zonder uitstel.
 
 ## Officiële bronnen
@@ -105,4 +107,6 @@ De Europese Unie keurde in 2026 een verordening goed over het welzijn en de trac
 - [Vlaanderen – Huisdieren verhandelen of weggeven](https://www.vlaanderen.be/huisdieren-kweken-verkopen-of-weggeven)
 - [Vlaanderen – Honden en katten kweken](https://www.vlaanderen.be/honden-en-katten-kweken)
 - [Leefmilieu Brussel – Identificatie en registratie van huisdieren](https://leefmilieu.brussels/burgers/actie-voor-het-leefmilieu/dierenwelzijn-garanderen/identificatie-en-registratie-van-huisdieren)
+- [Leefmilieu Brussel – Werken met katten en honden: verplichtingen en voorwaarden](https://leefmilieu.brussels/pro/diensten-en-aanvragen/erkenningen-en-registraties/werken-met-katten-honden-verplichtingen-en-voorwaarden)
+- [EUR-Lex – Verordening (EU) 2026/1818 over het welzijn en de traceerbaarheid van honden en katten](https://eur-lex.europa.eu/eli/reg/2026/1818/oj)
 - [Wallonië – Uittreksel uit het centraal bestand aanvragen (in het Engels)](https://www.wallonie.be/en/demarches/requesting-extract-central-environmental-crime-and-animal-welfare-file-acquiring-pet)

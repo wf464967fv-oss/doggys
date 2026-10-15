@@ -7,6 +7,7 @@ meta_description: Positieve bekrachtiging, zit, terugroepen, wandelen aan de lei
 category: education
 related_categories: [educateur, comportementaliste, garderie]
 published_at: 2026-09-25
+updated_at: 2026-10-15
 ---
 Een goed opgevoede hond is geen hond die blindelings gehoorzaamt. Het is een hond die begrijpt wat u van hem verwacht, zich veilig voelt en daardoor meer vrijheid krijgt: wandelen in de stad, mee op een terrasje, op bezoek bij vrienden. Goed nieuws: moderne opvoeding is zacht, speels en voor iedereen haalbaar. Zo begint u goed, met een pup én met een volwassen hond.
 
@@ -18,7 +19,7 @@ Bij **positieve bekrachtiging** beloont u meteen gedrag dat u vaker wilt zien: e
 
 ### Geen fysieke straf of intimidatie
 
-Roepen, door elkaar schudden, slaan of halsbanden die pijn doen, veroorzaken angst en stress. Ze kunnen problemen verergeren en zelfs tot agressie leiden. In Vlaanderen worden **stroomhalsbanden verboden vanaf 1 januari 2027**, en in Wallonië zijn elektrische halsbanden en wurgkettingen al verboden, op strikte uitzonderingen na. De boodschap is duidelijk: we voeden op zonder pijn.
+Roepen, door elkaar schudden, slaan of halsbanden die pijn doen, veroorzaken angst en stress. Ze kunnen problemen verergeren en zelfs tot agressie leiden. In Vlaanderen worden **halsbanden met elektrische impulsen verboden vanaf 1 januari 2027**, behalve de halsband die gekoppeld is aan een onzichtbare omheining. In Wallonië zijn elektrische halsbanden en wurgkettingen al verboden, op strikte uitzonderingen na (politie- en legerhonden, een wurgketting op attest van de dierenarts); een halve slip met stopper blijft er toegestaan. De boodschap is duidelijk: we voeden op zonder pijn.
 
 ### Consequent en geduldig zijn
 
@@ -100,5 +101,6 @@ Belonen, herhalen, consequent en geduldig blijven: de basisopvoeding steunt op e
 ## Officiële bronnen
 
 - [Vlaanderen – Dierenwelzijn](https://www.vlaanderen.be/dierenwelzijn)
+- [Vlaams minister van Dierenwelzijn – Verbod op stroomhalsbanden vanaf 2027](https://www.benweyts.be/nieuws/uitdoofscenario-voor-stroomhalsbanden-verbod-vanaf-2027)
 - [Vlaanderen – Huisdierinfo](https://www.vlaanderen.be/huisdierinfo)
 - [Wallonië – Elektrische halsband of wurgketting (in het Frans)](https://wallonie.be/fr/demarches/utiliser-un-collier-electrique-ou-etrangleur-pour-chien)

@@ -7,6 +7,7 @@ meta_description: Matériel, maison sécurisée, premier jour, première nuit, p
 category: adoption
 related_categories: [veterinaire, educateur, animalerie]
 published_at: 2026-09-04
+updated_at: 2026-09-04
 ---
 Le grand jour approche : votre chiot va bientôt découvrir sa nouvelle maison. Pour lui, c’est un énorme changement : il quitte sa mère, ses frères et sœurs, les odeurs et les bruits qu’il connaît. Une arrivée bien préparée lui permet de prendre confiance plus vite… et vous évite bien des nuits blanches. Voici comment organiser les choses, étape par étape.
 

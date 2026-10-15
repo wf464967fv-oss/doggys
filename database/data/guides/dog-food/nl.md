@@ -7,6 +7,7 @@ meta_description: Brokken, natvoer, zelf koken of BARF: voordelen, risico’s, h
 category: daily
 related_categories: [veterinaire, animalerie]
 published_at: 2026-09-22
+updated_at: 2026-09-22
 ---
 In de dierenwinkel en op sociale media zorgt hondenvoeding voor felle discussies. Graanvrije brokken, gastronomisch natvoer, BARF, zelf koken… Het is niet makkelijk om er wijs uit te raken. Goed nieuws: er bestaat niet één juist antwoord, wel verschillende manieren om uw hond goed te voeden, als u enkele principes respecteert. Hier vindt u wat u nodig hebt om een doordachte keuze te maken, die u verder verfijnt met uw dierenarts.
 
