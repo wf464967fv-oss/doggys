@@ -1,0 +1,7 @@
+geonames-postal-codes-be.tsv
+  Source  : GeoNames postal code dump, https://download.geonames.org/export/zip/BE.zip (downloaded 2026-10-15)
+  Licence : Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/)
+  Credit  : "Postal codes: GeoNames (geonames.org), CC BY 4.0" — shown in the site footer.
+  Format  : tab-separated, columns: country, postal code, place, admin1 name, admin1 code,
+            admin2 name, admin2 code, admin3 name, admin3 code, latitude, longitude, accuracy.
+  Loaded by database/seeders/PostalCodeSeeder.php (idempotent upsert on code + place).
