@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Enums\VerificationLevel;
+use App\Models\BadgeRequest;
 use App\Models\Claim;
 use App\Models\ContactMessage;
 use App\Models\Dog;
@@ -14,7 +14,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
 use Illuminate\View\View;
 
 class AccountController extends Controller
@@ -38,7 +37,7 @@ class AccountController extends Controller
     public function export(Request $request): JsonResponse
     {
         $user = $request->user()->load([
-            'dogs', 'reviews.provider:id,name', 'claims.provider:id,name', 'claimedProviders', 'reviewReports', 'contactMessages',
+            'dogs', 'reviews.provider:id,name', 'claims.provider:id,name', 'badgeRequests.provider:id,name', 'claimedProviders', 'reviewReports', 'contactMessages',
         ]);
 
         $data = [
@@ -74,10 +73,18 @@ class AccountController extends Controller
             'claims' => $user->claims->map(fn (Claim $claim) => [
                 'provider' => $claim->provider?->name,
                 'bce_number' => $claim->bce_number,
+                'position' => $claim->position,
                 'message' => $claim->message,
                 'action' => $claim->action->value,
                 'status' => $claim->status->value,
                 'created_at' => $claim->created_at->toIso8601String(),
+            ]),
+            'badge_requests' => $user->badgeRequests->map(fn (BadgeRequest $badgeRequest) => [
+                'provider' => $badgeRequest->provider?->name,
+                'regulatory_number' => $badgeRequest->regulatory_number,
+                'message' => $badgeRequest->message,
+                'status' => $badgeRequest->status->value,
+                'created_at' => $badgeRequest->created_at->toIso8601String(),
             ]),
             'claimed_providers' => $user->claimedProviders->map(fn (Provider $provider) => [
                 'name' => $provider->name,
@@ -133,10 +140,7 @@ class AccountController extends Controller
     }
 
     /**
-     * GDPR erasure: deletes the account with its dogs, reviews, claims (and their
-     * private proof files), contact messages, sessions and password reset tokens; review reports are
-     * kept for moderation but anonymised (user_id set to null by the foreign key). Listings the user
-     * had claimed lose their verification badge, which was tied to this account.
+     * GDPR erasure of the signed-in account (see User::purge() for what is deleted).
      */
     public function destroy(Request $request): RedirectResponse
     {
@@ -149,17 +153,7 @@ class AccountController extends Controller
         // Log out first: logging out afterwards would re-save the user while cycling its remember token.
         Auth::logout();
 
-        DB::transaction(function () use ($user) {
-            $user->claimedProviders()->each(fn (Provider $provider) => $provider->forceFill([
-                'verification_level' => VerificationLevel::None,
-                'plan' => 'free',
-            ])->save());
-            $user->claims()->each(fn (Claim $claim) => $claim->delete());
-            $user->contactMessages()->delete();
-            DB::table('sessions')->where('user_id', $user->id)->delete();
-            DB::table('password_reset_tokens')->whereIn('email', array_filter([$user->email, $user->pending_email]))->delete();
-            $user->delete();
-        });
+        $user->purge();
 
         $request->session()->invalidate();
         $request->session()->regenerateToken();

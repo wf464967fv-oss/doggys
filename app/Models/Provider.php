@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Enums\ProviderSource;
 use App\Enums\ProviderStatus;
 use App\Enums\Region;
+use App\Enums\ReviewStatus;
 use App\Enums\VerificationLevel;
 use Database\Factories\ProviderFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
@@ -58,6 +59,36 @@ class Provider extends Model
     protected function active(Builder $query): void
     {
         $query->where('status', ProviderStatus::Active);
+    }
+
+    /**
+     * A permanent deletion removes the claims and badge requests one by one first, so that their private
+     * proof files are deleted too (the SQL cascade would skip the model events).
+     */
+    protected static function booted(): void
+    {
+        static::forceDeleting(function (Provider $provider): void {
+            $provider->claims()->each(fn (Claim $claim) => $claim->delete());
+            $provider->badgeRequests()->each(fn (BadgeRequest $badgeRequest) => $badgeRequest->delete());
+        });
+    }
+
+    /**
+     * Recomputes rating_avg and reviews_count from the published reviews.
+     */
+    public function refreshRating(): void
+    {
+        $count = $this->reviews()->where('status', ReviewStatus::Published)->count();
+        $average = $this->reviews()->where('status', ReviewStatus::Published)->avg('rating');
+
+        $values = [
+            'rating_avg' => $count > 0 ? round((float) $average, 2) : null,
+            'reviews_count' => $count,
+        ];
+
+        // Written straight to the row: a stale in-memory copy would make Eloquent skip "unchanged" columns.
+        static::withTrashed()->whereKey($this->getKey())->toBase()->update($values);
+        $this->forceFill($values)->syncOriginalAttributes(array_keys($values));
     }
 
     public function isVerified(): bool
@@ -176,6 +207,14 @@ class Provider extends Model
     public function claims(): HasMany
     {
         return $this->hasMany(Claim::class);
+    }
+
+    /**
+     * @return HasMany<BadgeRequest, $this>
+     */
+    public function badgeRequests(): HasMany
+    {
+        return $this->hasMany(BadgeRequest::class);
     }
 
     /**

@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Storage;
 /**
  * proof_path points to the private "local" disk (storage/app/private), never to the public disk.
  */
-#[Fillable(['bce_number', 'message', 'action'])]
+#[Fillable(['bce_number', 'position', 'message', 'action'])]
 #[Hidden(['proof_path'])]
 class Claim extends Model
 {
@@ -46,6 +46,7 @@ class Claim extends Model
             'status' => ClaimStatus::class,
             'action' => ClaimAction::class,
             'handled_at' => 'datetime',
+            'creates_listing' => 'boolean',
         ];
     }
 
