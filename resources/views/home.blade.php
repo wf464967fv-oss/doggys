@@ -6,7 +6,7 @@
             '@graph' => [
                 [
                     '@type' => 'Organization',
-                    '@id' => url('/').'#organization',
+                    '@id' => url('/').'/#organization',
                     'name' => 'Doggys',
                     'url' => $homeUrl,
                     'logo' => asset('icon-512.png'),
@@ -21,7 +21,12 @@
                     'url' => $homeUrl,
                     'description' => __('home.meta_description'),
                     'inLanguage' => ['fr' => 'fr-BE', 'nl' => 'nl-BE', 'en' => 'en', 'de' => 'de-BE'][app()->getLocale()],
-                    'publisher' => ['@id' => url('/').'#organization'],
+                    'publisher' => ['@id' => url('/').'/#organization'],
+                    'potentialAction' => [
+                        '@type' => 'SearchAction',
+                        'target' => ['@type' => 'EntryPoint', 'urlTemplate' => localized_route('search').'?location={search_term_string}'],
+                        'query-input' => 'required name=search_term_string',
+                    ],
                 ],
             ],
         ];
@@ -102,14 +107,14 @@
                 @foreach ($groupCategories as $category)
                     <li>
                         <a href="{{ localized_route('categories.show', ['category' => $category->routeSlug()]) }}"
-                            class="group flex h-full min-h-16 items-center gap-2.5 rounded-2xl bg-white p-2.5 ring-1 ring-line shadow-soft transition duration-200 hover:-translate-y-0.5 hover:shadow-lift hover:ring-brown-mid/60 sm:flex-col sm:items-start sm:gap-2 sm:rounded-3xl sm:p-4">
+                            class="group flex h-full min-h-16 flex-col items-start gap-2 rounded-2xl bg-white p-3 ring-1 ring-line shadow-soft transition duration-200 hover:-translate-y-0.5 hover:shadow-lift hover:ring-brown-mid/60 sm:rounded-3xl sm:p-4">
                             <span class="flex shrink-0 items-center justify-between gap-2 sm:w-full">
                                 <span class="flex size-10 shrink-0 items-center justify-center rounded-xl bg-cream text-brown transition group-hover:bg-orange group-hover:text-brown-dark sm:size-12 sm:rounded-2xl">
                                     <x-icon :name="$category->icon" class="size-5 sm:size-6" />
                                 </span>
                                 <span class="hidden truncate text-[0.6875rem] font-extrabold tracking-wide text-orange-dark uppercase sm:block">{{ __('categories.groups.'.$group) }}</span>
                             </span>
-                            <span class="block min-w-0 font-display text-[0.9375rem] leading-tight font-semibold text-brown hyphens-auto [overflow-wrap:anywhere] sm:text-lg sm:leading-snug">{{ $category->label() }}</span>
+                            <span class="block min-w-0 font-display text-sm leading-tight font-semibold text-brown hyphens-auto sm:text-lg sm:leading-snug">{{ $category->label() }}</span>
                             <span class="hidden text-sm leading-snug text-muted sm:block">{{ $category->summary() }}</span>
                         </a>
                     </li>

@@ -53,10 +53,10 @@ return [
         'promeneur' => 'hondenuitlaatdienst',
         'garderie' => 'hondendagopvang',
         'pension' => 'hondenpension',
-        'eleveur-agree' => 'erkende-fokker',
+        'eleveur-agree' => 'erkende-kweker',
         'refuge' => 'dierenasiel',
         'animalerie' => 'dierenwinkel',
         'lieu-dog-friendly' => 'hondvriendelijke-plekken',
-        'parc-a-chiens' => 'hondenlosloopweide',
+        'parc-a-chiens' => 'hondenloopzone',
     ],
 ];

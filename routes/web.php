@@ -12,6 +12,7 @@ use App\Http\Controllers\ProController;
 use App\Http\Controllers\ProviderController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
@@ -34,6 +35,11 @@ Route::get('/', function (Request $request) {
     return redirect()->route($locale.'.home')->setVary('Accept-Language');
 })->name('root');
 
+// Sitemaps: an index plus one file per language (and per chunk of 40 000 URLs), indexable pages only.
+Route::get('sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
+Route::get('sitemap-{locale}-{page}.xml', [SitemapController::class, 'show'])
+    ->whereIn('locale', config('app.locales'))->whereNumber('page')->name('sitemap.locale');
+
 /*
  * Every page below exists once per locale: /fr/connexion, /nl/inloggen, /en/login, /de/anmelden…
  * Route names are prefixed with the locale ("nl.login"); use localized_route('login') in code.
@@ -42,16 +48,17 @@ Route::get('/', function (Request $request) {
 Route::localized(function () {
     Route::get('/', HomeController::class)->name('home');
 
-    // Directory: search, provider profiles, category and city pages (/fr/toiletteur-salon/liege).
+    // Directory: search, provider profiles, category and city pages (/fr/toiletteur-canin/liege).
     $categorySlugs = implode('|', array_map('preg_quote', __('routes.category_slugs')));
-    Route::get(__('routes.search'), SearchController::class)->name('search');
+    Route::get(__('routes.search'), SearchController::class)->middleware('throttle:search')->name('search');
     Route::get(__('routes.categories'), [CategoryController::class, 'index'])->name('categories.index');
-    Route::get('{category}', [CategoryController::class, 'show'])->where('category', $categorySlugs)->name('categories.show');
+    Route::get('{category}', [CategoryController::class, 'show'])->where('category', $categorySlugs)
+        ->middleware('throttle:search')->name('categories.show');
     Route::get('{category}/{city}', [CategoryController::class, 'city'])
-        ->where(['category' => $categorySlugs, 'city' => '[a-z0-9-]+'])->name('categories.city');
+        ->where(['category' => $categorySlugs, 'city' => '[a-z0-9-]+'])->middleware('throttle:search')->name('categories.city');
     Route::get(__('routes.provider').'/{provider:slug}', [ProviderController::class, 'show'])->name('providers.show');
     Route::post(__('routes.provider').'/{provider:slug}/'.__('routes.report'), [ProviderController::class, 'report'])
-        ->middleware(['throttle:5,60', 'antibot'])->name('providers.report');
+        ->middleware(['throttle:provider-report', 'antibot'])->name('providers.report');
 
     // Reviews (publication rules in Review::blockReason, ratings recomputed by the model) and their reports.
     Route::post(__('routes.provider').'/{provider:slug}/'.__('routes.reviews'), [ReviewController::class, 'store'])

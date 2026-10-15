@@ -47,6 +47,14 @@ class ProviderReportRequest extends FormRequest
      */
     public function messages(): array
     {
-        return ['email.required_if' => __('directory.report.email_required')];
+        return [
+            'type.required' => __('directory.report.errors.type'),
+            'type.enum' => __('directory.report.errors.type'),
+            'message.required' => __('directory.report.errors.message'),
+            'message.min' => __('directory.report.errors.message'),
+            'message.max' => __('directory.report.errors.message_max'),
+            'email.required_if' => __('directory.report.email_required'),
+            'email.email' => __('directory.report.errors.email'),
+        ];
     }
 }

@@ -9,7 +9,8 @@ class HomeController extends Controller
 {
     public function __invoke(): View
     {
-        $categories = Category::query()->orderBy('sort')->get();
+        // Only specialities that already have listings: a tile must never lead to an empty page.
+        $categories = Category::query()->whereHas('providers', fn ($query) => $query->active())->orderBy('sort')->get();
 
         $categoryGroups = $categories->groupBy(fn (Category $category) => $category->group->value);
 

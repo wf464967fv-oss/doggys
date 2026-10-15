@@ -93,6 +93,14 @@ class AppServiceProvider extends ServiceProvider
             Limit::perDay(200)->by('contact|global'),
         ]);
 
+        // Directory: search pages and API are cheap per request but must not be hammered from one IP.
+        // Category and city pages get more room than the search form: crawlers read them in bursts.
+        RateLimiter::for('search', fn (Request $request) => $request->routeIs('*.search')
+            ? Limit::perMinute(30)->by('search|'.$request->ip())
+            : Limit::perMinute(120)->by('directory-pages|'.$request->ip()));
+        RateLimiter::for('provider-report', fn (Request $request) => Limit::perHour(5)->by('provider-report|'.$request->ip()));
+        RateLimiter::for('api', fn (Request $request) => Limit::perMinute(60)->by('api|'.$request->ip()));
+        RateLimiter::for('places', fn (Request $request) => Limit::perMinute(120)->by('places|'.$request->ip()));
 
         // Links in auth e-mails point to the pages of the language the user was browsing in.
         VerifyEmail::createUrlUsing(fn (User $user): string => URL::temporarySignedRoute(

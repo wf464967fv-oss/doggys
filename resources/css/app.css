@@ -245,40 +245,94 @@
     }
 }
 
-/* Leaflet maps (resources/js/map.js): Doggys pins and popups over Leaflet's own stylesheet. */
-@layer components {
-    .doggys-pin {
-        background: none;
-        border: 0;
-        filter: drop-shadow(0 2px 2px rgb(74 40 18 / 0.3));
-    }
+/*
+ * Leaflet maps (resources/js/map.js). Deliberately OUTSIDE any @layer: leaflet.css is unlayered, and an
+ * unlayered rule always beats a layered one. The [data-map] prefix outranks leaflet.css, which loads later.
+ */
+.doggys-pin {
+    background: none;
+    border: 0;
+    filter: drop-shadow(0 2px 2px rgb(74 40 18 / 0.3));
+}
 
-    .leaflet-container {
-        @apply font-sans;
-    }
+.doggys-pin:focus-visible {
+    outline-offset: 2px;
+    border-radius: 9999px;
+}
 
-    /* Keep the OpenStreetMap attribution clear of the rounded map corners. */
-    .leaflet-container .leaflet-control-attribution {
-        @apply mr-4 mb-2 rounded-full px-2 text-[11px] text-brown-dark;
-    }
+.leaflet-container {
+    font-family: var(--font-sans);
+}
 
-    .leaflet-container .leaflet-popup-content-wrapper {
-        @apply rounded-2xl text-brown-dark shadow-lift;
-    }
+/* 44 px zoom buttons (touch targets). */
+[data-map].leaflet-container .leaflet-bar a {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 22px;
+    color: var(--color-brown);
+}
 
-    .leaflet-container .leaflet-popup-content {
-        @apply m-4 min-w-44;
-    }
+/* Keep the OpenStreetMap attribution clear of the rounded map corners. */
+[data-map].leaflet-container .leaflet-control-attribution {
+    margin: 0 16px 8px 0;
+    border-radius: 9999px;
+    padding: 0 8px;
+    font-size: 11px;
+    color: var(--color-brown-dark);
+}
 
-    .leaflet-popup-content .doggys-popup-title {
-        @apply m-0 font-display text-base leading-snug font-semibold text-brown;
-    }
+[data-map].leaflet-container .leaflet-control-attribution a {
+    color: var(--color-brown);
+}
 
-    .leaflet-popup-content .doggys-popup-meta {
-        @apply mt-1 mb-0 text-sm text-muted;
-    }
+[data-map].leaflet-container .leaflet-popup-content-wrapper {
+    border-radius: 1rem;
+    color: var(--color-brown-dark);
+    box-shadow: var(--shadow-lift);
+}
 
-    .leaflet-container a.doggys-popup-link {
-        @apply mt-2 inline-flex min-h-11 items-center font-bold text-orange-dark underline decoration-orange/60 decoration-2 underline-offset-4;
+[data-map].leaflet-container .leaflet-popup-content {
+    margin: 1rem;
+    min-width: 11rem;
+    line-height: 1.4;
+}
+
+[data-map] .leaflet-popup-content .doggys-popup-title {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-brown);
+}
+
+[data-map] .leaflet-popup-content .doggys-popup-meta {
+    margin: 0.25rem 0 0;
+    font-size: 0.875rem;
+    color: var(--color-muted);
+}
+
+[data-map].leaflet-container a.doggys-popup-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    margin-top: 0.25rem;
+    font-weight: 700;
+    color: var(--color-orange-dark);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+/* Native <datalist> suggestions: hide the black Edge/Chrome arrow, typing shows the list anyway. */
+input[list]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+/* Search page: the collapsible form summary only exists on phones; from 768px the form is always shown. */
+@media (min-width: 768px) {
+    [data-search-form]::details-content {
+        content-visibility: visible;
+        block-size: auto;
     }
 }

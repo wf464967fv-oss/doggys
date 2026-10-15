@@ -6,16 +6,20 @@ use App\Enums\VerificationLevel;
 use App\Models\Category;
 use App\Models\PostalCode;
 use App\Models\Provider;
+use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Pagination\LengthAwarePaginator;
-use Illuminate\Pagination\Paginator;
+use Illuminate\Pagination\LengthAwarePaginator as Paginator;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 /**
  * Geographic provider search shared by the search page, the city pages and the JSON API.
- * Portable SQL (SQLite/MySQL): a bounding box narrows rows in the database, the exact
- * haversine distance is computed in PHP, then results are sorted by distance.
+ *
+ * Everything heavy happens in portable SQL (SQLite and MySQL, no geo functions):
+ * a bounding box on the indexed lat column, then an equirectangular distance
+ * ((Δlat·111.045)² + (Δlng·111.045·cos lat₀)², exact to a few metres at Belgian scale) used to
+ * filter the radius, sort and paginate. Only the displayed rows are hydrated; their haversine
+ * distance is computed in PHP for display.
  */
 class ProviderSearch
 {
@@ -24,22 +28,26 @@ class ProviderSearch
 
     public const DEFAULT_RADIUS = 10;
 
+    /** Results are counted (and paged) up to this number ("more than 200": 10 pages), so a wide search never scans the whole table. */
+    public const COUNT_CAP = 200;
+
     /**
-     * Furthest a travelling professional is looked up from (their own service radius applies next).
-     * ponytail: fixed cap keeps the bounding box small; raise it if pros declare wider service areas.
+     * Furthest a travelling professional can come from (their own service radius applies, capped here).
      */
     public const MAX_SERVICE_RADIUS_KM = 100;
+
+    private const KM_PER_DEGREE = 111.045;
 
     private const EARTH_RADIUS_KM = 6371.0;
 
     /**
-     * Active providers around a point, closest first, each with a "distance_km" attribute.
-     * Travelling pros (is_mobile) only appear when the point lies within their service radius
-     * (the search radius when they did not set one). $mobileOnly keeps only them.
+     * Active providers around a point, closest first (column "distance_sq", km²).
+     * Fixed-address pros must be within the radius; travelling pros (is_mobile) only when the point lies
+     * within their own service radius (the search radius when they did not set one). $mobileOnly keeps only them.
      *
-     * @return Collection<int, Provider>
+     * @return Builder<Provider>
      */
-    public static function nearby(
+    public static function query(
         float $lat,
         float $lng,
         int $radiusKm,
@@ -48,32 +56,109 @@ class ProviderSearch
         bool $verifiedOnly = false,
         ?int $minRating = null,
         ?int $exceptId = null,
-    ): Collection {
-        $providers = Provider::query()
+    ): Builder {
+        $distance = self::distanceSql($lat, $lng);
+
+        return Provider::query()
             ->active()
-            ->with('categories')
-            ->where(function (Builder $query) use ($lat, $lng, $radiusKm, $mobileOnly) {
+            ->select('providers.*')
+            ->selectRaw("{$distance} as distance_sq")
+            ->where(function (Builder $query) use ($lat, $lng, $radiusKm, $mobileOnly, $distance) {
                 if (! $mobileOnly) {
-                    $query->where(fn (Builder $query) => self::inBox($query, $lat, $lng, $radiusKm));
+                    $query->where(fn (Builder $query) => self::inBox($query->where('is_mobile', false), $lat, $lng, $radiusKm)
+                        ->whereRaw("{$distance} <= ?", [$radiusKm ** 2]));
                 }
-                $query->orWhere(fn (Builder $query) => self::inBox($query->where('is_mobile', true), $lat, $lng, self::MAX_SERVICE_RADIUS_KM));
+                $query->orWhere(fn (Builder $query) => self::inBox($query->where('is_mobile', true), $lat, $lng, self::MAX_SERVICE_RADIUS_KM)
+                    ->whereRaw("{$distance} <= COALESCE(service_radius_km, ?) * COALESCE(service_radius_km, ?)", [$radiusKm, $radiusKm]));
             })
-            ->when($category, fn (Builder $query) => $query->whereHas('categories', fn (Builder $query) => $query->whereKey($category->getKey())))
+            ->when($category, fn (Builder $query) => $query->whereIn('providers.id', fn ($pivot) => $pivot
+                ->select('provider_id')->from('category_provider')->where('category_id', $category->getKey())))
             ->when($verifiedOnly, fn (Builder $query) => $query->where('verification_level', '!=', VerificationLevel::None))
             ->when($minRating, fn (Builder $query) => $query->where('rating_avg', '>=', $minRating))
             ->when($exceptId, fn (Builder $query) => $query->whereKeyNot($exceptId))
-            ->get();
+            ->orderByRaw($distance)
+            ->orderBy('name')
+            ->orderBy('providers.id');
+    }
 
-        return $providers
-            ->each(fn (Provider $provider) => $provider->setAttribute(
-                'distance_km',
-                round(self::distanceKm($lat, $lng, (float) $provider->lat, (float) $provider->lng), 1),
-            ))
-            ->filter(fn (Provider $provider) => $provider->is_mobile
-                ? $provider->distance_km <= ($provider->service_radius_km ?? $radiusKm)
-                : $provider->distance_km <= $radiusKm)
-            ->sortBy([['distance_km', 'asc'], ['name', 'asc']])
-            ->values();
+    /**
+     * One page of a radius search, fast even where thousands of listings fall inside the radius:
+     * the total is counted up to COUNT_CAP + 1 only, and the page is read from the smallest circle
+     * (2, 5, 10, 25 km…) that already holds every row up to this page; those are the nearest ones anyway.
+     *
+     * @return LengthAwarePaginator<int, Provider>
+     */
+    public static function search(
+        float $lat,
+        float $lng,
+        int $radiusKm,
+        ?Category $category = null,
+        bool $mobileOnly = false,
+        bool $verifiedOnly = false,
+        ?int $minRating = null,
+        int $perPage = 20,
+    ): LengthAwarePaginator {
+        $make = fn (int $radius) => self::query($lat, $lng, $radius, $category, $mobileOnly, $verifiedOnly, $minRating);
+        $capped = fn ($query, int $limit) => DB::query()->fromSub($query->reorder()->select('providers.id')->limit($limit), 'capped')->count();
+
+        $total = $capped($make($radiusKm), self::COUNT_CAP + 1);
+        $needed = Paginator::resolveCurrentPage() * $perPage;
+        $scan = $radiusKm;
+
+        foreach ([2, 5, 10, 25] as $radius) {
+            if ($radius >= $radiusKm || $needed > $total) {
+                break;
+            }
+            $within = $make($radius)->whereRaw(self::distanceSql($lat, $lng).' <= ?', [$radius ** 2]);
+            if ($capped($within, $needed) >= $needed) {
+                $scan = $radius;
+                break;
+            }
+        }
+
+        return self::paginate($make($scan), $lat, $lng, $perPage, $total);
+    }
+
+    /**
+     * One page of a search: only those rows are hydrated, with their categories and distance.
+     * Pages beyond the last one are a 404, like any unknown URL.
+     *
+     * @param  Builder<Provider>  $query
+     * @return LengthAwarePaginator<int, Provider>
+     */
+    public static function paginate(Builder $query, float $lat, float $lng, int $perPage = 20, ?int $total = null): LengthAwarePaginator
+    {
+        // Sort narrow rows (id only), then load the full rows of this page: sorting thousands of complete
+        // rows is what makes a wide search slow. A known $total saves the COUNT query.
+        $ids = (clone $query)->select('providers.id');
+        $page = $total === null
+            ? $ids->paginate($perPage)->withQueryString()
+            : new Paginator(
+                $ids->forPage(Paginator::resolveCurrentPage(), $perPage)->get(),
+                $total,
+                $perPage,
+                Paginator::resolveCurrentPage(),
+                ['path' => Paginator::resolveCurrentPath(), 'query' => request()->query()],
+            );
+        abort_if($page->currentPage() > max(1, $page->lastPage()), 404);
+
+        $ids = $page->getCollection()->modelKeys();
+        $providers = Provider::query()->whereKey($ids)->with('categories')->get()->sortBy(fn (Provider $provider) => array_search($provider->id, $ids, true))->values();
+        self::setDistances($providers, $lat, $lng);
+
+        return $page->setCollection($providers);
+    }
+
+    /**
+     * Sets "distance_km" (haversine, one decimal) on the given providers.
+     *
+     * @param  iterable<Provider>  $providers
+     */
+    public static function setDistances(iterable $providers, float $lat, float $lng): void
+    {
+        foreach ($providers as $provider) {
+            $provider->setAttribute('distance_km', round(self::distanceKm($lat, $lng, (float) $provider->lat, (float) $provider->lng), 1));
+        }
     }
 
     /**
@@ -89,7 +174,7 @@ class ProviderSearch
     }
 
     /**
-     * Turns "4000 Liège", "4000", "Liège" or "Luik" into coordinates, or null when nothing matches.
+     * Turns "4000 Liège", "4000", "Liège", "Luik" or "Anvers" into coordinates, or null when nothing matches.
      *
      * @return array{lat: float, lng: float, label: string}|null
      */
@@ -100,77 +185,39 @@ class ProviderSearch
         if (preg_match('/^(\d{4})\b\s*(.*)$/u', $input, $matches)) {
             $rows = PostalCode::query()->where('code', $matches[1])->orderBy('id')->get();
             $wanted = Str::slug($matches[2]);
-            $row = $rows->first(fn (PostalCode $row) => $wanted !== '' && Str::slug($row->name) === $wanted)
-                ?? $rows->first(fn (PostalCode $row) => PostalCode::cityFor($row->code)['key'] === Str::slug($row->name))
-                ?? $rows->first();
+            $row = $rows->first(fn (PostalCode $row) => $wanted !== '' && Str::slug($row->name) === $wanted) ?? $rows->first();
 
             return $row ? ['lat' => (float) $row->lat, 'lng' => (float) $row->lng, 'label' => $row->code.' '.$row->label()] : null;
         }
 
-        $slug = Str::slug($input);
+        $place = PostalCode::searchPlaces(Str::slug($input), 1)[0] ?? null;
 
-        if ($slug === '') {
-            return null;
-        }
-
-        $city = self::cities($slug, 1)[0] ?? null;
-
-        return $city ? ['lat' => $city['lat'], 'lng' => $city['lng'], 'label' => $city['names'][app()->getLocale()]] : null;
+        return $place ? ['lat' => $place['lat'], 'lng' => $place['lng'], 'label' => $place['names'][app()->getLocale()]] : null;
     }
 
     /**
-     * Cities whose name (in any language) starts with the given slug: exact matches first, then bigger cities.
-     *
-     * @return list<array{key: string, names: array<string, string>, slugs: array<string, string>, lat: float, lng: float, codes: list<string>}>
+     * Squared equirectangular distance in km² to the point, as a portable SQL expression.
+     * The coordinates are floats formatted by PHP (never user strings), so inlining them is safe.
      */
-    public static function cities(string $slugPrefix, int $limit): array
+    private static function distanceSql(float $lat, float $lng): string
     {
-        return collect(PostalCode::cityIndex()['cities'])
-            ->map(function (array $city) use ($slugPrefix) {
-                $slugs = array_unique([...array_values($city['slugs']), $city['key']]);
-                $city['rank'] = in_array($slugPrefix, $slugs, true) ? 2
-                    : (collect($slugs)->contains(fn (string $slug) => str_starts_with($slug, $slugPrefix)) ? 1 : 0);
-                $city['size'] = count($city['codes']);
+        $kx = self::KM_PER_DEGREE * cos(deg2rad($lat));
+        $dy = sprintf('((lat - %.7F) * %.4F)', $lat, self::KM_PER_DEGREE);
+        $dx = sprintf('((lng - %.7F) * %.6F)', $lng, $kx);
 
-                return $city;
-            })
-            ->where('rank', '>', 0)
-            ->sortBy([['rank', 'desc'], ['size', 'desc'], ['key', 'asc']])
-            ->take($limit)
-            ->map(fn (array $city) => collect($city)->except(['rank', 'size'])->all())
-            ->values()
-            ->all();
+        return "({$dy} * {$dy} + {$dx} * {$dx})";
     }
 
     /**
-     * Paginates an in-memory result list, keeping the current query string in the links.
-     *
-     * @param  Collection<int, Provider>  $providers
-     * @return LengthAwarePaginator<int, Provider>
-     */
-    public static function paginate(Collection $providers, int $perPage = 20): LengthAwarePaginator
-    {
-        $page = Paginator::resolveCurrentPage();
-
-        return new LengthAwarePaginator(
-            $providers->forPage($page, $perPage)->values(),
-            $providers->count(),
-            $perPage,
-            $page,
-            ['path' => Paginator::resolveCurrentPath(), 'query' => request()->query()],
-        );
-    }
-
-    /**
-     * Restricts the query to a square of ±$radiusKm around the point (indexed lat/lng columns).
+     * Restricts the query to a square of ±$radiusKm around the point (uses the lat index).
      *
      * @param  Builder<Provider>  $query
      * @return Builder<Provider>
      */
     private static function inBox(Builder $query, float $lat, float $lng, int $radiusKm): Builder
     {
-        $dLat = $radiusKm / 111.045;
-        $dLng = $radiusKm / (111.045 * max(0.01, cos(deg2rad($lat))));
+        $dLat = $radiusKm / self::KM_PER_DEGREE;
+        $dLng = $radiusKm / (self::KM_PER_DEGREE * max(0.01, cos(deg2rad($lat))));
 
         return $query->whereBetween('lat', [$lat - $dLat, $lat + $dLat])->whereBetween('lng', [$lng - $dLng, $lng + $dLng]);
     }

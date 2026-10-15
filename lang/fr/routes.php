@@ -39,8 +39,8 @@ return [
     'add_business' => 'ajouter-mon-entreprise',
     'categories' => 'categories',
     'category_slugs' => [
-        'toiletteur-salon' => 'toiletteur-salon',
-        'toiletteur-domicile' => 'toiletteur-domicile',
+        'toiletteur-salon' => 'toiletteur-canin',
+        'toiletteur-domicile' => 'toiletteur-a-domicile',
         'veterinaire' => 'veterinaire',
         'urgences-24h' => 'urgences-veterinaires-24h',
         'osteopathe' => 'osteopathe-animalier',

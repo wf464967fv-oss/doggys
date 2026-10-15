@@ -3,24 +3,30 @@
 namespace App\Models;
 
 use App\Enums\Region;
-use App\Services\ProviderSearch;
 use Database\Factories\PostalCodeFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 
 /**
- * Belgian postal code / locality (GeoNames, CC BY 4.0). A code can map to several localities.
+ * Belgian postal code / locality (GeoNames, CC BY 4.0). A code can map to several localities,
+ * each belonging to one municipality (Commune).
  */
-#[Fillable(['code', 'name', 'name_translations', 'lat', 'lng', 'province', 'region'])]
+#[Fillable(['code', 'name', 'name_translations', 'lat', 'lng', 'province', 'region', 'commune_id'])]
 class PostalCode extends Model
 {
     /** @use HasFactory<PostalCodeFactory> */
     use HasFactory;
 
-    public const CITY_INDEX_CACHE_KEY = 'directory.city-index.v2';
+    public const PLACE_INDEX_CACHE_KEY = 'directory.place-index.v3';
+
+    /**
+     * Lowercase words inside hyphenated place names (GeoNames capitalises every segment).
+     */
+    private const SMALL_WORDS = ['sur', 'sous', 'lez', 'lès', 'la', 'le', 'les', 'de', 'du', 'des', 'aux', 'en', 'et', 'devant', 'aan', 'op', 'bij', 'ter', 'den', 'in', 'het', 'over'];
 
     /**
      * @return array<string, string>
@@ -44,111 +50,110 @@ class PostalCode extends Model
     }
 
     /**
-     * Localities ("cities") built from the postal codes, used by city pages, search and the import.
-     * Localities sharing a name are merged (Liège 4000, 4020…) unless they lie more than 20 km apart:
-     * homonyms (Aalst 9300 / Aalst 3800) then get the postal code appended to their key.
-     * The main locality of a code is the translated big city, else the name covering the most codes.
-     * Cached for a day: clear CITY_INDEX_CACHE_KEY after reseeding postal codes.
-     *
-     * @return array{cities: array<string, array{key: string, names: array<string, string>, slugs: array<string, string>, lat: float, lng: float, codes: list<string>}>, by_code: array<string, string>, by_locality: array<string, string>, by_slug: array<string, array<string, string>>}
+     * @return BelongsTo<Commune, $this>
      */
-    public static function cityIndex(): array
+    public function commune(): BelongsTo
     {
-        return once(fn () => Cache::remember(self::CITY_INDEX_CACHE_KEY, now()->addDay(), function () {
-            $rows = static::query()->orderBy('id')->get(['id', 'code', 'name', 'name_translations', 'lat', 'lng']);
-            $codesPerName = $rows->groupBy('name')->map(fn ($group) => $group->pluck('code')->unique()->count());
-            $firstOfCode = $rows->groupBy('code')->map(fn ($group) => $group->first()->id)->flip();
-            $rows = $rows->sortBy([
-                fn (self $a, self $b) => (bool) $b->name_translations <=> (bool) $a->name_translations,
-                fn (self $a, self $b) => $codesPerName[$b->name] <=> $codesPerName[$a->name],
-                fn (self $a, self $b) => isset($firstOfCode[$b->id]) <=> isset($firstOfCode[$a->id]),
-                fn (self $a, self $b) => $a->id <=> $b->id,
-            ]);
+        return $this->belongsTo(Commune::class);
+    }
 
-            $cities = [];
-            $byCode = [];
-            $fallbackByCode = [];
-            $byLocality = [];
+    /**
+     * Official casing of a GeoNames place name: "Vaux-Sur-Sûre" => "Vaux-sur-Sûre",
+     * "Braine-L'Alleud" => "Braine-l'Alleud", "Beveren-Aan-Den-Ijzer" => "Beveren-aan-den-IJzer".
+     * Same rules as placeCase() in scripts/data/communes.mjs.
+     */
+    public static function placeCase(string $name): string
+    {
+        $parts = explode('-', $name);
 
-            foreach ($rows as $row) {
-                $slug = Str::slug($row->name);
-                $key = $slug;
+        foreach ($parts as $index => $part) {
+            if ($index === 0) {
+                continue;
+            }
+            $parts[$index] = in_array(mb_strtolower($part), self::SMALL_WORDS, true)
+                ? mb_strtolower($part)
+                : preg_replace_callback("/^([LD])'/", fn (array $match) => mb_strtolower($match[1])."'", $part);
+        }
 
-                if (isset($cities[$key]) && ProviderSearch::distanceKm($cities[$key]['anchor'][0], $cities[$key]['anchor'][1], (float) $row->lat, (float) $row->lng) > 20) {
-                    $key = $slug.'-'.$row->code;
-                }
+        return preg_replace(["/^'S /", '/\bIj/u'], ["'s ", 'IJ'], implode('-', $parts));
+    }
 
-                if (! isset($cities[$key])) {
-                    $names = [];
-                    foreach (config('app.locales') as $locale) {
-                        // A homonym village keeps its local name (Aalst near Sint-Truiden is not "Alost").
-                        $names[$locale] = $key === $slug ? $row->label($locale) : $row->name;
-                    }
+    /**
+     * Places a visitor may type in the search box: every municipality (in all its languages) and every
+     * postal locality not already named like its municipality. One entry per name, with the smallest
+     * postal code ("Liège" => 4000, not 4020). Cached for a day; forgetPlaceIndex() after reseeding.
+     *
+     * @return list<array{names: array<string, string>, slugs: list<string>, code: string, lat: float, lng: float, commune_id: int|null, size: int}>
+     */
+    public static function placeIndex(): array
+    {
+        return once(fn () => Cache::remember(self::PLACE_INDEX_CACHE_KEY, now()->addDay(), function () {
+            $locales = config('app.locales');
+            $localities = static::query()->orderBy('code')->orderBy('id')->get(['code', 'name', 'name_translations', 'lat', 'lng', 'commune_id']);
+            $firstCode = $localities->groupBy('commune_id')->map(fn ($rows) => $rows->first()->code);
+            $sizes = $localities->countBy('commune_id');
+            $places = [];
+            $taken = [];
 
-                    $cities[$key] = [
-                        'key' => $key,
-                        'names' => $names,
-                        'slugs' => array_map(fn (string $name) => $key === $slug ? Str::slug($name) : Str::slug($name).'-'.$row->code, $names),
-                        'anchor' => [(float) $row->lat, (float) $row->lng],
-                        'points' => [],
-                        'codes' => [],
-                    ];
-                }
-
-                $cities[$key]['points'][$row->code] = [(float) $row->lat, (float) $row->lng];
-                if ($key === $slug) {
-                    $byCode[$row->code] ??= $key;
-                }
-                $fallbackByCode[$row->code] ??= $key;
-                $byLocality[$row->code.'|'.$slug] = $key;
+            foreach (Commune::query()->get() as $commune) {
+                $slugs = array_values(array_unique([...array_values($commune->slugs), ...array_map(Str::slug(...), $commune->names)]));
+                $places[] = [
+                    'names' => $commune->names,
+                    'slugs' => $slugs,
+                    'code' => (string) ($firstCode[$commune->id] ?? ''),
+                    'lat' => (float) $commune->lat,
+                    'lng' => (float) $commune->lng,
+                    'commune_id' => $commune->id,
+                    'size' => ($sizes[$commune->id] ?? 0) + 1,
+                ];
+                $taken += array_fill_keys($slugs, true);
             }
 
-            $byCode += $fallbackByCode;
-
-            $bySlug = array_fill_keys(config('app.locales'), []);
-
-            foreach ($cities as $key => $city) {
-                $points = $city['points'];
-                unset($city['anchor'], $city['points']);
-
-                $city['lat'] = round(array_sum(array_column($points, 0)) / count($points), 5);
-                $city['lng'] = round(array_sum(array_column($points, 1)) / count($points), 5);
-                $city['codes'] = array_map('strval', array_keys($points));
-                $cities[$key] = $city;
-
-                foreach ($city['slugs'] as $locale => $citySlug) {
-                    $bySlug[$locale][$citySlug] ??= $key;
+            foreach ($localities->groupBy(fn (self $row) => Str::slug($row->name)) as $slug => $rows) {
+                if (isset($taken[$slug])) {
+                    continue;
                 }
+                $row = $rows->first();
+                $places[] = [
+                    'names' => array_combine($locales, array_map(fn (string $locale) => $row->label($locale), $locales)),
+                    'slugs' => [(string) $slug],
+                    'code' => $row->code,
+                    'lat' => (float) $row->lat,
+                    'lng' => (float) $row->lng,
+                    'commune_id' => $row->commune_id,
+                    'size' => 0,
+                ];
             }
 
-            return ['cities' => $cities, 'by_code' => $byCode, 'by_locality' => $byLocality, 'by_slug' => $bySlug];
+            return $places;
         }));
     }
 
-    /**
-     * City of an address: the locality of that name within the postal code when it exists
-     * (Aalst in 3800 is not Aalst in 9300), otherwise the main locality of the code.
-     *
-     * @return array{key: string, names: array<string, string>, slugs: array<string, string>, lat: float, lng: float, codes: list<string>}|null
-     */
-    public static function cityFor(?string $code, ?string $name = null): ?array
+    public static function forgetPlaceIndex(): void
     {
-        $index = static::cityIndex();
-        $key = $index['by_locality'][$code.'|'.Str::slug((string) $name)] ?? $index['by_code'][(string) $code] ?? null;
-
-        return $key ? $index['cities'][$key] : null;
+        Cache::forget(self::PLACE_INDEX_CACHE_KEY);
     }
 
     /**
-     * City from its URL slug in the given locale (luik in Dutch, luttich in German…).
+     * Places whose name (in any language) starts with the given slug: exact matches first, then municipalities,
+     * then the biggest ones.
      *
-     * @return array{key: string, names: array<string, string>, slugs: array<string, string>, lat: float, lng: float, codes: list<string>}|null
+     * @return list<array{names: array<string, string>, slugs: list<string>, code: string, lat: float, lng: float, commune_id: int|null, size: int}>
      */
-    public static function cityForSlug(string $slug, ?string $locale = null): ?array
+    public static function searchPlaces(string $slugPrefix, int $limit): array
     {
-        $index = static::cityIndex();
-        $key = $index['by_slug'][$locale ?? app()->getLocale()][$slug] ?? null;
+        if ($slugPrefix === '') {
+            return [];
+        }
 
-        return $key ? $index['cities'][$key] : null;
+        return collect(static::placeIndex())
+            ->map(fn (array $place) => $place + ['rank' => in_array($slugPrefix, $place['slugs'], true) ? 2
+                : (collect($place['slugs'])->contains(fn (string $slug) => str_starts_with($slug, $slugPrefix)) ? 1 : 0)])
+            ->where('rank', '>', 0)
+            ->sortBy([['rank', 'desc'], ['size', 'desc'], ['code', 'asc']])
+            ->take($limit)
+            ->map(fn (array $place) => collect($place)->except('rank')->all())
+            ->values()
+            ->all();
     }
 }

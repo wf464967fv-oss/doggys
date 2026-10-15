@@ -31,7 +31,7 @@ class ProviderController extends Controller
             ]);
         }
 
-        return ProviderResource::collection(ProviderSearch::paginate(ProviderSearch::nearby(
+        $results = ProviderSearch::search(
             $origin['lat'],
             $origin['lng'],
             $request->radius(),
@@ -39,7 +39,14 @@ class ProviderController extends Controller
             mobileOnly: $request->boolean('mobile'),
             verifiedOnly: $request->boolean('verified'),
             minRating: $request->integer('min_rating') ?: null,
-        )))->additional(['meta' => ['origin' => $origin, 'radius_km' => $request->radius()]]);
+        );
+
+        // meta.total stops at COUNT_CAP + 1: "total_capped" tells the app to show "more than 200".
+        return ProviderResource::collection($results)->additional(['meta' => [
+            'origin' => $origin,
+            'radius_km' => $request->radius(),
+            'total_capped' => $results->total() > ProviderSearch::COUNT_CAP,
+        ]]);
     }
 
     public function show(Request $request, Provider $provider): ProviderResource
@@ -56,14 +63,15 @@ class ProviderController extends Controller
     public function places(Request $request): JsonResponse
     {
         $this->useRequestedLocale($request);
-        $query = Str::limit(trim((string) $request->query('q')), 60, '');
+        $request->validate(['q' => ['nullable', 'string', 'max:60']]);
+        $query = trim($request->string('q')->toString());
 
         if (preg_match('/^\d{1,4}$/', $query)) {
             $places = PostalCode::query()->where('code', 'like', $query.'%')->orderBy('code')->orderBy('id')->limit(8)->get()
                 ->map(fn (PostalCode $row) => $row->code.' '.$row->label());
         } elseif (mb_strlen($query) >= 2) {
-            $places = collect(ProviderSearch::cities(Str::slug($query), 8))
-                ->map(fn (array $city) => $city['codes'][0].' '.$city['names'][app()->getLocale()]);
+            $places = collect(PostalCode::searchPlaces(Str::slug($query), 8))
+                ->map(fn (array $place) => trim($place['code'].' '.$place['names'][app()->getLocale()]));
         } else {
             $places = collect();
         }

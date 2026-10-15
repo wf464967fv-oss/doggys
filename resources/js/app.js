@@ -125,10 +125,28 @@ Alpine.data('placeSuggest', () => ({
     },
 }));
 
-/* Leaflet maps: downloaded only on pages that have one ([data-map], see resources/js/map.js). */
-if (document.querySelector('[data-map]')) {
-    import('./map.js').then(({ mountMaps }) => mountMaps());
+/*
+ * Leaflet maps ([data-map], see resources/js/map.js): Leaflet and the tiles are only downloaded when a map
+ * comes close to the viewport, so a map below the fold never delays the page. Hidden maps (display: none)
+ * never intersect and are never mounted.
+ */
+const maps = document.querySelectorAll('[data-map]');
+if (maps.length > 0) {
+    const observer = new IntersectionObserver((entries) => {
+        entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
+            observer.unobserve(entry.target);
+            import('./map.js').then(({ mount }) => mount(entry.target));
+        });
+    }, { rootMargin: '200px' });
+    maps.forEach((element) => observer.observe(element));
 }
+
+/* Search form folded into a summary on phones: always unfolded from 768px (CSS covers recent browsers). */
+document.querySelectorAll('[data-search-form]').forEach((details) => {
+    if (window.matchMedia('(min-width: 768px)').matches) {
+        details.open = true;
+    }
+});
 
 /*
  * Guide table of contents: folded on phones (the article starts on the first screen), always open from 1024px.

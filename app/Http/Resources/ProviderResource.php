@@ -38,7 +38,7 @@ class ProviderResource extends JsonResource
             'service_radius_km' => $this->service_radius_km,
             'phone' => $this->phone,
             'email' => $this->email,
-            'website' => $this->website,
+            'website' => $this->safeWebsite(),
             'opening_hours' => $this->opening_hours,
             'verification' => $this->verification_level->value,
             'rating' => $this->reviews_count > 0 ? ['average' => (float) $this->rating_avg, 'count' => $this->reviews_count] : null,

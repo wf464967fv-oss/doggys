@@ -25,7 +25,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 #[Fillable([
     'name', 'slug', 'description', 'street', 'house_number', 'postal_code', 'city', 'region', 'lat', 'lng',
     'phone', 'email', 'website', 'opening_hours', 'is_mobile', 'service_radius_km', 'bce_number',
-    'regulatory_number', 'source', 'source_ref', 'imported_at',
+    'regulatory_number', 'source', 'source_ref', 'imported_at', 'commune_id',
 ])]
 class Provider extends Model
 {
@@ -128,9 +128,10 @@ class Provider extends Model
 
     /**
      * Opening hours (OpenStreetMap syntax) as readable lines in the current locale:
-     * "Mo-Fr 09:00-18:00; Su off" => ["lun–ven 09:00–18:00", "dim fermé"].
+     * "Mo-Fr 09:00-12:00,14:00-18:00; Su off" => [["hours" => "lun–ven 09:00–12:00, 14:00–18:00"], ["hours" => "dim fermé"]].
+     * Free text written by OSM contributors ("Enkel op afspraak") is kept apart in "note": its language is unknown.
      *
-     * @return list<string>
+     * @return list<array{hours: string, note: string|null}>
      */
     public function openingHoursLines(): array
     {
@@ -139,17 +140,70 @@ class Provider extends Model
         }
 
         $words = (array) __('directory.opening_tokens');
+        $tokens = '/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH|SH|off|closed)\b/';
 
         return collect(explode(';', $this->opening_hours))
-            ->map(fn (string $rule) => trim(str_replace('"', '', $rule)))
-            ->filter()
-            ->map(fn (string $rule) => preg_replace_callback(
-                '/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH|off|closed)\b|(?<=[a-zA-Z0-9])-(?=[a-zA-Z0-9])/',
-                fn (array $match) => $match[0] === '-' ? '–' : ($words[$match[1]] ?? $match[0]),
-                $rule,
-            ))
+            ->map(function (string $rule) use ($words, $tokens) {
+                preg_match_all('/"([^"]*)"/', $rule, $quoted);
+                $note = trim(implode(' ', $quoted[1]));
+                $hours = trim(preg_replace('/"[^"]*"/', '', $rule), " \t,");
+
+                if (preg_match('/\p{L}{3,}/u', (string) preg_replace($tokens, '', $hours))) {
+                    [$hours, $note] = ['', trim($hours.' '.$note)];
+                }
+
+                $hours = preg_replace_callback(
+                    '/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH|off|closed)\b|(?<=[a-zA-Z0-9])-(?=[a-zA-Z0-9])/',
+                    fn (array $match) => $match[0] === '-' ? '–' : ($words[$match[1]] ?? $match[0]),
+                    $hours,
+                );
+
+                return ['hours' => preg_replace('/,(?=\S)/', ', ', $hours), 'note' => $note !== '' ? $note : null];
+            })
+            ->filter(fn (array $line) => $line['hours'] !== '' || $line['note'] !== null)
             ->values()
             ->all();
+    }
+
+    /**
+     * Listings with a street or a way to get in touch (the opposite of isThin()), i.e. worth indexing and linking.
+     *
+     * @param  Builder<Provider>  $query
+     */
+    #[Scope]
+    protected function substantial(Builder $query): void
+    {
+        $query->where(fn (Builder $query) => $query
+            ->where('street', '!=', '')
+            ->orWhere('phone', '!=', '')
+            ->orWhere('email', '!=', '')
+            ->orWhere('website', 'like', 'http%'));
+    }
+
+    /**
+     * No street and no way to get in touch: too thin to be indexed until completed or claimed.
+     */
+    public function isThin(): bool
+    {
+        return blank($this->street) && blank($this->phone) && blank($this->email) && blank($this->safeWebsite());
+    }
+
+    /**
+     * Public places (dog parks) and dog-friendly venues rather than dog professionals: no "this is my
+     * business" block and wording about "this place".
+     */
+    public function isPlace(): bool
+    {
+        return $this->categories->isNotEmpty()
+            && $this->categories->every(fn (Category $category) => in_array($category->slug, ['parc-a-chiens', 'lieu-dog-friendly'], true));
+    }
+
+    /**
+     * Website only when it is a real http(s) URL (never "javascript:" or other schemes).
+     */
+    public function safeWebsite(): ?string
+    {
+        return $this->website && preg_match('#^https?://#i', $this->website) ? $this->website : null;
     }
 
     /**
@@ -223,6 +277,14 @@ class Provider extends Model
     public function reports(): HasMany
     {
         return $this->hasMany(ProviderReport::class);
+    }
+
+    /**
+     * @return BelongsTo<Commune, $this>
+     */
+    public function commune(): BelongsTo
+    {
+        return $this->belongsTo(Commune::class);
     }
 
     /**

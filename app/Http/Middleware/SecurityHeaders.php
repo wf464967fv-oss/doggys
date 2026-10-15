@@ -35,6 +35,11 @@ class SecurityHeaders
         $headers->set('Permissions-Policy', 'geolocation=(self), camera=(), microphone=(), payment=(), usb=()');
         $headers->set('Cross-Origin-Opener-Policy', 'same-origin');
 
+        // JSON API answers are data for the apps, never search results.
+        if ($request->is('api/*')) {
+            $headers->set('X-Robots-Tag', 'noindex, nofollow');
+        }
+
         if (app()->isProduction()) {
             $headers->set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
         }

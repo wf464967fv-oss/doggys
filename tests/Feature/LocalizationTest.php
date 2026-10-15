@@ -2,6 +2,8 @@
 
 namespace Tests\Feature;
 
+use App\Models\Category;
+use App\Models\Provider;
 use Database\Seeders\CategorySeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Arr;
@@ -57,6 +59,8 @@ class LocalizationTest extends TestCase
     public function test_home_page_renders_in_each_locale(): void
     {
         $this->seed(CategorySeeder::class);
+        // The home page only shows specialities that already have listings.
+        Provider::factory()->create()->categories()->attach(Category::where('slug', 'veterinaire')->sole());
 
         foreach (config('app.locales') as $locale) {
             $this->get('/'.$locale)

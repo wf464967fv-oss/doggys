@@ -1,16 +1,16 @@
 /*
- * Leaflet maps for elements rendered by <x-map> ([data-map]). Imported dynamically by app.js,
- * so Leaflet (JS + CSS) is only downloaded on pages that show a map.
+ * Leaflet maps for elements rendered by <x-map> ([data-map]). Imported dynamically by app.js when a map
+ * scrolls into view, so Leaflet (JS + CSS) is only downloaded where a map is actually seen.
  */
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 const PIN = (fill, inner) => L.divIcon({
     className: 'doggys-pin',
-    html: `<svg viewBox="0 0 36 46" width="36" height="46" aria-hidden="true"><path d="M18 45s15-15.6 15-27A15 15 0 0 0 3 18c0 11.4 15 27 15 27Z" fill="${fill}" stroke="#4a2812" stroke-width="2"/>${inner}</svg>`,
-    iconSize: [36, 46],
-    iconAnchor: [18, 44],
-    popupAnchor: [0, -40],
+    html: `<svg viewBox="0 0 36 46" width="30" height="38" aria-hidden="true"><path d="M18 45s15-15.6 15-27A15 15 0 0 0 3 18c0 11.4 15 27 15 27Z" fill="${fill}" stroke="#4a2812" stroke-width="2"/>${inner}</svg>`,
+    iconSize: [30, 38],
+    iconAnchor: [15, 37],
+    popupAnchor: [0, -34],
 });
 
 /* Orange pin with a brown paw for providers, rose pin with a white dot for the search origin. */
@@ -45,7 +45,8 @@ function popup(marker, openLabel) {
     return box;
 }
 
-function mount(element) {
+/* Markers repeat the list next to the map: they are mouse/touch only (keyboard users read the list). */
+export function mount(element) {
     const markers = JSON.parse(element.dataset.markers || '[]');
     const center = JSON.parse(element.dataset.center || 'null');
     const circleKm = Number(element.dataset.circleKm || 0);
@@ -61,17 +62,18 @@ function mount(element) {
 
     const points = [];
 
-    if (center) {
-        L.marker([center.lat, center.lng], { icon: ORIGIN_ICON, title: center.label || element.dataset.pinLabel, alt: element.dataset.pinLabel, zIndexOffset: -100 }).addTo(map);
-        points.push([center.lat, center.lng]);
-    }
-
     markers.forEach((marker) => {
-        L.marker([marker.lat, marker.lng], { icon: PROVIDER_ICON, title: marker.name, alt: marker.name })
+        L.marker([marker.lat, marker.lng], { icon: PROVIDER_ICON, title: marker.name, alt: marker.name, keyboard: false })
             .bindPopup(popup(marker, element.dataset.openLabel))
             .addTo(map);
         points.push([marker.lat, marker.lng]);
     });
+
+    if (center) {
+        /* The search origin stays on top: it is the reference point of every distance. */
+        L.marker([center.lat, center.lng], { icon: ORIGIN_ICON, title: center.label || element.dataset.pinLabel, alt: element.dataset.pinLabel, keyboard: false, zIndexOffset: 1000 }).addTo(map);
+        points.push([center.lat, center.lng]);
+    }
 
     if (circleKm > 0 && markers.length > 0) {
         L.circle([markers[0].lat, markers[0].lng], {
@@ -79,14 +81,11 @@ function mount(element) {
         }).addTo(map);
         map.fitBounds(L.latLng(markers[0].lat, markers[0].lng).toBounds(circleKm * 2000), { padding: [16, 16] });
     } else if (points.length > 1) {
-        map.fitBounds(points, { padding: [36, 36], maxZoom: 15 });
+        /* Pins hang above their point: more room at the top so none is cut. */
+        map.fitBounds(points, { paddingTopLeft: [24, 52], paddingBottomRight: [24, 16], maxZoom: 15 });
     } else if (points.length === 1) {
         map.setView(points[0], 15);
     } else {
         map.setView([50.5, 4.47], 7);
     }
-}
-
-export function mountMaps() {
-    document.querySelectorAll('[data-map]').forEach(mount);
 }

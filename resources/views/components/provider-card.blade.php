@@ -1,23 +1,29 @@
 {{--
     Provider summary card used in search results, category and city pages. The whole card is clickable.
     <x-provider-card :provider="$provider" />  (shows $provider->distance_km when set by ProviderSearch)
-    Props: provider, heading (h2|h3).
+    Props: provider, heading (h2|h3), linkThin (false on indexable pages: listings without address nor contact
+    are noindex, so they are shown without a link there).
 --}}
-@props(['provider', 'heading' => 'h3'])
+@props(['provider', 'heading' => 'h3', 'linkThin' => true])
 
 @php
     $mainCategory = $provider->categories->first();
     $distance = $provider->getAttribute('distance_km');
+    $linked = $linkThin || ! $provider->isThin();
 @endphp
 
-<x-card as="article" padding="none" interactive {{ $attributes->class(['group relative flex h-full flex-col gap-3 p-4 sm:p-5']) }}>
+<x-card as="article" padding="none" :interactive="$linked" {{ $attributes->class(['group relative flex h-full flex-col gap-3 p-4 sm:p-5']) }}>
     <div class="flex items-start gap-3">
         <span class="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-cream text-brown transition group-hover:bg-orange group-hover:text-brown-dark" aria-hidden="true">
             <x-icon :name="$mainCategory?->icon ?? 'paw'" class="size-6" />
         </span>
         <div class="min-w-0 flex-1">
             <{{ $heading }} class="font-display text-lg leading-snug font-semibold text-brown">
-                <a href="{{ localized_route('providers.show', $provider) }}" class="rounded-md after:absolute after:inset-0 after:rounded-3xl focus-visible:outline-none focus-visible:after:outline-3 focus-visible:after:outline-offset-2 focus-visible:after:outline-brown">{{ $provider->name }}</a>
+                @if ($linked)
+                    <a href="{{ localized_route('providers.show', $provider) }}" class="rounded-md after:absolute after:inset-0 after:rounded-3xl focus-visible:outline-none focus-visible:after:outline-3 focus-visible:after:outline-offset-2 focus-visible:after:outline-brown">{{ $provider->name }}</a>
+                @else
+                    {{ $provider->name }}
+                @endif
             </{{ $heading }}>
             <p class="mt-0.5 text-sm leading-snug text-muted">{{ $provider->categories->map->label()->join(' · ') }}</p>
         </div>
@@ -45,8 +51,15 @@
         @endif
         @if ($provider->reviews_count > 0)
             <x-stars :rating="$provider->rating_avg" :count="$provider->reviews_count" />
-        @else
-            <span class="text-sm text-muted">{{ __('directory.no_reviews_yet') }}</span>
+        @endif
+        @if ($provider->is_mobile)
+            <x-badge variant="orange" icon="van">{{ __('directory.card.mobile') }}</x-badge>
+        @endif
+        @if ($provider->phone)
+            <x-badge icon="phone">{{ __('directory.card.phone') }}</x-badge>
+        @endif
+        @if ($provider->opening_hours)
+            <x-badge icon="clock">{{ __('directory.card.hours') }}</x-badge>
         @endif
     </div>
 </x-card>

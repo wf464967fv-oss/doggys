@@ -14,7 +14,7 @@
 
         <nav aria-labelledby="footer-explore">
             <h2 id="footer-explore" class="font-display text-lg font-semibold text-orange">{{ __('ui.footer_explore') }}</h2>
-            <ul class="mt-3 space-y-1">
+            <ul class="mt-3 space-y-2">
                 <li><a class="inline-flex min-h-11 items-center hover:text-white hover:underline" href="{{ localized_route('search') }}">{{ __('ui.nav_find') }}</a></li>
                 <li><a class="inline-flex min-h-11 items-center hover:text-white hover:underline" href="{{ localized_route('guides') }}">{{ __('ui.nav_guides') }}</a></li>
                 <li><a class="inline-flex min-h-11 items-center hover:text-white hover:underline" href="{{ localized_route('register', ['type' => 'pro']) }}">{{ __('ui.footer_for_pros') }}</a></li>
@@ -23,7 +23,7 @@
 
         <nav aria-labelledby="footer-trust">
             <h2 id="footer-trust" class="font-display text-lg font-semibold text-orange">{{ __('ui.footer_trust') }}</h2>
-            <ul class="mt-3 space-y-1">
+            <ul class="mt-3 space-y-2">
                 <li><a class="inline-flex min-h-11 items-center hover:text-white hover:underline" href="{{ localized_route('reviews.policy') }}">{{ __('ui.footer_reviews_policy') }}</a></li>
                 <li><a class="inline-flex min-h-11 items-center hover:text-white hover:underline" href="{{ localized_route('contact') }}">{{ __('ui.footer_contact') }}</a></li>
             </ul>
@@ -31,7 +31,7 @@
 
         <nav aria-labelledby="footer-legal">
             <h2 id="footer-legal" class="font-display text-lg font-semibold text-orange">{{ __('ui.footer_legal') }}</h2>
-            <ul class="mt-3 space-y-1">
+            <ul class="mt-3 space-y-2">
                 <li><a class="inline-flex min-h-11 items-center hover:text-white hover:underline" href="{{ localized_route('legal.notice') }}">{{ __('ui.footer_legal_notice') }}</a></li>
                 <li><a class="inline-flex min-h-11 items-center hover:text-white hover:underline" href="{{ localized_route('legal.privacy') }}">{{ __('ui.footer_privacy') }}</a></li>
                 <li><a class="inline-flex min-h-11 items-center hover:text-white hover:underline" href="{{ localized_route('legal.terms') }}">{{ __('ui.footer_terms') }}</a></li>

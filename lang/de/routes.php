@@ -39,7 +39,7 @@ return [
     'add_business' => 'unternehmen-hinzufuegen',
     'categories' => 'kategorien',
     'category_slugs' => [
-        'toiletteur-salon' => 'hundesalon',
+        'toiletteur-salon' => 'hundefriseur',
         'toiletteur-domicile' => 'mobiler-hundefriseur',
         'veterinaire' => 'tierarzt',
         'urgences-24h' => 'tierarzt-notdienst-24h',

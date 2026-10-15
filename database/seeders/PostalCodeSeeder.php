@@ -7,7 +7,8 @@ use Illuminate\Database\Seeder;
 
 /**
  * Belgian postal codes with coordinates from GeoNames (CC BY 4.0), see database/data/SOURCES.txt.
- * Idempotent: upserts on (code, name).
+ * Idempotent: upserts on (code, name) and removes localities no longer in the file.
+ * Names get their official casing ("Vaux-Sur-Sûre" in GeoNames => "Vaux-sur-Sûre").
  */
 class PostalCodeSeeder extends Seeder
 {
@@ -45,6 +46,7 @@ class PostalCodeSeeder extends Seeder
 
         while (($line = fgetcsv($handle, separator: "\t", escape: '')) !== false) {
             [, $code, $name, , $regionCode, $province, , , , $lat, $lng] = $line;
+            $name = PostalCode::placeCase($name);
 
             $rows[] = [
                 'code' => $code,
@@ -62,7 +64,14 @@ class PostalCodeSeeder extends Seeder
         fclose($handle);
 
         foreach (array_chunk($rows, 500) as $chunk) {
-            PostalCode::upsert($chunk, ['code', 'name'], ['name_translations', 'lat', 'lng', 'province', 'region', 'updated_at']);
+            PostalCode::upsert($chunk, ['code', 'name'], ['name', 'name_translations', 'lat', 'lng', 'province', 'region', 'updated_at']);
         }
+
+        $current = array_flip(array_map(fn (array $row) => $row['code'].'|'.$row['name'], $rows));
+        PostalCode::query()->get(['id', 'code', 'name'])
+            ->reject(fn (PostalCode $row) => isset($current[$row->code.'|'.$row->name]))
+            ->each->delete();
+
+        PostalCode::forgetPlaceIndex();
     }
 }
