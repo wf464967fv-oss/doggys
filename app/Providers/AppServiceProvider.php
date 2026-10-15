@@ -83,6 +83,17 @@ class AppServiceProvider extends ServiceProvider
             ->by($request->user()?->id.'|'.$request->route()?->getName()));
         RateLimiter::for('dogs', fn (Request $request) => Limit::perMinute(30)->by($request->user()?->id ?: $request->ip()));
 
+        // One counter per use (the key is prefixed), so a busy form never eats the budget of another one.
+        RateLimiter::for('reviews', fn (Request $request) => Limit::perMinute(10)->by('reviews|'.($request->user()?->id ?: $request->ip())));
+        RateLimiter::for('review-reports', fn (Request $request) => Limit::perHour(20)->by('review-reports|'.($request->user()?->id ?: $request->ip())));
+        RateLimiter::for('claims', fn (Request $request) => Limit::perHour(10)->by('claims|'.($request->user()?->id ?: $request->ip())));
+        RateLimiter::for('pro-updates', fn (Request $request) => Limit::perMinute(30)->by('pro-updates|'.($request->user()?->id ?: $request->ip())));
+        RateLimiter::for('contact', fn (Request $request) => [
+            Limit::perHour(5)->by('contact|'.$request->ip()),
+            Limit::perDay(200)->by('contact|global'),
+        ]);
+
+
         // Links in auth e-mails point to the pages of the language the user was browsing in.
         VerifyEmail::createUrlUsing(fn (User $user): string => URL::temporarySignedRoute(
             app()->getLocale().'.verification.verify',

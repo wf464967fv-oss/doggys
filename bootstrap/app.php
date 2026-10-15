@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Middleware\EnsureEmailIsVerified;
+use App\Http\Middleware\EnsurePasswordRecentlyConfirmed;
+use App\Http\Middleware\EnsureProAccount;
 use App\Http\Middleware\ProtectAgainstBots;
 use App\Http\Middleware\RequirePassword;
 use App\Http\Middleware\SecurityHeaders;
@@ -27,6 +29,8 @@ return Application::configure(basePath: dirname(__DIR__))
             'antibot' => ProtectAgainstBots::class,
             'verified' => EnsureEmailIsVerified::class,
             'password.confirm' => RequirePassword::class,
+            'password.recent' => EnsurePasswordRecentlyConfirmed::class,
+            'pro' => EnsureProAccount::class,
         ]);
 
         // The locale must be known before auth middleware builds its localized redirects.

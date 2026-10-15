@@ -31,6 +31,12 @@ return [
     'provider' => 'anbieter',
     'report' => 'melden',
     'claim' => 'beanspruchen',
+    'reviews' => 'bewertungen',
+    'reply' => 'antworten',
+    'pro_space' => 'pro-bereich',
+    'listings' => 'eintraege',
+    'badge' => 'zulassungsabzeichen',
+    'add_business' => 'unternehmen-hinzufuegen',
     'categories' => 'kategorien',
     'category_slugs' => [
         'toiletteur-salon' => 'hundesalon',

@@ -31,6 +31,12 @@ return [
     'provider' => 'pro',
     'report' => 'signaler',
     'claim' => 'reclamer',
+    'reviews' => 'avis',
+    'reply' => 'repondre',
+    'pro_space' => 'espace-pro',
+    'listings' => 'fiches',
+    'badge' => 'badge-agree',
+    'add_business' => 'ajouter-mon-entreprise',
     'categories' => 'categories',
     'category_slugs' => [
         'toiletteur-salon' => 'toiletteur-salon',

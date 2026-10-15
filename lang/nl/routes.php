@@ -31,6 +31,12 @@ return [
     'provider' => 'pro',
     'report' => 'melden',
     'claim' => 'claimen',
+    'reviews' => 'reviews',
+    'reply' => 'antwoorden',
+    'pro_space' => 'pro-ruimte',
+    'listings' => 'fiches',
+    'badge' => 'erkenningsbadge',
+    'add_business' => 'mijn-bedrijf-toevoegen',
     'categories' => 'categorieen',
     'category_slugs' => [
         'toiletteur-salon' => 'hondentrimsalon',

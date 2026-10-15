@@ -31,6 +31,12 @@ return [
     'provider' => 'pro',
     'report' => 'report',
     'claim' => 'claim',
+    'reviews' => 'reviews',
+    'reply' => 'reply',
+    'pro_space' => 'pro-area',
+    'listings' => 'listings',
+    'badge' => 'licensed-badge',
+    'add_business' => 'add-my-business',
     'categories' => 'categories',
     'category_slugs' => [
         'toiletteur-salon' => 'dog-grooming-salon',
