@@ -81,7 +81,7 @@ class DirectorySearchTest extends TestCase
 
         $queries = [];
         DB::listen(function ($query) use (&$queries) {
-            $queries[] = strtolower($query->sql);
+            $queries[] = str_replace('`', '"', strtolower($query->sql));
         });
 
         $page = ProviderSearch::paginate(ProviderSearch::query(self::LAT, self::LNG, 10), self::LAT, self::LNG, 20);
