@@ -1,0 +1,62 @@
+<?php
+
+return [
+    'meta_description' => 'Doggys, l’annuaire belge des professionnels canins : toiletteurs, vétérinaires, éducateurs, pet-sitters… près de chez vous, avec des avis vérifiés.',
+    'slogan' => 'Le meilleur ami de l’humain',
+    'skip_to_content' => 'Aller au contenu',
+    'home_link' => 'Doggys, retour à l’accueil',
+    'menu' => 'Menu',
+    'language' => 'Langue',
+
+    'nav_main' => 'Navigation principale',
+    'nav_find' => 'Trouver un pro',
+    'nav_guides' => 'Guides',
+    'nav_trust' => 'Avis vérifiés',
+    'login' => 'Se connecter',
+    'register' => 'Créer un compte',
+    'logout' => 'Se déconnecter',
+    'signed_in_as' => 'Connecté·e en tant que :name',
+    'account_nav' => 'Mon espace',
+    'account_dashboard' => 'Mon espace',
+    'account_profile' => 'Mon profil',
+
+    'footer_pitch' => 'Trouvez les bons professionnels pour votre chien, partout en Belgique. Gratuit, sans publicité et sans traqueur.',
+    'footer_explore' => 'Explorer',
+    'footer_for_pros' => 'Vous êtes un professionnel ?',
+    'footer_trust' => 'Confiance',
+    'footer_reviews_policy' => 'Comment les avis sont vérifiés',
+    'footer_contact' => 'Nous contacter',
+    'footer_legal' => 'Informations légales',
+    'footer_legal_notice' => 'Mentions légales',
+    'footer_privacy' => 'Politique de confidentialité',
+    'footer_terms' => 'Conditions d’utilisation',
+    'footer_cookies' => 'Cookies',
+    'footer_free' => 'Gratuit et sans publicité',
+    'footer_osm' => 'Données cartographiques © contributeurs :link',
+    'footer_geonames' => 'Codes postaux : :link (CC BY 4.0)',
+    'footer_made_by' => 'Un projet de',
+
+    'badge_verified' => 'Pro vérifié',
+    'badge_verified_help' => 'Numéro d’entreprise (BCE) et identité contrôlés par Doggys',
+    'badge_regulated' => 'Agréé',
+    'badge_regulated_help' => 'Profession réglementée : agrément ou numéro d’ordre contrôlé par Doggys',
+
+    'optional' => 'facultatif',
+    'choose' => 'Choisir…',
+    'save' => 'Enregistrer',
+    'cancel' => 'Annuler',
+    'back_home' => 'Retour à l’accueil',
+    'form_has_errors' => 'Certains champs sont à corriger. Merci de vérifier le formulaire.',
+    'antibot_failed' => 'Nous n’avons pas pu valider l’envoi. Merci de réessayer.',
+    'honeypot_label' => 'Laissez ce champ vide',
+
+    'coming_soon_eyebrow' => 'Bientôt disponible',
+    'coming_soon_title' => 'Cette page arrive très bientôt',
+    'coming_soon_text' => 'Nous y mettons la dernière main. Revenez dans quelques jours : votre chien en vaut la peine !',
+
+    'status' => [
+        'verification-link-sent' => 'Un nouveau lien de confirmation vient d’être envoyé à votre adresse e-mail.',
+        'profile-information-updated' => 'Votre profil a bien été mis à jour.',
+        'password-updated' => 'Votre mot de passe a bien été modifié.',
+    ],
+];

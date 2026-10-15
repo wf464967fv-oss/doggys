@@ -1,0 +1,62 @@
+<?php
+
+return [
+    'meta_description' => 'Doggys, the Belgian directory of dog professionals: groomers, vets, trainers, pet sitters… near you, with verified reviews.',
+    'slogan' => 'Humanity’s best friend',
+    'skip_to_content' => 'Skip to content',
+    'home_link' => 'Doggys, back to the home page',
+    'menu' => 'Menu',
+    'language' => 'Language',
+
+    'nav_main' => 'Main navigation',
+    'nav_find' => 'Find a pro',
+    'nav_guides' => 'Guides',
+    'nav_trust' => 'Verified reviews',
+    'login' => 'Log in',
+    'register' => 'Sign up',
+    'logout' => 'Log out',
+    'signed_in_as' => 'Signed in as :name',
+    'account_nav' => 'My account',
+    'account_dashboard' => 'My account',
+    'account_profile' => 'My profile',
+
+    'footer_pitch' => 'Find the right professionals for your dog, anywhere in Belgium. Free, ad-free and tracker-free.',
+    'footer_explore' => 'Explore',
+    'footer_for_pros' => 'Are you a professional?',
+    'footer_trust' => 'Trust',
+    'footer_reviews_policy' => 'How reviews are verified',
+    'footer_contact' => 'Contact us',
+    'footer_legal' => 'Legal information',
+    'footer_legal_notice' => 'Legal notice',
+    'footer_privacy' => 'Privacy policy',
+    'footer_terms' => 'Terms of use',
+    'footer_cookies' => 'Cookies',
+    'footer_free' => 'Free and ad-free',
+    'footer_osm' => 'Map data © :link contributors',
+    'footer_geonames' => 'Postcodes: :link (CC BY 4.0)',
+    'footer_made_by' => 'A project by',
+
+    'badge_verified' => 'Verified pro',
+    'badge_verified_help' => 'Company number (CBE) and identity checked by Doggys',
+    'badge_regulated' => 'Licensed',
+    'badge_regulated_help' => 'Regulated profession: licence or registration number checked by Doggys',
+
+    'optional' => 'optional',
+    'choose' => 'Choose…',
+    'save' => 'Save',
+    'cancel' => 'Cancel',
+    'back_home' => 'Back to the home page',
+    'form_has_errors' => 'Some fields need your attention. Please check the form.',
+    'antibot_failed' => 'We could not validate your submission. Please try again.',
+    'honeypot_label' => 'Leave this field empty',
+
+    'coming_soon_eyebrow' => 'Coming soon',
+    'coming_soon_title' => 'This page is coming very soon',
+    'coming_soon_text' => 'We are putting the finishing touches to it. Come back in a few days: your dog is worth it!',
+
+    'status' => [
+        'verification-link-sent' => 'A new confirmation link has been sent to your email address.',
+        'profile-information-updated' => 'Your profile has been updated.',
+        'password-updated' => 'Your password has been changed.',
+    ],
+];

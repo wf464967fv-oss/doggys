@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'dashboard_title' => 'Mein Bereich',
+    'dashboard_meta' => 'Ihr Doggys-Bereich: Ihre Hunde und Ihr Konto.',
+    'hello' => 'Hallo :name!',
+    'dashboard_subtitle' => 'Hier finden Sie die Profile Ihrer Hunde und die Einstellungen Ihres Kontos.',
+    'verified' => 'Danke! Ihre E-Mail-Adresse ist bestätigt. Willkommen bei Doggys.',
+    'shortcuts' => 'Schnellzugriff',
+
+    'role_owner' => 'Privatperson',
+    'role_pro' => 'Profi',
+    'role_admin' => 'Administrator',
+    'pro_title' => 'Ihr Firmeneintrag',
+    'pro_text' => 'Suchen Sie Ihr Unternehmen im Verzeichnis und klicken Sie auf „Das ist mein Unternehmen“, um den Eintrag zu beanspruchen.',
+    'pro_cta' => 'Meinen Eintrag suchen',
+
+    'privacy_title' => 'Ihre Daten',
+    'privacy_text' => 'Die Angaben zu Ihren Hunden sind privat: Sie werden niemals öffentlich angezeigt.',
+    'edit_profile' => 'Profil bearbeiten',
+    'export_link' => 'Meine Daten herunterladen',
+
+    'profile_title' => 'Mein Profil',
+    'profile_meta' => 'Verwalten Sie Ihr Profil, Ihr Passwort und Ihre persönlichen Daten.',
+    'profile_subtitle' => 'Verwalten Sie Ihre persönlichen Angaben und die Sicherheit Ihres Kontos.',
+    'info_title' => 'Persönliche Angaben',
+    'info_text' => 'Ihr Name erscheint bei Ihren Bewertungen. Ihre E-Mail-Adresse bleibt privat.',
+    'email_change_hint' => 'Wenn Sie Ihre Adresse ändern, bitten wir Sie, sie zu bestätigen.',
+    'password_title' => 'Passwort',
+    'password_submit' => 'Passwort ändern',
+    'export_title' => 'Meine Daten herunterladen',
+    'export_text' => 'Erhalten Sie eine Kopie aller Daten zu Ihrem Konto (Profil, Hunde, Bewertungen) im JSON-Format.',
+    'export_submit' => 'Herunterladen (JSON)',
+    'delete_title' => 'Konto löschen',
+    'delete_text' => 'Ihr Konto, Ihre Hunde und Ihre Bewertungen werden endgültig gelöscht. Dies kann nicht rückgängig gemacht werden.',
+    'delete_password' => 'Ihr Passwort zur Bestätigung',
+    'delete_confirm' => 'Möchten Sie Ihr Konto wirklich endgültig löschen?',
+    'delete_submit' => 'Endgültig löschen',
+    'deleted' => 'Ihr Konto wurde gelöscht. Danke, dass Sie Teil des Doggys-Abenteuers waren.',
+];

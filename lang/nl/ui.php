@@ -1,0 +1,62 @@
+<?php
+
+return [
+    'meta_description' => 'Doggys, de Belgische gids voor hondenprofessionals: trimmers, dierenartsen, hondentrainers, petsitters… bij u in de buurt, met geverifieerde reviews.',
+    'slogan' => 'De beste vriend van de mens',
+    'skip_to_content' => 'Naar de inhoud',
+    'home_link' => 'Doggys, terug naar de startpagina',
+    'menu' => 'Menu',
+    'language' => 'Taal',
+
+    'nav_main' => 'Hoofdnavigatie',
+    'nav_find' => 'Een pro vinden',
+    'nav_guides' => 'Gidsen',
+    'nav_trust' => 'Geverifieerde reviews',
+    'login' => 'Inloggen',
+    'register' => 'Account aanmaken',
+    'logout' => 'Uitloggen',
+    'signed_in_as' => 'Ingelogd als :name',
+    'account_nav' => 'Mijn ruimte',
+    'account_dashboard' => 'Mijn ruimte',
+    'account_profile' => 'Mijn profiel',
+
+    'footer_pitch' => 'Vind de juiste professionals voor uw hond, overal in België. Gratis, zonder reclame en zonder trackers.',
+    'footer_explore' => 'Ontdekken',
+    'footer_for_pros' => 'Bent u een professional?',
+    'footer_trust' => 'Vertrouwen',
+    'footer_reviews_policy' => 'Hoe reviews worden gecontroleerd',
+    'footer_contact' => 'Contact opnemen',
+    'footer_legal' => 'Juridische informatie',
+    'footer_legal_notice' => 'Wettelijke vermeldingen',
+    'footer_privacy' => 'Privacybeleid',
+    'footer_terms' => 'Gebruiksvoorwaarden',
+    'footer_cookies' => 'Cookies',
+    'footer_free' => 'Gratis en zonder reclame',
+    'footer_osm' => 'Kaartgegevens © :link-bijdragers',
+    'footer_geonames' => 'Postcodes: :link (CC BY 4.0)',
+    'footer_made_by' => 'Een project van',
+
+    'badge_verified' => 'Geverifieerde pro',
+    'badge_verified_help' => 'Ondernemingsnummer (KBO) en identiteit gecontroleerd door Doggys',
+    'badge_regulated' => 'Erkend',
+    'badge_regulated_help' => 'Gereglementeerd beroep: erkenning of ordenummer gecontroleerd door Doggys',
+
+    'optional' => 'optioneel',
+    'choose' => 'Kies…',
+    'save' => 'Opslaan',
+    'cancel' => 'Annuleren',
+    'back_home' => 'Terug naar de startpagina',
+    'form_has_errors' => 'Enkele velden moeten nog aangepast worden. Kijk het formulier even na.',
+    'antibot_failed' => 'We konden uw inzending niet valideren. Probeer het opnieuw.',
+    'honeypot_label' => 'Laat dit veld leeg',
+
+    'coming_soon_eyebrow' => 'Binnenkort beschikbaar',
+    'coming_soon_title' => 'Deze pagina komt er heel binnenkort aan',
+    'coming_soon_text' => 'We leggen de laatste hand aan deze pagina. Kom over enkele dagen terug: uw hond is het waard!',
+
+    'status' => [
+        'verification-link-sent' => 'Er is een nieuwe bevestigingslink naar uw e-mailadres gestuurd.',
+        'profile-information-updated' => 'Uw profiel is bijgewerkt.',
+        'password-updated' => 'Uw wachtwoord is gewijzigd.',
+    ],
+];

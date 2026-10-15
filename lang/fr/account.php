@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'dashboard_title' => 'Mon espace',
+    'dashboard_meta' => 'Votre espace Doggys : vos chiens et votre compte.',
+    'hello' => 'Bonjour :name !',
+    'dashboard_subtitle' => 'Retrouvez ici le profil de vos chiens et les réglages de votre compte.',
+    'verified' => 'Merci ! Votre adresse e-mail est confirmée. Bienvenue sur Doggys.',
+    'shortcuts' => 'Raccourcis',
+
+    'role_owner' => 'Particulier',
+    'role_pro' => 'Professionnel',
+    'role_admin' => 'Administrateur',
+    'pro_title' => 'Votre fiche professionnelle',
+    'pro_text' => 'Retrouvez votre entreprise dans l’annuaire puis cliquez sur « C’est mon entreprise » pour la réclamer.',
+    'pro_cta' => 'Rechercher ma fiche',
+
+    'privacy_title' => 'Vos données',
+    'privacy_text' => 'Les informations sur vos chiens sont privées : elles ne sont jamais affichées publiquement.',
+    'edit_profile' => 'Modifier mon profil',
+    'export_link' => 'Télécharger mes données',
+
+    'profile_title' => 'Mon profil',
+    'profile_meta' => 'Gérez votre profil, votre mot de passe et vos données personnelles.',
+    'profile_subtitle' => 'Gérez vos informations personnelles et la sécurité de votre compte.',
+    'info_title' => 'Informations personnelles',
+    'info_text' => 'Votre nom est affiché avec vos avis. Votre adresse e-mail reste privée.',
+    'email_change_hint' => 'Si vous changez d’adresse, nous vous demanderons de la confirmer.',
+    'password_title' => 'Mot de passe',
+    'password_submit' => 'Changer le mot de passe',
+    'export_title' => 'Télécharger mes données',
+    'export_text' => 'Recevez une copie de toutes les données liées à votre compte (profil, chiens, avis) au format JSON.',
+    'export_submit' => 'Télécharger (JSON)',
+    'delete_title' => 'Supprimer mon compte',
+    'delete_text' => 'Votre compte, vos chiens et vos avis seront définitivement supprimés. Cette action est irréversible.',
+    'delete_password' => 'Votre mot de passe, pour confirmer',
+    'delete_confirm' => 'Voulez-vous vraiment supprimer définitivement votre compte ?',
+    'delete_submit' => 'Supprimer définitivement',
+    'deleted' => 'Votre compte a été supprimé. Merci d’avoir fait partie de l’aventure Doggys.',
+];

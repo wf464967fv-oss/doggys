@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'dashboard_title' => 'My account',
+    'dashboard_meta' => 'Your Doggys account: your dogs and your settings.',
+    'hello' => 'Hello :name!',
+    'dashboard_subtitle' => 'Here you’ll find your dogs’ profiles and your account settings.',
+    'verified' => 'Thank you! Your email address is confirmed. Welcome to Doggys.',
+    'shortcuts' => 'Shortcuts',
+
+    'role_owner' => 'Dog owner',
+    'role_pro' => 'Professional',
+    'role_admin' => 'Administrator',
+    'pro_title' => 'Your business listing',
+    'pro_text' => 'Find your business in the directory, then click “This is my business” to claim it.',
+    'pro_cta' => 'Find my listing',
+
+    'privacy_title' => 'Your data',
+    'privacy_text' => 'Information about your dogs is private: it is never shown publicly.',
+    'edit_profile' => 'Edit my profile',
+    'export_link' => 'Download my data',
+
+    'profile_title' => 'My profile',
+    'profile_meta' => 'Manage your profile, your password and your personal data.',
+    'profile_subtitle' => 'Manage your personal details and the security of your account.',
+    'info_title' => 'Personal details',
+    'info_text' => 'Your name is shown with your reviews. Your email address stays private.',
+    'email_change_hint' => 'If you change your address, we will ask you to confirm it.',
+    'password_title' => 'Password',
+    'password_submit' => 'Change password',
+    'export_title' => 'Download my data',
+    'export_text' => 'Get a copy of all the data linked to your account (profile, dogs, reviews) in JSON format.',
+    'export_submit' => 'Download (JSON)',
+    'delete_title' => 'Delete my account',
+    'delete_text' => 'Your account, your dogs and your reviews will be permanently deleted. This cannot be undone.',
+    'delete_password' => 'Your password, to confirm',
+    'delete_confirm' => 'Do you really want to permanently delete your account?',
+    'delete_submit' => 'Delete permanently',
+    'deleted' => 'Your account has been deleted. Thank you for being part of the Doggys adventure.',
+];

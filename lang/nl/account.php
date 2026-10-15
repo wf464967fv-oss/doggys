@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'dashboard_title' => 'Mijn ruimte',
+    'dashboard_meta' => 'Uw Doggys-ruimte: uw honden en uw account.',
+    'hello' => 'Hallo :name!',
+    'dashboard_subtitle' => 'Hier vindt u het profiel van uw honden en de instellingen van uw account.',
+    'verified' => 'Bedankt! Uw e-mailadres is bevestigd. Welkom bij Doggys.',
+    'shortcuts' => 'Snelkoppelingen',
+
+    'role_owner' => 'Particulier',
+    'role_pro' => 'Professional',
+    'role_admin' => 'Beheerder',
+    'pro_title' => 'Uw professionele fiche',
+    'pro_text' => 'Zoek uw zaak op in de gids en klik op “Dit is mijn zaak” om ze te claimen.',
+    'pro_cta' => 'Mijn fiche zoeken',
+
+    'privacy_title' => 'Uw gegevens',
+    'privacy_text' => 'De gegevens over uw honden zijn privé: ze worden nooit openbaar getoond.',
+    'edit_profile' => 'Mijn profiel bewerken',
+    'export_link' => 'Mijn gegevens downloaden',
+
+    'profile_title' => 'Mijn profiel',
+    'profile_meta' => 'Beheer uw profiel, uw wachtwoord en uw persoonsgegevens.',
+    'profile_subtitle' => 'Beheer uw persoonsgegevens en de beveiliging van uw account.',
+    'info_title' => 'Persoonsgegevens',
+    'info_text' => 'Uw naam verschijnt bij uw reviews. Uw e-mailadres blijft privé.',
+    'email_change_hint' => 'Als u uw e-mailadres wijzigt, vragen we u om het te bevestigen.',
+    'password_title' => 'Wachtwoord',
+    'password_submit' => 'Wachtwoord wijzigen',
+    'export_title' => 'Mijn gegevens downloaden',
+    'export_text' => 'Ontvang een kopie van alle gegevens die aan uw account gekoppeld zijn (profiel, honden, reviews) in JSON-formaat.',
+    'export_submit' => 'Downloaden (JSON)',
+    'delete_title' => 'Mijn account verwijderen',
+    'delete_text' => 'Uw account, uw honden en uw reviews worden definitief verwijderd. Dit kan niet ongedaan gemaakt worden.',
+    'delete_password' => 'Uw wachtwoord, ter bevestiging',
+    'delete_confirm' => 'Wilt u uw account echt definitief verwijderen?',
+    'delete_submit' => 'Definitief verwijderen',
+    'deleted' => 'Uw account is verwijderd. Bedankt dat u deel uitmaakte van het Doggys-avontuur.',
+];

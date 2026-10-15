@@ -1,0 +1,62 @@
+<?php
+
+return [
+    'meta_description' => 'Doggys, das belgische Verzeichnis für Hundeprofis: Hundefriseure, Tierärzte, Hundetrainer, Tiersitter… in Ihrer Nähe, mit verifizierten Bewertungen.',
+    'slogan' => 'Der beste Freund des Menschen',
+    'skip_to_content' => 'Zum Inhalt springen',
+    'home_link' => 'Doggys, zurück zur Startseite',
+    'menu' => 'Menü',
+    'language' => 'Sprache',
+
+    'nav_main' => 'Hauptnavigation',
+    'nav_find' => 'Profi finden',
+    'nav_guides' => 'Ratgeber',
+    'nav_trust' => 'Verifizierte Bewertungen',
+    'login' => 'Anmelden',
+    'register' => 'Konto erstellen',
+    'logout' => 'Abmelden',
+    'signed_in_as' => 'Angemeldet als :name',
+    'account_nav' => 'Mein Bereich',
+    'account_dashboard' => 'Mein Bereich',
+    'account_profile' => 'Mein Profil',
+
+    'footer_pitch' => 'Finden Sie die richtigen Profis für Ihren Hund, überall in Belgien. Kostenlos, werbefrei und ohne Tracker.',
+    'footer_explore' => 'Entdecken',
+    'footer_for_pros' => 'Sie sind Profi?',
+    'footer_trust' => 'Vertrauen',
+    'footer_reviews_policy' => 'So werden Bewertungen geprüft',
+    'footer_contact' => 'Kontakt',
+    'footer_legal' => 'Rechtliches',
+    'footer_legal_notice' => 'Impressum',
+    'footer_privacy' => 'Datenschutzerklärung',
+    'footer_terms' => 'Nutzungsbedingungen',
+    'footer_cookies' => 'Cookies',
+    'footer_free' => 'Kostenlos und werbefrei',
+    'footer_osm' => 'Kartendaten © :link-Mitwirkende',
+    'footer_geonames' => 'Postleitzahlen: :link (CC BY 4.0)',
+    'footer_made_by' => 'Ein Projekt von',
+
+    'badge_verified' => 'Verifizierter Profi',
+    'badge_verified_help' => 'Unternehmensnummer (ZDU) und Identität von Doggys geprüft',
+    'badge_regulated' => 'Zugelassen',
+    'badge_regulated_help' => 'Reglementierter Beruf: Zulassung oder Kammernummer von Doggys geprüft',
+
+    'optional' => 'optional',
+    'choose' => 'Bitte wählen…',
+    'save' => 'Speichern',
+    'cancel' => 'Abbrechen',
+    'back_home' => 'Zurück zur Startseite',
+    'form_has_errors' => 'Einige Felder müssen noch korrigiert werden. Bitte prüfen Sie das Formular.',
+    'antibot_failed' => 'Wir konnten Ihre Eingabe nicht bestätigen. Bitte versuchen Sie es erneut.',
+    'honeypot_label' => 'Dieses Feld bitte leer lassen',
+
+    'coming_soon_eyebrow' => 'Demnächst verfügbar',
+    'coming_soon_title' => 'Diese Seite ist bald für Sie da',
+    'coming_soon_text' => 'Wir legen gerade letzte Hand an. Schauen Sie in ein paar Tagen wieder vorbei – Ihr Hund ist es wert!',
+
+    'status' => [
+        'verification-link-sent' => 'Ein neuer Bestätigungslink wurde an Ihre E-Mail-Adresse gesendet.',
+        'profile-information-updated' => 'Ihr Profil wurde aktualisiert.',
+        'password-updated' => 'Ihr Passwort wurde geändert.',
+    ],
+];
