@@ -37,8 +37,8 @@ set_env() {
 }
 
 if [ ! -f .env ]; then
-    DB_PASSWORD="$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 32)"
-    MAIL_PASSWORD="$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 32)"
+    DB_PASSWORD="$(openssl rand -hex 24)"
+    MAIL_PASSWORD="$(openssl rand -hex 24)"
 
     uapi_ok Mysql create_database name="$DB_NAME" || { echo "ERROR: could not create database $DB_NAME"; exit 1; }
     uapi_ok Mysql create_user name="$DB_NAME" password="$DB_PASSWORD" || { echo "ERROR: could not create MySQL user $DB_NAME"; exit 1; }
