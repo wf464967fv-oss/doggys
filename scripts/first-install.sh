@@ -23,7 +23,9 @@ COMPOSER="$PHP $(command -v composer)"
 echo "PHP: $PHP"
 
 uapi_ok() {
-    uapi --output=json "$@" | grep -q '"status":1'
+    local response
+    response="$(uapi --output=json "$@")" || return 1
+    [[ "$response" == *'"status":1'* ]]
 }
 
 set_env() {
