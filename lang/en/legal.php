@@ -24,6 +24,7 @@ return [
                 'The website doggys.be is published by Erwan Goossens, self-employed in a supplementary capacity, trading as Novexa Digital.',
             ], 'list' => [
                 'Company number (BCE/KBO): :bce',
+                'VAT number: BE :bce',
                 'Address: :address',
                 'E-mail: :email',
                 'Publication director: Erwan Goossens',

@@ -24,6 +24,7 @@ return [
                 'Die Website doggys.be wird herausgegeben von Erwan Goossens, Selbstständiger im Nebenberuf, unter der Geschäftsbezeichnung Novexa Digital.',
             ], 'list' => [
                 'Unternehmensnummer (BCE/KBO): :bce',
+                'USt-IdNr.: BE :bce',
                 'Anschrift: :address',
                 'E-Mail: :email',
                 'Verantwortlich für den Inhalt: Erwan Goossens',

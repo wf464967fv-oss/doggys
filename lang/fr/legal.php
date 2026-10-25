@@ -25,6 +25,7 @@ return [
                 'Le site doggys.be est édité par Erwan Goossens, indépendant complémentaire, sous le nom d’activité Novexa Digital.',
             ], 'list' => [
                 'Numéro d’entreprise (BCE/KBO) : :bce',
+                'Numéro de TVA : BE :bce',
                 'Adresse : :address',
                 'E-mail : :email',
                 'Directeur de la publication : Erwan Goossens',
